@@ -15657,6 +15657,10 @@ h6 {
   font-size: 1.3em;
 }
 
+table {
+  margin-bottom: 1em;
+}
+
 .topic .topic-abstract {
   display: none;
 }
@@ -15828,6 +15832,7 @@ table.table-1d {
   text-align: center;
   font-size: 1em;
   margin: auto;
+  margin-bottom: 1rem;
 }
 table.table-1d tbody td, table.table-1d tbody th {
   margin: 0px;
