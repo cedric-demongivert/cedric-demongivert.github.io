@@ -1826,9 +1826,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
 /* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/alchemy/Introduction.tsx");
 /* harmony import */ var _EtherPoisoning__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./EtherPoisoning */ "./content/alchemy/EtherPoisoning.tsx");
-/* harmony import */ var _Processing__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Processing */ "./content/alchemy/Processing.tsx");
+/* harmony import */ var _Definitions__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Definitions */ "./content/alchemy/Definitions.tsx");
+/* harmony import */ var _transformations__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./transformations */ "./content/alchemy/transformations/index.ts");
+/* harmony import */ var _primitiveMaterials__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./primitiveMaterials */ "./content/alchemy/primitiveMaterials/index.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\Alchemy.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -1845,73 +1849,309 @@ function Alchemy() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, "alchemy"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 7
     }
   }, "Alchimie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 7
     }
   }, "Alchimie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 9
     }
   }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 9
     }
   }), __jsx(_EtherPoisoning__WEBPACK_IMPORTED_MODULE_9__["EtherPoisoning"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 9
     }
-  }), __jsx(_Processing__WEBPACK_IMPORTED_MODULE_10__["Processing"], {
+  }), __jsx(_Definitions__WEBPACK_IMPORTED_MODULE_10__["Definitions"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx(_transformations__WEBPACK_IMPORTED_MODULE_11__["Transformations"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx(_primitiveMaterials__WEBPACK_IMPORTED_MODULE_12__["PrimitiveMaterials"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/Definitions.tsx":
+/*!*****************************************!*\
+  !*** ./content/alchemy/Definitions.tsx ***!
+  \*****************************************/
+/*! exports provided: Definitions */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Definitions", function() { return Definitions; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\Definitions.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Definitions() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-definitions"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "D\xE9finitions"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "L'alchimie est un domaine qui requiert une certaine rigueur pour permettre \xE0 ses pratiquants, les alchimistes, de communiquer fid\xE8lement entre eux, et surtout pour eux-m\xEAme, le r\xE9sultat de leurs travaux et recherches. Cette premi\xE8re partie propose de faire un tour des d\xE9finitions n\xE9c\xE9ssaires et suffisantes pour comprendre le domaine passionant qu'est l'alchimie."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  })));
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "Transformation."), " On appelle transformation tout proc\xE9d\xE9 permettant d'obtenir une ou plusieure mati\xE8res dites mati\xE8res produites en consomant une ou plusieurs mati\xE8res dites mati\xE8res consomm\xE9es. L'infusion, la d\xE9coction, la mac\xE9ration, le s\xE9chage, la dilution, la concentration, le broyage et la distillation sont des exemples de transformation."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, "Mati\xE8re."), " On appelle mati\xE8re tout \xE9l\xE9ment pouvant subir une transformation. Une plante, un gaz, une roche, un os, une peau, une chair et un liquide sont des exemples de mati\xE8re."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, "Transformation imm\xE9diate."), " On appelle transformation imm\xE9diate toute transformation ne n\xE9cessitant pas d'attendre pour obtenir les mati\xE8res produites. La dilution et le broyage sont des exemples de transformation imm\xE9diate."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 11
+    }
+  }, "Transformation lente."), " On appelle transformation lente toute transformation n\xE9cessitant d'attendre pour obtenir les mati\xE8res produites. L'infusion, la d\xE9coction, la mac\xE9ration, le s\xE9chage et la distillation sont des exemples de transformation lente."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 11
+    }
+  }, "\xC9l\xE9ment primitif."), " On appelle \xE9l\xE9ment primitif toute mati\xE8re extraite de la nature. C'est \xE0 dire n'ayant pas subie de transformation objet de la volont\xE9 d'un alchimiste. Une plante, un gaz, un min\xE9ral, un os, une peau ou une chair sont des exemples d'\xE9l\xE9ments primitifs."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 11
+    }
+  }, "Substrat."), " On appelle substrat toute mati\xE8re r\xE9sultant d'une transformation objet de la volont\xE9 d'un alchimiste. Une infusion de menthe, une d\xE9coction de caf\xE9 ou une poudre de germe de bl\xE9 sont des exemples de substrat."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 11
+    }
+  }, "Propri\xE9t\xE9 alchimiques."), " On appelle propri\xE9t\xE9 alchimique d'une mati\xE8re tout ensemble d'effet ins\xE9cable dont elle fait l'objet. L'augmentation d'une caract\xE9ristique, l'application d'un statut et l'ajout d'une capacit\xE9 sont des exemples de propri\xE9t\xE9 alchimique."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 11
+    }
+  }, "Transformation de composition."), " On appelle transformation de composition toute transformation activant les propri\xE9t\xE9s alchimiques d'une mati\xE8re. Le r\xE9sultat d'une transformation de composition est toujours un produit alchimique. Le m\xE9lange est un exemple de transformation de composition."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 11
+    }
+  }, "Produit alchimique."), " Un produit alchimique est une mati\xE8re qui peut faire l'objet d'une consommation. Les propri\xE9t\xE9s alchimiques d'un produit alchimique agissent alors sur la cible du produit. Un gaz, un poison, un sel, une huile et une potion sont des exemples de produit alchimique."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 11
+    }
+  }, "Essence."), " On dit d'une mati\xE8re qu'elle est une essence si elle ne poss\xE8de qu'une unique propri\xE9t\xE9 alchimique.")));
 }
 
 /***/ }),
@@ -1982,75 +2222,79 @@ function range(count) {
   }, _marked);
 }
 
+function cost(intoxication) {
+  return intoxication * (intoxication + 1) / 2;
+}
+
 function EtherPoisoning() {
   return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_8__["Subject"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 23,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_7__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 24,
       columnNumber: 7
     }
   }, "alchemy-ether-poisoning"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_6__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 25,
       columnNumber: 7
     }
   }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_6__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, "\xC9ther"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_6__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "Poison"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_5__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, "Intoxication \xE0 l'\xE9ther"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_3__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 29,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_4__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 32,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, "L'\xE9ther est une substance nocive r\xE9siduelle m\xE9conue cons\xE9quence de la pratique de la magie, de la consomation de produits alchimiques ou de l'usage d'enchantement. C'est un poison lent qui s'accumule dans le corps et qui peut provoquer de nombreux probl\xE8mes comme des d\xE9lires, de la fi\xE8vre, des vertiges, des h\xE9morragies, de la d\xE9pendance, des mutations ou encore la mort. On parle alors d'intoxication \xE0 l'\xE9ther."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 42,
       columnNumber: 9
     }
   }, "L'intoxication \xE0 l'\xE9ther est appr\xE9ci\xE9e par un nombre naturel. Chaque palier repr\xE9sente une certaine concentration d'\xE9ther dans le sang ainsi que la dur\xE9e n\xE9cessaire pour qu'une partie de la toxine soit \xE9limin\xE9e naturellement. Pour perdre un niveau d'intoxication il faut attendre un nombre d'heure qui lui est \xE9quivalent. Ainsi, un personnage ayant un niveau d'intoxication de 5 points mettra 5 heures \xE0 r\xE9duire son intoxication \xE0 4 points, 9 heures pour le r\xE9duire \xE0 3 points et 15 heures au total pour retomber \xE0 z\xE9ro points."), __jsx("table", {
@@ -2058,21 +2302,21 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 53,
       columnNumber: 9
     }
   }, __jsx("tbody", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 54,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 55,
       columnNumber: 13
     }
   }, __jsx("td", {
@@ -2083,7 +2327,7 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 56,
       columnNumber: 15
     }
   }, " Gu\xE9rison "), Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(range(20)).map(function renderCell(index) {
@@ -2095,15 +2339,15 @@ function EtherPoisoning() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 60,
         columnNumber: 21
       }
-    }, ((index + 1) * (index + 2) / (2 * 24)).toFixed(1), "j");
+    }, (cost(index + 1) / 24).toFixed(1), "j");
   })), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 67,
       columnNumber: 13
     }
   }, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(range(20)).map(function renderCell(index) {
@@ -2115,22 +2359,22 @@ function EtherPoisoning() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 71,
         columnNumber: 21
       }
-    }, (index + 1) * (index + 2) / 2, "h");
+    }, cost(index + 1), "h");
   })), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 78,
       columnNumber: 13
     }
   }, __jsx("th", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 79,
       columnNumber: 15
     }
   }, " Intoxication "), Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(range(20)).map(function renderCell(index) {
@@ -2139,7 +2383,7 @@ function EtherPoisoning() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 83,
         columnNumber: 21
       }
     }, index + 1);
@@ -2147,7 +2391,7 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 91,
       columnNumber: 9
     }
   }, "Un personnage est toujours immunis\xE9 aux effets de l'intoxication \xE0 l'\xE9ther \xE0 hauteur de la moiti\xE9e de ses points de constitution. Au del\xE0, il doit r\xE9ussir un test d'opposition entre sa constitution et son niveau d'empoisonement une fois par jour et \xE0 chaque fois que son niveau d'intoxication augmente. Si le test est une r\xE9ussite le joueur ne fait l'objet d'aucun effet ind\xE9sirable suppl\xE9mentaire, si le test \xE9choue le joueur doit alors lancer un nombre de d\xE9 6 \xE9quivalent au tiers de son niveau d'intoxication retranch\xE9 de la moiti\xE9 de sa constitution et subir les cons\xE9quences du r\xE9sultat obtenu sur la table des effets ind\xE9sirables expos\xE9e ci-dessous."), __jsx("table", {
@@ -2155,21 +2399,21 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 104,
       columnNumber: 9
     }
   }, __jsx("thead", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 105,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 106,
       columnNumber: 13
     }
   }, __jsx("th", {
@@ -2179,7 +2423,7 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 107,
       columnNumber: 15
     }
   }, " Score "), __jsx("th", {
@@ -2189,336 +2433,336 @@ function EtherPoisoning() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 108,
       columnNumber: 15
     }
   }, " Effet "))), __jsx("tbody", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 111,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 113,
       columnNumber: 15
     }
   }, " \u2264 3 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 114,
       columnNumber: 15
     }
   }, "Effet \xE9clair sans impact notoire. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 115,
       columnNumber: 51
     }
   }), "Hyper-sensibilit\xE9, douleur articulaire, fatigue passag\xE8re.")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 119,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 120,
       columnNumber: 15
     }
   }, " 4 - 9 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 121,
       columnNumber: 15
     }
   }, "\xC9pisodes naus\xE9eux et vertiges passagers. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 122,
       columnNumber: 58
     }
   }), "Perte de deux points de dext\xE9rit\xE9 pendant 1D4 jours. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 123,
       columnNumber: 70
     }
   }), "Les effets peuvent \xEAtre divis\xE9 par deux avec la consomation d'une drogue tonique de qualit\xE9 5+. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 125,
       columnNumber: 53
     }
   }), "Cet effet est cumulable. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 126,
       columnNumber: 42
     }
   }), "Cet effet disparrais si le niveau d'empoisonement est inf\xE9rieur \xE0 la moiti\xE9e de la constitution du personnage.")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 131,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 132,
       columnNumber: 15
     }
   }, " 10 - 14 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 133,
       columnNumber: 15
     }
   }, "Fi\xE8vre et douleurs articulaires. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 134,
       columnNumber: 50
     }
   }), "Pendant 1D6 jours : ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 135,
       columnNumber: 37
     }
   }), __jsx("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 136,
       columnNumber: 17
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 137,
       columnNumber: 19
     }
   }, "Perte de deux points de constitution."), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 138,
       columnNumber: 19
     }
   }, "Perte de deux points de contr\xF4le.")), "Cet effet est cumulable ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 140,
       columnNumber: 41
     }
   }), "Cet effet peut \xEAtre divis\xE9s par deux avec l'administration d'un anti-douleur et d'une drogue tonique de qualit\xE9 10+. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 142,
       columnNumber: 70
     }
   }), "Cet effet disparrais si le niveau d'empoisonement est inf\xE9rieur \xE0 la moiti\xE9e de la constitution du personnage + 3.")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 148,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 149,
       columnNumber: 15
     }
   }, " 15 - 16 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 150,
       columnNumber: 15
     }
   }, "\xC9pisode d'hypotermie. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 151,
       columnNumber: 39
     }
   }), "Perte de quatre points de constitution pendant 1D6 / 3 jours. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 152,
       columnNumber: 79
     }
   }), "Les effets peuvent \xEAtre divis\xE9s par deux avec l'administration d'une drogue tonique de qualit\xE9 20+. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 154,
       columnNumber: 54
     }
   }), "Cet effet est cumulable.")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 158,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 159,
       columnNumber: 15
     }
   }, " 17 - 20 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 160,
       columnNumber: 15
     }
   }, "H\xE9moragie. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 161,
       columnNumber: 28
     }
   }), "Le personnage est sujet \xE0 une h\xE9moragie temporaire et perd 1D4 points de vie. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 163,
       columnNumber: 32
     }
   }), "Pendant 1D6/2 jours : ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 164,
       columnNumber: 39
     }
   }), __jsx("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 165,
       columnNumber: 17
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 166,
       columnNumber: 19
     }
   }, "Perte de deux points de constitution."), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 167,
       columnNumber: 19
     }
   }, "Perte de deux points de force."), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 168,
       columnNumber: 19
     }
   }, "Perte de deux points de contr\xF4le.")))), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 172,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 173,
       columnNumber: 15
     }
   }, " 21 - 25 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 174,
       columnNumber: 15
     }
   }, "Mutation. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 175,
       columnNumber: 27
     }
   }), "Test oppos\xE9 de constitution et de volont\xE9 contre le niveau d'empoisonement, en cas d'\xE9chec le personnage gagne un trait de d'adaptation \xE0 l'\xE9ther.")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 181,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 182,
       columnNumber: 15
     }
   }, " 26 - 36 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 183,
       columnNumber: 15
     }
   }, "Test oppos\xE9 de constitution et de volont\xE9 contre le niveau d'empoisonement. Si le test \xE9choue le personnage meurt. ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 185,
       columnNumber: 73
     }
   }), "En cas de r\xE9ussite, le m\xEAme test est rejou\xE9 cette fois pour d\xE9terminer si le personnage est l'objet d'une mutation, en cas d'\xE9chec le personnage gagne un trait d'adaptation \xE0 l'\xE9ther.", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 189,
       columnNumber: 17
     }
   }), "Un personnage avec quatre mutation ou plus r\xE9alisant un score de 26 ou plus devient une abb\xE9ration d'\xE9ther et n'est plus jouable."))))));
@@ -2622,25 +2866,41 @@ function Introduction() {
 
 /***/ }),
 
-/***/ "./content/alchemy/Processing.tsx":
-/*!****************************************!*\
-  !*** ./content/alchemy/Processing.tsx ***!
-  \****************************************/
-/*! exports provided: Processing */
+/***/ "./content/alchemy/index.tsx":
+/*!***********************************!*\
+  !*** ./content/alchemy/index.tsx ***!
+  \***********************************/
+/*! exports provided: Alchemy */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Processing", function() { return Processing; });
+/* harmony import */ var _Alchemy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Alchemy */ "./content/alchemy/Alchemy.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Alchemy", function() { return _Alchemy__WEBPACK_IMPORTED_MODULE_0__["Alchemy"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/BloodyBells.tsx":
+/*!************************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/BloodyBells.tsx ***!
+  \************************************************************/
+/*! exports provided: BloodyBells */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BloodyBells", function() { return BloodyBells; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\Processing.tsx";
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\BloodyBells.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2649,7 +2909,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-function Processing() {
+function BloodyBells() {
   return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
     __self: this,
     __source: {
@@ -2664,52 +2924,2401 @@ function Processing() {
       lineNumber: 14,
       columnNumber: 7
     }
-  }, "alchemy-processing"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+  }, "alchemy-primitive-material-bloody-bells"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 7
     }
-  }, "Alchimie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 7
     }
-  }, "M\xE9thodes"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 7
     }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Sanguine"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Sanguine"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
       columnNumber: 7
     }
-  }));
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "La sanguine est une forme de muguet beaucoup plus fourni aux cloches rouges virant au jaune que l'on retrouve dans certaines for\xEAt. C'est une plante extr\xEAmement toxique entra\xEEnant une augmentation de la pression art\xE9rielle. Elle peut \xEAtre utilis\xE9e pour la fabrication de poisons h\xE9moragiques.")));
 }
 
 /***/ }),
 
-/***/ "./content/alchemy/index.tsx":
-/*!***********************************!*\
-  !*** ./content/alchemy/index.tsx ***!
-  \***********************************/
-/*! exports provided: Alchemy */
+/***/ "./content/alchemy/primitiveMaterials/CeruleanLily.tsx":
+/*!*************************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/CeruleanLily.tsx ***!
+  \*************************************************************/
+/*! exports provided: CeruleanLily */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Alchemy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Alchemy */ "./content/alchemy/Alchemy.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Alchemy", function() { return _Alchemy__WEBPACK_IMPORTED_MODULE_0__["Alchemy"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CeruleanLily", function() { return CeruleanLily; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\CeruleanLily.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+
+
+
+
+function CeruleanLily() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-cerulean-lily"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Lys azur\xE9"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Lys azur\xE9"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "Le lys azur\xE9 est une plante \xE0 bulbe qui ne s'ouvre que la nuit. Elle est connue pour sa teinte azur\xE9 et sa faible fluorescence. C'est une plante magnifique mais \xE0 manipuler avec pr\xE9cotion : elle est connue pour contenir une quantit\xE9e concentr\xE9e d'ether. La pousse du lys azur\xE9 est assez \xE9ratique et il n'est jamais garantie que la terre choisie pour le planter lui convienne. Il est utilis\xE9 dans la production de liqueur de lys aussi appell\xE9e sang des rois.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/Dreamstar.tsx":
+/*!**********************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/Dreamstar.tsx ***!
+  \**********************************************************/
+/*! exports provided: Dreamstar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dreamstar", function() { return Dreamstar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\Dreamstar.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Dreamstar() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-dreamstar"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Song\xE9toile"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Song\xE9toile"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "La song\xE9toile, aussi appell\xE9e sauge \xE9toil\xE9e est une esp\xE8ce de sauge formant des petites fleures blanches de forme \xE9toil\xE9e. Elle pousse particuli\xE8rement proche des cours d'eau et peut \xEAtre trouv\xE9e m\xEAme en plein hiver. Infus\xE9e c'est une plante aux vertues appaisante augmentant \xE0 la fois la concentration et facilitant le sommeil.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/Greenleave.tsx":
+/*!***********************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/Greenleave.tsx ***!
+  \***********************************************************/
+/*! exports provided: Greenleave */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Greenleave", function() { return Greenleave; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\Greenleave.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Greenleave() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-green-leave"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Verderelle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Verderelle"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "La verderelle est une esp\xE8ce de plante grimpante formant des petites feuilles rondes capable de retenir les go\xFBtes de pluies. Extr\xEAmement toxique elle est principalement utilis\xE9e dans la production d'\xE9lixir de verderelle, une solution de dernier recours pour drainer les toxines d'un corps malade.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/Helenite.tsx":
+/*!*********************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/Helenite.tsx ***!
+  \*********************************************************/
+/*! exports provided: Helenite */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Helenite", function() { return Helenite; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\Helenite.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Helenite() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-helenite"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "H\xE9l\xE9nite"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "H\xE9l\xE9nite"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "L'h\xE9l\xE9nite est un arbustre sauvage produisant des petites baies rondes dor\xE9es l\xE9g\xE8rement translucide. C'est une plante rare, et la coutume veut que consommer ces fruits porte chance.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/PandoraSkin.tsx":
+/*!************************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/PandoraSkin.tsx ***!
+  \************************************************************/
+/*! exports provided: PandoraSkin */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PandoraSkin", function() { return PandoraSkin; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\PandoraSkin.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function PandoraSkin() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-pandora-skin"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "\xC9corce de pandore"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "\xC9corce de pandore"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "Contrairement \xE0 ce que l'on peut croire, l'\xE9corce de pandore est en r\xE9alit\xE9 un champignon symbiote formant de curieuses spirales que l'on peut retrouver sur certains arbres tr\xE8s endomag\xE9s. De couleur noire virant sur le violet tr\xE8s fonc\xE9 il se nourrit d'une partie de la s\xE8ve de son h\xF4te tout en rempla\xE7ant une partie de son \xE9corce endomag\xE9e.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/PegasusFluff.tsx":
+/*!*************************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/PegasusFluff.tsx ***!
+  \*************************************************************/
+/*! exports provided: PegasusFluff */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PegasusFluff", function() { return PegasusFluff; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\PegasusFluff.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function PegasusFluff() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-pegasus-fluff"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Plumeau de p\xE9gase"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Plumeau de p\xE9gase"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "Le plumeau de p\xE9gase est une forme de c\xE9r\xE9ale sauvage que l'on retrouve principalement dans les grandes plaines rocailleuses. Cette plante est constitu\xE9e d'une grande tige termin\xE9e de deux \xE0 trois \xE9pis ressemblant \xE0 des plumes. La tige du plumeau de p\xE9gase se raidifie au fur et a mesure de sa croissance, \xE0 maturit\xE9 le plumeau se d\xE9tache en cas de vents violents pour \xE9ss\xE9mer plus loin.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/PrimitiveMaterials.tsx":
+/*!*******************************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/PrimitiveMaterials.tsx ***!
+  \*******************************************************************/
+/*! exports provided: PrimitiveMaterials */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrimitiveMaterials", function() { return PrimitiveMaterials; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _BloodyBells__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./BloodyBells */ "./content/alchemy/primitiveMaterials/BloodyBells.tsx");
+/* harmony import */ var _CeruleanLily__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CeruleanLily */ "./content/alchemy/primitiveMaterials/CeruleanLily.tsx");
+/* harmony import */ var _Dreamstar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Dreamstar */ "./content/alchemy/primitiveMaterials/Dreamstar.tsx");
+/* harmony import */ var _Greenleave__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Greenleave */ "./content/alchemy/primitiveMaterials/Greenleave.tsx");
+/* harmony import */ var _Helenite__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Helenite */ "./content/alchemy/primitiveMaterials/Helenite.tsx");
+/* harmony import */ var _PandoraSkin__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./PandoraSkin */ "./content/alchemy/primitiveMaterials/PandoraSkin.tsx");
+/* harmony import */ var _PegasusFluff__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./PegasusFluff */ "./content/alchemy/primitiveMaterials/PegasusFluff.tsx");
+/* harmony import */ var _Skyhammer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Skyhammer */ "./content/alchemy/primitiveMaterials/Skyhammer.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\PrimitiveMaterials.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function PrimitiveMaterials() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-materials"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ments primitifs"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 11
+    }
+  }, __jsx(_PandoraSkin__WEBPACK_IMPORTED_MODULE_13__["PandoraSkin"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, __jsx(_Helenite__WEBPACK_IMPORTED_MODULE_12__["Helenite"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 11
+    }
+  }, __jsx(_CeruleanLily__WEBPACK_IMPORTED_MODULE_9__["CeruleanLily"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11
+    }
+  }, __jsx(_Skyhammer__WEBPACK_IMPORTED_MODULE_15__["Skyhammer"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 11
+    }
+  }, __jsx(_PegasusFluff__WEBPACK_IMPORTED_MODULE_14__["PegasusFluff"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 11
+    }
+  }, __jsx(_BloodyBells__WEBPACK_IMPORTED_MODULE_8__["BloodyBells"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 11
+    }
+  }, __jsx(_Dreamstar__WEBPACK_IMPORTED_MODULE_10__["Dreamstar"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 11
+    }
+  }, __jsx(_Greenleave__WEBPACK_IMPORTED_MODULE_11__["Greenleave"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 13
+    }
+  })))));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/Skyhammer.tsx":
+/*!**********************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/Skyhammer.tsx ***!
+  \**********************************************************/
+/*! exports provided: Skyhammer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Skyhammer", function() { return Skyhammer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\primitiveMaterials\\Skyhammer.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Skyhammer() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-primitive-material-skyhammer"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Mati\xE8re"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "\xC9l\xE9ment primitif"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Marterage"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Marterage"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "La marterage est une forme de houx que l'ont dit ne fleurire qu'apr\xE8s le passage d'un orage. Les fruits de marterage sont des esp\xE8ces de c\xF4ne form\xE9e de p\xE9tales satin\xE9s assez \xE9paisses de couleur mauve vein\xE9 de canaux cyan. C'est une plante fortifiante mais qui mal utilis\xE9e peut provoquer des \xE9pisodes de rage furieuse ou des crises de spasmes douloureux.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/primitiveMaterials/index.ts":
+/*!*****************************************************!*\
+  !*** ./content/alchemy/primitiveMaterials/index.ts ***!
+  \*****************************************************/
+/*! exports provided: PrimitiveMaterials */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PrimitiveMaterials__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PrimitiveMaterials */ "./content/alchemy/primitiveMaterials/PrimitiveMaterials.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PrimitiveMaterials", function() { return _PrimitiveMaterials__WEBPACK_IMPORTED_MODULE_0__["PrimitiveMaterials"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Concentration.tsx":
+/*!***********************************************************!*\
+  !*** ./content/alchemy/transformations/Concentration.tsx ***!
+  \***********************************************************/
+/*! exports provided: Concentration */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Concentration", function() { return Concentration; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Concentration.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Concentration() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-concentration"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Concentration"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Concentration"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La concentration est une transformation lente qui permet de sommer les effets de deux mati\xE8re liquide ayant les m\xEAmes propri\xE9t\xE9s alchimiques. La qualit\xE9 d'une concentration est la moyenne des qualit\xE9s des produits concentr\xE9s arrondie \xE0 l'inf\xE9rieur. La concentration de deux produits somme aussi le niveau d'intoxication de celui-ci. Pour concentrer il faut uniquement une t\xE9hi\xE8re et une source de chaleur suffisante pour r\xE9duire la quantit\xE9 de solvant total. La concentration ne n\xE9c\xE9ssite aucune connaissance particuli\xE8re.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Decoction.tsx":
+/*!*******************************************************!*\
+  !*** ./content/alchemy/transformations/Decoction.tsx ***!
+  \*******************************************************/
+/*! exports provided: Decoction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Decoction", function() { return Decoction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Decoction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Decoction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-decoction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "D\xE9coction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "D\xE9coction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La d\xE9coction est une transformation lente qui permet d'extraire des propri\xE9t\xE9s alchimiques en disolvant de la mati\xE8re dans l'eau. C'est une transformation un peut plus complexe que l'infusion qui n\xE9c\xE9ssite un kit d'alchimiste comprenant mortier et pilon afin de pr\xE9-traiter la mati\xE8re \xE0 transformer. La d\xE9coction se r\xE9alise dans un chaudron et requiert de laisser la mati\xE8re se dissoudre compl\xE8tement avant de laisser le r\xE9sultat refroidir. Le r\xE9sultat d'une d\xE9coction peut n\xE9c\xE9ssiter l'utilisation de certains substrats suppl\xE9mentaire afin d'\xE9viter une s\xE9dimentation des particules de mati\xE8re entra\xEEnant ainsi la perte du substrat obtenu. Le r\xE9sultat d'une d\xE9coction est par m\xE9tonymie une d\xE9coction."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }, "Pour r\xE9aliser une d\xE9coction il faut r\xE9aliser un test d'auto-r\xE9solution en utilisant son niveau de connaissance de la d\xE9coction.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Dilution.tsx":
+/*!******************************************************!*\
+  !*** ./content/alchemy/transformations/Dilution.tsx ***!
+  \******************************************************/
+/*! exports provided: Dilution */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dilution", function() { return Dilution; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Dilution.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Dilution() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-dilution"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Dilution"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Dilution"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La dilution est une transformation lente qui permet de r\xE9duire les effets d'une mati\xE8re liquide ayant les m\xEAmes propri\xE9t\xE9s alchimiques. La qualit\xE9 d'une dilution est \xE9quivalente \xE0 la qualit\xE9 du produit dilu\xE9. Il n'est pas possible de diluer un produit \xE0 un degr\xE9 tel qu'on ne puisse diviser chacune de ses propri\xE9t\xE9s alchimiques par le degr\xE9 de dilution choisi. Pour diluer il faut uniquement un contenant libre et du solvant. La dilution ne n\xE9c\xE9ssite aucune connaissance particuli\xE8re.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Dissolution.tsx":
+/*!*********************************************************!*\
+  !*** ./content/alchemy/transformations/Dissolution.tsx ***!
+  \*********************************************************/
+/*! exports provided: Dissolution */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dissolution", function() { return Dissolution; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Dissolution.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Dissolution() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-dissolution"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Dissolution"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Dissolution"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La dissolution est une transformation imm\xE9diate qui permet de produire un produit alchimique sous forme de liquide en m\xE9langeant une mati\xE8re dans un solvant. La dissolution ne n\xE9c\xE9ssite aucune connaissance particuli\xE8re. Le r\xE9sultat d'une dissolution est, en fonction de la mati\xE8re et du solvant soit une potion, un poison ou une huile.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Distillation.tsx":
+/*!**********************************************************!*\
+  !*** ./content/alchemy/transformations/Distillation.tsx ***!
+  \**********************************************************/
+/*! exports provided: Distillation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Distillation", function() { return Distillation; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Distillation.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Distillation() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-distillation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Distillation"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Distillation"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La distillation est une transformation qui permet de s\xE9parer les propri\xE9t\xE9s alchimiques d'une mati\xE8re liquide en utilisant l'\xE9vaporation et la condensation. C'est une op\xE9ration qui n\xE9c\xE9ssite l'acc\xE8s \xE0 un laboratoire d'alchimie \xE9quip\xE9 d'un alambic, d'une source de chaleur et d'un syst\xE8me de refroidissement fonctionnel. Pour distiller il faut faire bouillir la mati\xE8re \xE0 transformer \xE0 une temp\xE9rature pr\xE9cise puis faire en sorte que le gaz form\xE9 puisse se condenser de nouveau pour former un nouveau liquide plus pur. Ce proc\xE9d\xE9 peut prendre plusieurs heures. Le r\xE9sultat d'une distillation est un distillat."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }, "Pour r\xE9aliser une distillation il faut r\xE9aliser un test d'auto-r\xE9solution en utilisant son niveau de connaissance de la distillation.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Infusion.tsx":
+/*!******************************************************!*\
+  !*** ./content/alchemy/transformations/Infusion.tsx ***!
+  \******************************************************/
+/*! exports provided: Infusion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Infusion", function() { return Infusion; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Infusion.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Infusion() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-infusion"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Infusion"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Infusion"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "L'infusion est une transformation lente qui permet d'extraire des propri\xE9t\xE9s alchimiques d'\xE9l\xE9ments primitifs dans de l'eau. C'est une transformation simple qui n\xE9c\xE9ssite seulement une t\xE9hi\xE8re en \xE9tain. Pour infuser il suffit de monter de l'eau \xE0 \xE9bulition puis de laisser reposer les \xE9l\xE9ments primitifs \xE0 transformer dans le liquide pendant qu'il refroidit. Les r\xE9siduts de l'infusion doivent \xEAtre jet\xE9s apr\xE8s op\xE9ration. Par m\xE9tonymie le r\xE9sultat d'un processus d'infusion est une infusion."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, "Pour infuser une mati\xE8re il faut r\xE9aliser un test d'auto-r\xE9solution en utilisant son niveau de connaissance de l'infusion.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Maceration.tsx":
+/*!********************************************************!*\
+  !*** ./content/alchemy/transformations/Maceration.tsx ***!
+  \********************************************************/
+/*! exports provided: Maceration */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Maceration", function() { return Maceration; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Maceration.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Maceration() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-maceration"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Mac\xE9ration"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Mac\xE9ration"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La mac\xE9ration est une transformation lente qui permet d'extraire des propri\xE9t\xE9s alchimiques en laissant se d\xE9composer de la mati\xE8re dans un solvant. C'est une op\xE9ration qui n\xE9c\xE9ssite surtout d'avoir du temps et un espace clos relativement s\xE9curitaire afin d'\xE9viter toute contamination ext\xE9rieure. La mac\xE9ration se r\xE9alise dans un chaudron et requiert de laisser la mati\xE8re se d\xE9composer dans un solvant \xE0 temp\xE9rature ambiante. Ce proc\xE9d\xE9 peut prendre entre un et plusieurs jours. Le r\xE9sultat d'une mac\xE9ration est un mac\xE9rat."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, "Pour r\xE9aliser une mac\xE9ration il faut r\xE9aliser un test d'auto-r\xE9solution en utilisant son niveau de connaissance de la mac\xE9ration.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Percolation.tsx":
+/*!*********************************************************!*\
+  !*** ./content/alchemy/transformations/Percolation.tsx ***!
+  \*********************************************************/
+/*! exports provided: Percolation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Percolation", function() { return Percolation; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Percolation.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Percolation() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "alchemy-transformation-percolation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Percolation"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Percolation"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "La percolation est une transformation lente qui permet d'extraire des propri\xE9t\xE9s alchimiques en faisant traverser un liquide dans une couche de mati\xE8re perm\xE9able \xE0 une certaine pression. C'est une transformation complexe qui n\xE9c\xE9ssite l'acc\xE8s \xE0 un laboratoire comprenant un syst\xE8me de percolation. Le r\xE9sultat d'une percolation est un filtrat."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }, "Pour r\xE9aliser une percolation il faut r\xE9aliser un test d'auto-r\xE9solution en utilisant son niveau de connaissance de la percolation.")));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/Transformations.tsx":
+/*!*************************************************************!*\
+  !*** ./content/alchemy/transformations/Transformations.tsx ***!
+  \*************************************************************/
+/*! exports provided: Transformations */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Transformations", function() { return Transformations; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Concentration__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Concentration */ "./content/alchemy/transformations/Concentration.tsx");
+/* harmony import */ var _Decoction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Decoction */ "./content/alchemy/transformations/Decoction.tsx");
+/* harmony import */ var _Dilution__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Dilution */ "./content/alchemy/transformations/Dilution.tsx");
+/* harmony import */ var _Dissolution__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Dissolution */ "./content/alchemy/transformations/Dissolution.tsx");
+/* harmony import */ var _Distillation__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Distillation */ "./content/alchemy/transformations/Distillation.tsx");
+/* harmony import */ var _Infusion__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Infusion */ "./content/alchemy/transformations/Infusion.tsx");
+/* harmony import */ var _Maceration__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Maceration */ "./content/alchemy/transformations/Maceration.tsx");
+/* harmony import */ var _Percolation__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Percolation */ "./content/alchemy/transformations/Percolation.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\alchemy\\transformations\\Transformations.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Transformations() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "alchemy-transformations"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, "Alchimie"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "Transformation"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }, "Transformations"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 11
+    }
+  }, __jsx(_Concentration__WEBPACK_IMPORTED_MODULE_8__["Concentration"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 11
+    }
+  }, __jsx(_Decoction__WEBPACK_IMPORTED_MODULE_9__["Decoction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, __jsx(_Dilution__WEBPACK_IMPORTED_MODULE_10__["Dilution"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, __jsx(_Dissolution__WEBPACK_IMPORTED_MODULE_11__["Dissolution"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 11
+    }
+  }, __jsx(_Distillation__WEBPACK_IMPORTED_MODULE_12__["Distillation"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 11
+    }
+  }, __jsx(_Infusion__WEBPACK_IMPORTED_MODULE_13__["Infusion"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 11
+    }
+  }, __jsx(_Maceration__WEBPACK_IMPORTED_MODULE_14__["Maceration"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 11
+    }
+  }, __jsx(_Percolation__WEBPACK_IMPORTED_MODULE_15__["Percolation"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 13
+    }
+  })))));
+}
+
+/***/ }),
+
+/***/ "./content/alchemy/transformations/index.ts":
+/*!**************************************************!*\
+  !*** ./content/alchemy/transformations/index.ts ***!
+  \**************************************************/
+/*! exports provided: Transformations */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Transformations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Transformations */ "./content/alchemy/transformations/Transformations.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Transformations", function() { return _Transformations__WEBPACK_IMPORTED_MODULE_0__["Transformations"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/characteristics/Characteristics.tsx":
+/*!*****************************************************!*\
+  !*** ./content/characteristics/Characteristics.tsx ***!
+  \*****************************************************/
+/*! exports provided: Characteristics */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Characteristics", function() { return Characteristics; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Constitution__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Constitution */ "./content/characteristics/Constitution.tsx");
+/* harmony import */ var _Control__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Control */ "./content/characteristics/Control.tsx");
+/* harmony import */ var _Dexterity__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Dexterity */ "./content/characteristics/Dexterity.tsx");
+/* harmony import */ var _Luck__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Luck */ "./content/characteristics/Luck.tsx");
+/* harmony import */ var _Power__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Power */ "./content/characteristics/Power.tsx");
+/* harmony import */ var _Strength__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Strength */ "./content/characteristics/Strength.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\characteristics\\Characteristics.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Characteristics() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "characteristics"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, "Caract\xE9ristique"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "Charact\xE9ristiques"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreuses ressources connexes. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif.")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 11
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreuses ressources connexes. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif. Les caract\xE9ristiques d'un personnage humain sont initialement \xE9valu\xE9es \xE0 -9 et il est possible d'y r\xE9partir un total de 62 points. Une caract\xE9ristique humaine ne peut pas \xEAtre sup\xE9rieure \xE0 10 points."))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 11
+    }
+  }, __jsx(_Luck__WEBPACK_IMPORTED_MODULE_11__["Luck"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 11
+    }
+  }, __jsx(_Constitution__WEBPACK_IMPORTED_MODULE_8__["Constitution"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 11
+    }
+  }, __jsx(_Control__WEBPACK_IMPORTED_MODULE_9__["Control"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 11
+    }
+  }, __jsx(_Dexterity__WEBPACK_IMPORTED_MODULE_10__["Dexterity"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 11
+    }
+  }, __jsx(_Strength__WEBPACK_IMPORTED_MODULE_13__["Strength"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 11
+    }
+  }, __jsx(_Power__WEBPACK_IMPORTED_MODULE_12__["Power"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 13
+    }
+  })))));
+}
 
 /***/ }),
 
@@ -3391,262 +6000,6 @@ function Strength() {
 
 /***/ }),
 
-/***/ "./content/characteristics/characteristics.tsx":
-/*!*****************************************************!*\
-  !*** ./content/characteristics/characteristics.tsx ***!
-  \*****************************************************/
-/*! exports provided: Characteristics */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Characteristics", function() { return Characteristics; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
-/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
-/* harmony import */ var _Constitution__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Constitution */ "./content/characteristics/Constitution.tsx");
-/* harmony import */ var _Control__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Control */ "./content/characteristics/Control.tsx");
-/* harmony import */ var _Dexterity__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Dexterity */ "./content/characteristics/Dexterity.tsx");
-/* harmony import */ var _Luck__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Luck */ "./content/characteristics/Luck.tsx");
-/* harmony import */ var _Power__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Power */ "./content/characteristics/Power.tsx");
-/* harmony import */ var _Strength__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Strength */ "./content/characteristics/Strength.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\characteristics\\characteristics.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function Characteristics() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 5
-    }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, "characteristics"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 7
-    }
-  }, "Caract\xE9ristique"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }
-  }, "Charact\xE9ristiques"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
-    }
-  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreuses ressources connexes. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif.")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 7
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 11
-    }
-  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 13
-    }
-  }))), __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 11
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 13
-    }
-  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreuses ressources connexes. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif. Les caract\xE9ristiques d'un personnage humain sont initialement \xE9valu\xE9es \xE0 -9 et il est possible d'y r\xE9partir un total de 62 points. Une caract\xE9ristique humaine ne peut pas \xEAtre sup\xE9rieure \xE0 10 points."))), __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 11
-    }
-  }, __jsx(_Luck__WEBPACK_IMPORTED_MODULE_11__["Luck"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 11
-    }
-  }, __jsx(_Constitution__WEBPACK_IMPORTED_MODULE_8__["Constitution"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 13
-    }
-  }))), __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 11
-    }
-  }, __jsx(_Control__WEBPACK_IMPORTED_MODULE_9__["Control"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 11
-    }
-  }, __jsx(_Dexterity__WEBPACK_IMPORTED_MODULE_10__["Dexterity"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 13
-    }
-  }))), __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 11
-    }
-  }, __jsx(_Strength__WEBPACK_IMPORTED_MODULE_13__["Strength"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: "col-xs-12 col-md-6",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 11
-    }
-  }, __jsx(_Power__WEBPACK_IMPORTED_MODULE_12__["Power"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 13
-    }
-  })))));
-}
-
-/***/ }),
-
 /***/ "./content/characteristics/index.ts":
 /*!******************************************!*\
   !*** ./content/characteristics/index.ts ***!
@@ -3656,8 +6009,8 @@ function Characteristics() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _characteristics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./characteristics */ "./content/characteristics/characteristics.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Characteristics", function() { return _characteristics__WEBPACK_IMPORTED_MODULE_0__["Characteristics"]; });
+/* harmony import */ var _Characteristics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Characteristics */ "./content/characteristics/Characteristics.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Characteristics", function() { return _Characteristics__WEBPACK_IMPORTED_MODULE_0__["Characteristics"]; });
 
 /* harmony import */ var _Constitution__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Constitution */ "./content/characteristics/Constitution.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Constitution", function() { return _Constitution__WEBPACK_IMPORTED_MODULE_1__["Constitution"]; });
@@ -4143,41 +6496,6 @@ function Categories() {
     }
   }, " Apostats "))))));
 }
-
-__jsx("div", {
-  "class": "topic",
-  id: "\xC9cho-category",
-  "data-keywords": "cat\xE9gorie",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 145,
-    columnNumber: 1
-  }
-}, __jsx("div", {
-  "class": "topic-heading  text-center",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 146,
-    columnNumber: 3
-  }
-}, __jsx("h3", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 147,
-    columnNumber: 5
-  }
-}, "Cat\xE9gories")), __jsx("div", {
-  "class": "topic-content",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 149,
-    columnNumber: 3
-  }
-}));
 
 /***/ }),
 
