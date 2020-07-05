@@ -8890,7 +8890,7 @@ function BloodBathFeat() {
       lineNumber: 17,
       columnNumber: 7
     }
-  }, "Bain de sang (\u03B1)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Bain de sang (!)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -9197,7 +9197,7 @@ function BloodThirstFeat() {
       lineNumber: 17,
       columnNumber: 7
     }
-  }, "Soif de sang (\u03B1)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Soif de sang (!)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -13408,7 +13408,7 @@ function HackerFeat() {
       lineNumber: 17,
       columnNumber: 7
     }
-  }, "Hacker (\u03B1)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Hacker (!)"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -50444,19 +50444,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BloodyBells", function() { return BloodyBells; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+/* harmony import */ var _alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../alchemy/AlchemicTransformation */ "./typescript/alchemy/AlchemicTransformation.ts");
+/* harmony import */ var _processed_BloodyBellsInfusion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../processed/BloodyBellsInfusion */ "./typescript/data/alchemy/processed/BloodyBellsInfusion.tsx");
+/* harmony import */ var _processed_MercenaryBlessing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../processed/MercenaryBlessing */ "./typescript/data/alchemy/processed/MercenaryBlessing.tsx");
+/* harmony import */ var _processed_BloodDance__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../processed/BloodDance */ "./typescript/data/alchemy/processed/BloodDance.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\primitive\\BloodyBells.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var BloodyBells = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__["AlchemicMaterial"].builder().setName('Sanguine').setIdentifier('bloody-bells').addKeyword('Alchimie').addKeyword('Matière').addKeyword('Élément primitif').addKeyword('Sanguine').setDescription(__jsx("p", {
+
+
+
+
+
+
+var BloodyBells = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Sanguine').setIdentifier('bloody-bells').addKeyword('Alchimie').addKeyword('Matière').addKeyword('Élément primitif').addKeyword('Sanguine').setDescription(__jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 23,
     columnNumber: 7
   }
-}, "La sanguine est une forme de muguet beaucoup plus fourni aux cloches rouges virant au jaune que l'on retrouve dans certaines for\xEAt. C'est une plante extr\xEAmement toxique entra\xEEnant une augmentation de la pression art\xE9rielle. Elle peut \xEAtre utilis\xE9e pour la fabrication de poisons h\xE9moragiques.")).build();
+}, "La sanguine est une forme de muguet beaucoup plus fourni aux cloches rouges virant au jaune que l'on retrouve dans certaines for\xEAt. C'est une plante extr\xEAmement toxique entra\xEEnant une augmentation de la pression art\xE9rielle. Elle peut \xEAtre utilis\xE9e pour la fabrication de poisons h\xE9moragiques.")).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Initiative +2")).addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le -1")).setCost(2).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "5", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 25
+  }
+}, "m"), " \xD7 Qa")).build()).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].INFUSION, _processed_BloodyBellsInfusion__WEBPACK_IMPORTED_MODULE_5__["BloodyBellsInfusion"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].DECOCTION, _processed_MercenaryBlessing__WEBPACK_IMPORTED_MODULE_6__["MercenaryBlessing"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].MACERATION, _processed_BloodDance__WEBPACK_IMPORTED_MODULE_7__["BloodDance"]).build();
 
 /***/ }),
 
@@ -50473,18 +50492,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+/* harmony import */ var _alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicTransformation */ "./typescript/alchemy/AlchemicTransformation.ts");
+/* harmony import */ var _processed_CeruleanInfusion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../processed/CeruleanInfusion */ "./typescript/data/alchemy/processed/CeruleanInfusion.tsx");
+/* harmony import */ var _processed_ParagonBlessing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../processed/ParagonBlessing */ "./typescript/data/alchemy/processed/ParagonBlessing.tsx");
+/* harmony import */ var _processed_NobleBlood__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../processed/NobleBlood */ "./typescript/data/alchemy/processed/NobleBlood.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\primitive\\CeruleanLily.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
 
 
 var CeruleanLily = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__["AlchemicMaterial"].builder().setName('Lys azuré').setIdentifier('cerulean-lily').addKeyword('Alchimie').addKeyword('Matière').addKeyword('Élément primitif').addKeyword('Lys azuré').setDescription(__jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 23,
     columnNumber: 7
   }
-}, "Le lys azur\xE9 est une plante \xE0 bulbe qui ne s'ouvre que la nuit. Elle est connue pour sa teinte azur\xE9 et sa faible fluorescence. C'est une plante magnifique mais \xE0 manipuler avec pr\xE9cotion : elle est connue pour contenir une quantit\xE9e concentr\xE9e d'ether. La pousse du lys azur\xE9 est assez \xE9ratique et il n'est jamais garantie que la terre choisie pour le planter lui convienne. Il est utilis\xE9 dans la production de liqueur de lys aussi appell\xE9e sang des rois.")).build();
+}, "Le lys azur\xE9 est une plante \xE0 bulbe qui ne s'ouvre que la nuit. Elle est connue pour sa teinte azur\xE9 et sa faible fluorescence. C'est une plante magnifique mais \xE0 manipuler avec pr\xE9cotion : elle est connue pour contenir une quantit\xE9e concentr\xE9e d'ether. La pousse du lys azur\xE9 est assez \xE9ratique et il n'est jamais garantie que la terre choisie pour le planter lui convienne. Il est utilis\xE9 dans la production de liqueur de lys aussi appell\xE9e sang des rois.")).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_2__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Intoxication \xE0 l'\xE9ther +2")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "~")).build()).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_3__["AlchemicTransformation"].INFUSION, _processed_CeruleanInfusion__WEBPACK_IMPORTED_MODULE_4__["CeruleanInfusion"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_3__["AlchemicTransformation"].DECOCTION, _processed_ParagonBlessing__WEBPACK_IMPORTED_MODULE_5__["ParagonBlessing"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_3__["AlchemicTransformation"].MACERATION, _processed_NobleBlood__WEBPACK_IMPORTED_MODULE_6__["NobleBlood"]).build();
 
 /***/ }),
 
@@ -50547,19 +50576,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Greenleaves", function() { return Greenleaves; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+/* harmony import */ var _alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../alchemy/AlchemicTransformation */ "./typescript/alchemy/AlchemicTransformation.ts");
+/* harmony import */ var _processed_GreenleavesCurse__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../processed/GreenleavesCurse */ "./typescript/data/alchemy/processed/GreenleavesCurse.tsx");
+/* harmony import */ var _processed_GreenleavesPurifier__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../processed/GreenleavesPurifier */ "./typescript/data/alchemy/processed/GreenleavesPurifier.tsx");
+/* harmony import */ var _processed_GreenleavesInfusion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../processed/GreenleavesInfusion */ "./typescript/data/alchemy/processed/GreenleavesInfusion.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\primitive\\Greenleaves.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var Greenleaves = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__["AlchemicMaterial"].builder().setName('Verderelle').setIdentifier('green-leaves').addKeyword('Alchimie').addKeyword('Matière').addKeyword('Élément primitif').addKeyword('Verderelle').setDescription(__jsx("p", {
+
+
+
+
+
+
+var Greenleaves = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Verderelle').setIdentifier('green-leaves').addKeyword('Alchimie').addKeyword('Matière').addKeyword('Élément primitif').addKeyword('Verderelle').setDescription(__jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 23,
     columnNumber: 7
   }
-}, "La verderelle est une esp\xE8ce de plante grimpante formant des petites feuilles rondes capable de retenir les go\xFBtes de pluies. Extr\xEAmement toxique elle est principalement utilis\xE9e dans la production d'\xE9lixir de verderelle, une solution de dernier recours pour drainer l'\xE9ther d'un corps malade.")).build();
+}, "La verderelle est une esp\xE8ce de plante grimpante formant des petites feuilles rondes capable de retenir les go\xFBtes de pluies. Extr\xEAmement toxique elle est principalement utilis\xE9e dans la production d'\xE9lixir de verderelle, une solution de dernier recours pour drainer l'\xE9ther d'un corps malade.")).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Fi\xE8vre")).addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Pouvoir -2")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].INFUSION, _processed_GreenleavesInfusion__WEBPACK_IMPORTED_MODULE_7__["GreenleavesInfusion"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].DECOCTION, _processed_GreenleavesCurse__WEBPACK_IMPORTED_MODULE_5__["GreenleavesCurse"]).addTransformation(_alchemy_AlchemicTransformation__WEBPACK_IMPORTED_MODULE_4__["AlchemicTransformation"].MACERATION, _processed_GreenleavesPurifier__WEBPACK_IMPORTED_MODULE_6__["GreenleavesPurifier"]).build();
 
 /***/ }),
 
@@ -50805,6 +50853,228 @@ var ALL = [_BloodyBells__WEBPACK_IMPORTED_MODULE_0__["BloodyBells"], _CeruleanLi
 
 /***/ }),
 
+/***/ "./typescript/data/alchemy/processed/BloodDance.tsx":
+/*!**********************************************************!*\
+  !*** ./typescript/data/alchemy/processed/BloodDance.tsx ***!
+  \**********************************************************/
+/*! exports provided: BloodDance */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BloodDance", function() { return BloodDance; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\BloodDance.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var BloodDance = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Valse rouge').setIdentifier('blood-dance').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "La valse rouge, aussi appell\xE9e sang de rose ou liqueur de rubis, est le r\xE9sultat d'une mac\xE9ration de sanguine pendant un minimum de deux semaines. Le r\xE9sultat est un liquide couleur rubis l\xE9g\xE8rement translucide qui fluidifie dangereusement le sang. L'on dit aussi de cette solution qu'elle provoque la sensation de ne faire qu'un avec son environnement. Ce poison extr\xEAmement dangereux qui peut provoquer d'atroces h\xE9moragies \xE0 la moindre coupure a longtemps \xE9t\xE9 exploit\xE9e par des sectes d'\xE9p\xE9istes suicidaires qui transformait le duel \xE0 l'\xE9p\xE9e en danse mortelles d'une gr\xE2ce sans pareil."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 11
+  }
+}, "H\xE9moragie."), " Quand la victime de cet effet subis une blessure l\xE9g\xE8re il doit r\xE9ussir un test d'opposition entre sa constitution et un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 la qualit\xE9 du poison. Si le test \xE9choue la blessure devient alors une blessure grave h\xE9moragique."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Parade + 1")).setCost(2).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "5", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41,
+    columnNumber: 25
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive + 1")).setCost(2).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "5", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49,
+    columnNumber: 25
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "H\xE9moragie")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "2", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Bestialit\xE9 +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "~")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/BloodyBellsInfusion.tsx":
+/*!*******************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/BloodyBellsInfusion.tsx ***!
+  \*******************************************************************/
+/*! exports provided: BloodyBellsInfusion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BloodyBellsInfusion", function() { return BloodyBellsInfusion; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\BloodyBellsInfusion.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var BloodyBellsInfusion = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Infusion de sanguine').setIdentifier('bloody-bells-infusion').setDescription(__jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 7
+  }
+}, "L'infusion de sanguine est une solution de cloches de sanguine port\xE9es \xE0 \xE9bulition pendant une petite dizaine de minute. Cette infusion est connue pour provoquer une l\xE9g\xE8re hyperactivit\xE9 passag\xE8re.")).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Antie-paralysie")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Initiative +4")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/CeruleanInfusion.tsx":
+/*!****************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/CeruleanInfusion.tsx ***!
+  \****************************************************************/
+/*! exports provided: CeruleanInfusion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CeruleanInfusion", function() { return CeruleanInfusion; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\CeruleanInfusion.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var CeruleanInfusion = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Infusion azurée').setIdentifier('cerulean-infusion').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "L'infusion azur\xE9e est une solution de lys azur\xE9s port\xE9e \xE0 \xE9bulition pendant une petite dizaine de minute. Cette infusion est connue pour aider les blessures \xE0 cicatriser."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 11
+  }
+}, "Stabilisant."), " \xC9quivalent \xE0 la r\xE9ussite automatique d'une tentative de stabilisation en cas de coma. La dur\xE9e d'un coma est divis\xE9 par deux quand le stabilisant est ing\xE9r\xE9. L'utilisation multiple du stabilisant ne r\xE9duit pas plus la dur\xE9e du coma."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29,
+    columnNumber: 11
+  }
+}, "R\xE9g\xE9n\xE9ration."), " Le personnage r\xE9cup\xE8re un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9e par 4 \xE0 la fin de chaque journ\xE9e pendant laquelle l'effet de r\xE9g\xE9n\xE9ration \xE0 cours. L'utilisation multiple de la r\xE9g\xE9n\xE9ration n'augmente pas plus son effet. Si l'effet de r\xE9g\xE9n\xE9ration est concentr\xE9 le personnage gagne alors un point de vie suppl\xE9mentaire par niveau de concentration. Si plusieurs effets de r\xE9g\xE9n\xE9ration sont ing\xE9r\xE9s, le plus concentr\xE9 prime sur tous les autres."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40,
+    columnNumber: 11
+  }
+}, "Ossature v\xE9g\xE9tale."), " Le temps de gu\xE9rison des fractures est divis\xE9 par deux. Un personnage sous effet de l'ossature v\xE9g\xE9tale peut annuler toute fracture potentielle en r\xE9alisant un test d'opposition entre sa constitution et un degr\xE9 de difficult\xE9 de 8 points."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Stabilisant (Qa \u2265 10)")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "~")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "R\xE9g\xE9n\xE9ration")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61,
+    columnNumber: 25
+  }
+}, "j"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61,
+    columnNumber: 43
+  }
+}, "j"), " \xD7 \u2155Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ossature v\xE9g\xE9tale (Liqueur de lys)")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 69,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).build();
+
+/***/ }),
+
 /***/ "./typescript/data/alchemy/processed/CourrierBlessing.tsx":
 /*!****************************************************************!*\
   !*** ./typescript/data/alchemy/processed/CourrierBlessing.tsx ***!
@@ -50985,6 +51255,242 @@ var GoldenSun = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Alchemic
 
 /***/ }),
 
+/***/ "./typescript/data/alchemy/processed/GreenleavesCurse.tsx":
+/*!****************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/GreenleavesCurse.tsx ***!
+  \****************************************************************/
+/*! exports provided: GreenleavesCurse */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GreenleavesCurse", function() { return GreenleavesCurse; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\GreenleavesCurse.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var GreenleavesCurse = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Malédiction de verderelle (!)').setIdentifier('greenleaves-curse').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "La mal\xE9diction de verderelle est une d\xE9coction de verderelle dans l'eau. Le liquide vert clair qui en r\xE9sulte est un poison violent capable de paralyser les individus les plus forts. A un certain degr\xE9 de concentration la mal\xE9diction de verderelle peut m\xEAme faire sombrer des boeufs dans un coma profond."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 11
+  }
+}, "Paralysie."), " Un personnage qui subit un effet paralytique doit r\xE9ussir un test d'opposition de constitution contre un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 la qualit\xE9 du poison. Si le jet de constitution r\xE9ussi, le personnage joue en dernier pour le round en cours. Si le jet \xE9choue le personnage perds un nombre de round \xE9gal \xE0 la dur\xE9e de la paralysie."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 11
+  }
+}, "Coma."), " Un personnage qui subit un effet de coma doit r\xE9ussir un test d'opposition de constitution contre un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 la qualit\xE9 du poison. Si le jet \xE9choue le personnage tombe imm\xE9diatement dans le coma."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40,
+    columnNumber: 11
+  }
+}, "Mutisme."), " Un personnage qui subit un les effets du mutisme doit r\xE9ussir un test d'opposition de constitution contre un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 la qualit\xE9 du poison. Si le jet \xE9choue le personnage ne peut plus communiquer par la parole pendant un nombre de round \xE9gal \xE0 la dur\xE9e de l'effet du mutisme."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Paralysie")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 53,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Coma (Concentration x3)")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "~")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Mutisme")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 69,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 69,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/GreenleavesInfusion.tsx":
+/*!*******************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/GreenleavesInfusion.tsx ***!
+  \*******************************************************************/
+/*! exports provided: GreenleavesInfusion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GreenleavesInfusion", function() { return GreenleavesInfusion; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\GreenleavesInfusion.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var GreenleavesInfusion = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Infusion de verderelle').setIdentifier('greenleaves-infusion').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "L'infusion de verderelle est connue pour ses vertues d'antidote ainsi que pour les douloureux maux de t\xEAtes qu'elle peut provoquer aux individus n'ayant pas la pr\xE9sence d'esprit de la faire bouillir un peut plus longtemps que les autres infusions."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Fi\xE8vre")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Antidote")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/GreenleavesPurifier.tsx":
+/*!*******************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/GreenleavesPurifier.tsx ***!
+  \*******************************************************************/
+/*! exports provided: GreenleavesPurifier */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GreenleavesPurifier", function() { return GreenleavesPurifier; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\GreenleavesPurifier.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var GreenleavesPurifier = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Élixir de verderelle').setIdentifier('greenleaves-purifier').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "L'\xE9lixir de verderelle est un liquide blanc perle obtenu apr\xE8s la fermentation de verderelle dans l'eau. Aussi apell\xE9e lait du passeur, l'\xE9lixir de verderelle est une drogue de dernier recours pour purifier les corps malade. Utiliser de l'\xE9lixir de verderelle est toujours un paris risqu\xE9, car le liquide peut toujours provoquer la mort des corps trop infect\xE9s."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 11
+  }
+}, "Purification de verderelle."), " Toute purification de verderelle n\xE9c\xE9ssite de passer un test contre son intoxication. Si le sujet de l'effet r\xE9alise un score inf\xE9rieur ou \xE9gal \xE0 son niveau d'intoxication divis\xE9 par trois sur un d\xE9 100 il meurt alors imm\xE9diatement dans d'atroces souffrances."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32,
+    columnNumber: 9
+  }
+}, "Si l'individu sujet \xE0 la purification de verderelle r\xE9ussi son premier test, le processus de purification commence. Il est alors imm\xE9diatement l'objet d'une fi\xE8vre qu'il subira jusqu'\xE0 la fin de l'effet de l'elixir. Chaque jour qui s'ensuit, le joueur doit alors passer un test d'opposition entre sa constitution et un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 6 points plus son niveau d'intoxication divis\xE9 par 2. Si le test \xE9choue le personnage sombre imm\xE9diatement dans le coma et doit donc \xEAtre stabilis\xE9."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43,
+    columnNumber: 9
+  }
+}, "Toute heure pass\xE9 sous l'effet de la verderelle compte triple pour la r\xE9duction de l'intoxication \xE0 l'\xE9ther. Tous les effets de paralysie, d'empoisonement, de rage et de somnif\xE8re sont imm\xE9diatement drain\xE9s par la verderelle et le personnage est insensible \xE0 la maladie pendant toute la dur\xE9e de la purification."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51,
+    columnNumber: 9
+  }
+}, "Un personnage en \xE9tat de purification vie avec un corps compl\xE8tement d\xE9r\xE9gl\xE9, mange de mani\xE8re compl\xE8tement \xE9ratique et doit boire beaucoup pour \xE9viter de se d\xE9sydrater."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Purification de verderelle")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "2", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 63,
+    columnNumber: 25
+  }
+}, "h"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Pouvoir -2")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 71,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).build();
+
+/***/ }),
+
 /***/ "./typescript/data/alchemy/processed/HunterBlessing.tsx":
 /*!**************************************************************!*\
   !*** ./typescript/data/alchemy/processed/HunterBlessing.tsx ***!
@@ -51032,6 +51538,59 @@ var HunterBlessing = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Alc
   __source: {
     fileName: _jsxFileName,
     lineNumber: 42,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/MercenaryBlessing.tsx":
+/*!*****************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/MercenaryBlessing.tsx ***!
+  \*****************************************************************/
+/*! exports provided: MercenaryBlessing */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MercenaryBlessing", function() { return MercenaryBlessing; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\MercenaryBlessing.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var MercenaryBlessing = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Bénédiction du mercenaire').setIdentifier('bloody-bells-infusion').setDescription(__jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 7
+  }
+}, "La b\xE9n\xE9diction du mercenaire est une d\xE9coction de sanguine dans l'eau. C'est un liquide de couleur rouge sang qui am\xE9liore les r\xE9flexes et qui provoque une l\xE9g\xE8re dissociation cognitive entre l'individu qui l'a consomm\xE9 et le r\xE9el. C'est un produit qui a \xE9t\xE9 longtemps utilis\xE9 par les petits groupes de mercenaires en tout genre pour ex\xE9cuter leur contrats de mani\xE8re machinale.")).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9e b\xE2tardes +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Haches +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Marteau +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44,
     columnNumber: 26
   }
 }, "m"), " \xD7 Qa")).build()).build();
@@ -51273,6 +51832,44 @@ var MorpheaNectar = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Alch
 
 /***/ }),
 
+/***/ "./typescript/data/alchemy/processed/NobleBlood.tsx":
+/*!**********************************************************!*\
+  !*** ./typescript/data/alchemy/processed/NobleBlood.tsx ***!
+  \**********************************************************/
+/*! exports provided: NobleBlood */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NobleBlood", function() { return NobleBlood; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\NobleBlood.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var NobleBlood = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_1__["AlchemicMaterial"].builder().setName('Liqueur de lys').setIdentifier('noble-blood').setDescription(__jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 7
+  }
+}, "La mac\xE9ration de la liqueur de lys pendant un mois et sa concentration en quantit\xE9e suffisante permet de fabriquer de la liqueur de lys ou sang des rois. La liqueur de lys est un solvant sans niveau de qualit\xE9, pour produire de la liqueur de lys il suffit de passer un test d'opposition entre sa connaissance de la mac\xE9ration et un degr\xE9 de difficult\xE9 de 16 points. Si le test passe, le r\xE9sultat de la mac\xE9ration sera du solvant fonctionnel, sinon celui-ci perdra tous ses effets \xE0 l'exception pr\xE8s de sa capacit\xE9e \xE0 doubler l'empoisonnement des propri\xE9t\xE9s qui y sont dissoutes. Pour plus d'information sur la liqueur de lys se r\xE9f\xE9r\xE9 \xE0 la ", __jsx("a", {
+  href: "#alchemy-solvents",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 31
+  }
+}, "section de ce chapitre traitant des solvants."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_2__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Intoxication \xE0 l'\xE9ther +2")).setCost(0).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "~")).build()).build();
+
+/***/ }),
+
 /***/ "./typescript/data/alchemy/processed/PandoraInfusion.tsx":
 /*!***************************************************************!*\
   !*** ./typescript/data/alchemy/processed/PandoraInfusion.tsx ***!
@@ -51308,6 +51905,13 @@ var PandoraInfusion = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Al
     lineNumber: 26,
     columnNumber: 25
   }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 43
+  }
 }, "r"), " \xD7 \xBCQa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution +1")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
   __self: undefined,
   __source: {
@@ -51316,6 +51920,80 @@ var PandoraInfusion = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Al
     columnNumber: 26
   }
 }, "m"), " \xD7 Qa")).build()).build();
+
+/***/ }),
+
+/***/ "./typescript/data/alchemy/processed/ParagonBlessing.tsx":
+/*!***************************************************************!*\
+  !*** ./typescript/data/alchemy/processed/ParagonBlessing.tsx ***!
+  \***************************************************************/
+/*! exports provided: ParagonBlessing */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParagonBlessing", function() { return ParagonBlessing; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Unit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/Unit */ "./components/Unit.tsx");
+/* harmony import */ var _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../alchemy/AlchemicMaterial */ "./typescript/alchemy/AlchemicMaterial.ts");
+/* harmony import */ var _alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../alchemy/AlchemicProperty */ "./typescript/alchemy/AlchemicProperty.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\alchemy\\processed\\ParagonBlessing.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var ParagonBlessing = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["AlchemicMaterial"].builder().setName('Bénédiction du parangon').setIdentifier('paragon-infusion').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "La b\xE9n\xE9diction du parangon est une d\xE9coction de lys azur\xE9 dans l'eau. C'est un liquide de couleur bleu fonc\xE9 qui pr\xE9serve du doute et qui facilite le maintient d'une posture imposante pendant les combats. La b\xE9n\xE9diction du parangon est un vieux tonique utilis\xE9 dans certaines familles noble pour sa suppos\xE9e capacit\xE9e \xE0 pr\xE9server la puret\xE9 du sang."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 9
+  }
+}, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 11
+  }
+}, "H\xE9ro\xEFsme."), " Un personnage h\xE9ro\xEFque inspire ses pairs en combat par sa gr\xE2ce et la puret\xE9 de sa posture de combat. Toute personne dans le camp du personnage h\xE9ro\xEFque gagne un bonus de contr\xF4le de 1 point par niveau de concentration de l'effet h\xE9ro\xEFsme. En cas d'\xE9ffondrement mental, un personnage sous effet de l'h\xE9ro\xEFsme est immunis\xE9s des afflictions et ne peut d\xE9velopper qu'une vertue."))).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise de l'\xE9p\xE9e longue +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise de la lance +2")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "10", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46,
+    columnNumber: 26
+  }
+}, "m"), " \xD7 Qa")).build()).addProperty(_alchemy_AlchemicProperty__WEBPACK_IMPORTED_MODULE_3__["AlchemicProperty"].builder().addEffect(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "H\xE9ro\xEFsme")).setCost(1).setDuration(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54,
+    columnNumber: 25
+  }
+}, "r"), " + 1", __jsx(_components_Unit__WEBPACK_IMPORTED_MODULE_1__["Unit"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54,
+    columnNumber: 43
+  }
+}, "r"), " \xD7 \xBCQa")).build()).build();
 
 /***/ }),
 
@@ -51849,88 +52527,133 @@ var WindSyrup = _alchemy_AlchemicMaterial__WEBPACK_IMPORTED_MODULE_2__["Alchemic
 /*!****************************************************!*\
   !*** ./typescript/data/alchemy/processed/index.ts ***!
   \****************************************************/
-/*! exports provided: CourrierBlessing, DreamstarInfusion, GoldenSun, HunterBlessing, MorpheaNectar, PandoraInfusion, PegasusInfusion, SkyhammerInfusion, SquireBlessing, StormLiquor, SunriseInfusion, ThiefBlessing, TreeBlood, WarriorBlessing, WindSyrup, ALL */
+/*! exports provided: BloodDance, BloodyBellsInfusion, CeruleanInfusion, CourrierBlessing, DreamstarInfusion, GoldenSun, GreenleavesCurse, GreenleavesInfusion, GreenleavesPurifier, HunterBlessing, MercenaryBlessing, MorpheaNectar, NobleBlood, PandoraInfusion, ParagonBlessing, PegasusInfusion, SkyhammerInfusion, SquireBlessing, StormLiquor, SunriseInfusion, ThiefBlessing, TreeBlood, WarriorBlessing, WindSyrup, ALL */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL", function() { return ALL; });
-/* harmony import */ var _CourrierBlessing__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CourrierBlessing */ "./typescript/data/alchemy/processed/CourrierBlessing.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CourrierBlessing", function() { return _CourrierBlessing__WEBPACK_IMPORTED_MODULE_0__["CourrierBlessing"]; });
+/* harmony import */ var _BloodDance__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BloodDance */ "./typescript/data/alchemy/processed/BloodDance.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodDance", function() { return _BloodDance__WEBPACK_IMPORTED_MODULE_0__["BloodDance"]; });
 
-/* harmony import */ var _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DreamstarInfusion */ "./typescript/data/alchemy/processed/DreamstarInfusion.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DreamstarInfusion", function() { return _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_1__["DreamstarInfusion"]; });
+/* harmony import */ var _BloodyBellsInfusion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BloodyBellsInfusion */ "./typescript/data/alchemy/processed/BloodyBellsInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodyBellsInfusion", function() { return _BloodyBellsInfusion__WEBPACK_IMPORTED_MODULE_1__["BloodyBellsInfusion"]; });
 
-/* harmony import */ var _GoldenSun__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./GoldenSun */ "./typescript/data/alchemy/processed/GoldenSun.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GoldenSun", function() { return _GoldenSun__WEBPACK_IMPORTED_MODULE_2__["GoldenSun"]; });
+/* harmony import */ var _CeruleanInfusion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CeruleanInfusion */ "./typescript/data/alchemy/processed/CeruleanInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CeruleanInfusion", function() { return _CeruleanInfusion__WEBPACK_IMPORTED_MODULE_2__["CeruleanInfusion"]; });
 
-/* harmony import */ var _HunterBlessing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HunterBlessing */ "./typescript/data/alchemy/processed/HunterBlessing.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HunterBlessing", function() { return _HunterBlessing__WEBPACK_IMPORTED_MODULE_3__["HunterBlessing"]; });
+/* harmony import */ var _CourrierBlessing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CourrierBlessing */ "./typescript/data/alchemy/processed/CourrierBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CourrierBlessing", function() { return _CourrierBlessing__WEBPACK_IMPORTED_MODULE_3__["CourrierBlessing"]; });
 
-/* harmony import */ var _MorpheaNectar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./MorpheaNectar */ "./typescript/data/alchemy/processed/MorpheaNectar.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MorpheaNectar", function() { return _MorpheaNectar__WEBPACK_IMPORTED_MODULE_4__["MorpheaNectar"]; });
+/* harmony import */ var _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./DreamstarInfusion */ "./typescript/data/alchemy/processed/DreamstarInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DreamstarInfusion", function() { return _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_4__["DreamstarInfusion"]; });
 
-/* harmony import */ var _PandoraInfusion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./PandoraInfusion */ "./typescript/data/alchemy/processed/PandoraInfusion.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PandoraInfusion", function() { return _PandoraInfusion__WEBPACK_IMPORTED_MODULE_5__["PandoraInfusion"]; });
+/* harmony import */ var _GoldenSun__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./GoldenSun */ "./typescript/data/alchemy/processed/GoldenSun.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GoldenSun", function() { return _GoldenSun__WEBPACK_IMPORTED_MODULE_5__["GoldenSun"]; });
 
-/* harmony import */ var _PegasusInfusion__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./PegasusInfusion */ "./typescript/data/alchemy/processed/PegasusInfusion.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PegasusInfusion", function() { return _PegasusInfusion__WEBPACK_IMPORTED_MODULE_6__["PegasusInfusion"]; });
+/* harmony import */ var _GreenleavesCurse__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./GreenleavesCurse */ "./typescript/data/alchemy/processed/GreenleavesCurse.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GreenleavesCurse", function() { return _GreenleavesCurse__WEBPACK_IMPORTED_MODULE_6__["GreenleavesCurse"]; });
 
-/* harmony import */ var _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./SkyhammerInfusion */ "./typescript/data/alchemy/processed/SkyhammerInfusion.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkyhammerInfusion", function() { return _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_7__["SkyhammerInfusion"]; });
+/* harmony import */ var _GreenleavesInfusion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./GreenleavesInfusion */ "./typescript/data/alchemy/processed/GreenleavesInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GreenleavesInfusion", function() { return _GreenleavesInfusion__WEBPACK_IMPORTED_MODULE_7__["GreenleavesInfusion"]; });
 
-/* harmony import */ var _SquireBlessing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SquireBlessing */ "./typescript/data/alchemy/processed/SquireBlessing.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SquireBlessing", function() { return _SquireBlessing__WEBPACK_IMPORTED_MODULE_8__["SquireBlessing"]; });
+/* harmony import */ var _GreenleavesPurifier__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./GreenleavesPurifier */ "./typescript/data/alchemy/processed/GreenleavesPurifier.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GreenleavesPurifier", function() { return _GreenleavesPurifier__WEBPACK_IMPORTED_MODULE_8__["GreenleavesPurifier"]; });
 
-/* harmony import */ var _StormLiquor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./StormLiquor */ "./typescript/data/alchemy/processed/StormLiquor.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StormLiquor", function() { return _StormLiquor__WEBPACK_IMPORTED_MODULE_9__["StormLiquor"]; });
+/* harmony import */ var _HunterBlessing__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./HunterBlessing */ "./typescript/data/alchemy/processed/HunterBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HunterBlessing", function() { return _HunterBlessing__WEBPACK_IMPORTED_MODULE_9__["HunterBlessing"]; });
 
-/* harmony import */ var _SunriseInfusion__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./SunriseInfusion */ "./typescript/data/alchemy/processed/SunriseInfusion.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SunriseInfusion", function() { return _SunriseInfusion__WEBPACK_IMPORTED_MODULE_10__["SunriseInfusion"]; });
+/* harmony import */ var _MercenaryBlessing__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./MercenaryBlessing */ "./typescript/data/alchemy/processed/MercenaryBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MercenaryBlessing", function() { return _MercenaryBlessing__WEBPACK_IMPORTED_MODULE_10__["MercenaryBlessing"]; });
 
-/* harmony import */ var _ThiefBlessing__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ThiefBlessing */ "./typescript/data/alchemy/processed/ThiefBlessing.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThiefBlessing", function() { return _ThiefBlessing__WEBPACK_IMPORTED_MODULE_11__["ThiefBlessing"]; });
+/* harmony import */ var _MorpheaNectar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./MorpheaNectar */ "./typescript/data/alchemy/processed/MorpheaNectar.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MorpheaNectar", function() { return _MorpheaNectar__WEBPACK_IMPORTED_MODULE_11__["MorpheaNectar"]; });
 
-/* harmony import */ var _TreeBlood__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./TreeBlood */ "./typescript/data/alchemy/processed/TreeBlood.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TreeBlood", function() { return _TreeBlood__WEBPACK_IMPORTED_MODULE_12__["TreeBlood"]; });
+/* harmony import */ var _NobleBlood__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./NobleBlood */ "./typescript/data/alchemy/processed/NobleBlood.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NobleBlood", function() { return _NobleBlood__WEBPACK_IMPORTED_MODULE_12__["NobleBlood"]; });
 
-/* harmony import */ var _WarriorBlessing__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./WarriorBlessing */ "./typescript/data/alchemy/processed/WarriorBlessing.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WarriorBlessing", function() { return _WarriorBlessing__WEBPACK_IMPORTED_MODULE_13__["WarriorBlessing"]; });
+/* harmony import */ var _PandoraInfusion__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./PandoraInfusion */ "./typescript/data/alchemy/processed/PandoraInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PandoraInfusion", function() { return _PandoraInfusion__WEBPACK_IMPORTED_MODULE_13__["PandoraInfusion"]; });
 
-/* harmony import */ var _WindSyrup__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./WindSyrup */ "./typescript/data/alchemy/processed/WindSyrup.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindSyrup", function() { return _WindSyrup__WEBPACK_IMPORTED_MODULE_14__["WindSyrup"]; });
+/* harmony import */ var _ParagonBlessing__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ParagonBlessing */ "./typescript/data/alchemy/processed/ParagonBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ParagonBlessing", function() { return _ParagonBlessing__WEBPACK_IMPORTED_MODULE_14__["ParagonBlessing"]; });
 
+/* harmony import */ var _PegasusInfusion__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./PegasusInfusion */ "./typescript/data/alchemy/processed/PegasusInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PegasusInfusion", function() { return _PegasusInfusion__WEBPACK_IMPORTED_MODULE_15__["PegasusInfusion"]; });
 
+/* harmony import */ var _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./SkyhammerInfusion */ "./typescript/data/alchemy/processed/SkyhammerInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkyhammerInfusion", function() { return _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_16__["SkyhammerInfusion"]; });
 
+/* harmony import */ var _SquireBlessing__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./SquireBlessing */ "./typescript/data/alchemy/processed/SquireBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SquireBlessing", function() { return _SquireBlessing__WEBPACK_IMPORTED_MODULE_17__["SquireBlessing"]; });
 
+/* harmony import */ var _StormLiquor__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./StormLiquor */ "./typescript/data/alchemy/processed/StormLiquor.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StormLiquor", function() { return _StormLiquor__WEBPACK_IMPORTED_MODULE_18__["StormLiquor"]; });
 
+/* harmony import */ var _SunriseInfusion__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./SunriseInfusion */ "./typescript/data/alchemy/processed/SunriseInfusion.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SunriseInfusion", function() { return _SunriseInfusion__WEBPACK_IMPORTED_MODULE_19__["SunriseInfusion"]; });
 
+/* harmony import */ var _ThiefBlessing__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./ThiefBlessing */ "./typescript/data/alchemy/processed/ThiefBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThiefBlessing", function() { return _ThiefBlessing__WEBPACK_IMPORTED_MODULE_20__["ThiefBlessing"]; });
 
+/* harmony import */ var _TreeBlood__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./TreeBlood */ "./typescript/data/alchemy/processed/TreeBlood.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TreeBlood", function() { return _TreeBlood__WEBPACK_IMPORTED_MODULE_21__["TreeBlood"]; });
 
+/* harmony import */ var _WarriorBlessing__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./WarriorBlessing */ "./typescript/data/alchemy/processed/WarriorBlessing.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WarriorBlessing", function() { return _WarriorBlessing__WEBPACK_IMPORTED_MODULE_22__["WarriorBlessing"]; });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* harmony import */ var _WindSyrup__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./WindSyrup */ "./typescript/data/alchemy/processed/WindSyrup.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindSyrup", function() { return _WindSyrup__WEBPACK_IMPORTED_MODULE_23__["WindSyrup"]; });
 
 
-var ALL = [_CourrierBlessing__WEBPACK_IMPORTED_MODULE_0__["CourrierBlessing"], _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_1__["DreamstarInfusion"], _GoldenSun__WEBPACK_IMPORTED_MODULE_2__["GoldenSun"], _HunterBlessing__WEBPACK_IMPORTED_MODULE_3__["HunterBlessing"], _MorpheaNectar__WEBPACK_IMPORTED_MODULE_4__["MorpheaNectar"], _PandoraInfusion__WEBPACK_IMPORTED_MODULE_5__["PandoraInfusion"], _PegasusInfusion__WEBPACK_IMPORTED_MODULE_6__["PegasusInfusion"], _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_7__["SkyhammerInfusion"], _SquireBlessing__WEBPACK_IMPORTED_MODULE_8__["SquireBlessing"], _StormLiquor__WEBPACK_IMPORTED_MODULE_9__["StormLiquor"], _SunriseInfusion__WEBPACK_IMPORTED_MODULE_10__["SunriseInfusion"], _ThiefBlessing__WEBPACK_IMPORTED_MODULE_11__["ThiefBlessing"], _TreeBlood__WEBPACK_IMPORTED_MODULE_12__["TreeBlood"], _WarriorBlessing__WEBPACK_IMPORTED_MODULE_13__["WarriorBlessing"], _WindSyrup__WEBPACK_IMPORTED_MODULE_14__["WindSyrup"]];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ALL = [_BloodDance__WEBPACK_IMPORTED_MODULE_0__["BloodDance"], _BloodyBellsInfusion__WEBPACK_IMPORTED_MODULE_1__["BloodyBellsInfusion"], _CeruleanInfusion__WEBPACK_IMPORTED_MODULE_2__["CeruleanInfusion"], _CourrierBlessing__WEBPACK_IMPORTED_MODULE_3__["CourrierBlessing"], _DreamstarInfusion__WEBPACK_IMPORTED_MODULE_4__["DreamstarInfusion"], _GoldenSun__WEBPACK_IMPORTED_MODULE_5__["GoldenSun"], _GreenleavesCurse__WEBPACK_IMPORTED_MODULE_6__["GreenleavesCurse"], _GreenleavesInfusion__WEBPACK_IMPORTED_MODULE_7__["GreenleavesInfusion"], _GreenleavesPurifier__WEBPACK_IMPORTED_MODULE_8__["GreenleavesPurifier"], _HunterBlessing__WEBPACK_IMPORTED_MODULE_9__["HunterBlessing"], _MercenaryBlessing__WEBPACK_IMPORTED_MODULE_10__["MercenaryBlessing"], _MorpheaNectar__WEBPACK_IMPORTED_MODULE_11__["MorpheaNectar"], _NobleBlood__WEBPACK_IMPORTED_MODULE_12__["NobleBlood"], _PandoraInfusion__WEBPACK_IMPORTED_MODULE_13__["PandoraInfusion"], _ParagonBlessing__WEBPACK_IMPORTED_MODULE_14__["ParagonBlessing"], _PegasusInfusion__WEBPACK_IMPORTED_MODULE_15__["PegasusInfusion"], _SkyhammerInfusion__WEBPACK_IMPORTED_MODULE_16__["SkyhammerInfusion"], _SquireBlessing__WEBPACK_IMPORTED_MODULE_17__["SquireBlessing"], _StormLiquor__WEBPACK_IMPORTED_MODULE_18__["StormLiquor"], _SunriseInfusion__WEBPACK_IMPORTED_MODULE_19__["SunriseInfusion"], _ThiefBlessing__WEBPACK_IMPORTED_MODULE_20__["ThiefBlessing"], _TreeBlood__WEBPACK_IMPORTED_MODULE_21__["TreeBlood"], _WarriorBlessing__WEBPACK_IMPORTED_MODULE_22__["WarriorBlessing"], _WindSyrup__WEBPACK_IMPORTED_MODULE_23__["WindSyrup"]];
 
 /***/ }),
 
@@ -52958,7 +53681,7 @@ var Subject = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdevelopment%5Crpg%5Cruleset-next%5Cpages%5Cindex.tsx ***!
   \****************************************************************************************************************************/
@@ -52981,5 +53704,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
