@@ -1,5 +1,34 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/Bonus.tsx":
+/*!******************************!*\
+  !*** ./components/Bonus.tsx ***!
+  \******************************/
+/*! exports provided: Bonus */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Bonus", function() { return Bonus; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\components\\Bonus.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function Bonus(props) {
+  return __jsx("span", {
+    className: "bonus",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 10
+    }
+  }, props.children);
+}
+
+/***/ }),
+
 /***/ "./components/Document.tsx":
 /*!*********************************!*\
   !*** ./components/Document.tsx ***!
@@ -290,6 +319,35 @@ function LocalSummary(props) {
 }
 
 (function (_LocalSummary) {})(LocalSummary || (LocalSummary = {}));
+
+/***/ }),
+
+/***/ "./components/Malus.tsx":
+/*!******************************!*\
+  !*** ./components/Malus.tsx ***!
+  \******************************/
+/*! exports provided: Malus */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Malus", function() { return Malus; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\components\\Malus.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function Malus(props) {
+  return __jsx("span", {
+    className: "malus",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 10
+    }
+  }, props.children);
+}
 
 /***/ }),
 
@@ -2676,9 +2734,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _echoes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./echoes */ "./content/echoes/index.tsx");
 /* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
 /* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
-/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
+/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
+/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\Content.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2700,112 +2760,119 @@ function Content() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, "rules"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "Table des lois"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 9
     }
   }, " R\xE8gles du jeu corvus ")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 7
     }
   }, __jsx(_Summary__WEBPACK_IMPORTED_MODULE_9__["Summary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 9
     }
   }), __jsx(_characteristics__WEBPACK_IMPORTED_MODULE_6__["Characteristics"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 9
     }
   }), __jsx(_masteries__WEBPACK_IMPORTED_MODULE_7__["Masteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 9
     }
   }), __jsx(_knowledges__WEBPACK_IMPORTED_MODULE_8__["Knowledges"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 9
-    }
-  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_15__["Feats"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 9
     }
-  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
+  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_16__["Feats"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 9
     }
-  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
+  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 9
     }
-  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_12__["Echoes"], {
+  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_13__["Alchemy"], {
+  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_12__["Echoes"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_14__["Biomancy"], {
+  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_13__["Alchemy"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
+      columnNumber: 9
+    }
+  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_14__["Biomancy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 9
+    }
+  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_15__["Items"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 9
     }
   })));
@@ -6881,14 +6948,14 @@ function Introduction() {
       lineNumber: 21,
       columnNumber: 9
     }
-  }, "La biomancie est une branche de l'alchimie qui vise \xE0 ma\xEEtriser l'\xE9volution du corps humain. La biomancie n'est pas une transformation alchimique, et elle n'a rien \xE0 voir avec la production de consomables, la biomancie c'est d'abord l'art de la mutation. Cette discipline n'est cependant pas courante, voir m\xEAme proscrite. Il est possible \xE0 n'importe quelle \xE9poque de profiter d'effets biomantique, mais cel\xE0 requiert d'avoir acc\xE8s \xE0 des experts qui se compte sur les doigts d'une main et d'une volont\xE9 de fer pour ne pas sc\xE9der \xE0 l'appel langoureux de la bestialit\xE9 la plus barbare."), __jsx("p", {
+  }, "La biomancie est une branche de l'alchimie qui vise \xE0 am\xE9liorer le corps humain en lui attribuant des propri\xE9t\xE9s biologiques qui ne sont pas les siennes. La biomancie est une discipline qui n'est pas courante, voir m\xEAme proscrite. Il est tout de m\xEAme possible \xE0 n'importe quelle \xE9poque de profiter d'effets biomantique, mais cel\xE0 requiert d'avoir acc\xE8s \xE0 des experts qui se compte sur les doigts d'une main mais aussi de profiter d'une volont\xE9 de fer pour ne pas sc\xE9der \xE0 l'appel de la bestialit\xE9 la plus barbare."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 32,
       columnNumber: 9
     }
-  }, "A ceux qui emprunteront cette voie, prenez garde, la diff\xE9rence entre un homme, une b\xEAte et un monstre est bien floue pour ceux qui s'\xE9loignent du destin qui leur est trac\xE9 par la fatalit\xE9, et briser ainsi les cha\xEEnes de l'\xE9volution, c'est d'abord creuser la tombe de son \xE2me...")));
+  }, "A ceux qui emprunteront cette voie, prenez garde, la diff\xE9rence entre un homme, une b\xEAte et un monstre est bien floue pour ceux qui jouent avec les cordes de l'\xE9volution...")));
 }
 
 /***/ }),
@@ -6984,49 +7051,42 @@ function Mutation() {
       lineNumber: 31,
       columnNumber: 9
     }
-  }, "En biomancie, quand l'on s\xE9lectionne une cr\xE9ature pour en extraire des capacit\xE9s, ont dit alors que l'on suit un ", __jsx("strong", {
+  }, "En biomancie, quand l'on d\xE9sire s'attribuer les capacit\xE9s d'une cr\xE9ature en particulier, l'ont dit alors que l'on suit un ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 53
+      columnNumber: 69
     }
-  }, "totem"), ". Tout mutant est associ\xE9 \xE0 un ou plusieurs totem et \xE0 chaque totem est associ\xE9 une s\xE9rie de mutations. Le loup, l'ours, le hiboux, le serpent, l'aigle, le renard et le corbeau sont des exemples d'animaux totem. Plus un mutant suit de totem diff\xE9rents, plus il prend le risque subir une ", __jsx("strong", {
+  }, "totem"), ". Tout biomancien, est associ\xE9 \xE0 un ou plusieurs totem. Le loup, l'ours, le hiboux, le serpent, l'aigle, le renard et le corbeau sont des exemples d'animaux totem. Plus un mutant suit de totem diff\xE9rents, plus il prend le risque subir une ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 28
+      lineNumber: 37,
+      columnNumber: 63
     }
-  }, "dissonance tot\xE9mique"), ". Le corp des personnages en \xE9tat de dissonance deviennent un champ de bataille o\xF9 chaque totem tente de prendre le dessus sur les autres, le tout provoquant une spirale infernale et chaotiques de mutations r\xE9p\xE9t\xE9es. Autant dire que la cr\xE9ature qui en r\xE9sulte est loin d'\xEAtre civilis\xE9e et contr\xF4lable."), __jsx("p", {
+  }, "dissonance \xE9volutive"), ". Le corp d'un personnage en \xE9tat de dissonance \xE9volutive devient un champ de bataille o\xF9 chaque totem tente de prendre le dessus sur les autres, le tout provoquant une spirale infernale et chaotiques de transformations r\xE9p\xE9t\xE9es. L'esprit du biomancien survit rarement \xE0 une telle pression et quand le corps de la victime se stabilise vaguement il ne reste alors qu'une b\xEAte difforme et incontr\xF4lable."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 47,
       columnNumber: 9
     }
   }, "Une ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 48,
       columnNumber: 15
     }
-  }, "mutation"), " est un changement qui \xE9loigne le mutant un peut plus de l'homme et le rapproche progressivement de la b\xEAte. Chaque mutation apporte ainsi sont lot d'avantages passifs acquis en tout temps, ainsi que des attributs qui apparaissent en fonction du niveau de ", __jsx("strong", {
+  }, "mutation"), " est un changement qui \xE9loigne le biomancien un peut plus de l'homme et le rapproche progressivement de son totem. Plus un biomancien mute, plus il est sujet \xE0 ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 21
+      lineNumber: 50,
+      columnNumber: 67
     }
-  }, "bestialit\xE9"), " du mutant sur le moment. Plus un mutant mute, plus il est sujet \xE0 ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 44
-    }
-  }, "l'appel"), ", c'est \xE0 dire \xE0 la tentation de s'abandonner d\xE9finitivement \xE0 la libert\xE9 sauvage et meurtri\xE8re de la course \xE0 l'\xE9volution. Les individus qui sc\xE8de \xE0 l'appel deviennent des b\xEAtes assoiff\xE9es de sang et de violence qui ne suivent plus que leurs instincts les plus primitifs."), __jsx("p", {
+  }, "l'appel"), ", c'est \xE0 dire \xE0 la tentation d'abandonner d\xE9finitivement son corps et son esprit \xE0 son ou ses totem. Les individus qui sc\xE8dent \xE0 l'appel deviennent des b\xEAtes assoiff\xE9es de sang et de violence qui ne suivent plus que leurs instincts les plus primitifs. Les cr\xE9atures r\xE9sultant de ce processus sont alors appell\xE9s des \xE9chou\xE9s."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -7040,7 +7100,7 @@ function Mutation() {
       lineNumber: 60,
       columnNumber: 25
     }
-  }, "mutag\xE8ne"), " est le moteur central de la biomancie, c'est gr\xE2ce \xE0 ce produit alchimique qu'il est possible de muter. Sans mutag\xE8ne, pas d'\xE9volution contr\xF4l\xE9e.")));
+  }, "mutag\xE8ne"), " est le moteur de la biomancie, c'est gr\xE2ce \xE0 ce produit alchimique qu'il est possible de muter. Sans mutag\xE8ne, pas d'\xE9volution contr\xF4l\xE9e. Les mutag\xE8nes doivent \xEAtre calibr\xE9s avant d'\xEAtre ing\xE9r\xE9s, c'est \xE0 dire associ\xE9s \xE0 un totem. Un mutag\xE8ne non calibr\xE9 est dit libre et est consid\xE9r\xE9 comme appartenir \xE0 un totem au hasard \xE0 l'ingestion. Les mutag\xE8nes peuvent \xEAtre trouv\xE9s durant une aventure, mais le plus simple reste de les fabriquer en chassant des avatars.")));
 }
 
 /***/ }),
@@ -9081,6 +9141,4032 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./content/items/Introduction.tsx":
+/*!****************************************!*\
+  !*** ./content/items/Introduction.tsx ***!
+  \****************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "items-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Objets"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/items/Items.tsx":
+/*!*********************************!*\
+  !*** ./content/items/Items.tsx ***!
+  \*********************************/
+/*! exports provided: Items */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Items", function() { return Items; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/items/Introduction.tsx");
+/* harmony import */ var _Quality__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Quality */ "./content/items/Quality.tsx");
+/* harmony import */ var _weapons__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./weapons */ "./content/items/weapons/index.ts");
+/* harmony import */ var _armors__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./armors */ "./content/items/armors/index.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\Items.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+function Items() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "items"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "objet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "\xE9quipement"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, "Objets & \xC9quipement"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }), __jsx(_Quality__WEBPACK_IMPORTED_MODULE_9__["Quality"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx(_weapons__WEBPACK_IMPORTED_MODULE_10__["Weapons"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx(_armors__WEBPACK_IMPORTED_MODULE_11__["Armors"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/items/Quality.tsx":
+/*!***********************************!*\
+  !*** ./content/items/Quality.tsx ***!
+  \***********************************/
+/*! exports provided: Quality */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Quality", function() { return Quality; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\Quality.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Quality() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "items-quality"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "qualit\xE9"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Qualit\xE9"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/items/armors/Armors.tsx":
+/*!*****************************************!*\
+  !*** ./content/items/armors/Armors.tsx ***!
+  \*****************************************/
+/*! exports provided: Armors */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Armors", function() { return Armors; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _Light__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Light */ "./content/items/armors/Light.tsx");
+/* harmony import */ var _Medium__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Medium */ "./content/items/armors/Medium.tsx");
+/* harmony import */ var _Heavy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Heavy */ "./content/items/armors/Heavy.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\armors\\Armors.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+function Armors() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "items-armors"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "armure"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "Armures"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx(_Light__WEBPACK_IMPORTED_MODULE_7__["Light"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }), __jsx(_Medium__WEBPACK_IMPORTED_MODULE_8__["Medium"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }), __jsx(_Heavy__WEBPACK_IMPORTED_MODULE_9__["Heavy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/items/armors/Heavy.tsx":
+/*!****************************************!*\
+  !*** ./content/items/armors/Heavy.tsx ***!
+  \****************************************/
+/*! exports provided: Heavy */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Heavy", function() { return Heavy; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_Bonus__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/Bonus */ "./components/Bonus.tsx");
+/* harmony import */ var _components_Malus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/Malus */ "./components/Malus.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\armors\\Heavy.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+function Heavy() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "items-armors-heavy"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Armures lourdes"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Armure"), __jsx("th", {
+    colSpan: 5,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Points / Poids par qualit\xE9"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 15
+    }
+  }, "Effets"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "Armure de plates"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 43
+    }
+  }, "+7"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 63
+    }
+  }, "14")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, "+8 / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 48
+    }
+  }, "14")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, "+8 / 13"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 43
+    }
+  }, "+9"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 63
+    }
+  }, "12")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 43
+    }
+  }, "+9"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 63
+    }
+  }, "10")), __jsx("td", {
+    rowSpan: 3,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts des fl\xE8ches convertis en d\xE9g\xE2ts contondant r\xE9duits de moiti\xE9. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }), "Les d\xE9g\xE2ts tranchant l\xE9gers et d\xE9g\xE2ts \xE0 mains nues sont nullifi\xE9s.")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "Armure de plaques"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 43
+    }
+  }, "+8"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 63
+    }
+  }, "14")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 43
+    }
+  }, "+9"), " / 13"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 15
+    }
+  }, "+10 / 13"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 15
+    }
+  }, "+10 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 49
+    }
+  }, "12")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, "+10 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 49
+    }
+  }, "10"))), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, "Harnois"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 43
+    }
+  }, "+9"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 63
+    }
+  }, "14")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 43
+    }
+  }, "+10"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 64
+    }
+  }, "13")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }, "+12 / 12"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 15
+    }
+  }, "+12 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 49
+    }
+  }, "10")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, "+12 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 49
+    }
+  }, "10")))), __jsx("tfoot", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 15
+    }
+  }), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 15
+    }
+  }, "0 - 4"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 15
+    }
+  }, "5 - 9"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 15
+    }
+  }, "10 - 14"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, "15 - 19"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }, "20+"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/armors/Light.tsx":
+/*!****************************************!*\
+  !*** ./content/items/armors/Light.tsx ***!
+  \****************************************/
+/*! exports provided: Light */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Light", function() { return Light; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_Bonus__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/Bonus */ "./components/Bonus.tsx");
+/* harmony import */ var _components_Malus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/Malus */ "./components/Malus.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\armors\\Light.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+function Light() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "items-armors-light"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Armures l\xE9g\xE8res"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Armure"), __jsx("th", {
+    colSpan: 5,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Points / Poids par qualit\xE9"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 15
+    }
+  }, "Effets"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "Armure matelass\xE9e"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 43
+    }
+  }, "+0"), " / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 43
+    }
+  }, "+1"), " / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, "+2 / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, "+2 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 48
+    }
+  }, "2")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 43
+    }
+  }, "+3"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 63
+    }
+  }, "2")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }, "Armure de cuir (souple)"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 43
+    }
+  }, "+0"), " / 2"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 43
+    }
+  }, "+0"), " / 2"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }, "+1 / 2"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 43
+    }
+  }, "+2"), " / 2"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 43
+    }
+  }, "+2"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 63
+    }
+  }, "1")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, "Armure de cuir (rigide)"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 43
+    }
+  }, "+0"), " / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 43
+    }
+  }, "+1"), " / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, "+2 / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 43
+    }
+  }, "+3"), " / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 43
+    }
+  }, "+3"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 63
+    }
+  }, "2")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, "Armure de cuir (clout\xE9e)"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 43
+    }
+  }, "+1"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 63
+    }
+  }, "5")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 43
+    }
+  }, "+2"), " / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 15
+    }
+  }, "+3 / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 43
+    }
+  }, "+4"), " / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 43
+    }
+  }, "+4"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 63
+    }
+  }, "3")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }, "Chemise de mailles"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 43
+    }
+  }, "+1"), " / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 43
+    }
+  }, "+2"), " / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 15
+    }
+  }, "+3 / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 43
+    }
+  }, "+4"), " / 4"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 43
+    }
+  }, "+5"), " / 4"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 15
+    }
+  }, "Remplace une armure interm\xE9diaire. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 52
+    }
+  }), "Inefficace en cas de critique. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 48
+    }
+  }), "D\xE9g\xE2ts tranchants l\xE9gers et d\xE9g\xE2ts \xE0 mains nues r\xE9duit de moiti\xE9."))), __jsx("tfoot", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 15
+    }
+  }), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 15
+    }
+  }, "0 - 4"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 15
+    }
+  }, "5 - 9"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 15
+    }
+  }, "10 - 14"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 15
+    }
+  }, "15 - 19"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 15
+    }
+  }, "20+"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/armors/Medium.tsx":
+/*!*****************************************!*\
+  !*** ./content/items/armors/Medium.tsx ***!
+  \*****************************************/
+/*! exports provided: Medium */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Medium", function() { return Medium; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_Bonus__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/Bonus */ "./components/Bonus.tsx");
+/* harmony import */ var _components_Malus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/Malus */ "./components/Malus.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\armors\\Medium.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+function Medium() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "items-armors-medium"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "Armures interm\xE9diaires"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Armure"), __jsx("th", {
+    colSpan: 5,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Points / Poids par qualit\xE9"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 15
+    }
+  }, "Effets"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "Armure de peau"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 43
+    }
+  }, "+1"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 63
+    }
+  }, "4")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }, "+2 / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 48
+    }
+  }, "4")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, "+2 / 3"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, "+2 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 48
+    }
+  }, "2")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 43
+    }
+  }, "+3"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 63
+    }
+  }, "2")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }, "Cotte de mailles"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 43
+    }
+  }, "+3"), " / ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 63
+    }
+  }, "6")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 43
+    }
+  }, "+3"), " / 5"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }, "+4 / 5"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 43
+    }
+  }, "+5"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 63
+    }
+  }, "4")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 43
+    }
+  }, "+6"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 63
+    }
+  }, "4")), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts tranchants l\xE9gers et d\xE9g\xE2ts \xE0 mains nues r\xE9duit de moiti\xE9.")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, "Armure d'\xE9cailles"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 43
+    }
+  }, "+2"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 63
+    }
+  }, "8")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 43
+    }
+  }, "+4"), " / 10"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, "+6 / 10"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 43
+    }
+  }, "+7"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 63
+    }
+  }, "9")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 43
+    }
+  }, "+7"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 63
+    }
+  }, "8")), __jsx("td", {
+    rowSpan: 2,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts des fl\xE8ches transform\xE9s en d\xE9g\xE2ts contondants r\xE9duits de moiti\xE9. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 28
+    }
+  }), "D\xE9g\xE2ts tranchants l\xE9gers et d\xE9g\xE2ts \xE0 mains nues r\xE9duit de moiti\xE9.")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 15
+    }
+  }, "Brigandine"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 43
+    }
+  }, "+2"), "  / 9"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 43
+    }
+  }, "+4"), "  / 9"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }, "+6 / 9"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }, "+6 / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 48
+    }
+  }, "8")), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 43
+    }
+  }, "+7"), " / ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 63
+    }
+  }, "8"))), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 15
+    }
+  }, "Cuirasse"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 43
+    }
+  }, "+2"), " / 8"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 43
+    }
+  }, "+4"), " / 8"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 15
+    }
+  }, "+6 / 8"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 43
+    }
+  }, "+7"), " / 8"), __jsx("td", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 15
+    }
+  }, __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 43
+    }
+  }, "+8"), " / 8"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 15
+    }
+  }, "Remplace une armure lourde. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 45
+    }
+  }), "Inefficace en cas de critique. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 48
+    }
+  }), "D\xE9g\xE2ts des fl\xE8ches transform\xE9s en d\xE9g\xE2ts contondants r\xE9duits de moiti\xE9. ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 28
+    }
+  }), "D\xE9g\xE2ts tranchants l\xE9gers et d\xE9g\xE2ts \xE0 mains nues nullifi\xE9s."))), __jsx("tfoot", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 15
+    }
+  }), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 15
+    }
+  }, "0 - 4"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 15
+    }
+  }, "5 - 9"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 15
+    }
+  }, "10 - 14"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 15
+    }
+  }, "15 - 19"), __jsx("th", {
+    className: "text-center",
+    style: {
+      width: '75px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 15
+    }
+  }, "20+"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
+      columnNumber: 15
+    }
+  }), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/armors/index.ts":
+/*!***************************************!*\
+  !*** ./content/items/armors/index.ts ***!
+  \***************************************/
+/*! exports provided: Armors */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Armors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Armors */ "./content/items/armors/Armors.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Armors", function() { return _Armors__WEBPACK_IMPORTED_MODULE_1__["Armors"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/items/index.ts":
+/*!********************************!*\
+  !*** ./content/items/index.ts ***!
+  \********************************/
+/*! exports provided: Items */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Items__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Items */ "./content/items/Items.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Items", function() { return _Items__WEBPACK_IMPORTED_MODULE_0__["Items"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/items/weapons/Distance.tsx":
+/*!********************************************!*\
+  !*** ./content/items/weapons/Distance.tsx ***!
+  \********************************************/
+/*! exports provided: Distance */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Distance", function() { return Distance; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\weapons\\Distance.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Distance() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "items-weapons-distance"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Projectiles"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, "Arme"), __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts"), __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, "Type"), __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Poid(s)"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Blessure"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, "Arbal\xE8te de poing"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "7D + 3D!/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, "0.5 Tir / Round")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "Arbal\xE8te l\xE9g\xE8re"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, "10D + 4D!/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, "0.5 Tir / Round")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "Arbal\xE8te lourde"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, "10D + 7D!/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 15
+    }
+  }, "0.5 Tir / Round")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, "Arc court"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, "8D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }, "1 Tir / Round")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, "Arc long"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 15
+    }
+  }, "10D + 5D!/x3"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 15
+    }
+  }, "1 Tir / Round"))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/weapons/Heavy.tsx":
+/*!*****************************************!*\
+  !*** ./content/items/weapons/Heavy.tsx ***!
+  \*****************************************/
+/*! exports provided: Heavy */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Heavy", function() { return Heavy; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\weapons\\Heavy.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Heavy() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "items-weapons-heavy"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Armes lourdes"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, "Arme"), __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts"), __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, "Type"), __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Poid(s)"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Blessure"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, "Ep\xE9e longue"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "15D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "Espadon"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, "17D/x3"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "Marteau de guerre"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, "9D + 6D!/x3"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, "Contondant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, "Hache d'arme"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, "9D + 6DA/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/weapons/Light.tsx":
+/*!*****************************************!*\
+  !*** ./content/items/weapons/Light.tsx ***!
+  \*****************************************/
+/*! exports provided: Light */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Light", function() { return Light; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\weapons\\Light.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Light() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "items-weapons-light"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Armes l\xE9g\xE8res"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, "Arme"), __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts"), __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, "Type"), __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Poid(s)"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Blessure"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, "Dague"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "7D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, "Ep\xE9e courte"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "9D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }, "Marteau"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "7D + 2D!/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, "Contondant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, "Hachette"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, "7D + 2DA/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 15
+    }
+  }, "Tranchant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, "Morgenstern"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, "7D + 2D!/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 15
+    }
+  }, "Contondant + Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 15
+    }
+  }, "Lance"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 15
+    }
+  }, "7D/x4"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, "Perforant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/weapons/UnarmedCombat.tsx":
+/*!*************************************************!*\
+  !*** ./content/items/weapons/UnarmedCombat.tsx ***!
+  \*************************************************/
+/*! exports provided: UnarmedCombat */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UnarmedCombat", function() { return UnarmedCombat; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\weapons\\UnarmedCombat.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function UnarmedCombat() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "items-weapons-unarmed-combat"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Combat \xE0 main nues"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, __jsx("table", {
+    className: "table-1d table-vertical fill",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 15
+    }
+  }, "Arme"), __jsx("th", {
+    style: {
+      width: '150px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, "D\xE9g\xE2ts"), __jsx("th", {
+    style: {
+      width: '200px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, "Type"), __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Poid(s)"), __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Blessure"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, "Poing"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 15
+    }
+  }, "3D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "Contondant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "Gantelet clout\xE9"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, "5D/x2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 15
+    }
+  }, "Contondant"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }))))));
+}
+
+/***/ }),
+
+/***/ "./content/items/weapons/Weapons.tsx":
+/*!*******************************************!*\
+  !*** ./content/items/weapons/Weapons.tsx ***!
+  \*******************************************/
+/*! exports provided: Weapons */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Weapons", function() { return Weapons; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _UnarmedCombat__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./UnarmedCombat */ "./content/items/weapons/UnarmedCombat.tsx");
+/* harmony import */ var _Light__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Light */ "./content/items/weapons/Light.tsx");
+/* harmony import */ var _Heavy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Heavy */ "./content/items/weapons/Heavy.tsx");
+/* harmony import */ var _Distance__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Distance */ "./content/items/weapons/Distance.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\items\\weapons\\Weapons.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+function Weapons() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "items-weapons"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "arme"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "Armes"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, __jsx(_UnarmedCombat__WEBPACK_IMPORTED_MODULE_7__["UnarmedCombat"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }), __jsx(_Light__WEBPACK_IMPORTED_MODULE_8__["Light"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }), __jsx(_Heavy__WEBPACK_IMPORTED_MODULE_9__["Heavy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }), __jsx(_Distance__WEBPACK_IMPORTED_MODULE_10__["Distance"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/items/weapons/index.ts":
+/*!****************************************!*\
+  !*** ./content/items/weapons/index.ts ***!
+  \****************************************/
+/*! exports provided: Weapons */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Weapons__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Weapons */ "./content/items/weapons/Weapons.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Weapons", function() { return _Weapons__WEBPACK_IMPORTED_MODULE_0__["Weapons"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/knowledges/Introduction.tsx":
+/*!*********************************************!*\
+  !*** ./content/knowledges/Introduction.tsx ***!
+  \*********************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_Formula__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Formula */ "./components/Formula.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+function range(size) {
+  var result = [];
+
+  for (var index = 0; index < size; ++index) {
+    result.push(index);
+  }
+
+  return result;
+}
+
+function cost(index) {
+  var base = Math.ceil(index / 5);
+  return base * (base + 1) / 2;
+}
+
+function experience(index) {
+  var result = 0;
+
+  for (var costIndex = 0; costIndex <= index; ++costIndex) {
+    result += cost(costIndex);
+  }
+
+  return result;
+}
+
+function Introduction() {
+  var _this = this;
+
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 7
+    }
+  }, "knowledges-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 7
+    }
+  }, "Connaissance"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }, "Les connaissances sont des champs disciplinaires appr\xE9ci\xE9s sur une \xE9chelle relative divis\xE9 en deux modificateurs : un modificateur de sp\xE9cialisation et un modificateur acquis. Les connaissances appartiennent \xE0 des domaines de connaissances, chaque domaine peut regrouper plusieurs connaissances diff\xE9rentes ayant un lien plus ou moins important entre elles."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 9
+    }
+  }, '\\text{Niveau de maîtrise} = ' + '\\text{Modificateur de spécialisation} + ' + '\\text{Modificateur acquis}'), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 9
+    }
+  }, "Le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 14
+    }
+  }, "modificateur d'acquis"), " d'une connaissance d\xE9pend du total de point d'exp\xE9rience investit dans celle-ci. Les 5 premiers points d'acquis co\xFBtent 1 point d'exp\xE9rience, les 5 suivants 3 points d'exp\xE9rience, les 5 encore suivant 6 points d'exp\xE9rience et les 5 derniers 10 points d'exp\xE9rience. Il faut un total de 100 points d'exp\xE9rience pour acqu\xE9rir les 20 premiers point d'acquis d'une connaissance."), __jsx("table", {
+    className: "table-1d",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 9
+    }
+  }, __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    style: {
+      width: '120px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 15
+    }
+  }, " Exp\xE9rience "), range(21).map(function (level) {
+    return __jsx("td", {
+      style: {
+        width: '35px'
+      },
+      key: level,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 19
+      }
+    }, experience(level));
+  })), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 15
+    }
+  }, " Acquis "), range(21).map(function (level) {
+    return __jsx("th", {
+      key: level,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 87,
+        columnNumber: 19
+      }
+    }, level);
+  })))), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 9
+    }
+  }, "Au-del\xE0 de 20 points d'acquis le co\xFBt de chaque groupe de 5 points cons\xE9cutif continue de suivre une croissance triangulaire."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 9
+    }
+  }, '\\forall n \\in \\mathbb{N}, \\text{Coût}(n) = \\frac{' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil \\times \\left ( ' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil + 1 ' + '\\right )' + '}{2}'), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 9
+    }
+  }, "Le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108,
+      columnNumber: 14
+    }
+  }, "modificateur de sp\xE9cialisation"), " d\xE9pend de l'investissement du personnage dans le domaine parent de la connaissance. Un personnage peut toujours choisir de ce sp\xE9cialiser dans un domaine en \xE9change de 25 points d'exp\xE9rience. Un personnage peut se sp\xE9cialiser au maximum dans trois domaines diff\xE9rents. Chaque domaine est alors class\xE9 par ordre d'importance : le domaine primaire, le domaine secondaire et le domaine tertiaire. Toutes les connaissances du domaine primaire ont le droit \xE0 un bonus de sp\xE9cialisation de 3 points, toutes les connaissances du domaine secondaire ont le droit \xE0 un bonus de sp\xE9cialisation de 2 points et toutes les connaissances du domaine tertiaire ont le droit \xE0 un bonus de sp\xE9cialisation de 1 point."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122,
+      columnNumber: 9
+    }
+  }, "Les connaissances permettent de r\xE9soudre des actions aux cons\xE9quences incertaines par des ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124,
+      columnNumber: 31
+    }
+  }, "r\xE9solutions par opposition"), " ou des ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125,
+      columnNumber: 15
+    }
+  }, "tests d'auto-r\xE9solution"), ". Certaines connaissances ont des effets suppl\xE9mentaires en fonction de leur niveau, dans ce cas la nature des effets sont sp\xE9cifi\xE9s dans la description de chaque connaissance.")));
+}
+
+/***/ }),
+
 /***/ "./content/knowledges/Knowledges.tsx":
 /*!*******************************************!*\
   !*** ./content/knowledges/Knowledges.tsx ***!
@@ -9100,8 +13186,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
 /* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
 /* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _survival__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./survival */ "./content/knowledges/survival/index.ts");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Introduction */ "./content/knowledges/Introduction.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\Knowledges.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -9115,49 +13205,63 @@ function Knowledges() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, "knowledges"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, "Connaissance"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, "Connaissances"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 22,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 25,
       columnNumber: 7
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_9__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_survival__WEBPACK_IMPORTED_MODULE_8__["Survival"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
       columnNumber: 9
     }
   })));
@@ -9176,6 +13280,469 @@ function Knowledges() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Knowledges__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Knowledges */ "./content/knowledges/Knowledges.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Knowledges", function() { return _Knowledges__WEBPACK_IMPORTED_MODULE_0__["Knowledges"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/knowledges/survival/Nature.tsx":
+/*!************************************************!*\
+  !*** ./content/knowledges/survival/Nature.tsx ***!
+  \************************************************/
+/*! exports provided: Nature */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Nature", function() { return Nature; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\survival\\Nature.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Nature() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "knowledges-survival-nature"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Connaissance"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Nature"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Nature"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "La connaissance de la nature \xE9value la capacit\xE9 d'un individu \xE0 reconna\xEEtre les esp\xE8ces end\xE9miques de certains milieux et \xE0 s'en pr\xE9munir. La connaissance de la nature est une comp\xE9tence importante pour distinguer l'origine d'un cri ou identifier certaines esp\xE8ces de plantes.")));
+}
+
+/***/ }),
+
+/***/ "./content/knowledges/survival/Orientation.tsx":
+/*!*****************************************************!*\
+  !*** ./content/knowledges/survival/Orientation.tsx ***!
+  \*****************************************************/
+/*! exports provided: Orientation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Orientation", function() { return Orientation; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\survival\\Orientation.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Orientation() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "knowledges-survival-orientation"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Connaissance"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Orientation"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Orientation"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "La connaissance de l'orientation permet au personnage de conna\xEEtre sa position et sa direction dans des milieux complexes gr\xE2ce \xE0 des rep\xE8res comme les \xE9toiles o\xF9 certains lieux remarquables. Une bonne connaissance de l'orientation est indispensable pour naviguer au sein de vastes for\xEAts, au travers de r\xE9seaux de cavernes ou le long d'un col de montagne enneig\xE9.")));
+}
+
+/***/ }),
+
+/***/ "./content/knowledges/survival/Survival.tsx":
+/*!**************************************************!*\
+  !*** ./content/knowledges/survival/Survival.tsx ***!
+  \**************************************************/
+/*! exports provided: Survival */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Survival", function() { return Survival; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _Orientation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Orientation */ "./content/knowledges/survival/Orientation.tsx");
+/* harmony import */ var _Tracking__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Tracking */ "./content/knowledges/survival/Tracking.tsx");
+/* harmony import */ var _Nature__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Nature */ "./content/knowledges/survival/Nature.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\survival\\Survival.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+function Survival() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "knowledges-survival"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "Connaissances"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "Survie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "Survie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, "Les connaissances relative \xE0 la survie mesure le savoir d'un personnage quand aux techniques permettant de garantir sa s\xE9curit\xE9 et sa bonne sant\xE9 au sein d'un environnement hostile. Tout personnage dont le m\xE9tier consiste \xE0 rester longtemps isol\xE9 en pleine nature devrait faire de ce domaine sa sp\xE9cialit\xE9."))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-lg-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 11
+    }
+  }, __jsx(_Nature__WEBPACK_IMPORTED_MODULE_9__["Nature"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-lg-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 11
+    }
+  }, __jsx(_Orientation__WEBPACK_IMPORTED_MODULE_7__["Orientation"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-lg-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 11
+    }
+  }, __jsx(_Tracking__WEBPACK_IMPORTED_MODULE_8__["Tracking"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-lg-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/knowledges/survival/Tracking.tsx":
+/*!**************************************************!*\
+  !*** ./content/knowledges/survival/Tracking.tsx ***!
+  \**************************************************/
+/*! exports provided: Tracking */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tracking", function() { return Tracking; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\knowledges\\survival\\Tracking.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Tracking() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "knowledges-survival-traking"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Connaissance"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Pistage"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Pistage"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "La connaissance du pistage permet \xE0 un personnage de suivre les traces d'animaux, de monstres ou d'hommes. Cette connaissance peut aussi aider \xE0 suivre des individus en milieux urbains. Le pistage est une comp\xE9tence importante pour tout chasseur qui se respecte, qu'il cherche du gibier, ou des t\xEAtes.")));
+}
+
+/***/ }),
+
+/***/ "./content/knowledges/survival/index.ts":
+/*!**********************************************!*\
+  !*** ./content/knowledges/survival/index.ts ***!
+  \**********************************************/
+/*! exports provided: Survival */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Survival__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Survival */ "./content/knowledges/survival/Survival.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Survival", function() { return _Survival__WEBPACK_IMPORTED_MODULE_0__["Survival"]; });
 
 
 
@@ -15412,7 +19979,65 @@ function ShortBowMastery() {
       lineNumber: 21,
       columnNumber: 7
     }
-  }));
+  }, __jsx("table", {
+    className: "instinct-modifier",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 15
+    }
+  }, "Majeure"))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 15
+    }
+  }, __jsx("img", {
+    src: "./images/characteristics/dexterity.svg",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 19
+    }
+  })))))));
 }
 
 /***/ }),
@@ -65002,14 +69627,14 @@ var DoubleSkin = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
     lineNumber: 19,
     columnNumber: 11
   }
-}, "Toutes les armures l\xE9g\xE8res voient leur malus de charge r\xE9duit de 1 point.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures l\xE9g\xE8res 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Seconde peau I")).setDescription(__jsx("p", {
+}, "Toutes les armures l\xE9g\xE8res voient leur poids r\xE9duit de 1 point pour un minimum de 0 points.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures l\xE9g\xE8res 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Seconde peau I")).setDescription(__jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32,
     columnNumber: 11
   }
-}, "Toutes les armures l\xE9g\xE8res voient leur malus de charge r\xE9duit de 2 point.")).build()).build();
+}, "Toutes les armures l\xE9g\xE8res voient leur poids r\xE9duit de 2 point pour un minimum de 0 points.")).build()).build();
 
 /***/ }),
 
