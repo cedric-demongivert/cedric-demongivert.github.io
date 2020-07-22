@@ -2332,19 +2332,21 @@ function SubjectTitle(props) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Table2D", function() { return Table2D; });
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _Table2DCell__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Table2DCell */ "./components/table/Table2DCell.tsx");
-/* harmony import */ var _Table2DRow__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Table2DRow */ "./components/table/Table2DRow.tsx");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Table2DCell__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Table2DCell */ "./components/table/Table2DCell.tsx");
+/* harmony import */ var _Table2DRow__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Table2DRow */ "./components/table/Table2DRow.tsx");
+
 
 
 
@@ -2353,9 +2355,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\components\\table\\Table2D.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
@@ -2365,7 +2367,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 var Table2D = /*#__PURE__*/function (_Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Table2D, _Component);
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Table2D, _Component);
 
   var _super = _createSuper(Table2D);
 
@@ -2375,15 +2377,15 @@ var Table2D = /*#__PURE__*/function (_Component) {
   function Table2D(props) {
     var _this;
 
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Table2D);
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Table2D);
 
     _this = _super.call(this, props);
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "_rows", void 0);
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "_rows", void 0);
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "_columns", void 0);
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "_columns", void 0);
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "_handlers", void 0);
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "_handlers", void 0);
 
     _this.state = {
       column: -1,
@@ -2395,8 +2397,8 @@ var Table2D = /*#__PURE__*/function (_Component) {
 
     _this.computeCellSelectionHandlers(props.children);
 
-    _this.handleDeselection = _this.handleDeselection.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
-    _this.renderRow = _this.renderRow.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
+    _this.handleDeselection = _this.handleDeselection.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    _this.renderRow = _this.renderRow.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
     return _this;
   }
   /**
@@ -2404,12 +2406,12 @@ var Table2D = /*#__PURE__*/function (_Component) {
   */
 
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Table2D, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Table2D, [{
     key: "computeCellSelectionHandlers",
     value: function computeCellSelectionHandlers(children) {
-      this._rows = react__WEBPACK_IMPORTED_MODULE_7___default.a.Children.count(children);
-      this._columns = react__WEBPACK_IMPORTED_MODULE_7___default.a.Children.map(children, function (child) {
-        return react__WEBPACK_IMPORTED_MODULE_7___default.a.Children.count(child.props.children);
+      this._rows = react__WEBPACK_IMPORTED_MODULE_8___default.a.Children.count(children);
+      this._columns = react__WEBPACK_IMPORTED_MODULE_8___default.a.Children.map(children, function (child) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.Children.count(child.props.children);
       }).reduce(function (a, b) {
         return Math.max(a, b);
       }, 0);
@@ -2465,24 +2467,33 @@ var Table2D = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      var className = classnames__WEBPACK_IMPORTED_MODULE_8___default()('table-2d', this.props.className);
-      return __jsx("table", {
+      var className = classnames__WEBPACK_IMPORTED_MODULE_9___default()('table-2d', this.props.className);
+      var properties = {
         className: className,
-        onMouseOut: this.handleDeselection,
+        onMouseOut: this.handleDeselection
+      };
+
+      if (this.props.width) {
+        properties.style = {
+          width: this.props.width
+        };
+      }
+
+      return __jsx("table", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, properties, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 97,
           columnNumber: 7
         }
-      }, __jsx("tbody", {
+      }), __jsx("tbody", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 98,
           columnNumber: 9
         }
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.Children.map(this.props.children, this.renderRow)));
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.Children.map(this.props.children, this.renderRow)));
     }
     /**
     *
@@ -2493,8 +2504,8 @@ var Table2D = /*#__PURE__*/function (_Component) {
     value: function renderRow(children, row) {
       var _this2 = this;
 
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.cloneElement(children, {}, react__WEBPACK_IMPORTED_MODULE_7___default.a.Children.map(children.props.children, function (cell, column) {
-        return react__WEBPACK_IMPORTED_MODULE_7___default.a.cloneElement(cell, {
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.cloneElement(children, {}, react__WEBPACK_IMPORTED_MODULE_8___default.a.Children.map(children.props.children, function (cell, column) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.cloneElement(cell, {
           onSelect: _this2._handlers[row * _this2._columns + column],
           selected: _this2.state.row === _this2._rows - 1 && column === _this2.state.column || _this2.state.column === 0 && row === _this2.state.row || _this2.state.row !== _this2._rows - 1 && _this2.state.column !== 0 && (column === _this2.state.column || row === _this2.state.row)
         });
@@ -2503,11 +2514,11 @@ var Table2D = /*#__PURE__*/function (_Component) {
   }]);
 
   return Table2D;
-}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
 
 (function (_Table2D) {
-  var Cell = _Table2D.Cell = _Table2DCell__WEBPACK_IMPORTED_MODULE_9__["Table2DCell"];
-  var Row = _Table2D.Row = _Table2DRow__WEBPACK_IMPORTED_MODULE_10__["Table2DRow"];
+  var Cell = _Table2D.Cell = _Table2DCell__WEBPACK_IMPORTED_MODULE_10__["Table2DCell"];
+  var Row = _Table2D.Row = _Table2DRow__WEBPACK_IMPORTED_MODULE_11__["Table2DRow"];
 })(Table2D || (Table2D = {}));
 
 /***/ }),
@@ -28672,591 +28683,87 @@ function AdversialTestRule() {
       lineNumber: 36,
       columnNumber: 9
     }
-  }, "La r\xE9solution par opposition d\xE9cide de l'issue d'une confrontation entre deux \xE9l\xE9ments du r\xE9cit. C'est le test type pour r\xE9soudre le succ\xE8s des attaques d'un \xE9p\xE9iste ou la r\xE9sistance d'une serrure \xE0 une tentative de crochetage."), __jsx("p", {
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }, "D\xE9finition."), " La r\xE9solution par opposition d\xE9cide de l'issue d'une confrontation entre deux \xE9l\xE9ments du r\xE9cit. C'est le test type pour r\xE9soudre le succ\xE8s des attaques d'un \xE9p\xE9iste ou la r\xE9sistance d'une serrure \xE0 une tentative de crochetage."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 9
     }
-  }, "Le joueur qui lance les d\xE9s est dit acteur de la r\xE9solution et c'est de son point de vue que les chances de succ\xE8s sont calcul\xE9es. Le joueur qui subit le test est dit opposant \xE0 la r\xE9solution. Un joueur est toujours acteur de la r\xE9solution lorsqu'il se confronte \xE0 un \xE9l\xE9ment du r\xE9cit. Dans le cas o\xF9 deux joueurs se confrontent, l'acteur est d\xE9cid\xE9 d'un commun accord ou \xE0 pile ou face. Finalement, si deux \xE9l\xE9ments du r\xE9cit interagissent entre-eux, c'est au ma\xEEtre du jeu de r\xE9partir les r\xF4les."), __jsx("p", {
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 11
+    }
+  }, "Acteur / Opposant."), " Le joueur qui lance les d\xE9s est dit acteur de la r\xE9solution. Le joueur qui subit le test est dit opposant \xE0 la r\xE9solution. Un joueur est toujours acteur de la r\xE9solution lorsqu'il se confronte \xE0 un \xE9l\xE9ment du r\xE9cit. Dans le cas o\xF9 deux joueurs se confrontent, l'acteur est d\xE9cid\xE9 d'un commun accord ou \xE0 pile ou face. Finalement, si deux \xE9l\xE9ments du r\xE9cit interagissent entre-eux, c'est au ma\xEEtre du jeu de r\xE9partir les r\xF4les."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53,
       columnNumber: 9
     }
-  }, "Une r\xE9solution par opposition compare une comp\xE9tence de l'acteur appel\xE9e comp\xE9tence offensive \xE0 une comp\xE9tence de l'opposant dite comp\xE9tence d\xE9fensive. Pour que l'issue du test soit favorable pour l'acteur celui-ci doit obtenir un score inf\xE9rieur ou \xE9gal \xE0 son seuil de succ\xE8s sur un d\xE9 100. Le seuil de succ\xE8s est la diff\xE9rence entre la comp\xE9tence offensive et la comp\xE9tence d\xE9fensive multipli\xE9e par 5 et ajout\xE9e \xE0 une constante de 50. Par exemple un personnage avec une comp\xE9tence de 10 en discr\xE9tion tentant de se faire discret en escaladant une muraille surveill\xE9e par un garde ayant une comp\xE9tence de 12 en perception aura un seuil de succ\xE8s de 40%. Et ce sera toujours au joueur de r\xE9soudre le test."), __jsx("table", {
-    className: "table-1d",
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, __jsx("tbody", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 54,
       columnNumber: 11
     }
-  }, __jsx("tr", {
+  }, "Test."), " Une r\xE9solution par opposition compare une comp\xE9tence de l'acteur appel\xE9e comp\xE9tence offensive \xE0 une comp\xE9tence de l'opposant dite comp\xE9tence d\xE9fensive. Pour que l'issue du test soit favorable pour l'acteur celui-ci doit obtenir un score strictement sup\xE9rieur au niveau de la comp\xE9tence d\xE9fensive de son opposant augment\xE9e de dix points en lan\xE7ant un d\xE9 \xE0 vingt faces et en y ajoutant le niveau de sa propre comp\xE9tence offensive."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 13
-    }
-  }, __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 15
-    }
-  }, "  5", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 15
-    }
-  }, "  5", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 15
-    }
-  }, " 10", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 15
-    }
-  }, " 15", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 15
-    }
-  }, " 20", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 15
-    }
-  }, " 25", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 15
-    }
-  }, " 30", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 15
-    }
-  }, " 35", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 15
-    }
-  }, " 40", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 15
-    }
-  }, " 45", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 15
-    }
-  }, " 50", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 15
-    }
-  }, " 55", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 15
-    }
-  }, " 60", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 15
-    }
-  }, " 65", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 15
-    }
-  }, " 70", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 15
-    }
-  }, " 75", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 15
-    }
-  }, " 80", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 15
-    }
-  }, " 85", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 15
-    }
-  }, " 90", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 15
-    }
-  }, " 95", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 46
-    }
-  }, "%"), " "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 15
-    }
-  }, " 95", __jsx("span", {
-    className: "percent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 46
-    }
-  }, "%"), " ")), __jsx("tr", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 13
-    }
-  }, __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 15
-    }
-  }, " -\u221E "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 15
-    }
-  }, " -9 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 15
-    }
-  }, " -8 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 15
-    }
-  }, " -7 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 15
-    }
-  }, " -6 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 15
-    }
-  }, " -5 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 15
-    }
-  }, " -4 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 15
-    }
-  }, " -3 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 15
-    }
-  }, " -2 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 15
-    }
-  }, " -1 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 15
-    }
-  }, "  0 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 15
-    }
-  }, " +1 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 15
-    }
-  }, " +2 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 15
-    }
-  }, " +3 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106,
-      columnNumber: 15
-    }
-  }, " +4 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107,
-      columnNumber: 15
-    }
-  }, " +5 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 15
-    }
-  }, " +6 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 15
-    }
-  }, " +7 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 15
-    }
-  }, " +8 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 15
-    }
-  }, " +9 "), __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112,
-      columnNumber: 15
-    }
-  }, " +\u221E ")))), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"], {
-    className: "text-center",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 63,
       columnNumber: 9
     }
-  }, range(20).map(function renderRow(index) {
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 11
+    }
+  }, "Exemple."), " Un personnage avec une comp\xE9tence de 10 en discr\xE9tion tentant de se faire discret en escaladant une muraille surveill\xE9e par un garde ayant une comp\xE9tence de 12 en perception devra obtenir un score strictement sup\xE9rieur \xE0 22 points. En lan\xE7ant un d\xE9 20 et avec son niveau de discr\xE9tion, le personnage r\xE9ussira le test s'il obtient 13, 14, 15, 16, 17, 18, 19 et 20 sur le d\xE9 et l'\xE9chouera dans tous les autres cas. Ce sera toujours au joueur de r\xE9soudre le test le garde \xE9tant un \xE9l\xE9ment de narration."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 11
+    }
+  }, "Probabilit\xE9s."), " Les chances de succ\xE8s d'un acteur sur un opposant en fonction de leur niveau de comp\xE9tence respectif sont retranscrite dans le tableau suivant. Ces probabilit\xE9s ne tiennent pas compte d'\xE9ventuels d\xE9s bonus. Le niveau de comp\xE9tence de l'acteur est repr\xE9sent\xE9 sur l'axe vertical, et celui de l'opposant sur l'axe horizontal."), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"], {
+    className: "text-center",
+    width: 20 * 35 + 'px',
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 9
+    }
+  }, range(20).map(function renderRow(actor) {
     var _this = this;
 
     return __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Row, {
-      key: index,
+      key: actor,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 121,
+        lineNumber: 87,
         columnNumber: 17
       }
     }, __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
@@ -29264,24 +28771,24 @@ function AdversialTestRule() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 122,
+        lineNumber: 88,
         columnNumber: 19
       }
-    }, index), range(20).map(function (other) {
+    }, actor), range(20).map(function (rival) {
       return __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-        key: other,
+        key: rival,
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125,
+          lineNumber: 91,
           columnNumber: 23
         }
-      }, Math.min(Math.max(index - other, -9), +9) * 5 + 50, __jsx("span", {
+      }, Math.min(Math.max(actor - rival, -9), +9) * 5 + 50, __jsx("span", {
         className: "percent",
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 93,
           columnNumber: 25
         }
       }, "%"));
@@ -29290,7 +28797,7 @@ function AdversialTestRule() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 101,
       columnNumber: 11
     }
   }, __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
@@ -29299,7 +28806,7 @@ function AdversialTestRule() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 102,
       columnNumber: 13
     }
   }), range(20).map(function (index) {
@@ -29310,11 +28817,45 @@ function AdversialTestRule() {
       __self: _this2,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139,
+        lineNumber: 105,
         columnNumber: 17
       }
     }, index);
-  })))));
+  }))), __jsx("p", {
+    style: {
+      width: 20 * 35 + 'px',
+      marginLeft: 'auto',
+      marginRight: 'auto'
+    },
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114,
+      columnNumber: 11
+    }
+  }, "Chances de succ\xE8s d'un acteur contre un opposant dans une r\xE9solution par opposition. Le niveau de comp\xE9tence de l'acteur est repr\xE9sent\xE9 sur l'axe vertical, celui de l'opposant sur l'axe horizontal.")), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123,
+      columnNumber: 11
+    }
+  }, "Degr\xE9s de difficult\xE9."), " Un degr\xE9 de difficult\xE9 (DD) est tout simplement le niveau de comp\xE9tence de l'opposant dans une r\xE9solution par opposition. Les degr\xE9s de difficult\xE9 \"facile\", \"moyen\", \"difficile\", \"tr\xE8s-difficile\" et \"impossible\" valent respectivement 0, 5, 10, 15 et 20 points.")));
 }
 
 /***/ }),
@@ -29410,21 +28951,21 @@ function CooperationRule() {
       lineNumber: 24,
       columnNumber: 9
     }
-  }, "Lors d'une auto-r\xE9solution ou d'un test d'opposition l'autorisant une entit\xE9e peut se faire aider par une ou plusieurs entit\xE9e tierce. Cette situation est alors appell\xE9e une r\xE9solution en coop\xE9ration. En cas de coop\xE9ration il y a toujours une entit\xE9e ma\xEEtre choisie au pr\xE9alable qui sera charg\xE9e de r\xE9soudre le test et d'organiser les op\xE9rations, toute entit\xE9e voulant coop\xE9rer \xE0 la r\xE9ussite de l'entit\xE9e ma\xEEtre peut alors lui faire profiter d'un bonus d\xE9gressif en fonction de son expertise propre."), __jsx("p", {
+  }, "L'acteur d'une auto-r\xE9solution ou d'une r\xE9solution par opposition l'autorisant peut se faire aider par une ou plusieurs tierce partie. Cette situation est alors appell\xE9e une r\xE9solution en coop\xE9ration. En cas de coop\xE9ration il y a toujours un acteur choisi au pr\xE9alable qui sera charg\xE9e de r\xE9soudre le test et d'organiser les op\xE9rations, les tiers voulant coop\xE9rer \xE0 la r\xE9ussite de l'acteur peuvent alors lui faire profiter d'un bonus d\xE9gressif en fonction de leur expertise propre."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 9
     }
-  }, "L'organisation de la coop\xE9ration ce fait par \xE9tape, \xE0 chaque \xE9tape, une nouvelle entit\xE9e peut proposer son aide au groupe d\xE9j\xE0 pr\xE9par\xE9. Pour ce faire l'entit\xE9e souhaitant coop\xE9rer doit avoir une expertise au moins \xE9quivalente \xE0 la moiti\xE9e de l'expertise du groupe. Si une entit\xE9e peut rejoindre le groupe, l'expertise de celui-ci devient \xE9quivalente \xE0 l'expertise de l'entit\xE9e ma\xEEtre, plus le quart de l'expertise de la premi\xE8re entit\xE9e ayant rejoint le groupe, plus le sixi\xE8me de l'expertise de la seconde entit\xE9e ayant rejointe le groupe, plus le huiti\xE8me de la troisi\xE8me entit\xE9e ayant rejointe le groupe, et ainsi de suite."), __jsx("p", {
+  }, "L'organisation de la coop\xE9ration ce fait par \xE9tape, \xE0 chaque \xE9tape, une nouvelle tierce partie peut proposer son aide au groupe d\xE9j\xE0 pr\xE9par\xE9. Pour ce faire le tiers souhaitant coop\xE9rer doit avoir une expertise au moins \xE9quivalente \xE0 la moiti\xE9e de l'expertise du groupe. Si un tiers peut rejoindre le groupe, l'expertise de celui-ci devient \xE9quivalente \xE0 l'expertise de l'acteur de la r\xE9solution, plus le quart de l'expertise du premier membre du groupe, plus le sixi\xE8me de l'expertise du second membre du groupe, plus le huiti\xE8me de l'expertise du troisi\xE8me membre du groupe, et ainsi de suite."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 47,
       columnNumber: 9
     }
-  }, "Dans certaines situations la coop\xE9ration peut avoir des effets suppl\xE9mantaires comme une r\xE9duction du temps n\xE9c\xE9ssaire \xE0 la production d'une arme par exemple. Dans ce cas pr\xE9cis, l'action doit pr\xE9ciser les bonus r\xE9sultant d'une coop\xE9ration dans sa description.")));
+  }, "Dans certaines situations la coop\xE9ration peut avoir des effets suppl\xE9mentaires comme une r\xE9duction du temps n\xE9c\xE9ssaire \xE0 la production d'une arme par exemple. Dans ce cas pr\xE9cis, l'action doit pr\xE9ciser les bonus r\xE9sultant d'une coop\xE9ration dans sa description.")));
 }
 
 /***/ }),
@@ -29665,7 +29206,7 @@ function CriticalHitRule() {
       lineNumber: 24,
       columnNumber: 9
     }
-  }, "Lors d'un test, un score sup\xE9rieur \xE0 95% est un \xE9chec critique aux r\xE9percussions d\xE9sastreuses. \xC0 l'inverse, un score inf\xE9rieur ou \xE9gal \xE0 5% est un succ\xE8s critique aux cons\xE9quences b\xE9n\xE9fiques. Les critiques priment sur les chances de succ\xE8s r\xE9elles d'un personnage. Ainsi, un personnage qui devrait r\xE9ussir syst\xE9matiquement une action \xE0 toujours 5% de chance de l'\xE9chouer, et un personnage qui devrait \xE9chouer syst\xE9matiquement une action \xE0 toujours 5% de chance de la r\xE9ussir."), __jsx("p", {
+  }, "Lors d'un test, un score sup\xE9rieur \xE9gal \xE0 1 est un \xE9chec critique aux r\xE9percussions d\xE9sastreuses. \xC0 l'inverse, un score \xE9gal \xE0 20 est un succ\xE8s critique aux cons\xE9quences b\xE9n\xE9fiques. Les critiques priment sur les chances de succ\xE8s r\xE9elles d'un personnage. Ainsi, un personnage qui devrait r\xE9ussir syst\xE9matiquement une action \xE0 toujours 5% de chance de l'\xE9chouer, et un personnage qui devrait \xE9chouer syst\xE9matiquement une action \xE0 toujours 5% de chance de la r\xE9ussir."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -29884,172 +29425,88 @@ function SelfResolutionRule() {
       lineNumber: 36,
       columnNumber: 9
     }
-  }, "L'auto-r\xE9solution permet de mesurer la qualit\xE9 de la r\xE9ussite d'une action en fonction des capacit\xE9s seules d'un personnage. C'est le test pour mesurer la dangerosit\xE9 d'un pi\xE8ge install\xE9, la fiabilit\xE9 d'une serrure ou la qualit\xE9 d'une production d'alchimie. L'auto-r\xE9solution produit donc un degr\xE9 de difficult\xE9 ou une qualit\xE9 d\xE9pendamment que la production soit une \xE9preuve ou un objet."), __jsx("table", {
-    className: "table-1d",
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }, "D\xE9finition."), " L'auto-r\xE9solution permet de mesurer la qualit\xE9 de la r\xE9ussite d'une action en fonction des capacit\xE9s seules d'un personnage. C'est le test pour mesurer la dangerosit\xE9 d'un pi\xE8ge install\xE9, la fiabilit\xE9 d'une serrure ou la qualit\xE9 d'une production d'alchimie. L'auto-r\xE9solution produit donc un  degr\xE9 de difficult\xE9 ou une qualit\xE9 d\xE9pendamment que la production soit une \xE9preuve ou un objet."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 11
+    }
+  }, "Acteur."), " Le joueur qui lance les d\xE9s est dit acteur de l'auto-r\xE9solution. Il n'y a pas de joueur qui subisse le test dans le cadre d'une auto-r\xE9solution. Les degr\xE9s de difficult\xE9 d\xE9finis dans la section concernant la r\xE9solution par opposition peuvent \xEAtre utilis\xE9s par le ma\xEEtre du jeu pour r\xE9aliser un test d'auto-r\xE9solution."), __jsx("table", {
+    className: "table-1d",
+    style: {
+      width: 20 * 35 + 'px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, __jsx("tbody", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 55,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 56,
       columnNumber: 13
     }
   }, __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 15
-    }
-  }, " +3"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 15
-    }
-  }, " +2"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 15
-    }
-  }, " +2"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 15
-    }
-  }, " +1"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 15
-    }
-  }, " +1"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 15
-    }
-  }, " +1"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 15
-    }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 15
-    }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 15
-    }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57,
       columnNumber: 15
     }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " \u230A\xF75\u230B "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
       columnNumber: 15
     }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " \u230A\xF74\u230B "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59,
       columnNumber: 15
     }
-  }, " +0"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " \u230A\xF73\u230B "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60,
       columnNumber: 15
     }
-  }, " -1"), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " \u230A\xF73\u230B "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61,
       columnNumber: 15
     }
-  }, " -1 "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " -2 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -30057,60 +29514,108 @@ function SelfResolutionRule() {
       columnNumber: 15
     }
   }, " -2 "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63,
       columnNumber: 15
     }
-  }, " -2 "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " -1"), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64,
       columnNumber: 15
     }
-  }, " \u230A\xF73\u230B "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " -1 "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65,
       columnNumber: 15
     }
-  }, " \u230A\xF73\u230B "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " +0"), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66,
       columnNumber: 15
     }
-  }, " \u230A\xF74\u230B "), __jsx("td", {
-    style: {
-      width: '35px'
-    },
+  }, " +0"), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67,
       columnNumber: 15
     }
-  }, " \u230A\xF75\u230B ")), __jsx("tr", {
+  }, " +0"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }, " +0"), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69,
+      columnNumber: 15
+    }
+  }, " +0"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 15
+    }
+  }, " +0"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 15
+    }
+  }, " +1"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 15
+    }
+  }, " +1"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 15
+    }
+  }, " +1"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 15
+    }
+  }, " +2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 15
+    }
+  }, " +2"), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 15
+    }
+  }, " +3")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
       columnNumber: 13
     }
   }, range(19).map(function renderRow(index) {
@@ -30122,100 +29627,30 @@ function SelfResolutionRule() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 82,
         columnNumber: 21
       }
-    }, (index + 1) * 5, __jsx("span", {
-      className: "percent",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 74,
-        columnNumber: 40
-      }
-    }, "%"));
+    }, index + 1);
   })))), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"], {
     className: "text-center",
+    width: 20 * 35 + 'px',
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 92,
       columnNumber: 9
     }
-  }, range(18).map(function renderRow(index) {
+  }, range(20).map(function renderRow(index) {
     return __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Row, {
       key: index,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 96,
         columnNumber: 19
       }
     }, __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       heading: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 88,
-        columnNumber: 21
-      }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 21
-      }
-    }, index + 3), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 90,
-        columnNumber: 21
-      }
-    }, index + 2), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 91,
-        columnNumber: 21
-      }
-    }, index + 2), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 92,
-        columnNumber: 21
-      }
-    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 93,
-        columnNumber: 21
-      }
-    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 94,
-        columnNumber: 21
-      }
-    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
-        columnNumber: 21
-      }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 96,
-        columnNumber: 21
-      }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -30229,35 +29664,35 @@ function SelfResolutionRule() {
         lineNumber: 98,
         columnNumber: 21
       }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.floor(index / 5)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 99,
         columnNumber: 21
       }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.floor(index / 4)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 100,
         columnNumber: 21
       }
-    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.floor(index / 3)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 101,
         columnNumber: 21
       }
-    }, Math.max(index - 1, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.floor(index / 3)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 102,
         columnNumber: 21
       }
-    }, Math.max(index - 1, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.max(index - 2, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -30271,40 +29706,103 @@ function SelfResolutionRule() {
         lineNumber: 104,
         columnNumber: 21
       }
-    }, Math.max(index - 2, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.max(index - 1, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 105,
         columnNumber: 21
       }
-    }, Math.floor(index / 3)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, Math.max(index - 1, 0)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 106,
         columnNumber: 21
       }
-    }, Math.floor(index / 3)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 107,
         columnNumber: 21
       }
-    }, Math.floor(index / 4)), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 108,
         columnNumber: 21
       }
-    }, Math.floor(index / 5)));
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109,
+        columnNumber: 21
+      }
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 110,
+        columnNumber: 21
+      }
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 111,
+        columnNumber: 21
+      }
+    }, index), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 21
+      }
+    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113,
+        columnNumber: 21
+      }
+    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 21
+      }
+    }, index + 1), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 21
+      }
+    }, index + 2), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 21
+      }
+    }, index + 2), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Cell, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 21
+      }
+    }, index + 3));
   }).reverse(), __jsx(_components_table_Table2D__WEBPACK_IMPORTED_MODULE_7__["Table2D"].Row, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 122,
       columnNumber: 13
     }
   }, __jsx("th", {
@@ -30314,7 +29812,7 @@ function SelfResolutionRule() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 123,
       columnNumber: 15
     }
   }), range(19).map(function renderRow(index) {
@@ -30325,18 +29823,10 @@ function SelfResolutionRule() {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 118,
+        lineNumber: 127,
         columnNumber: 21
       }
-    }, (index + 1) * 5, __jsx("span", {
-      className: "percent",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 40
-      }
-    }, "%"));
+    }, index + 1);
   })))));
 }
 
@@ -30440,7 +29930,7 @@ function SituationalDiceRule() {
       lineNumber: 25,
       columnNumber: 9
     }
-  }, "Quand une action intent\xE9e est bien argument\xE9e, l'acteur peut se voir attribuer un ou plusieurs d\xE9s de bonus situationnel. L'acteur lance alors des d\xE9s de dizaines suppl\xE9mentaires et garde la dizaine la plus basse quand il calcule son score. De la m\xEAme mani\xE8re quand une action intent\xE9e est douteuse ou mal argument\xE9e, l'acteur peut se voir attribuer un ou plusieurs d\xE9s de malus situationnel. L'acteur lance alors des d\xE9s de dizaines suppl\xE9mentaires et garde la dizaine la plus haute quand il calcule son score.")));
+  }, "Quand une action intent\xE9e est bien argument\xE9e, l'acteur peut se voir attribuer un ou plusieurs d\xE9s de bonus situationnel. L'acteur lance alors des d\xE9s 20 suppl\xE9mentaires et garde le r\xE9sultat le plus forte quand il calcule son score. De la m\xEAme mani\xE8re quand une action intent\xE9e est douteuse ou mal argument\xE9e, l'acteur peut se voir attribuer un ou plusieurs d\xE9s de malus situationnel. L'acteur lance alors des d\xE9s 20 suppl\xE9mentaires et garde la valeur la plus faible quand il calcule son score.")));
 }
 
 /***/ }),
