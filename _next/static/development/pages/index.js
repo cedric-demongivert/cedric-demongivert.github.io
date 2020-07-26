@@ -26522,7 +26522,7 @@ function LongBowMastery() {
       columnNumber: 15
     }
   }, __jsx("img", {
-    src: "./images/characteristics/strength.svg",
+    src: "./images/characteristics/dexterity.svg",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -26537,7 +26537,7 @@ function LongBowMastery() {
       columnNumber: 15
     }
   }, __jsx("img", {
-    src: "./images/characteristics/dexterity.svg",
+    src: "./images/characteristics/strength.svg",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -30048,35 +30048,35 @@ function ComaRule() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 11
     }
   }, "Les blessures l\xE9g\xE8res ajoutent chacune 2 points de difficult\xE9."), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 53,
       columnNumber: 11
     }
   }, "Les blessures graves ajoutent chacune 5 points de difficult\xE9."), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 11
     }
   }, "Certaines causes de coma ainsi que certains status peuvent aussi ajouter des points de difficult\xE9, dans ce cas le nombre de point \xE0 ajouter doit apparaitre dans la description du sort, du poison ou de l'\xE9tat.")), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 64,
       columnNumber: 9
     }
   }, "Un personnage peut sortir de l'\xE9tat de coma apr\xE8s un certain temps de repos \xE9quivalent au degr\xE9 de difficult\xE9 du coma retranch\xE9 du bonus de constitution du personnage le tout multipli\xE9 par 4. Certains status comme l'empoisonement ou le saignement interdisent \xE0 un personnage commateux de se r\xE9tablir seul et requiert qu'une tierce personne le stabilise au pr\xE9alable."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 9
     }
   }, "Stabiliser un personnage commateux est une action complexe n\xE9c\xE9ssitant un calme relatif, des connaissances pr\xE9cises en premiers soins et un bon quart d'heure de travail. Un personnage effectuant une tentative de stabilisation doit r\xE9ussir un test d'opposition entre ses connaissances en premiers soins et le degr\xE9 de difficult\xE9 du coma. En cas de succ\xE8s le processus naturel de gu\xE9rison du coma reprend et la dur\xE9e n\xE9c\xE9ssaire pour perdre naturellement le status est divis\xE9 par deux.")));
@@ -30397,8 +30397,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Introduction */ "./content/rules/fight/Introduction.tsx");
 /* harmony import */ var _WeigthPointRule__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./WeigthPointRule */ "./content/rules/fight/WeigthPointRule.tsx");
 /* harmony import */ var _WoundsRule__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./WoundsRule */ "./content/rules/fight/WoundsRule.tsx");
+/* harmony import */ var _Regeneration__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Regeneration */ "./content/rules/fight/Regeneration.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\FightRules.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -30422,126 +30424,133 @@ function FightRules() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "rules-fight"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }
   }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, "R\xE8gles de combat"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 7
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_15__["Introduction"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 9
     }
   }), __jsx(_InitiativeRule__WEBPACK_IMPORTED_MODULE_14__["InitiativeRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 9
     }
   }), __jsx(_HealthPointRule__WEBPACK_IMPORTED_MODULE_13__["HealthPointRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 9
     }
   }), __jsx(_ComaRule__WEBPACK_IMPORTED_MODULE_10__["ComaRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 9
     }
   }), __jsx(_WoundsRule__WEBPACK_IMPORTED_MODULE_17__["WoundsRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 9
-    }
-  }), __jsx(_WeigthPointRule__WEBPACK_IMPORTED_MODULE_16__["WeigthPointRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 9
     }
-  }), __jsx(_AttackRule__WEBPACK_IMPORTED_MODULE_9__["AttackRule"], {
+  }), __jsx(_Regeneration__WEBPACK_IMPORTED_MODULE_18__["Regeneration"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
       columnNumber: 9
     }
-  }), __jsx(_DamageRule__WEBPACK_IMPORTED_MODULE_11__["DamageRule"], {
+  }), __jsx(_WeigthPointRule__WEBPACK_IMPORTED_MODULE_16__["WeigthPointRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 9
     }
-  }), __jsx(_ArmorRule__WEBPACK_IMPORTED_MODULE_8__["ArmorRule"], {
+  }), __jsx(_AttackRule__WEBPACK_IMPORTED_MODULE_9__["AttackRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
       columnNumber: 9
     }
-  }), __jsx(_DeathRule__WEBPACK_IMPORTED_MODULE_12__["DeathRule"], {
+  }), __jsx(_DamageRule__WEBPACK_IMPORTED_MODULE_11__["DamageRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
+      columnNumber: 9
+    }
+  }), __jsx(_ArmorRule__WEBPACK_IMPORTED_MODULE_8__["ArmorRule"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }), __jsx(_DeathRule__WEBPACK_IMPORTED_MODULE_12__["DeathRule"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
       columnNumber: 9
     }
   })));
@@ -30640,7 +30649,7 @@ function HealthPointRule() {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Les points de vie bruts d'un personnage sont \xE9gaux \xE0 10 plus son nombre de points de constitution. Si un personnage accumule autant de d\xE9g\xE2t qu'il a de points de vie il tombe dans le coma et ne peut plus agir. Si les d\xE9g\xE2ts subis viennent \xE0 d\xE9passer 150% de ses points de vie bruts il meurt.")));
+  }, "Les points de vie bruts d'une entit\xE9e sont \xE9gaux \xE0 son nombre de points de constitution. Une entit\xE9e tombe dans le coma si elle accumule autant de d\xE9g\xE2t qu'elle a de points de vie. Une entit\xE9e meurt si elle accumule une quantit\xE9e de d\xE9g\xE2ts sup\xE9rieurs ou \xE9gaux \xE0 150% de sa constitution.")));
 }
 
 /***/ }),
@@ -30743,74 +30752,109 @@ function InitiativeRule() {
       lineNumber: 24,
       columnNumber: 11
     }
-  }, "Score d'initiative."), " Le score d'initiative est une quantit\xE9 relative qui mesure la capacit\xE9 d'action d'une entit\xE9. Ce score repr\xE9sente \xE0 la fois la priorit\xE9 d'une entit\xE9 sur les autres et la quantit\xE9 d'action qu'elle peut effectuer lors d'une manche. L'initiative d'une entit\xE9 est \xE9gale \xE0 la valeur de la caract\xE9ristique de dext\xE9rit\xE9 de celle-ci augment\xE9e de dix points."), __jsx("p", {
+  }, "Score d'initiative."), " Le score d'initiative est une quantit\xE9 relative qui mesure la capacit\xE9 d'action d'une entit\xE9. Ce score repr\xE9sente \xE0 la fois la priorit\xE9 potentielle d'une entit\xE9 sur les autres ainsi que le nombre d'action qu'elle peut possiblement entreprendre lors d'un round. ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
+      lineNumber: 28,
+      columnNumber: 41
     }
-  }, __jsx("em", {
+  }, "L'initiative de base d'une entit\xE9 est \xE9gale \xE0 la valeur de la caract\xE9ristique de dext\xE9rit\xE9 de celle-ci"), "."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 11
-    }
-  }, "D\xE9clarer un tour."), " Au d\xE9but d'une manche, une entit\xE9 peut d\xE9clarer un tour par tranche de 20 points d'initiative qu'elle poss\xE8de. Une entit\xE9 doit toujours d\xE9clarer au moins un tour lors d'une manche mais elle peut ne pas d\xE9clarer tous les tours auxquels elle a droit. Une entit\xE9 doit r\xE9partir l'enti\xE8ret\xE9 de ses points d'initiative parmi l'ensemble des tours qu'elle a d\xE9clar\xE9 vouloir jouer."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }, "Ordonnancement des tours."), " Une fois d\xE9clar\xE9s les tours sont jou\xE9s en commen\xE7ant par ceux ayant le plus de point d'initiative et la manche se termine par les tours ayant le moins de points. Si plusieurs tours ont un nombre de point d'initiative \xE9quivalent c'est l'initiative des joueurs qui prime pour d\xE9cider du joueur qui joue le premier. En cas d'\xE9galit\xE9 stricte l'ordonnancement est d\xE9cid\xE9 \xE0 pile ou face."), __jsx("p", {
+  }, "D\xE9claration des actions."), " Au d\xE9but d'un round, une entit\xE9 peut d\xE9clarer une action par tranche de 20 points d'initiative qu'elle poss\xE8de. Une entit\xE9 doit toujours d\xE9clarer au moins une action lors d'un round mais elle peut ne pas d\xE9clarer toutes les actions auxquelles elle a th\xE9oriquement droit. Une entit\xE9 doit r\xE9partir l'enti\xE8ret\xE9 de ses points d'initiative parmi l'ensemble des actions qu'elle a d\xE9clar\xE9 vouloir jouer."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 11
+    }
+  }, "Prise d'action."), " Une fois d\xE9clar\xE9s, les actions sont jou\xE9s d'un commun accord par les joueurs et le ma\xEEtre du jeu. On dit de l'entit\xE9e ainsi choisie qu'elle prend l'action."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50,
-      columnNumber: 9
-    }
-  }, __jsx("em", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
       columnNumber: 11
     }
-  }, "Initiative n\xE9gative."), " Si une entit\xE9 joue avec une initiative n\xE9gative pour quelque raison que ce soit toutes les entit\xE9s de la partie se voient attribuer 20 points d'initiative suppl\xE9mentaire jusqu'\xE0 ce que l'entit\xE9 en question ait un score positif. La d\xE9claration des tours s'effectue alors normalement."), __jsx("p", {
+  }, "Contestation."), " Si l'ordonnancement ne convient pas \xE0 un joueur ou au ma\xEEtre du jeu, il est alors possible de le contester. L'entit\xE9 ayant la plus forte initiative alors dite entit\xE9e actrice et l'entit\xE9e qui aimerait agir \xE0 sa place est alors dite entit\xE9e contestatrice. Pour pouvoir contester l'action d'une entit\xE9e actrice, une entit\xE9e contestatrice doit encore poss\xE9der au moins une action dont la diff\xE9rence d'initiative avec l'action de l'entit\xE9e actrice n'est pas sup\xE9rieure \xE0 5 points. Si toutes les conditions sont remplies, l'entit\xE9 contestatrice doit alors effectuer une r\xE9solution par opposition entre l'initiative de son action et l'initiative de l'action contest\xE9e. Si l'entit\xE9 contestatrice r\xE9ussit son test, elle joue alors en premier, sinon, l'entit\xE9e actrice peut jouer son action."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 64,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 65,
       columnNumber: 11
     }
-  }, "Modification d'initiative."), " Si une entit\xE9 perd des points d'initiative durant une manche, son tour le plus tardif est p\xE9nalis\xE9 du nombre de points perdu. Si le tour le plus tardif atteint 0 point d'initiative il est alors annul\xE9 et le reste des points a p\xE9nalis\xE9s sont report\xE9s sur le tour qui le pr\xE9c\xE8de. Si une entit\xE9 gagne des points d'initiative lors d'un round son tour le plus r\xE9cent gagne l'ensemble des points bonus."), __jsx("p", {
+  }, "Cha\xEEne de contestation."), " Il est toujours possible d'encha\xEEner les contestations pour prendre la priorit\xE9 durant un round. Un tel encha\xEEnement ne peut pas exc\xE9der trois contestations successives. Dans le cas o\xF9 un encha\xEEnement de contestation \xE0 lieu, une entit\xE9e ne peut pas contester deux fois de suite la priorit\xE9."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 72,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 73,
+      columnNumber: 11
+    }
+  }, "Initiative n\xE9gative."), " Si une entit\xE9 joue avec une initiative n\xE9gative pour quelque raison que ce soit toutes les entit\xE9s de la partie se voient attribuer 20 points d'initiative suppl\xE9mentaire jusqu'\xE0 ce que l'entit\xE9 en question ait un score positif. La d\xE9claration des actions s'effectue alors normalement."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 11
+    }
+  }, "Modification d'initiative."), " Si une entit\xE9 perd des points d'initiative durant un round, son action ayant la moins d'initiative est p\xE9nalis\xE9 en premier du nombre de points perdu. Si l'action la plus faible atteint 0 point d'initiative elle est alors annul\xE9 et le reste des points de p\xE9nalit\xE9 sont report\xE9s sur l'action qui la nouvelle action la plus faible. Si une entit\xE9 gagne des points d'initiative lors d'un round elle peut r\xE9partir ses points bonus \xE0 loisir entre les actions qu'elle \xE0 d\xE9clar\xE9e."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
       columnNumber: 11
     }
   }, "Dext\xE9rit\xE9 nulle."), " Une entit\xE9 avec une dext\xE9rit\xE9 nulle est consid\xE9r\xE9 hors-combat et ne peut plus jouer de tour tant que son score n'est pas remont\xE9 d'au moins un point. M\xEAme avec une initiative positive, une entit\xE9 avec une dext\xE9rit\xE9 nulle ne peut agir. Une initiative n\xE9gative permet de continuer \xE0 jouer tant que la dext\xE9rit\xE9 n'est pas nulle.")));
@@ -30909,42 +30953,187 @@ function Introduction() {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Les sc\xE8nes \xE0 interaction forte n\xE9cessitant des prises de d\xE9cision simultan\xE9es sont r\xE9solues au tour par tour. Tout \xE9l\xE9ment du r\xE9cit pouvant agir de son propre chef lors d'une telle situation est appel\xE9 ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 73
-    }
-  }, "entit\xE9"), ". Chaque ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 35
-    }
-  }, "tour"), " ne concerne qu'une unique entit\xE9 qui peut entreprendre un nombre limit\xE9 d'", __jsx("strong", {
+  }, "Les sc\xE8nes \xE0 interaction forte n\xE9cessitant des prises de d\xE9cision simultan\xE9es sont r\xE9solues au tour par tour."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
-      columnNumber: 66
+      columnNumber: 9
     }
-  }, "actions"), " avant de passer son tour \xE0 l'entit\xE9 suivante."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, "Entit\xE9e."), " Une entit\xE9e est un \xE9l\xE9ment du r\xE9cit pouvant agir de son propre chef lors d'une sc\xE8ne \xE0 forte interaction."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
       columnNumber: 9
     }
-  }, "L'ensemble des tours n\xE9cessaires pour que toutes des entit\xE9s d'une sc\xE8ne puissent agir est appel\xE9 une ", __jsx("strong", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 40
+      columnNumber: 11
     }
-  }, "manche"), ". Il peut arriver qu'une entit\xE9 ait le droit de jouer plusieurs tours lors d'une manche. La quantit\xE9 de tour jou\xE9 pendant une manche et leur ordonnancement d\xE9pend des scores d'initiative de chaque entit\xE9.")));
+  }, "Action."), " Une action est une prise de d\xE9cision unilat\xE9rale d'une entit\xE9e \xE0 un instant donn\xE9 de la sc\xE8ne d'action. Une fois que la ou les d\xE9cisions d'une entit\xE9e sont r\xE9solue, une autre peut alors \xE0 son tour r\xE9aliser une action et ainsi de suite."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 11
+    }
+  }, "Round."), " Un round est la dur\xE9e n\xE9c\xE9ssaire pour que toutes les entit\xE9es d'une sc\xE8ne puissent r\xE9aliser l'ensemble des actions auxquelles elles ont droit. Il peut arriver qu'une entit\xE9 ait le droit de jouer plusieurs actions lors d'un round."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11
+    }
+  }, "Ordonnancement."), " Un ordonnancement est un ensemble de r\xE8gle permettant de d\xE9finir clairement l'ordre des actions dans un round.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/fight/Regeneration.tsx":
+/*!**********************************************!*\
+  !*** ./content/rules/fight/Regeneration.tsx ***!
+  \**********************************************/
+/*! exports provided: Regeneration */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Regeneration", function() { return Regeneration; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\Regeneration.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Regeneration() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-fight-regeneration"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "R\xE9g\xE9n\xE9ration naturelle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "R\xE9g\xE9n\xE9ration naturelle"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "Une entit\xE9e r\xE9cup\xE8re naturellement un nombre fixe de points de vie tous les jours. Des suites d'une bonne nuit de sommeil une entit\xE9e regagne un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9 par 5 arrondie \xE0 l'entier inf\xE9rieur, une entit\xE9e r\xE9cup\xE8re toujours au moins 1 point de vie par jour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 11
+    }
+  }, "Fatigue."), " Si une entit\xE9e ne peut pas dormir correctement ou est sujette \xE0 la fatigue \xE0 son r\xE9veille, celle-ci ne r\xE9cup\xE8re alors qu'un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9 par 10 arrondie \xE0 l'entier inf\xE9rieur, une entit\xE9e r\xE9cup\xE8re toujours au moins 1 point de vie par jour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, "\xC9puisement."), " Si une entit\xE9e est \xE9puis\xE9e, elle ne r\xE9cup\xE8re alors qu'un unique point de vie symbolique.")));
 }
 
 /***/ }),
@@ -31040,7 +31229,35 @@ function WeigthPointRule() {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Une entit\xE9e poss\xE8de autant de points de charge qu'elle \xE0 de points de force. Les points de charge repr\xE9sente la quantit\xE9 d'objets que peut \xE9quiper et transporter l'entit\xE9 avant de se voir attribuer des malus. Tous les deux points de charge non utilis\xE9, l'entit\xE9 peut rajouter un point de d\xE9g\xE2t suppl\xE9mentaire \xE0 toute ses attaques au corps \xE0 corps et \xE0 son initiative. Tous les points de charge au dessus de la limite de l'entit\xE9 implique la perte d'un point de d\xE9g\xE2t \xE0 toutes les attaques au corps \xE0 corps et la perte d'un point \xE0 son initiative.")));
+  }, "Une entit\xE9e poss\xE8de autant de points de charge qu'elle \xE0 de points de force. Les points de charge repr\xE9sente la quantit\xE9 d'objets que peut \xE9quiper et transporter l'entit\xE9 avant de se voir attribuer des malus."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, "Sous-charge."), " Tous les deux points de charge non utilis\xE9, l'entit\xE9 peut rajouter un point de d\xE9g\xE2t suppl\xE9mentaire \xE0 toute ses attaques au corps \xE0 corps \xE0 hauteur de la valeur du modificateur de force dont elle fait l'objet. Pour chaque groupe de deux points de charge non utilis\xE9, une entit\xE9e gagne un point d'initiative suppl\xE9mentaire."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, "Sur-charge."), " Tous les points de charge au dessus de la limite de l'entit\xE9 implique la perte d'un point de d\xE9g\xE2t \xE0 toutes les attaques au corps \xE0 corps et la perte d'un point \xE0 son initiative.")));
 }
 
 /***/ }),
@@ -31140,10 +31357,10 @@ function WoundsRule() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 9
     }
-  }, "Toutes les armes peuvent provoquer des types de blessures l\xE9g\xE8res ou graves diff\xE9rentes. Pour qu'une blessure soit inflig\xE9e il faut que le nombre de d\xE9g\xE2ts effectu\xE9s par l'arme d'une seule traite soit sup\xE9rieur \xE0 son seuil de blessure l\xE9g\xE8re ou \xE0 son seuil de blessure grave.")));
+  }, "Toutes les armes peuvent provoquer des types de blessures l\xE9g\xE8res ou graves diff\xE9rentes. Pour qu'une blessure soit inflig\xE9e il faut que le nombre de d\xE9g\xE2ts effectu\xE9s par l'arme d'une seule traite soit sup\xE9rieur ou \xE9gal \xE0 son seuil de blessure l\xE9g\xE8re ou \xE0 son seuil de blessure grave.")));
 }
 
 /***/ }),
@@ -75720,6 +75937,13 @@ var AcrobaticDodging = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder()
     lineNumber: 17,
     columnNumber: 23
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 29
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -75768,6 +75992,13 @@ var AcrobaticParry = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().s
     fileName: _jsxFileName,
     lineNumber: 17,
     columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 29
   }
 }), __jsx("p", {
   __self: undefined,
@@ -75818,6 +76049,13 @@ var AtlasBurden = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setI
     lineNumber: 16,
     columnNumber: 26
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 32
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -75867,6 +76105,13 @@ var BloodBath = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
     lineNumber: 16,
     columnNumber: 22
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 28
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -75915,6 +76160,13 @@ var BloodThirst = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setI
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 22
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 28
   }
 }), __jsx("p", {
   __self: undefined,
@@ -75971,6 +76223,13 @@ var BullCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
     fileName: _jsxFileName,
     lineNumber: 19,
     columnNumber: 28
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 34
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76042,6 +76301,13 @@ var CatGrace = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIden
     lineNumber: 15,
     columnNumber: 23
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76097,6 +76363,13 @@ var ChainAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setI
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 39
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 45
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76161,6 +76434,13 @@ var ChainAttackBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder
     lineNumber: 16,
     columnNumber: 40
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 46
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76217,6 +76497,13 @@ var ChainDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
     lineNumber: 16,
     columnNumber: 20
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 26
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76265,6 +76552,13 @@ var CounterAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().se
     fileName: _jsxFileName,
     lineNumber: 15,
     columnNumber: 39
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 45
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76322,6 +76616,13 @@ var CounterAttackBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].build
     lineNumber: 15,
     columnNumber: 40
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 46
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76377,6 +76678,13 @@ var DefensiveStyle = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().s
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 39
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 45
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76434,6 +76742,13 @@ var DefensiveStyleBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].buil
     lineNumber: 16,
     columnNumber: 40
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 46
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76489,6 +76804,13 @@ var Diehard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdent
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 26
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 32
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76546,6 +76868,13 @@ var DoubleSkin = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
     lineNumber: 16,
     columnNumber: 28
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 34
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76594,6 +76923,13 @@ var EagleCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setI
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 40
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 46
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76665,6 +77001,13 @@ var FlashDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
     lineNumber: 19,
     columnNumber: 23
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 29
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76714,6 +77057,13 @@ var FullDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
     lineNumber: 16,
     columnNumber: 20
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 26
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76762,6 +77112,13 @@ var Hacker = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdenti
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 34
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 40
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76818,6 +77175,13 @@ var Twisted = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdent
     fileName: _jsxFileName,
     lineNumber: 17,
     columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 29
   }
 }), __jsx("p", {
   __self: undefined,
@@ -76882,6 +77246,13 @@ var VulcanStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().set
     lineNumber: 16,
     columnNumber: 19
   }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 25
+  }
 }), __jsx("p", {
   __self: undefined,
   __source: {
@@ -76930,6 +77301,13 @@ var WindDance = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
     fileName: _jsxFileName,
     lineNumber: 16,
     columnNumber: 21
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 27
   }
 }), __jsx("p", {
   __self: undefined,
