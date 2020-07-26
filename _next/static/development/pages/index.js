@@ -1315,11 +1315,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
 /* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
 /* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
-/* harmony import */ var _data_Data__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/Data */ "./components/data/Data.tsx");
 
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\components\\feat\\FeatSubject.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
 
 
 
@@ -1369,14 +1367,14 @@ function FeatSubject(properties) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_6__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 56,
       columnNumber: 7
     }
   }, 'feats-' + properties.children.identifier), Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(properties.children.keywords).map(function (keyword, index) {
@@ -1385,7 +1383,7 @@ function FeatSubject(properties) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 59,
         columnNumber: 18
       }
     }, keyword);
@@ -1393,98 +1391,24 @@ function FeatSubject(properties) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 62,
       columnNumber: 7
     }
   }, properties.children.name), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_2__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 63,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_3__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 66,
       columnNumber: 7
     }
-  }, __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 9
-    }
-  }, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(properties.children.levels).map(function (level, index) {
-    var _this = this;
-
-    return __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].Element, {
-      key: index,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 72,
-        columnNumber: 17
-      }
-    }, __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].Header, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 73,
-        columnNumber: 19
-      }
-    }, roman(index + 1)), __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].List, {
-      row: true,
-      header: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 74,
-        columnNumber: 19
-      }
-    }, __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].Element, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 75,
-        columnNumber: 21
-      }
-    }, "Pr\xE9requis")), __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].List, {
-      className: "data-list-requirements",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79,
-        columnNumber: 19
-      }
-    }, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(level.requirements).map(function (requirement, index) {
-      return __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].Element, {
-        key: index,
-        __self: _this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82,
-          columnNumber: 25
-        }
-      }, requirement);
-    })), __jsx("br", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 88,
-        columnNumber: 19
-      }
-    }), __jsx(_data_Data__WEBPACK_IMPORTED_MODULE_8__["Data"].Element, {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 19
-      }
-    }, level.description));
-  }))));
+  }, properties.children.description));
 }
 
 (function (_FeatSubject) {})(FeatSubject || (FeatSubject = {}));
@@ -20346,210 +20270,110 @@ function range(size) {
   return result;
 }
 
-function cost(index) {
-  var base = Math.ceil(index / 5);
-  return base * (base + 1) / 2;
-}
-
-function experience(index) {
-  var result = 0;
-
-  for (var costIndex = 0; costIndex <= index; ++costIndex) {
-    result += cost(costIndex);
-  }
-
-  return result;
-}
-
 function Introduction() {
-  var _this = this;
-
   return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 24,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 25,
       columnNumber: 7
     }
   }, "knowledges-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, "Connaissance"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 28,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, "Les connaissances sont des champs disciplinaires appr\xE9ci\xE9s sur une \xE9chelle relative divis\xE9 en deux modificateurs : un modificateur de sp\xE9cialisation et un modificateur d'acquis. Les connaissances appartiennent \xE0 des domaines de connaissances, chaque domaine peut regrouper plusieurs connaissances diff\xE9rentes ayant un lien plus ou moins important entre elles."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }, '\\text{Niveau de connaissance} = ' + '\\text{Modificateur de spécialisation} + ' + '\\text{Modificateur d\'acquis}'), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 46,
       columnNumber: 9
     }
-  }, "Les connaissances sont des champs disciplinaires appr\xE9ci\xE9s sur une \xE9chelle relative divis\xE9 en deux modificateurs : un modificateur de sp\xE9cialisation et un modificateur acquis. Les connaissances appartiennent \xE0 des domaines de connaissances, chaque domaine peut regrouper plusieurs connaissances diff\xE9rentes ayant un lien plus ou moins important entre elles."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
+  }, "Le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 14
+    }
+  }, "modificateur d'acquis"), " d'une connaissance d\xE9pend du total de point d'exp\xE9rience investi dans celle-ci. Chaque point d'exp\xE9rience investi dans une connaissance apporte un point d'acquis. Il n'est pas possible pour un \xEAtre humain d'investir plus de 20 points d'exp\xE9rience dans une connaissance."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  }, "Le ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55,
-      columnNumber: 9
-    }
-  }, '\\text{Niveau de maîtrise} = ' + '\\text{Modificateur de spécialisation} + ' + '\\text{Modificateur acquis}'), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 9
-    }
-  }, "Le ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
       columnNumber: 14
     }
-  }, "modificateur d'acquis"), " d'une connaissance d\xE9pend du total de point d'exp\xE9rience investit dans celle-ci. Les 5 premiers points d'acquis co\xFBtent 1 point d'exp\xE9rience, les 5 suivants 3 points d'exp\xE9rience, les 5 encore suivant 6 points d'exp\xE9rience et les 5 derniers 10 points d'exp\xE9rience. Il faut un total de 100 points d'exp\xE9rience pour acqu\xE9rir les 20 premiers point d'acquis d'une connaissance."), __jsx("table", {
-    className: "table-1d",
+  }, "modificateur de sp\xE9cialisation"), " d\xE9pend de l'investissement du personnage dans le domaine parent de la connaissance. Un personnage peut toujours choisir de ce sp\xE9cialiser dans un domaine en \xE9change de 5 points d'exp\xE9rience. Un personnage peut se sp\xE9cialiser au maximum dans trois domaines diff\xE9rents. Chaque domaine est alors class\xE9 par ordre d'importance : le domaine primaire, le domaine secondaire et le domaine tertiaire. Toutes les connaissances du domaine primaire ont le droit \xE0 un bonus de sp\xE9cialisation de 3 points, toutes les connaissances du domaine secondaire ont le droit \xE0 un bonus de sp\xE9cialisation de 2 points et toutes les connaissances du domaine tertiaire ont le droit \xE0 un bonus de sp\xE9cialisation de 1 point."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 9
-    }
-  }, __jsx("tbody", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 11
-    }
-  }, __jsx("tr", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 13
-    }
-  }, __jsx("td", {
-    style: {
-      width: '120px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 15
-    }
-  }, " Exp\xE9rience "), range(21).map(function (level) {
-    return __jsx("td", {
-      style: {
-        width: '35px'
-      },
-      key: level,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 19
-      }
-    }, experience(level));
-  })), __jsx("tr", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 13
-    }
-  }, __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 15
-    }
-  }, " Acquis "), range(21).map(function (level) {
-    return __jsx("th", {
-      key: level,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 87,
-        columnNumber: 19
-      }
-    }, level);
-  })))), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 9
-    }
-  }, "Au-del\xE0 de 20 points d'acquis le co\xFBt de chaque groupe de 5 points cons\xE9cutif continue de suivre une croissance triangulaire."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 9
-    }
-  }, '\\forall n \\in \\mathbb{N}, \\text{Coût}(n) = \\frac{' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil \\times \\left ( ' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil + 1 ' + '\\right )' + '}{2}'), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107,
-      columnNumber: 9
-    }
-  }, "Le ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 14
-    }
-  }, "modificateur de sp\xE9cialisation"), " d\xE9pend de l'investissement du personnage dans le domaine parent de la connaissance. Un personnage peut toujours choisir de ce sp\xE9cialiser dans un domaine en \xE9change de 25 points d'exp\xE9rience. Un personnage peut se sp\xE9cialiser au maximum dans trois domaines diff\xE9rents. Chaque domaine est alors class\xE9 par ordre d'importance : le domaine primaire, le domaine secondaire et le domaine tertiaire. Toutes les connaissances du domaine primaire ont le droit \xE0 un bonus de sp\xE9cialisation de 3 points, toutes les connaissances du domaine secondaire ont le droit \xE0 un bonus de sp\xE9cialisation de 2 points et toutes les connaissances du domaine tertiaire ont le droit \xE0 un bonus de sp\xE9cialisation de 1 point."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 69,
       columnNumber: 9
     }
   }, "Les connaissances permettent de r\xE9soudre des actions aux cons\xE9quences incertaines par des ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 71,
       columnNumber: 31
     }
   }, "r\xE9solutions par opposition"), " ou des ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 72,
       columnNumber: 15
     }
   }, "tests d'auto-r\xE9solution"), ". Certaines connaissances ont des effets suppl\xE9mentaires en fonction de leur niveau, dans ce cas la nature des effets sont sp\xE9cifi\xE9s dans la description de chaque connaissance.")));
@@ -21178,21 +21002,6 @@ function range(size) {
   return result;
 }
 
-function cost(index) {
-  var base = Math.ceil(index / 5);
-  return base * (base + 1) / 2;
-}
-
-function experience(index) {
-  var result = 0;
-
-  for (var costIndex = 0; costIndex <= index; ++costIndex) {
-    result += cost(costIndex);
-  }
-
-  return result;
-}
-
 function Introduction() {
   var _this = this;
 
@@ -21200,181 +21009,98 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 24,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 25,
       columnNumber: 7
     }
   }, "masteries-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, "Ma\xEEtrise"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 28,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, "Les ma\xEEtrises sont des champs disciplinaires appr\xE9ci\xE9s sur une \xE9chelle relative divis\xE9 en deux modificateurs : un modificateur inn\xE9 et un modificateur acquis."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 37,
       columnNumber: 9
     }
   }, '\\text{Niveau de maîtrise} = \\text{Modificateur inné} + ' + ' \\text{Modificateur acquis}'), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 42,
       columnNumber: 9
     }
   }, "Le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 14
+    }
+  }, "modificateur d'acquis"), " d'une ma\xEEtrise d\xE9pend du total de point d'exp\xE9rience investi dans celle-ci. Chaque point d'exp\xE9rience investi dans une ma\xEEtrise apporte un point d'acquis. Il n'est pas possible pour un \xEAtre humain d'investir plus de 20 points d'exp\xE9rience dans une ma\xEEtrise."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 9
+    }
+  }, "Le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 14
+    }
+  }, "modificateur d'inn\xE9"), " d\xE9pend des caract\xE9ristiques et varie de -5 points \xE0 5 points pour un \xEAtre humain. Un modificateur d'inn\xE9 est \xE9gal \xE0 la valeur de la caract\xE9ristique qui lui est associ\xE9, soustraite de 10 points, divis\xE9 par 2, le tout arrondi \xE0 l'entier inf\xE9rieur."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
-      columnNumber: 14
-    }
-  }, "modificateur d'acquis"), " d'une ma\xEEtrise d\xE9pend du total de point d'exp\xE9rience investit dans celle-ci. Les 5 premiers points d'acquis co\xFBtent 1 point d'exp\xE9rience, les 5 suivants 3 points d'exp\xE9rience, les 5 encore suivant 6 points d'exp\xE9rience et les 5 derniers 10 points d'exp\xE9rience. Il faut un total de 100 points d'exp\xE9rience pour acqu\xE9rir les 20 premiers point d'acquis d'une ma\xEEtrise."), __jsx("table", {
-    className: "table-1d",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, __jsx("tbody", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 11
-    }
-  }, __jsx("tr", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 13
-    }
-  }, __jsx("td", {
-    style: {
-      width: '120px'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 15
-    }
-  }, " Exp\xE9rience "), range(21).map(function (level) {
-    return __jsx("td", {
-      style: {
-        width: '35px'
-      },
-      key: level,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 72,
-        columnNumber: 19
-      }
-    }, experience(level));
-  })), __jsx("tr", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 13
-    }
-  }, __jsx("th", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 15
-    }
-  }, " Acquis "), range(21).map(function (level) {
-    return __jsx("th", {
-      key: level,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 82,
-        columnNumber: 19
-      }
-    }, level);
-  })))), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 9
-    }
-  }, "Au-del\xE0 de 20 points d'acquis le co\xFBt de chaque groupe de 5 points cons\xE9cutif continue de suivre une croissance triangulaire."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 9
-    }
-  }, '\\forall n \\in \\mathbb{N}, \\text{Coût}(n) = \\frac{' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil \\times \\left ( ' + '\\left \\lceil{\\frac{n}{5}}\\right \\rceil + 1 ' + '\\right )' + '}{2}'), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 9
-    }
-  }, "Le ", __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 14
-    }
-  }, "modificateur d'inn\xE9"), " d\xE9pend des caract\xE9ristiques et varie de -5 points \xE0 5 points. Un modificateur d'inn\xE9 est \xE9gal \xE0 la valeur de la caract\xE9ristique qui lui est associ\xE9, soustraite de 10 points, divis\xE9 par 2, le tout arrondie \xE0 l'entier inf\xE9rieur."), __jsx(_components_Formula__WEBPACK_IMPORTED_MODULE_7__["Formula"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
       columnNumber: 9
     }
   }, '\\forall n \\in \\mathbb{N}, \\text{Inné}(n) = \\left \\lfloor' + '\\frac{n - 10}{2}' + '\\right \\rfloor'), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 64,
       columnNumber: 9
     }
   }, "Si le modificateur est associ\xE9 \xE0 deux caract\xE9ristiques la caract\xE9ristique dite majeure peut impacter le personnage jusqu'\xE0 3 points maximum et la caract\xE9ristique secondaire peut impacter le personnage jusqu'\xE0 2 points maximum."), __jsx("table", {
@@ -21382,21 +21108,21 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 71,
       columnNumber: 9
     }
   }, __jsx("tbody", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 72,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 73,
       columnNumber: 13
     }
   }, __jsx("td", {
@@ -21407,7 +21133,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 74,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21418,7 +21144,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 75,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21429,7 +21155,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 76,
       columnNumber: 15
     }
   }, "\u2190"), __jsx("td", {
@@ -21440,7 +21166,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 77,
       columnNumber: 15
     }
   }, "Total"), __jsx("td", {
@@ -21451,7 +21177,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 78,
       columnNumber: 15
     }
   }, "\u2192"), __jsx("td", {
@@ -21462,7 +21188,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 79,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21473,7 +21199,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 80,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21484,14 +21210,14 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 81,
       columnNumber: 15
     }
   })), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 83,
       columnNumber: 13
     }
   }, __jsx("td", {
@@ -21502,7 +21228,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 84,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21510,7 +21236,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 85,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21521,7 +21247,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, "\u2190"), __jsx("td", {
@@ -21532,7 +21258,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 87,
       columnNumber: 15
     }
   }, "Majeur"), __jsx("td", {
@@ -21543,7 +21269,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 88,
       columnNumber: 15
     }
   }, "\u2192"), __jsx("td", {
@@ -21554,7 +21280,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 89,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21565,7 +21291,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 90,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21576,14 +21302,14 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 91,
       columnNumber: 15
     }
   })), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 93,
       columnNumber: 13
     }
   }, __jsx("td", {
@@ -21594,7 +21320,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 94,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21605,7 +21331,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 95,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21613,7 +21339,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 96,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21624,7 +21350,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 97,
       columnNumber: 15
     }
   }, "\u2190"), __jsx("td", {
@@ -21635,7 +21361,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 98,
       columnNumber: 15
     }
   }, "Mineur"), __jsx("td", {
@@ -21646,7 +21372,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 99,
       columnNumber: 15
     }
   }, "\u2192"), __jsx("td", {
@@ -21657,7 +21383,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 100,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21668,7 +21394,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 101,
       columnNumber: 15
     }
   }), __jsx("td", {
@@ -21679,14 +21405,14 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 102,
       columnNumber: 15
     }
   })), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 104,
       columnNumber: 13
     }
   }, __jsx("td", {
@@ -21696,7 +21422,7 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 105,
       columnNumber: 15
     }
   }, " Points d'inn\xE9 "), range(21).map(function (level) {
@@ -21705,7 +21431,7 @@ function Introduction() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 159,
+        lineNumber: 108,
         columnNumber: 19
       }
     }, " ", Math.floor((level - 10) / 2), " ");
@@ -21713,14 +21439,14 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, __jsx("th", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 113,
       columnNumber: 15
     }
   }, " Caract\xE9ristique "), range(21).map(function (level) {
@@ -21732,7 +21458,7 @@ function Introduction() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 167,
+        lineNumber: 116,
         columnNumber: 19
       }
     }, " ", level, " ");
@@ -21740,21 +21466,21 @@ function Introduction() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 123,
       columnNumber: 9
     }
   }, "Une ma\xEEtrise permet de r\xE9soudre des actions aux cons\xE9quences incertaines par des ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 125,
       columnNumber: 15
     }
   }, "r\xE9solutions par opposition"), " ou des ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 125,
       columnNumber: 66
     }
   }, "tests d'auto-r\xE9solution"), ". Certaines ma\xEEtrises ont des effets suppl\xE9mentaires en fonction de leur niveau, dans ce cas la nature des effets sont sp\xE9cifi\xE9s dans la description de chaque ma\xEEtrise.")));
@@ -21837,60 +21563,53 @@ function Masteries() {
       lineNumber: 24,
       columnNumber: 7
     }
-  }, __jsx("p", {
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
-    }
-  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreuses ressources connexes. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif.")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 27,
       columnNumber: 9
     }
   }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 29,
       columnNumber: 9
     }
   }), __jsx(_weaponMasteries__WEBPACK_IMPORTED_MODULE_9__["WeaponMasteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 30,
       columnNumber: 9
     }
   }), __jsx(_martialStyleMasteries__WEBPACK_IMPORTED_MODULE_10__["MartialStyleMasteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 31,
       columnNumber: 9
     }
   }), __jsx(_armorMasteries__WEBPACK_IMPORTED_MODULE_11__["ArmorMasteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 32,
       columnNumber: 9
     }
   }), __jsx(_supportMasteries__WEBPACK_IMPORTED_MODULE_12__["SupportMasteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 33,
       columnNumber: 9
     }
   })));
@@ -75976,27 +75695,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\AcrobaticDodging.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var AcrobaticDodging = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('acrobatic-dodging').setName('Esquive acrobatique').addKeyword('atout').addKeyword('esquive').addKeyword('acrobatie').addKeyword('esquive acrobatique').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Acrobatie 5+")).setDescription(__jsx("p", {
+var AcrobaticDodging = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('acrobatic-dodging').setName('Esquive acrobatique').addKeyword('atout').addKeyword('esquive').addKeyword('acrobatie').addKeyword('esquive acrobatique').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 9
   }
-}, "Le personnage gagne une esquive acrobatique suppl\xE9mentaire par round, une esquive acrobatique est r\xE9solue comme une acrobatie dont le succ\xE8s aboutit aux effets d'une esquive standard. Lors d'une esquive acrobatique le personnage subit un malus de 20% sur sa tentative d'esquive.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Acrobatie 10+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 5+")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 38
   }
-}, "Le personnage gagne deux esquives acrobatiques suppl\xE9mentaires par round, une esquive acrobatique est r\xE9solue comme une acrobatie dont le succ\xE8s aboutit aux effets d'une esquive standard. Lors d'une esquive acrobatique le personnage subit un malus de 20% sur sa tentative d'esquive.")).build()).build();
+}), "Acrobatie 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 23
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 9
+  }
+}, "Le personnage gagne une esquive acrobatique suppl\xE9mentaire par round, une esquive acrobatique est r\xE9solue comme une acrobatie dont le succ\xE8s aboutit aux effets d'une esquive standard. Lors d'une esquive acrobatique le personnage subit un malus de 4 points sur sa tentative d'esquive."))).build();
 
 /***/ }),
 
@@ -76013,20 +75744,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\AcrobaticParry.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var AcrobaticParry = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('acrobatic-parry').setName('Parade acrobatique').addKeyword('atout').addKeyword('parade').addKeyword('acrobatie').addKeyword('parade acrobatique').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Acrobatie 15+")).setDescription(__jsx("p", {
+var AcrobaticParry = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('acrobatic-parry').setName('Parade acrobatique').addKeyword('atout').addKeyword('parade').addKeyword('acrobatie').addKeyword('parade acrobatique').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 9
   }
-}, "Le personnage gagne une parade suppl\xE9mentaire par round, cette parade est r\xE9solue comme une acrobatie dont le succ\xE8s aboutit aux effets d'une parade standard avec l'arme choisie. Lors d'une parade acrobatique le personnage subit un malus de 20% sur sa tentative.")).build()).build();
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 38
+  }
+}), "Acrobatie 15+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 23
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 9
+  }
+}, "Le personnage gagne une parade suppl\xE9mentaire par round, cette parade est r\xE9solue comme une acrobatie dont le succ\xE8s aboutit aux effets d'une parade standard avec l'arme choisie. Lors d'une parade acrobatique le personnage subit un malus de 4 points sur sa tentative."))).build();
 
 /***/ }),
 
@@ -76043,27 +75793,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\AtlasBurden.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var AtlasBurden = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('atlas-burden').setName('Fardeau d\'Atlas').addKeyword('atout').addKeyword('constitution').addKeyword('fardeau d\'atlas').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 14+")).setDescription(__jsx("p", {
+var AtlasBurden = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('atlas-burden').setName('Fardeau d\'Atlas').addKeyword('atout').addKeyword('constitution').addKeyword('fardeau d\'atlas').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Gagnez 1 point de charge suppl\xE9mentaire tous les 4 point de charge effectif.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 18+")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Gagnez 1 point de charge suppl\xE9mentaire tous les 2 point de charge effectif.")).build()).build();
+}), "Constitution 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 26
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Gagnez 1 point de charge suppl\xE9mentaire par groupe de 4 points de constitution au dessus de 10 pour chaque groupe de 4 points de force effectif."))).build();
 
 /***/ }),
 
@@ -76080,27 +75842,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\BloodBath.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var BloodBath = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('blood-bath').setName('Bain de sang (!)').addKeyword('atout').addKeyword('hache').addKeyword('dague').addKeyword('controle').addKeyword('bain de sang').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Haches ou Dagues 8+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le 14-")).setDescription(__jsx("p", {
+var BloodBath = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('blood-bath').setName('Bain de sang').addKeyword('atout').addKeyword('controle').addKeyword('bain de sang').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Infligez 1 point de d\xE9g\xE2t suppl\xE9mentaire tous les 4 points de vie perdus.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Haches ou Dagues 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le 10-")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Bain de sang I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Infligez 1 point de d\xE9g\xE2t suppl\xE9mentaire tous les 2 points de vie perdus.")).build()).build();
+}), "Contr\xF4le 14- ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 22
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Infligez 1 point de d\xE9g\xE2t suppl\xE9mentaire tous les 4 points de vie perdus. Si le personnage poss\xE8de 10 points de contr\xF4le ou moins il inflige alors 1 point de d\xE9g\xE2t suppl\xE9mentaire tous les 2 points de vie perdus."))).build();
 
 /***/ }),
 
@@ -76117,27 +75891,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\BloodThirst.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var BloodThirst = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('blood-thirst').setName('Soif de sang (!)').addKeyword('atout').addKeyword('constitution').addKeyword('controle').addKeyword('soif de sang').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le 14-")).setDescription(__jsx("p", {
+var BloodThirst = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('blood-thirst').setName('Soif de sang').addKeyword('atout').addKeyword('controle').addKeyword('soif de sang').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Gagnez 1 point d'initiative suppl\xE9mentaire tous les 4 points de vie perdus.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 18+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le 10-")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Soif de sang I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Gagnez 1 point d'initiative suppl\xE9mentaire tous les 2 points de vie perdus.")).build()).build();
+}), "Contr\xF4le 14- ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 22
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Gagnez 1 point d'initiative suppl\xE9mentaire tous les 4 points de vie perdus. Si le personnage poss\xE8de 10 points de contr\xF4le ou moins il gagne alors 1 point d'initiative suppl\xE9mentaire tous les 2 points de vie perdus."))).build();
 
 /***/ }),
 
@@ -76154,34 +75940,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\BullCharge.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var BullCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('bull-charge').setName('Charge du taureau').addKeyword('atout').addKeyword('force').addKeyword('armure lourde').addKeyword('charge').addKeyword('charge du taureau').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Force 12+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures lourdes 5+")).setDescription(__jsx("p", {
+var BullCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('bull-charge').setName('Charge du taureau').addKeyword('atout').addKeyword('force').addKeyword('armure lourde').addKeyword('charge').addKeyword('charge du taureau').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 11
+    lineNumber: 17,
+    columnNumber: 9
   }
-}, "Lors d'une charge, ajouter un point de d\xE9g\xE2t physique suppl\xE9mentaire tous les 4 points de charge utilis\xE9s.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Force 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures lourdes 10+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Charge du taureau I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 11
+    lineNumber: 17,
+    columnNumber: 38
   }
-}, "Lors d'une charge, ajouter un point de d\xE9g\xE2t physique suppl\xE9mentaire tous les 2 points de charge utilis\xE9s.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Force 18+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures lourdes 18+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Charge du taureau II")).setDescription(__jsx("p", {
+}), "Force 12+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50,
-    columnNumber: 11
+    lineNumber: 18,
+    columnNumber: 19
   }
-}, "Lors d'une charge, ajouter un point de d\xE9g\xE2t physique suppl\xE9mentaire par point de charge utilis\xE9.")).build()).build();
+}), "Armures lourdes 5+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 28
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 9
+  }
+}, "Lors d'une charge, ajoutez 1 point de d\xE9g\xE2t physique suppl\xE9mentaire tous les 4 points de charge utilis\xE9s."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 9
+  }
+}, "Si le personnage poss\xE8de une force sup\xE9rieure ou \xE9gale \xE0 14 points et une ma\xEEtrise du port des armures lourdes sup\xE9rieure ou \xE9gale \xE0 10 points le ratio passe alors de 1 pour 4 \xE0 1 pour 2."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32,
+    columnNumber: 9
+  }
+}, "Si le personnage poss\xE8de une force sup\xE9rieure ou \xE9gale \xE0 16 points et une ma\xEEtrise du port des armures lourdes sup\xE9rieure ou \xE9gale \xE0 15 points le ratio passe alors de 1 pour 4 \xE0 1 pour 1."))).build();
 
 /***/ }),
 
@@ -76198,20 +76010,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\CatGrace.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var CatGrace = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('cat-grace').setName('Vol contrôlé (?)').addKeyword('atout').addKeyword('vol contrôlé').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Acrobatie 15+")).setDescription(__jsx("p", {
+var CatGrace = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('cat-grace').setName('Grâce féline').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 13,
+    columnNumber: 9
   }
-}, "Si une acrobatie visant un autre personnage \xE9choue alors l'acteur de l'acrobatie peut tenter de se rattraper in-extremis en passant un test d'acrobatie de difficult\xE9 18 afin d'annuler tous les effets de la parade ou de l'esquive de sa victime. Si l'acteur r\xE9ussi son jet, la parade ou l'esquive de sa victime est annul\xE9e et d\xE9compt\xE9e de la quantit\xE9 de parade ou d'esquive de son tour.")).build()).build();
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Dext\xE9rit\xE9 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 23
+  }
+}), "Acrobatie 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Si des suites des actions d'un tiers ou de ses propres d\xE9cisions, un personnage vient \xE0 tomber \xE0 terre il peut alors effectuer un test d'opposition entre son score d'acrobatie et un degr\xE9 de difficult\xE9 de 15 points pour se rattraper in-extremis. Si le jet est r\xE9ussi le personnage ne tombe pas \xE0 terre et peut effectuer son round en cours normalement. Si le test \xE9choue le personnage tombe \xE0 terre."))).build();
 
 /***/ }),
 
@@ -76228,62 +76066,116 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\ChainAttack.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var ChainAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('chain-attack').setName('Attaque en chaîne [Arme\xa0à\xa0une\xa0main]').addKeyword('atout').addKeyword('dextérité').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 38
+  }
+}), "Dext\xE9rit\xE9 12+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), "Ma\xEEtrise de l'arme choisie 5+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 39
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Le personnage peut \xE9changer une parade ou une esquive contre une attaque suppl\xE9mentaire lors d'une attaque \xE0 outrance r\xE9alis\xE9e avec l'arme choisie par groupe de 5 points de ma\xEEtrise de la-dite arme. Un personnage ne peut pas faire l'objet d'un nombre d'\xE9change par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 2 points par attaque d\xE9j\xE0 port\xE9e."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
-var ChainAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('chain-attack').setName('Attaque en chaîne').addKeyword('atout').addKeyword('épée courte').addKeyword('épée bâtarde').addKeyword('dextérité').addKeyword('attaque en chaîne').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes ou \xC9p\xE9es batardes 5+")).setDescription(__jsx("p", {
+/***/ }),
+
+/***/ "./typescript/data/feat/ChainAttackBastard.tsx":
+/*!*****************************************************!*\
+  !*** ./typescript/data/feat/ChainAttackBastard.tsx ***!
+  \*****************************************************/
+/*! exports provided: ChainAttackBastard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChainAttackBastard", function() { return ChainAttackBastard; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\ChainAttackBastard.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var ChainAttackBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('chain-attack-bastard').setName('Attaque en chaîne [Arme\xa0bâtarde]').addKeyword('atout').addKeyword('dextérité').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21,
-    columnNumber: 11
+    lineNumber: 14,
+    columnNumber: 9
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance, \xE0 l'\xE9p\xE9e courte ou \xE0 l'\xE9p\xE9e batarde, une parade contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 10+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Attaque en cha\xEEne I")).setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37,
-    columnNumber: 13
+    lineNumber: 14,
+    columnNumber: 38
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e courte jusqu'\xE0 deux parades contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e."), __jsx("p", {
+}), "Dext\xE9rit\xE9 12+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44,
-    columnNumber: 13
+    lineNumber: 15,
+    columnNumber: 23
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e batarde une parade contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e."))).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 15+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 12+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Attaque en cha\xEEne II")).setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62,
-    columnNumber: 13
+    lineNumber: 16,
+    columnNumber: 40
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e courte jusqu'\xE0 trois parades contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e."), __jsx("p", {
+}), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 69,
-    columnNumber: 13
+    lineNumber: 18,
+    columnNumber: 9
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e batarde une parade contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e."))).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 20+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 18+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Attaque en cha\xEEne III")).setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+}, "Le personnage peut \xE9changer une parade ou une esquive contre une attaque suppl\xE9mentaire lors d'une attaque \xE0 outrance r\xE9alis\xE9e avec l'arme choisie par groupe de 10 points de ma\xEEtrise de la-dite arme. Un personnage ne peut pas faire l'objet d'un nombre d'\xE9change par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 2 points par attaque d\xE9j\xE0 port\xE9e."), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 87,
-    columnNumber: 13
+    lineNumber: 28,
+    columnNumber: 9
   }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e courte jusqu'\xE0 quatre parades contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e. Il est toujours possible d'\xE9changer une seule parade \xE0 l'\xE9p\xE9e batarde contre une attaque suppl\xE9mentaire."), __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 96,
-    columnNumber: 13
-  }
-}, "Peut \xE9changer lors d'une attaque \xE0 outrance \xE0 l'\xE9p\xE9e batarde une parade contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques normales avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e."))).build()).build();
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
 /***/ }),
 
@@ -76300,34 +76192,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\ChainDodge.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var ChainDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('chain-dodge').setName('Esquive en chaîne').addKeyword('atout').addKeyword('esquive').addKeyword('esquive en chaîne').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 8+")).setDescription(__jsx("p", {
+var ChainDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('chain-dodge').setName('Esquive en chaîne').addKeyword('atout').addKeyword('esquive').addKeyword('esquive en chaîne').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Le personnage gagne une esquive suppl\xE9mentaire par round, chaque esquive suppl\xE9mentaire jou\xE9e durant un round se voit attribu\xE9e un malus de 10% cumulatif.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 12+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive en cha\xEEne I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Le personnage gagne deux esquives suppl\xE9mentaire par round, chaque esquive suppl\xE9mentaire jou\xE9e durant un round se voit attribu\xE9e un malus de 10% cumulatif.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive en cha\xEEne II")).setDescription(__jsx("p", {
+}), "Esquive 5+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 20
   }
-}, "Le personnage gagne trois esquives suppl\xE9mentaire par round, chaque esquive suppl\xE9mentaire jou\xE9e durant un round se voit attribu\xE9e un malus de 10% cumulatif.")).build()).build();
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Le personnage gagne une esquive suppl\xE9mentaire par round pour chaque groupe de 5 points de ma\xEEtrise de l'esquive qu'il poss\xE8de. Un personnage ne peut pas faire l'objet d'un nombre d'esquive bonus par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point. Chaque esquive suppl\xE9mentaire jou\xE9e durant un round se voit attribu\xE9e un malus de 2 points cumulatif."))).build();
 
 /***/ }),
 
@@ -76344,34 +76241,102 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\CounterAttack.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var CounterAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('counter-attack').setName('Contre attaque [Arme\xa0à\xa0une\xa0main]').addKeyword('atout').addKeyword('contre attaque').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 6+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 39
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Par round, pour chaque groupe de 6 points dans la ma\xEEtrise de l'arme choisie, un personnage venant de parrer un coup avec la-dite arme et poss\xE9dant cet atout peut toujours choisir de contre-attaquer gratuitement. Les r\xF4les du d\xE9fenseur et de l'attaquant sont alors invers\xE9. Un personnage ne peut pas faire l'objet d'un nombre de contre-attaque par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
-var CounterAttack = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('counter-attack').setName('Contre attaque').addKeyword('atout').addKeyword('contre attaque').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise d'arme l\xE9g\xE8re 6+")).setDescription(__jsx("p", {
+/***/ }),
+
+/***/ "./typescript/data/feat/CounterAttackBastard.tsx":
+/*!*******************************************************!*\
+  !*** ./typescript/data/feat/CounterAttackBastard.tsx ***!
+  \*******************************************************/
+/*! exports provided: CounterAttackBastard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CounterAttackBastard", function() { return CounterAttackBastard; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\CounterAttackBastard.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var CounterAttackBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('counter-attack-bastard').setName('Contre attaque [Arme\xa0bâtarde]').addKeyword('atout').addKeyword('contre attaque').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
-    columnNumber: 11
+    lineNumber: 14,
+    columnNumber: 9
   }
-}, "Une fois par round, un personnage \xE9quip\xE9 d'une arme l\xE9g\xE8re poss\xE9dant cet atout et venant de parer un coup peut toujours choisir de contre attaquer gratuitement. Les r\xF4les du d\xE9fenseur et de l'attaquant sont alors invers\xE9.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise d'arme l\xE9g\xE8re 12+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contre attaque I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
-    columnNumber: 11
+    lineNumber: 14,
+    columnNumber: 38
   }
-}, "Deux fois par round, un personnage \xE9quip\xE9 d'une arme l\xE9g\xE8re poss\xE9dant cet atout et venant de parer un coup peut toujours choisir de contre attaquer gratuitement. Les r\xF4les du d\xE9fenseur et de l'attaquant sont alors invers\xE9.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise d'arme l\xE9g\xE8re 20+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contre attaque II")).setDescription(__jsx("p", {
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 40
   }
-}, "Trois fois par round, un personnage \xE9quip\xE9 d'une arme l\xE9g\xE8re poss\xE9dant cet atout et venant de parer un coup peut toujours choisir de contre attaquer gratuitement. Les r\xF4les du d\xE9fenseur et de l'attaquant sont alors invers\xE9.")).build()).build();
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Par round, pour chaque groupe de 10 points dans la ma\xEEtrise de l'arme choisie, un personnage venant de parrer un coup avec la-dite arme et poss\xE9dant cet atout peut toujours choisir de contre-attaquer gratuitement. Les r\xF4les du d\xE9fenseur et de l'attaquant sont alors invers\xE9. Un personnage ne peut pas faire l'objet d'un nombre de contre-attaque par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
 /***/ }),
 
@@ -76388,34 +76353,102 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\DefensiveStyle.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var DefensiveStyle = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('defensive-style').setName('Style défensif [Arme\xa0à\xa0une\xa0main]').addKeyword('atout').addKeyword('épée courte').addKeyword('style défensif').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 5+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 39
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout gagne une parade suppl\xE9mentaire par round pour chaque groupe de 5 points dans la ma\xEEtrise de l'arme choisie. Un personnage ne peut pas faire l'objet d'un nombre de parade suppl\xE9mentaire par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
-var DefensiveStyle = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('defensive-style').setName('Style défensif').addKeyword('atout').addKeyword('épée courte').addKeyword('style défensif').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 5+")).setDescription(__jsx("p", {
+/***/ }),
+
+/***/ "./typescript/data/feat/DefensiveStyleBastard.tsx":
+/*!********************************************************!*\
+  !*** ./typescript/data/feat/DefensiveStyleBastard.tsx ***!
+  \********************************************************/
+/*! exports provided: DefensiveStyleBastard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyleBastard", function() { return DefensiveStyleBastard; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\DefensiveStyleBastard.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var DefensiveStyleBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('defensive-style-bastard').setName('Style défensif [Arme\xa0bâtarde]').addKeyword('atout').addKeyword('épée courte').addKeyword('style défensif').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Gagne une parade suppl\xE9mentaire \xE0 l'\xE9p\xE9e courte par round.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 10+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Style d\xE9fensif I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Gagne deux parades suppl\xE9mentaires \xE0 l'\xE9p\xE9e courte par round.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 17+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 12+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Style d\xE9fensif II")).setDescription(__jsx("p", {
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 40
   }
-}, "Gagne trois parades suppl\xE9mentaires \xE0 l'\xE9p\xE9e courte par round.")).build()).build();
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout gagne une parade suppl\xE9mentaire par round pour chaque groupe de 10 points dans la ma\xEEtrise de l'arme choisie. Un personnage ne peut pas faire l'objet d'un nombre de parade suppl\xE9mentaire par round qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
 /***/ }),
 
@@ -76432,41 +76465,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Diehard.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var Diehard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('defensive-diehard').setName('Dur à cuir').addKeyword('atout').addKeyword('constitution').addKeyword('dur à cuir').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 14+")).setDescription(__jsx("p", {
+var Diehard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('defensive-diehard').setName('Dur à cuir').addKeyword('atout').addKeyword('constitution').addKeyword('dur à cuir').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Gagnez 1 point de vie suppl\xE9mentaire tous les 4 points de vie effectif. Vous mourrez toujours si vous accumulez plus de 150% de votre ", __jsx("strong", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 19
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "constitution"), " en d\xE9g\xE2ts.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Constitution 18+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dur \xE0 cuir I")).setDescription(__jsx("p", {
+}), "Constitution 14+ ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
-    columnNumber: 11
+    lineNumber: 16,
+    columnNumber: 26
   }
-}, "Gagnez 1 point de vie suppl\xE9mentaire tous les 2 points de vie effectif. Vous mourrez toujours si vous accumulez plus de 150% de votre ", __jsx("strong", {
+}), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 19
+    lineNumber: 18,
+    columnNumber: 9
   }
-}, "constitution"), " en d\xE9g\xE2t.")).build()).build();
+}, "Gagnez 1 point de vie suppl\xE9mentaire pour chaque groupe de 2 points de constitution effectif. Vous mourrez toujours si vous accumulez plus de 150% de votre ", __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21,
+    columnNumber: 28
+  }
+}, "constitution"), " en d\xE9g\xE2ts."))).build();
 
 /***/ }),
 
@@ -76483,27 +76521,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\DoubleSkin.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var DoubleSkin = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('double-skin').setName('Seconde peau').addKeyword('atout').addKeyword('armure légère').addKeyword('seconde peau').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures l\xE9g\xE8res 8+")).setDescription(__jsx("p", {
+var DoubleSkin = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('double-skin').setName('Seconde peau').addKeyword('atout').addKeyword('armure légère').addKeyword('seconde peau').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Toutes les armures l\xE9g\xE8res voient leur poids r\xE9duit de 1 point pour un minimum de 0 points.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Armures l\xE9g\xE8res 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Seconde peau I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Toutes les armures l\xE9g\xE8res voient leur poids r\xE9duit de 2 point pour un minimum de 0 points.")).build()).build();
+}), "Armures l\xE9g\xE8res 8+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 28
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Toutes les armures l\xE9g\xE8res voient leur poids r\xE9duit de 1 point pour chaque groupe de 8 points de ma\xEEtrise des armures l\xE9g\xE8res du personnage. Le poids d'une armure ne peut jamais valoir moins de 0 points."))).build();
 
 /***/ }),
 
@@ -76520,27 +76570,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\EagleCharge.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var EagleCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('eagle-charge').setName('Charge de l\'aigle').addKeyword('atout').addKeyword('épée courte').addKeyword('charge de l\'aigle').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 10+")).setDescription(__jsx("p", {
+var EagleCharge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('eagle-charge').setName('Charge de l\'aigle [Arme\xa0à\xa0une\xa0main]').addKeyword('atout').addKeyword('épée courte').addKeyword('charge de l\'aigle').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Lors d'une charge un personnage poss\xE9dant cet atout peut toujours choisir d'\xE9changer une parade \xE0 l'\xE9p\xE9e courte contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques standard avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e. Les b\xE9nefices de la charge s'appliquent \xE0 l'ensemble des coups port\xE9s.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\xC9p\xE9es courtes 20+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Charge de l'aigle I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Lors d'une charge un personnage poss\xE9dant cet atout peut toujours choisir d'\xE9changer jusqu'\xE0 deux parades \xE0 l'\xE9p\xE9e courte contre une attaque suppl\xE9mentaire. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques standard avec un malus de 10% par attaque d\xE9j\xE0 port\xE9e. Les b\xE9nefices de la charge s'appliquent \xE0 l'ensemble des coups port\xE9s.")).build()).build();
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 40
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Lors d'une charge un personnage poss\xE9dant cet atout et ce pour chaque groupe de 10 points de ma\xEEtrise dans le maniement de l'arme \xE0 une main choisie peut toujours choisir d'\xE9changer une parade ou une esquive contre une attaque suppl\xE9mentaire de la-dite arme. Les attaques suppl\xE9mentaires se r\xE9solvent comme des attaques standard avec un malus de 2 points par attaque d\xE9j\xE0 port\xE9e. Les b\xE9nefices de la charge s'appliquent \xE0 l'ensemble des coups port\xE9s. Un personnage ne peut pas faire l'objet d'un nombre d'attaque bonus par charge qui soit sup\xE9rieur \xE0 son modificateur de dext\xE9rit\xE9 augment\xE9 de 1 point."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
 
 /***/ }),
 
@@ -76557,20 +76626,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\FlashDodge.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var FlashDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('flash-dodge').setName('Esquive instinctive').addKeyword('atout').addKeyword('esquive').addKeyword('contrôle').addKeyword('esquive instinctive').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Contr\xF4le 12-")).setDescription(__jsx("p", {
+var FlashDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('flash-dodge').setName('Esquive instinctive').addKeyword('atout').addKeyword('esquive').addKeyword('contrôle').addKeyword('esquive instinctive').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 38
+  }
+}), "Esquive 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 21
+  }
+}), "Contr\xF4le 12- ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 22
+  }
+}), "Dext\xE9rit\xE9 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 23
+  }
+}), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21,
-    columnNumber: 11
+    columnNumber: 9
   }
-}, "Le personnage peut tenter d'esquiver les fl\xE8ches moyennant un malus de 30% sur son jet d'esquive.")).build()).build();
+}, "Le personnage peut tenter d'esquiver les fl\xE8ches moyennant une r\xE9solution par opposition entre sa ma\xEEtrise de l'esquive r\xE9duite de 6 points et le degr\xE9 de ma\xEEtrise de l'arme du tireur. Cette esquive est d\xE9compt\xE9e du nombre d'esquive du personnage et fait l'objet de tous les malus d'esquive connexes si applicable."))).build();
 
 /***/ }),
 
@@ -76587,20 +76689,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\FullDodge.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var FullDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('full-dodge').setName('Esquive totale').addKeyword('atout').addKeyword('esquive').addKeyword('esquive totale').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 5+")).setDescription(__jsx("p", {
+var FullDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('full-dodge').setName('Esquive totale').addKeyword('atout').addKeyword('esquive').addKeyword('esquive totale').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Au prix d'une action de mouvement, le personnage peut toujours choisir de jouer en dernier et de gagner une esquive suppl\xE9mentaire lors du round en cours.")).build()).build();
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 38
+  }
+}), "Esquive 5+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 20
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Le personnage peut toujours choisir de jouer en dernier et de gagner une esquive suppl\xE9mentaire lors du round en cours."))).build();
 
 /***/ }),
 
@@ -76617,27 +76738,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Hacker.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var Hacker = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('hacker').setName('Hacker (!)').addKeyword('atout').addKeyword('dague').addKeyword('hacker').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise de la dague 10+")).setDescription(__jsx("p", {
+var Hacker = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('hacker').setName('Hacker').addKeyword('atout').addKeyword('dague').addKeyword('hacker').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Un fois par round, en guise d'attaque \xE0 outrance, un personnage arm\xE9 d'une dague peut toujours choisir d'ignorer tout ou partie de l'armure de son adversaire. A cette fin le personnage doit r\xE9ussir une attaque normale plus un jet d'opposition entre sa ma\xEEtrise de la dague et le nombre de point d'armure \xE0 ignorer multipli\xE9 par quatre. Si le second jet r\xE9ussi l'assassin porte alors un coup ignorant tout ou partie de l'armure de son adversaire.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise de la dague 20+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 14+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Hacker I")).setDescription(__jsx("p", {
+}, "Pr\xE9requis :"), " ", __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 38
   }
-}, "Un fois par round, en guise d'attaque \xE0 outrance, un personnage arm\xE9 d'une dague peut toujours choisir d'ignorer tout ou partie de l'armure de son adversaire. A cette fin le personnage doit r\xE9ussir une attaque normale plus un jet d'opposition entre sa ma\xEEtrise de la dague et le nombre de point d'armure \xE0 ignorer multipli\xE9 par deux. Si le second jet r\xE9ussi l'assassin porte alors un coup ignorant tout ou partie de l'armure de son adversaire.")).build()).build();
+}), "Ma\xEEtrise de la dague 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 34
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Un fois par round, en guise d'attaque \xE0 outrance, un personnage arm\xE9 d'une dague peut toujours choisir d'ignorer tout ou partie de l'armure de son adversaire. A cette fin le personnage doit r\xE9ussir une attaque normale plus un jet d'opposition entre sa ma\xEEtrise de la dague et le nombre de point d'armure \xE0 ignorer multipli\xE9 par deux. Si le second jet r\xE9ussi l'assassin porte alors un coup ignorant tout ou partie de l'armure de son adversaire."))).build();
 
 /***/ }),
 
@@ -76654,27 +76787,109 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Twisted.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var Twisted = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('twisted').setName('Coup retord').addKeyword('atout').addKeyword('dague').addKeyword('coup retord').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise d'arme 15+")).setDescription(__jsx("p", {
+var Twisted = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('twisted').setName('Coup retord [Arme\xa0à\xa0une\xa0main]').addKeyword('atout').addKeyword('dague').addKeyword('coup retord').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 40
+  }
+}), "Dext\xE9rit\xE9 16+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 23
+  }
+}), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19,
-    columnNumber: 11
+    columnNumber: 9
   }
-}, "Une fois par round quand le personnage \xE9choue une tentative d'attaque il peut retenter sa chance moyennant un malus suppl\xE9mentaire de 40% sur le jet de touche. Si le second coup porte les d\xE9g\xE2ts sont divis\xE9s par deux et arrondi \xE0 l'entier inf\xE9rieur, minimum un point de d\xE9g\xE2t de chaque type propos\xE9 par l'arme.")).build()).addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Ma\xEEtrise d'arme 20+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Dext\xE9rit\xE9 16+")).addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Coup retord I")).setDescription(__jsx("p", {
+}, "Une fois par round et pour chaque groupe de 10 points de ma\xEEtrise de l'arme choisie, quand le personnage \xE9choue une tentative d'attaque avec la-dite arme il peut retenter sa chance moyennant un malus de 8 points sur son jet de touche."), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 11
+    lineNumber: 26,
+    columnNumber: 9
   }
-}, "Deux fois par round quand le personnage \xE9choue une tentative d'attaque il peut retenter sa chance moyennant un malus suppl\xE9mentaire de 40% sur le jet de touche. Si le second coup porte les d\xE9g\xE2ts sont divis\xE9s par deux et arrondi \xE0 l'entier inf\xE9rieur, minimum un point de d\xE9g\xE2t de chaque type propos\xE9 par l'arme.")).build()).build();
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
+/***/ "./typescript/data/feat/VulcanStrike.tsx":
+/*!***********************************************!*\
+  !*** ./typescript/data/feat/VulcanStrike.tsx ***!
+  \***********************************************/
+/*! exports provided: VulcanStrike */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VulcanStrike", function() { return VulcanStrike; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\VulcanStrike.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var VulcanStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('vulcan-strike').setName('Frappe vulcain [Arme\xa0lourde]').addKeyword('atout').addKeyword('frappe vulcain').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 40
+  }
+}), "Force 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 19
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Un personnage \xE9quip\xE9 de l'arme choisie peut toujours choisir, en guise d'attaque \xE0 outrance, de frapper violament son adversaire en maximisant la puissance du coup port\xE9. Une frappe vulcain ne peut pas \xEAtre parr\xE9 et ajoute un bonus de d\xE9g\xE2t brut \xE9gal au poid de l'arme utilis\xE9."))).build();
 
 /***/ }),
 
@@ -76691,20 +76906,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
-/* harmony import */ var _feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../feat/FeatLevel */ "./typescript/feat/FeatLevel.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\WindDance.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-var WindDance = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('wind-dance').setName('Danse des vents').addKeyword('atout').addKeyword('esquive').addKeyword('danse des vents').addLevel(_feat_FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].builder().addRequirement(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Esquive 20+")).setDescription(__jsx("p", {
+var WindDance = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('wind-dance').setName('Danse des vents').addKeyword('atout').addKeyword('esquive').addKeyword('danse des vents').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 11
+    lineNumber: 15,
+    columnNumber: 9
   }
-}, "Avec cet atout le malus attribu\xE9 \xE0 un encha\xEEnement d'esquive durant un round est r\xE9duit \xE0 5% cumulatif.")).build()).build();
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 38
+  }
+}), "Esquive 20+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 21
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 9
+  }
+}, "Avec cet atout le malus attribu\xE9 \xE0 un encha\xEEnement d'esquive durant un round est r\xE9duit \xE0 1 point cumulatif."))).build();
 
 /***/ }),
 
@@ -76712,7 +76946,7 @@ var WindDance = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
 /*!***************************************!*\
   !*** ./typescript/data/feat/index.ts ***!
   \***************************************/
-/*! exports provided: AcrobaticDodging, AcrobaticParry, AtlasBurden, BloodBath, BloodThirst, BullCharge, CatGrace, ChainAttack, ChainDodge, CounterAttack, DefensiveStyle, Diehard, DoubleSkin, EagleCharge, FlashDodge, FullDodge, Hacker, Twisted, WindDance, ALL */
+/*! exports provided: AcrobaticDodging, AcrobaticParry, AtlasBurden, BloodBath, BloodThirst, BullCharge, CatGrace, ChainAttack, ChainAttackBastard, ChainDodge, CounterAttack, CounterAttackBastard, DefensiveStyle, DefensiveStyleBastard, Diehard, DoubleSkin, EagleCharge, FlashDodge, FullDodge, Hacker, Twisted, VulcanStrike, WindDance, ALL */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -76742,52 +76976,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ChainAttack__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ChainAttack */ "./typescript/data/feat/ChainAttack.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttack", function() { return _ChainAttack__WEBPACK_IMPORTED_MODULE_7__["ChainAttack"]; });
 
-/* harmony import */ var _ChainDodge__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ChainDodge */ "./typescript/data/feat/ChainDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainDodge", function() { return _ChainDodge__WEBPACK_IMPORTED_MODULE_8__["ChainDodge"]; });
+/* harmony import */ var _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ChainAttackBastard */ "./typescript/data/feat/ChainAttackBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttackBastard", function() { return _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__["ChainAttackBastard"]; });
 
-/* harmony import */ var _CounterAttack__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CounterAttack */ "./typescript/data/feat/CounterAttack.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttack", function() { return _CounterAttack__WEBPACK_IMPORTED_MODULE_9__["CounterAttack"]; });
+/* harmony import */ var _ChainDodge__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ChainDodge */ "./typescript/data/feat/ChainDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainDodge", function() { return _ChainDodge__WEBPACK_IMPORTED_MODULE_9__["ChainDodge"]; });
 
-/* harmony import */ var _DefensiveStyle__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./DefensiveStyle */ "./typescript/data/feat/DefensiveStyle.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyle", function() { return _DefensiveStyle__WEBPACK_IMPORTED_MODULE_10__["DefensiveStyle"]; });
+/* harmony import */ var _CounterAttack__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./CounterAttack */ "./typescript/data/feat/CounterAttack.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttack", function() { return _CounterAttack__WEBPACK_IMPORTED_MODULE_10__["CounterAttack"]; });
 
-/* harmony import */ var _Diehard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Diehard */ "./typescript/data/feat/Diehard.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Diehard", function() { return _Diehard__WEBPACK_IMPORTED_MODULE_11__["Diehard"]; });
+/* harmony import */ var _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./CounterAttackBastard */ "./typescript/data/feat/CounterAttackBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttackBastard", function() { return _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__["CounterAttackBastard"]; });
 
-/* harmony import */ var _DoubleSkin__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./DoubleSkin */ "./typescript/data/feat/DoubleSkin.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DoubleSkin", function() { return _DoubleSkin__WEBPACK_IMPORTED_MODULE_12__["DoubleSkin"]; });
+/* harmony import */ var _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./DefensiveStyle */ "./typescript/data/feat/DefensiveStyle.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyle", function() { return _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__["DefensiveStyle"]; });
 
-/* harmony import */ var _EagleCharge__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./EagleCharge */ "./typescript/data/feat/EagleCharge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EagleCharge", function() { return _EagleCharge__WEBPACK_IMPORTED_MODULE_13__["EagleCharge"]; });
+/* harmony import */ var _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./DefensiveStyleBastard */ "./typescript/data/feat/DefensiveStyleBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyleBastard", function() { return _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__["DefensiveStyleBastard"]; });
 
-/* harmony import */ var _FlashDodge__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./FlashDodge */ "./typescript/data/feat/FlashDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlashDodge", function() { return _FlashDodge__WEBPACK_IMPORTED_MODULE_14__["FlashDodge"]; });
+/* harmony import */ var _Diehard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Diehard */ "./typescript/data/feat/Diehard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Diehard", function() { return _Diehard__WEBPACK_IMPORTED_MODULE_14__["Diehard"]; });
 
-/* harmony import */ var _FullDodge__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./FullDodge */ "./typescript/data/feat/FullDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FullDodge", function() { return _FullDodge__WEBPACK_IMPORTED_MODULE_15__["FullDodge"]; });
+/* harmony import */ var _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./DoubleSkin */ "./typescript/data/feat/DoubleSkin.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DoubleSkin", function() { return _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__["DoubleSkin"]; });
 
-/* harmony import */ var _Hacker__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Hacker */ "./typescript/data/feat/Hacker.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Hacker", function() { return _Hacker__WEBPACK_IMPORTED_MODULE_16__["Hacker"]; });
+/* harmony import */ var _EagleCharge__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./EagleCharge */ "./typescript/data/feat/EagleCharge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EagleCharge", function() { return _EagleCharge__WEBPACK_IMPORTED_MODULE_16__["EagleCharge"]; });
 
-/* harmony import */ var _Twisted__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Twisted */ "./typescript/data/feat/Twisted.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Twisted", function() { return _Twisted__WEBPACK_IMPORTED_MODULE_17__["Twisted"]; });
+/* harmony import */ var _FlashDodge__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./FlashDodge */ "./typescript/data/feat/FlashDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlashDodge", function() { return _FlashDodge__WEBPACK_IMPORTED_MODULE_17__["FlashDodge"]; });
 
-/* harmony import */ var _WindDance__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./WindDance */ "./typescript/data/feat/WindDance.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindDance", function() { return _WindDance__WEBPACK_IMPORTED_MODULE_18__["WindDance"]; });
+/* harmony import */ var _FullDodge__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./FullDodge */ "./typescript/data/feat/FullDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FullDodge", function() { return _FullDodge__WEBPACK_IMPORTED_MODULE_18__["FullDodge"]; });
 
+/* harmony import */ var _Hacker__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Hacker */ "./typescript/data/feat/Hacker.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Hacker", function() { return _Hacker__WEBPACK_IMPORTED_MODULE_19__["Hacker"]; });
 
+/* harmony import */ var _Twisted__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./Twisted */ "./typescript/data/feat/Twisted.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Twisted", function() { return _Twisted__WEBPACK_IMPORTED_MODULE_20__["Twisted"]; });
 
+/* harmony import */ var _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./VulcanStrike */ "./typescript/data/feat/VulcanStrike.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VulcanStrike", function() { return _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__["VulcanStrike"]; });
 
-
-
-
-
-
-
-
-
-
-
+/* harmony import */ var _WindDance__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./WindDance */ "./typescript/data/feat/WindDance.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindDance", function() { return _WindDance__WEBPACK_IMPORTED_MODULE_22__["WindDance"]; });
 
 
 
@@ -76813,7 +77045,29 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ALL = [_AcrobaticDodging__WEBPACK_IMPORTED_MODULE_0__["AcrobaticDodging"], _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__["AcrobaticParry"], _AtlasBurden__WEBPACK_IMPORTED_MODULE_2__["AtlasBurden"], _BloodBath__WEBPACK_IMPORTED_MODULE_3__["BloodBath"], _BloodThirst__WEBPACK_IMPORTED_MODULE_4__["BloodThirst"], _BullCharge__WEBPACK_IMPORTED_MODULE_5__["BullCharge"], _CatGrace__WEBPACK_IMPORTED_MODULE_6__["CatGrace"], _ChainAttack__WEBPACK_IMPORTED_MODULE_7__["ChainAttack"], _ChainDodge__WEBPACK_IMPORTED_MODULE_8__["ChainDodge"], _CounterAttack__WEBPACK_IMPORTED_MODULE_9__["CounterAttack"], _DefensiveStyle__WEBPACK_IMPORTED_MODULE_10__["DefensiveStyle"], _Diehard__WEBPACK_IMPORTED_MODULE_11__["Diehard"], _DoubleSkin__WEBPACK_IMPORTED_MODULE_12__["DoubleSkin"], _EagleCharge__WEBPACK_IMPORTED_MODULE_13__["EagleCharge"], _FlashDodge__WEBPACK_IMPORTED_MODULE_14__["FlashDodge"], _FullDodge__WEBPACK_IMPORTED_MODULE_15__["FullDodge"], _Hacker__WEBPACK_IMPORTED_MODULE_16__["Hacker"], _Twisted__WEBPACK_IMPORTED_MODULE_17__["Twisted"], _WindDance__WEBPACK_IMPORTED_MODULE_18__["WindDance"]];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ALL = [_AcrobaticDodging__WEBPACK_IMPORTED_MODULE_0__["AcrobaticDodging"], _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__["AcrobaticParry"], _AtlasBurden__WEBPACK_IMPORTED_MODULE_2__["AtlasBurden"], _BloodBath__WEBPACK_IMPORTED_MODULE_3__["BloodBath"], _BloodThirst__WEBPACK_IMPORTED_MODULE_4__["BloodThirst"], _BullCharge__WEBPACK_IMPORTED_MODULE_5__["BullCharge"], _CatGrace__WEBPACK_IMPORTED_MODULE_6__["CatGrace"], _ChainAttack__WEBPACK_IMPORTED_MODULE_7__["ChainAttack"], _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__["ChainAttackBastard"], _ChainDodge__WEBPACK_IMPORTED_MODULE_9__["ChainDodge"], _CounterAttack__WEBPACK_IMPORTED_MODULE_10__["CounterAttack"], _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__["CounterAttackBastard"], _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__["DefensiveStyle"], _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__["DefensiveStyleBastard"], _Diehard__WEBPACK_IMPORTED_MODULE_14__["Diehard"], _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__["DoubleSkin"], _EagleCharge__WEBPACK_IMPORTED_MODULE_16__["EagleCharge"], _FlashDodge__WEBPACK_IMPORTED_MODULE_17__["FlashDodge"], _FullDodge__WEBPACK_IMPORTED_MODULE_18__["FullDodge"], _Hacker__WEBPACK_IMPORTED_MODULE_19__["Hacker"], _Twisted__WEBPACK_IMPORTED_MODULE_20__["Twisted"], _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__["VulcanStrike"], _WindDance__WEBPACK_IMPORTED_MODULE_22__["WindDance"]];
 
 /***/ }),
 
@@ -76827,12 +77081,8 @@ var ALL = [_AcrobaticDodging__WEBPACK_IMPORTED_MODULE_0__["AcrobaticDodging"], _
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Feat", function() { return Feat; });
-/* harmony import */ var _Arrays__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Arrays */ "./typescript/Arrays.ts");
-/* harmony import */ var _Sets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Sets */ "./typescript/Sets.ts");
-/* harmony import */ var _FeatLevel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FeatLevel */ "./typescript/feat/FeatLevel.ts");
-/* harmony import */ var _FeatBuilder__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FeatBuilder */ "./typescript/feat/FeatBuilder.ts");
-
-
+/* harmony import */ var _Sets__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Sets */ "./typescript/Sets.ts");
+/* harmony import */ var _FeatBuilder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FeatBuilder */ "./typescript/feat/FeatBuilder.ts");
 
 
 var Feat;
@@ -76842,13 +77092,13 @@ var Feat;
     if (left == null) return left === right;
     if (right == null) return false;
     if (left === right) return true;
-    return left.name === right.name && left.identifier === right.identifier && _Arrays__WEBPACK_IMPORTED_MODULE_0__["Arrays"].equals(left.levels, right.levels, _FeatLevel__WEBPACK_IMPORTED_MODULE_2__["FeatLevel"].equals) && _Sets__WEBPACK_IMPORTED_MODULE_1__["Sets"].equals(left.keywords, right.keywords);
+    return left.name === right.name && left.identifier === right.identifier && left.description === right.description && _Sets__WEBPACK_IMPORTED_MODULE_0__["Sets"].equals(left.keywords, right.keywords);
   }
 
   _Feat.equals = equals;
 
   function builder() {
-    return _FeatBuilder__WEBPACK_IMPORTED_MODULE_3__["FeatBuilder"].builder();
+    return _FeatBuilder__WEBPACK_IMPORTED_MODULE_1__["FeatBuilder"].builder();
   }
 
   _Feat.builder = builder;
@@ -76869,10 +77119,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _Arrays__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Arrays */ "./typescript/Arrays.ts");
-/* harmony import */ var _Sets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Sets */ "./typescript/Sets.ts");
-/* harmony import */ var _Feat__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Feat */ "./typescript/feat/Feat.ts");
-
+/* harmony import */ var _Sets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Sets */ "./typescript/Sets.ts");
+/* harmony import */ var _Feat__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Feat */ "./typescript/feat/Feat.ts");
 
 
 
@@ -76888,12 +77136,12 @@ var FeatBuilder = /*#__PURE__*/function () {
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "keywords", void 0);
 
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "levels", void 0);
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "description", void 0);
 
     this.name = null;
     this.identifier = null;
     this.keywords = new Set();
-    this.levels = [];
+    this.description = null;
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(FeatBuilder, [{
@@ -76903,7 +77151,7 @@ var FeatBuilder = /*#__PURE__*/function () {
         identifier: this.identifier,
         name: this.name,
         keywords: new Set(this.keywords),
-        levels: [].concat(this.levels)
+        description: this.description
       };
     }
   }, {
@@ -76919,19 +77167,9 @@ var FeatBuilder = /*#__PURE__*/function () {
       return this;
     }
   }, {
-    key: "addLevel",
-    value: function addLevel(level) {
-      this.levels.push(level);
-      return this;
-    }
-  }, {
-    key: "setLevel",
-    value: function setLevel(index, level) {
-      while (this.levels.length <= index) {
-        this.levels.push(null);
-      }
-
-      this.levels[index] = level;
+    key: "setDescription",
+    value: function setDescription(description) {
+      this.description = description;
       return this;
     }
   }, {
@@ -76945,8 +77183,8 @@ var FeatBuilder = /*#__PURE__*/function () {
     value: function copy(toCopy) {
       this.name = toCopy.name;
       this.identifier = toCopy.identifier;
-      _Arrays__WEBPACK_IMPORTED_MODULE_3__["Arrays"].copy(toCopy.levels, this.levels);
-      _Sets__WEBPACK_IMPORTED_MODULE_4__["Sets"].copy(toCopy.keywords, this.keywords);
+      this.description = toCopy.description;
+      _Sets__WEBPACK_IMPORTED_MODULE_3__["Sets"].copy(toCopy.keywords, this.keywords);
       return this;
     }
   }, {
@@ -76961,7 +77199,7 @@ var FeatBuilder = /*#__PURE__*/function () {
     value: function clear() {
       this.name = null;
       this.identifier = null;
-      this.levels.length = 0;
+      this.description = null;
       this.keywords.clear();
     }
   }, {
@@ -76971,7 +77209,7 @@ var FeatBuilder = /*#__PURE__*/function () {
       if (other === this) return true;
 
       if (other instanceof FeatBuilder) {
-        return _Feat__WEBPACK_IMPORTED_MODULE_5__["Feat"].equals(this, other);
+        return _Feat__WEBPACK_IMPORTED_MODULE_4__["Feat"].equals(this, other);
       }
     }
   }]);
@@ -77001,164 +77239,6 @@ var FeatBuilder = /*#__PURE__*/function () {
 
   _FeatBuilder.builder = builder;
 })(FeatBuilder || (FeatBuilder = {}));
-
-/***/ }),
-
-/***/ "./typescript/feat/FeatLevel.ts":
-/*!**************************************!*\
-  !*** ./typescript/feat/FeatLevel.ts ***!
-  \**************************************/
-/*! exports provided: FeatLevel */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeatLevel", function() { return FeatLevel; });
-/* harmony import */ var _Arrays__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Arrays */ "./typescript/Arrays.ts");
-/* harmony import */ var _FeatLevelBuilder__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FeatLevelBuilder */ "./typescript/feat/FeatLevelBuilder.ts");
-
-
-var FeatLevel;
-
-(function (_FeatLevel) {
-  function equals(left, right) {
-    if (left == null) return left === right;
-    if (right == null) return false;
-    if (left === right) return true;
-    return left.description === right.description && _Arrays__WEBPACK_IMPORTED_MODULE_0__["Arrays"].equals(left.requirements, right.requirements);
-  }
-
-  _FeatLevel.equals = equals;
-
-  function builder() {
-    return _FeatLevelBuilder__WEBPACK_IMPORTED_MODULE_1__["FeatLevelBuilder"].builder();
-  }
-
-  _FeatLevel.builder = builder;
-})(FeatLevel || (FeatLevel = {}));
-
-/***/ }),
-
-/***/ "./typescript/feat/FeatLevelBuilder.ts":
-/*!*********************************************!*\
-  !*** ./typescript/feat/FeatLevelBuilder.ts ***!
-  \*********************************************/
-/*! exports provided: FeatLevelBuilder */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeatLevelBuilder", function() { return FeatLevelBuilder; });
-/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _Arrays__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Arrays */ "./typescript/Arrays.ts");
-/* harmony import */ var _FeatLevel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FeatLevel */ "./typescript/feat/FeatLevel.ts");
-
-
-
-
-
-var FeatLevelBuilder = /*#__PURE__*/function () {
-  function FeatLevelBuilder() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FeatLevelBuilder);
-
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "requirements", void 0);
-
-    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(this, "description", void 0);
-
-    this.requirements = [];
-    this.description = null;
-  }
-
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(FeatLevelBuilder, [{
-    key: "build",
-    value: function build() {
-      return {
-        requirements: [].concat(this.requirements),
-        description: this.description
-      };
-    }
-  }, {
-    key: "clear",
-    value: function clear() {
-      this.requirements.length = 0;
-      this.description = null;
-    }
-  }, {
-    key: "addRequirement",
-    value: function addRequirement(effect) {
-      this.requirements.push(effect);
-      return this;
-    }
-  }, {
-    key: "setRequirement",
-    value: function setRequirement(index, effect) {
-      while (this.requirements.length <= index) {
-        this.requirements.push(null);
-      }
-
-      this.requirements[index] = effect;
-      return this;
-    }
-  }, {
-    key: "setDescription",
-    value: function setDescription(description) {
-      this.description = description;
-      return this;
-    }
-  }, {
-    key: "copy",
-    value: function copy(toCopy) {
-      _Arrays__WEBPACK_IMPORTED_MODULE_3__["Arrays"].copy(toCopy.requirements, this.requirements);
-      this.description = toCopy.description;
-    }
-  }, {
-    key: "clone",
-    value: function clone() {
-      var result = new FeatLevelBuilder();
-      result.copy(this);
-      return result;
-    }
-  }, {
-    key: "equals",
-    value: function equals(other) {
-      if (other == null) return false;
-      if (other === this) return true;
-
-      if (other instanceof FeatLevelBuilder) {
-        return _FeatLevel__WEBPACK_IMPORTED_MODULE_4__["FeatLevel"].equals(this, other);
-      }
-
-      return false;
-    }
-  }]);
-
-  return FeatLevelBuilder;
-}();
-
-(function (_FeatLevelBuilder) {
-  var BUILDER = _FeatLevelBuilder.BUILDER = new FeatLevelBuilder();
-
-  function clone(builder) {
-    return builder == null ? builder : builder.clone();
-  }
-
-  _FeatLevelBuilder.clone = clone;
-
-  function equals(left, right) {
-    return left == null ? left === right : left.equals(right);
-  }
-
-  _FeatLevelBuilder.equals = equals;
-
-  function builder() {
-    BUILDER.clear();
-    return BUILDER;
-  }
-
-  _FeatLevelBuilder.builder = builder;
-})(FeatLevelBuilder || (FeatLevelBuilder = {}));
 
 /***/ }),
 
