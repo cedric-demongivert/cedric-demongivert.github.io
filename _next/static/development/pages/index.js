@@ -2666,13 +2666,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Summary__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Summary */ "./content/Summary.tsx");
 /* harmony import */ var _rules_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./rules/core */ "./content/rules/core/index.ts");
 /* harmony import */ var _rules_fight__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rules/fight */ "./content/rules/fight/index.ts");
-/* harmony import */ var _echoes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./echoes */ "./content/echoes/index.tsx");
-/* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
-/* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
-/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
-/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
+/* harmony import */ var _rules_sanity__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rules/sanity */ "./content/rules/sanity/index.ts");
+/* harmony import */ var _echoes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./echoes */ "./content/echoes/index.tsx");
+/* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
+/* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
+/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
+/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\Content.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2695,119 +2697,126 @@ function Content() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, "rules"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, "Table des lois"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 9
     }
   }, " R\xE8gles du jeu corvus ")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 7
     }
   }, __jsx(_Summary__WEBPACK_IMPORTED_MODULE_9__["Summary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 9
     }
   }), __jsx(_characteristics__WEBPACK_IMPORTED_MODULE_6__["Characteristics"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 9
     }
   }), __jsx(_masteries__WEBPACK_IMPORTED_MODULE_7__["Masteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), __jsx(_knowledges__WEBPACK_IMPORTED_MODULE_8__["Knowledges"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 9
-    }
-  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_16__["Feats"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 9
     }
-  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
+  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_17__["Feats"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 9
     }
-  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
+  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_12__["Echoes"], {
+  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_13__["Alchemy"], {
+  }), __jsx(_rules_sanity__WEBPACK_IMPORTED_MODULE_12__["Sanity"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_14__["Biomancy"], {
+  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_13__["Echoes"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 9
     }
-  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_15__["Items"], {
+  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_14__["Alchemy"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
+      columnNumber: 9
+    }
+  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_15__["Biomancy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 9
+    }
+  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_16__["Items"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
       columnNumber: 9
     }
   })));
@@ -31376,6 +31385,848 @@ function WoundsRule() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FightRules__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FightRules */ "./content/rules/fight/FightRules.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FightRules", function() { return _FightRules__WEBPACK_IMPORTED_MODULE_0__["FightRules"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Fatalities.tsx":
+/*!*********************************************!*\
+  !*** ./content/rules/sanity/Fatalities.tsx ***!
+  \*********************************************/
+/*! exports provided: Fatalities */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Fatalities", function() { return Fatalities; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Fatalities.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Fatalities() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-fatalities"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Fatalit\xE9s"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "Vivre, c'est attendre la mort, et nul ne peut courrir assez vite pour \xE9chapper \xE0 cette destin\xE9e, alors \xE0 quoi bon courrir ? C'est l'essence m\xEAme de la fatalit\xE9 et diff\xE9rents \xE9l\xE9ments du r\xE9cit peuvent mettre les personnages, m\xEAme les plus endurcis d'entre-eux, face \xE0 leur condition pr\xE9caire et les ammener \xE0 r\xE9viser leurs chances de survie \xE0 court terme."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "D\xE9g\xE2ts."), " Visiblement, vous n'\xEAtes clairement pas invincible. Combien faudra-t-il encore de coup pour que vous soyez d\xE9finitivement au tapis ? Beaucoup pensez-vous ? Quand un personnage subit des d\xE9g\xE2ts, il doit r\xE9aliser un test de volont\xE9 d'un degr\xE9 de difficult\xE9 \xE9quivalent au nombre de points de d\xE9g\xE2ts subits. Si le test r\xE9ussi, le personnage ne perd qu'un point de volont\xE9, s'il \xE9choue, le personnage perd 1D4 points de volont\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 11
+    }
+  }, "Blessure."), " Visiblement, vous saignez comme les autres. Comme-quoi il y a des choses devant lesquelles nous sommes bien tous \xE9gaux. Et nous pourrons toujours trouver quelqu'un d'autre pour saigner \xE0 votre place. Quand un personnage est bless\xE9 au cours d'un combat, le degr\xE9 de difficult\xE9 du test de volont\xE9 qu'il doit subir augmente de 5 points si la blessure est l\xE9g\xE8re et de dix points si la blessure est grave. En cas de succ\xE8s il perd un point de volont\xE9 suppl\xE9mentaire \xE0 cause de la blessure, en cas d'\xE9chec le nombre de points de volont\xE9s perdu monte \xE0 1D6 + 1 en place des 1D4 usuels."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 11
+    }
+  }, "Coma."), " Et un premier qui tombe, et il reste tant \xE0 faire. Au fond, ne serez-vous pas le prochain \xE0 go\xFBter la terre ? Quand un personnage tombe au combat l'ensemble de ses alli\xE9s doivent r\xE9ussir un test de volont\xE9 d'un degr\xE9 de difficult\xE9 de 10 points. Si le test r\xE9ussi, le personnage ne perd que 2 points de volont\xE9, sinon il perd 1D4 + 1 points."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 11
+    }
+  }, "Mort."), " Et voil\xE0 une vie mouvement\xE9e, rondement men\xE9e, qui se termine une fois de plus comme toutes les autres. Au fond, quelle diff\xE9rence entre maintenant et plus tard ? Quand un personnage meurt au combat l'ensemble de ses alli\xE9s doit r\xE9ussir un test de volont\xE9 d'un degr\xE9 de difficult\xE9 de 15 points. Si le test r\xE9ussi, le personnage ne perd que 2 points de volont\xE9, sinon il perd 1D6 + 1 points."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 11
+    }
+  }, "\xC9chec critique."), " Comme quoi vous n'\xEAtes pas si infaillible que cela au final. Vous \xEAtes au fond comme tous les autres. Quand un personnage est sujet \xE0 un \xE9chec critique il doit r\xE9ussir un test de volont\xE9 d'un degr\xE9 de difficult\xE9 de 10 points. Si le test r\xE9ussi, le personnage ne perd qu'un point de volont\xE9, sinon il perd 1D4 points."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 11
+    }
+  }, "Surnombre."), " L\xE0, il y en a clairement plus que vous. Quand vous serez mort l'on pourra \xE9crire que vous n'aviez pas vraiment de chances d'en sortir vivant quand vous avez fonc\xE9 t\xEAte baiss\xE9 dans la m\xEAl\xE9e, si on ne lui pr\xE9f\xE8re pas une \xE9pitaphe bien plus courte, comme la b\xEAtise. En cas de conflit, si les adversaires sont en surnombre, les joueurs doivent r\xE9aliser un test de volont\xE9 d'un degr\xE9 de difficult\xE9 \xE9quivalent au nombre d'adversaire suppl\xE9mentaire multipli\xE9 par 2. Si le test r\xE9ussi, le personnage ne perd qu'un point de volont\xE9, sinon, il en perd 1D4."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 11
+    }
+  }, "Folie."), " Nous sommes tous faillibles, enfin certains plus que d'autres, mais tout bien reconsid\xE9r\xE9 \xEAtes-vous vraiment \xE0 ce point diff\xE9rent des autres ? Quand un alli\xE9 sombre dans la folie, tous les personnages alli\xE9s le remarquant doivent r\xE9ussir un test de volont\xE9 d'un degr\xE9 de difficult\xE9 de 10 points. Si le test r\xE9ussi le personnage perd 1 point de volont\xE9, sinon il en perd 1D4."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 11
+    }
+  }, "Entit\xE9e."), " \xC7a n'est pas humain \xE7a. Et si \xE7a se trouve \xE7a ne peut m\xEAme pas mourrir. Par contre dans votre cas il semblerait que l'exp\xE9rience d\xE9montre le contraire. Quand des personnages engagent un combat contre une entit\xE9e ils doivent alors r\xE9ussir un test de volont\xE9 d'un degr\xE9 de difficult\xE9 de 10 points. Si le test r\xE9ussi le personnage perd 1 point de volont\xE9, sinon il en perd 1D4.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Heroism.tsx":
+/*!******************************************!*\
+  !*** ./content/rules/sanity/Heroism.tsx ***!
+  \******************************************/
+/*! exports provided: Heroism */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Heroism", function() { return Heroism; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Heroism.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Heroism() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-heroism"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "H\xE9ro\xEFsme"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Hopes.tsx":
+/*!****************************************!*\
+  !*** ./content/rules/sanity/Hopes.tsx ***!
+  \****************************************/
+/*! exports provided: Hopes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Hopes", function() { return Hopes; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Hopes.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Hopes() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-hopes"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Espoirs"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "L'espoir fait vivre, et plusieurs \xE9v\xE8nements peuvent amener des personnages \xE0 revoir leur estimation de survie initiale \xE0 la hausse. Prenez-garde toutefois \xE0 ne pas vous m\xE9prendre quand \xE0 la nature r\xE9elle de la lumi\xE8re observ\xE9e au bout du tunel."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, "KO."), " Vous vous approchez du but et celui-l\xE0 ne saura mettre un frein \xE0 vos ambitions, au fond, comme tous les autres jusqu'ici. Quand un adversaire tombe au combat, tous les personnages alli\xE9s t\xE9moins de la sc\xE8ne gagnent 2 points de volont\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 11
+    }
+  }, "Succ\xE8s critique."), " La r\xE9ussite am\xE8ne la r\xE9ussite, enfin, si cela peut vous aidez d'y croire qui somme-nous pour juger ? Quand un personnage r\xE9ussi brillament une action tous les personnages alli\xE9s l'ayant remarqu\xE9 gagnent 2 points de volont\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, "Blessure."), " Tout ce qui saigne peut mourrir, non ? Quand un personnage r\xE9ussi \xE0 infliger une blessure \xE0 un adversaire, il gagne imm\xE9diatement 2 points de volont\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, "H\xE9ro\xEFsme."), " Un personnage h\xE9ro\xEFque est certainement un fou, mais c'est aussi un mod\xE8le de combativit\xE9. Quand un personnage d\xE9cide d'agir h\xE9ro\xEFquement, l'ensemble des alli\xE9s le remarquant gagnent 2 points de volont\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 11
+    }
+  }, "Victoire."), " Et un groupe de plus qui mord la poussi\xE8re, tant de victoires d\xE9j\xE0 acquises, et tant de victoires encore \xE0 prendre. En cas de victoire, l'ensemble des alli\xE9s gagnent 2 points de volont\xE9.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Introduction.tsx":
+/*!***********************************************!*\
+  !*** ./content/rules/sanity/Introduction.tsx ***!
+  \***********************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, "La perception est une chose bien subjective et il existe autant d'interpr\xE9tation d'une situation qu'il y a d'individus qui l'observe. Quand il s'agit de se battre, ou de faire face aux horreurs du monde, tout est d'abord une question d'\xE9tat d'esprit avant m\xEAme de parler de muscles."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, "La volont\xE9 est une valeur appr\xE9ci\xE9e sur une \xE9chelle naturelle repr\xE9sentant de mani\xE8re abstraite l'\xE9quilibre mental d'un personnage. En dehors de toute consid\xE9ration m\xE9dicale, c'est d'abord une mani\xE8re de repr\xE9senter la motivation et la perception des \xE9v\xE8nements v\xE9cus par un individu. Cette valeur est initialement et au maximum \xE9gale au nombre de points de contr\xF4le du personnage."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }, "Quand la volont\xE9 se rapproche de z\xE9ro, la logique, la mesure et le bon sens ne sont clairement plus des outils suffisants pour justifier le combat \xE0 mener. Dans de telles situations, tout am\xE8ne logiquement \xE0 penser que tout est d\xE9finitivement perdu d'avance, et pour pers\xE9v\xE9rer fasse \xE0 une telle adversit\xE9, il ne reste alors plus qu'\xE0 puiser dans la folie.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Madness.tsx":
+/*!******************************************!*\
+  !*** ./content/rules/sanity/Madness.tsx ***!
+  \******************************************/
+/*! exports provided: Madness */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Madness", function() { return Madness; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Madness.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Madness() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-madness"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Folie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Sanity.tsx":
+/*!*****************************************!*\
+  !*** ./content/rules/sanity/Sanity.tsx ***!
+  \*****************************************/
+/*! exports provided: Sanity */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Sanity", function() { return Sanity; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/rules/sanity/Introduction.tsx");
+/* harmony import */ var _Test__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Test */ "./content/rules/sanity/Test.tsx");
+/* harmony import */ var _Fatalities__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Fatalities */ "./content/rules/sanity/Fatalities.tsx");
+/* harmony import */ var _Hopes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Hopes */ "./content/rules/sanity/Hopes.tsx");
+/* harmony import */ var _Madness__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Madness */ "./content/rules/sanity/Madness.tsx");
+/* harmony import */ var _Heroism__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Heroism */ "./content/rules/sanity/Heroism.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Sanity.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Sanity() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "rules-sanity"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "Volont\xE9"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx(_Test__WEBPACK_IMPORTED_MODULE_9__["Test"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx(_Fatalities__WEBPACK_IMPORTED_MODULE_10__["Fatalities"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx(_Hopes__WEBPACK_IMPORTED_MODULE_11__["Hopes"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }), __jsx(_Madness__WEBPACK_IMPORTED_MODULE_12__["Madness"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }), __jsx(_Heroism__WEBPACK_IMPORTED_MODULE_13__["Heroism"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/Test.tsx":
+/*!***************************************!*\
+  !*** ./content/rules/sanity/Test.tsx ***!
+  \***************************************/
+/*! exports provided: Test */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Test", function() { return Test; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\sanity\\Test.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Test() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-sanity-test"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "r\xE8gle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Test de volont\xE9"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 9
+    }
+  }, "Plusieurs facteurs peuvent aboutir \xE0 une modification du score de volont\xE9 des personnages. La plupart d'entre eux n\xE9c\xE9ssitent de faire un test de volont\xE9 afin de savoir \xE0 quel point un individu est affect\xE9 par les \xE9v\xE8nements en cours."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "Un test de volont\xE9 est une simple r\xE9solution par opposition entre la volont\xE9 pr\xE9sente d'un personnage et le degr\xE9 de difficult\xE9 associ\xE9 \xE0 l'\xE9v\xE8nement traumatisant. Si le test de volont\xE9 est r\xE9ussi, le personnage subira des d\xE9g\xE2ts r\xE9duits, si le test \xE9choue, le personnage subira la totalit\xE9 des d\xE9g\xE2ts initialements pr\xE9vus.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/sanity/index.ts":
+/*!***************************************!*\
+  !*** ./content/rules/sanity/index.ts ***!
+  \***************************************/
+/*! exports provided: Sanity */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Sanity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sanity */ "./content/rules/sanity/Sanity.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sanity", function() { return _Sanity__WEBPACK_IMPORTED_MODULE_0__["Sanity"]; });
 
 
 
