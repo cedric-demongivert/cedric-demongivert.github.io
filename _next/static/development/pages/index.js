@@ -2666,14 +2666,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Summary__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Summary */ "./content/Summary.tsx");
 /* harmony import */ var _rules_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./rules/core */ "./content/rules/core/index.ts");
 /* harmony import */ var _rules_fight__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rules/fight */ "./content/rules/fight/index.ts");
-/* harmony import */ var _rules_sanity__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rules/sanity */ "./content/rules/sanity/index.ts");
-/* harmony import */ var _echoes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./echoes */ "./content/echoes/index.tsx");
-/* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
-/* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
-/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
-/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
+/* harmony import */ var _rules_status__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rules/status */ "./content/rules/status/index.ts");
+/* harmony import */ var _rules_sanity__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./rules/sanity */ "./content/rules/sanity/index.ts");
+/* harmony import */ var _echoes__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./echoes */ "./content/echoes/index.tsx");
+/* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
+/* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
+/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
+/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\Content.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2697,126 +2699,133 @@ function Content() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 7
     }
   }, "rules"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }
   }, "Table des lois"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, " R\xE8gles du jeu corvus ")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 7
     }
   }, __jsx(_Summary__WEBPACK_IMPORTED_MODULE_9__["Summary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 9
     }
   }), __jsx(_characteristics__WEBPACK_IMPORTED_MODULE_6__["Characteristics"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), __jsx(_masteries__WEBPACK_IMPORTED_MODULE_7__["Masteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 9
     }
   }), __jsx(_knowledges__WEBPACK_IMPORTED_MODULE_8__["Knowledges"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
-    }
-  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_17__["Feats"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 9
     }
-  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
+  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_18__["Feats"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
+  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_rules_sanity__WEBPACK_IMPORTED_MODULE_12__["Sanity"], {
+  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_13__["Echoes"], {
+  }), __jsx(_rules_status__WEBPACK_IMPORTED_MODULE_12__["Status"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 9
     }
-  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_14__["Alchemy"], {
+  }), __jsx(_rules_sanity__WEBPACK_IMPORTED_MODULE_13__["Sanity"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
       columnNumber: 9
     }
-  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_15__["Biomancy"], {
+  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_14__["Echoes"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 9
     }
-  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_16__["Items"], {
+  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_15__["Alchemy"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
+      columnNumber: 9
+    }
+  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_16__["Biomancy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 9
+    }
+  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_17__["Items"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
       columnNumber: 9
     }
   })));
@@ -11315,7 +11324,7 @@ function Characteristics() {
       lineNumber: 24,
       columnNumber: 7
     }
-  }, "Charact\xE9ristiques"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Caract\xE9ristiques"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -11329,11 +11338,11 @@ function Characteristics() {
       lineNumber: 26,
       columnNumber: 9
     }
-  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreux aspects du jeu. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif.")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+  }, "Les ca\xADra\xADct\xE9\xADri\xADsti\xADques d\xE9\xADpei\xADgnent les ca\xADpa\xADci\xADt\xE9s in\xADn\xE9es d'un per\xADson\xADnage et in\xADflu\xADen\xADcent de nom\xADbreux as\xADpects du jeu. Cha\xADque ca\xADra\xADct\xE9\xADri\xADsti\xADque est ap\xADpr\xE9\xADci\xE9e par un en\xADtier re\xADla\xADtif.")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -11341,7 +11350,7 @@ function Characteristics() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -11349,14 +11358,14 @@ function Characteristics() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 11
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 13
     }
   }))), __jsx("div", {
@@ -11364,60 +11373,60 @@ function Characteristics() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "col",
+    className: "col text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 11
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 13
     }
-  }, "Les caract\xE9ristiques d\xE9peignent les capacit\xE9s inn\xE9es d'un personnage et influencent de nombreux aspects du jeu. Chaque caract\xE9ristique est appr\xE9ci\xE9e par un entier relatif. Les caract\xE9ristiques d'un personnage humain sont initialement \xE9valu\xE9es \xE0 0 et il est possible d'y r\xE9partir un total de 68 points. Une caract\xE9ristique humaine ne peut pas \xEAtre sup\xE9rieure \xE0 20 points. Jouer un personnage avec une caract\xE9ristique inf\xE9rieure \xE0 4 points requiert l'aval du ma\xEEtre du jeu."))), __jsx("div", {
+  }, "Les ca\xADra\xADct\xE9\xADri\xADsti\xADques d\xE9\xADpei\xADgnent les ca\xADpa\xADci\xADt\xE9s in\xADn\xE9es d'un per\xADson\xADnage et in\xADflu\xADen\xADcent de nom\xADbreux as\xADpects du jeu. Cha\xADque ca\xADra\xADct\xE9\xADri\xADsti\xADque est ap\xADpr\xE9\xADci\xE9e par un en\xADtier re\xADla\xADtif. Les ca\xADra\xADct\xE9\xADri\xADsti\xADques d'un per\xADson\xADna\xADge hu\xADmain sont ini\xADtia\xADle\xADment \xE9va\xADlu\xE9es \xE0 0 et il est pos\xADsi\xADble d'y r\xE9\xADpar\xADtir un to\xADtal de 68 points. Une ca\xADra\xADct\xE9\xADris\xADti\xADque hu\xADmaine ne peut pas \xEAtre su\xADp\xE9\xADrieu\xADre \xE0 20 points. Jou\xADer un per\xADson\xADnage avec une ca\xADra\xADct\xE9\xADri\xADsti\xADque in\xADf\xE9\xADrieu\xADre \xE0 4 points re\xADquiert l'aval du ma\xEE\xADtre du jeu."))), __jsx("div", {
     className: "row",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 59,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 60,
       columnNumber: 11
     }
   }, __jsx(_Luck__WEBPACK_IMPORTED_MODULE_11__["Luck"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 61,
       columnNumber: 13
     }
   })), __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 63,
       columnNumber: 11
     }
   }, __jsx(_Constitution__WEBPACK_IMPORTED_MODULE_8__["Constitution"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 64,
       columnNumber: 13
     }
   }))), __jsx("div", {
@@ -11425,37 +11434,37 @@ function Characteristics() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 67,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 68,
       columnNumber: 11
     }
   }, __jsx(_Control__WEBPACK_IMPORTED_MODULE_9__["Control"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 69,
       columnNumber: 13
     }
   })), __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 71,
       columnNumber: 11
     }
   }, __jsx(_Dexterity__WEBPACK_IMPORTED_MODULE_10__["Dexterity"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 72,
       columnNumber: 13
     }
   }))), __jsx("div", {
@@ -11463,37 +11472,37 @@ function Characteristics() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 75,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 76,
       columnNumber: 11
     }
   }, __jsx(_Strength__WEBPACK_IMPORTED_MODULE_13__["Strength"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 77,
       columnNumber: 13
     }
   })), __jsx("div", {
-    className: "col-xs-12 col-lg-6",
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 79,
       columnNumber: 11
     }
   }, __jsx(_Power__WEBPACK_IMPORTED_MODULE_12__["Power"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 80,
       columnNumber: 13
     }
   })))));
@@ -11603,13 +11612,14 @@ function Constitution() {
       columnNumber: 11
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }, "La constitution repr\xE9sente la r\xE9sistance physique du corps, elle mesure notamment le nombre de point de vie. Un bon niveau de constitution permet d'encaisser plus de coups, de supporter des climats difficiles, de r\xE9sister aux maladies et de fournir des efforts sur de plus longues p\xE9riodes.")));
+  }, "La con\xADsti\xADtu\xADtion re\xADpr\xE9\xADsen\xADte la r\xE9\xADsi\xADstan\xADce phy\xADsi\xADque du corps, elle me\xADsure no\xADtam\xADment le nom\xADbre de point de vie. Un bon ni\xADveau de con\xADsti\xADtu\xADtion per\xADmet d'en\xADcais\xADser plus de coups, de sup\xADpor\xADter des cli\xADmats dif\xADfi\xADci\xADles, de r\xE9\xADsi\xADster aux ma\xADla\xADdies et de four\xADnir des ef\xADforts sur de plus lon\xADgues p\xE9\xADrio\xADdes.")));
 }
 
 /***/ }),
@@ -11716,13 +11726,14 @@ function Control() {
       columnNumber: 11
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }, "Le contr\xF4le repr\xE9sente la ma\xEEtrise consciente de soi et le recul vis-\xE0-vis de ses sentiments, elle mesure aussi la volont\xE9 d'un personnage. Un bon niveau de contr\xF4le permet de r\xE9sister aux manipulations mentales et de garder son sang froid dans les situations difficiles.")));
+  }, "Le con\xADtr\xF4\xADle re\xADpr\xE9\xADsen\xADte la ma\xEE\xADtri\xADse con\xADscien\xADte de soi et le re\xADcul vis-\xAD\xE0-vis de ses sen\xADti\xADments, elle me\xADsu\xADre aus\xADsi la vo\xADlon\xADt\xE9 d'un per\xADson\xADnage. Un bon ni\xADveau de con\xADtr\xF4\xADle per\xADmet de r\xE9\xADsi\xADster aux ma\xADni\xADpu\xADla\xADtions men\xADta\xADles et de gar\xADder son sang froid dans les si\xADtu\xADa\xADtions dif\xADfi\xADci\xADles.")));
 }
 
 /***/ }),
@@ -11829,13 +11840,14 @@ function Dexterity() {
       columnNumber: 11
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }, "La dext\xE9rit\xE9 repr\xE9sente la pr\xE9cision des sens, elle mesure aussi l'initiative d'un personnage en combat. Un bon niveau de dext\xE9rit\xE9 permet d'agir le premier, de se mouvoir sans faire de bruit, d'esquiver et de ma\xEEtriser les armes de jet et les armes l\xE9g\xE8res.")));
+  }, "La dex\xADt\xE9\xADri\xADt\xE9 re\xADpr\xE9\xADsen\xADte la pr\xE9\xADci\xADsion des sens, elle me\xADsu\xADre aus\xADsi l'ini\xADtia\xADti\xADve d'un per\xADson\xADnage en com\xADbat. Un bon ni\xADveau de dex\xADt\xE9\xADri\xADt\xE9 per\xADmet d'agir le pre\xADmier, de se mou\xADvoir sans fai\xADre de bruit, d'es\xADqui\xADver et de ma\xEE\xADtri\xADser les ar\xADmes de jet et les ar\xADmes l\xE9\xADg\xE8\xADres.")));
 }
 
 /***/ }),
@@ -11930,7 +11942,7 @@ function Luck() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 9
+      columnNumber: 11
     }
   }, __jsx("img", {
     src: "./images/characteristics/luck.svg",
@@ -11939,16 +11951,17 @@ function Luck() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
-      columnNumber: 11
+      columnNumber: 13
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
-      columnNumber: 9
+      columnNumber: 11
     }
-  }, "La chance repr\xE9sente la capacit\xE9 \xE0 se cr\xE9er des opportunit\xE9s, elle mesure aussi le nombre de point de destin du personnage. Un bon niveau de chance permet de trouver plus facilement des biens pr\xE9cieux et de cr\xE9er des situations b\xE9n\xE9fiques aux allures de deus ex machina.")));
+  }, "La chan\xADce re\xADpr\xE9\xADsen\xADte la ca\xADpa\xADci\xADt\xE9 \xE0 se cr\xE9\xADer des op\xADpor\xADtu\xADni\xADt\xE9s, elle me\xADsu\xADre aus\xADsi le nom\xADbre de point de des\xADtin du per\xADson\xADna\xADge. Un bon ni\xADveau de chan\xADce per\xADmet de trou\xADver plus fa\xADci\xADle\xADment des biens pr\xE9\xADcieux et de cr\xE9\xADer des si\xADtu\xADa\xADtions b\xE9\xADn\xE9\xADfi\xADques aux al\xADlu\xADres de deus-\xADex-machina.")));
 }
 
 /***/ }),
@@ -12055,13 +12068,14 @@ function Power() {
       columnNumber: 11
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }, "Le pouvoir repr\xE9sente la capacit\xE9 \xE0 plier la r\xE9alit\xE9 \xE0 sa volont\xE9 en usant de prouesses mentales, il mesure aussi l'affinit\xE9 \xE0 la magie. Un bon niveau de pouvoir permet de r\xE9sister aux effets magiques et de lancer des sorts plus puissant.")));
+  }, "Le pou\xADvoir re\xADpr\xE9\xADsen\xADte la ca\xADpa\xADci\xADt\xE9 \xE0 plier la r\xE9\xADa\xADli\xADt\xE9 \xE0 sa vo\xADlon\xADt\xE9 en usant de prou\xADes\xADses men\xADta\xADles, il me\xADsu\xADre aus\xADsi l'af\xADfi\xADni\xADt\xE9 \xE0 la ma\xADgie. Un bon ni\xADveau de pou\xADvoir per\xADmet de r\xE9\xADsi\xADster aux ef\xADfets ma\xADgi\xADques et de lan\xADcer des sorts plus puis\xADsant.")));
 }
 
 /***/ }),
@@ -12168,13 +12182,14 @@ function Strength() {
       columnNumber: 11
     }
   })), __jsx("p", {
+    className: "text-justify",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }, "La force repr\xE9sente la capacit\xE9 \xE0 alt\xE9rer le r\xE9el par l'usage de moyens physiques, elle mesure aussi la capacit\xE9 de charge. Un bon niveau de force permet d'\xE9quiper plus de mat\xE9riel, de ma\xEEtriser les armures et armes lourdes et de faire plus de d\xE9g\xE2t physique.")));
+  }, "La for\xADce re\xADpr\xE9\xADsen\xADte la ca\xADpa\xADci\xADt\xE9 \xE0 al\xADt\xE9\xADrer le r\xE9el par l'us\xADage de moyens phy\xADsi\xADques, elle me\xADsu\xADre aus\xADsi la ca\xADpa\xADci\xADt\xE9 de cha\xADrge. Un bon ni\xADveau de for\xADce per\xADmet d'\xE9qui\xADper plus de ma\xADt\xE9\xADriel, de ma\xEE\xADtri\xADser les ar\xADmu\xADres et ar\xADmes lou\xADrdes et de fai\xADre plus de d\xE9\xADg\xE2t phy\xADsi\xADque.")));
 }
 
 /***/ }),
@@ -19285,7 +19300,7 @@ function Light() {
       lineNumber: 170,
       columnNumber: 15
     }
-  }, "1D6 ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+  }, "1D8 ", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -19359,7 +19374,7 @@ function Light() {
       lineNumber: 176,
       columnNumber: 15
     }
-  }, "1D6 (19-20", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
+  }, "1D8 (19-20", __jsx(_components_Malus__WEBPACK_IMPORTED_MODULE_7__["Malus"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -19396,7 +19411,7 @@ function Light() {
       lineNumber: 180,
       columnNumber: 15
     }
-  }, "1D6 (19-20x3) / 4")), __jsx("tr", {
+  }, "1D8 (19-20x3) / 4")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -19419,7 +19434,7 @@ function Light() {
       lineNumber: 184,
       columnNumber: 15
     }
-  }, "1D6 ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+  }, "1D8 ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -19456,7 +19471,7 @@ function Light() {
       lineNumber: 188,
       columnNumber: 15
     }
-  }, "1D6 ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
+  }, "1D8 ", __jsx(_components_Bonus__WEBPACK_IMPORTED_MODULE_6__["Bonus"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28278,7 +28293,7 @@ function AdversialTestRule() {
       lineNumber: 37,
       columnNumber: 11
     }
-  }, "D\xE9finition."), " La r\xE9solution par opposition d\xE9cide de l'issue d'une confrontation entre deux \xE9l\xE9ments du r\xE9cit. C'est le test type pour r\xE9soudre le succ\xE8s des attaques d'un \xE9p\xE9iste ou la r\xE9sistance d'une serrure \xE0 une tentative de crochetage."), __jsx("p", {
+  }, "D\xE9finition."), " La r\xE9solution par opposition d\xE9cide de l'issue d'une confrontation entre deux \xE9l\xE9ments du r\xE9cit. C'est le test type pour r\xE9soudre le succ\xE8s des attaques d'un \xE9p\xE9iste ou la r\xE9sistance d'une serrure lors d'une tentative de crochetage."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28292,7 +28307,7 @@ function AdversialTestRule() {
       lineNumber: 44,
       columnNumber: 11
     }
-  }, "Acteur / Opposant."), " Le joueur qui lance les d\xE9s est dit acteur de la r\xE9solution. Le joueur qui subit le test est dit opposant \xE0 la r\xE9solution. Un joueur est toujours acteur de la r\xE9solution lorsqu'il se confronte \xE0 un \xE9l\xE9ment du r\xE9cit. Dans le cas o\xF9 deux joueurs se confrontent, l'acteur est d\xE9cid\xE9 d'un commun accord ou \xE0 pile ou face. Finalement, si deux \xE9l\xE9ments du r\xE9cit interagissent entre-eux, c'est au ma\xEEtre du jeu de r\xE9partir les r\xF4les."), __jsx("p", {
+  }, "Acteur / Opposant."), " Le joueur qui lance les d\xE9s est dit acteur de la r\xE9solution et le joueur qui subit le test est dit opposant \xE0 la r\xE9solution. Un joueur est toujours acteur de la r\xE9solution lorsqu'il se confronte \xE0 un \xE9l\xE9ment du r\xE9cit. Dans le cas o\xF9 deux joueurs se confrontent, l'acteur est d\xE9cid\xE9 d'un commun accord ou \xE0 pile ou face. Finalement, si deux \xE9l\xE9ments du r\xE9cit interagissent entre-eux, c'est au ma\xEEtre du jeu de r\xE9partir les r\xF4les."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28306,7 +28321,14 @@ function AdversialTestRule() {
       lineNumber: 54,
       columnNumber: 11
     }
-  }, "Test."), " Une r\xE9solution par opposition compare une comp\xE9tence de l'acteur appel\xE9e comp\xE9tence offensive \xE0 une comp\xE9tence de l'opposant dite comp\xE9tence d\xE9fensive. Pour que l'issue du test soit favorable pour l'acteur celui-ci doit obtenir un score strictement sup\xE9rieur au niveau de la comp\xE9tence d\xE9fensive de son opposant augment\xE9e de dix points en lan\xE7ant un d\xE9 \xE0 vingt faces et en y ajoutant le niveau de sa propre comp\xE9tence offensive."), __jsx("p", {
+  }, "Test."), " Une r\xE9solution par opposition compare une comp\xE9tence de l'acteur appel\xE9e comp\xE9tence offensive \xE0 une comp\xE9tence de l'opposant dite comp\xE9tence d\xE9fensive. Pour que l'issue du test soit favorable pour l'acteur celui-ci doit obtenir un score ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 66
+    }
+  }, "strictement sup\xE9rieur"), " au niveau de la comp\xE9tence d\xE9fensive de son opposant augment\xE9e de dix points en lan\xE7ant un d\xE9 \xE0 vingt faces et en y ajoutant le niveau de sa propre comp\xE9tence offensive."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28794,7 +28816,7 @@ function CriticalHitRule() {
       lineNumber: 24,
       columnNumber: 9
     }
-  }, "Lors d'un test, un score sup\xE9rieur \xE9gal \xE0 1 est un \xE9chec critique aux r\xE9percussions d\xE9sastreuses. \xC0 l'inverse, un score \xE9gal \xE0 20 est un succ\xE8s critique aux cons\xE9quences b\xE9n\xE9fiques. Les critiques priment sur les chances de succ\xE8s r\xE9elles d'un personnage. Ainsi, un personnage qui devrait r\xE9ussir syst\xE9matiquement une action \xE0 toujours 5% de chance de l'\xE9chouer, et un personnage qui devrait \xE9chouer syst\xE9matiquement une action \xE0 toujours 5% de chance de la r\xE9ussir."), __jsx("p", {
+  }, "Lors d'un test, un score \xE9gal \xE0 1 est un \xE9chec critique aux r\xE9percussions d\xE9sastreuses. \xC0 l'inverse, un score \xE9gal \xE0 20 est un succ\xE8s critique aux cons\xE9quences b\xE9n\xE9fiques. Les critiques priment sur les chances de succ\xE8s r\xE9elles d'un personnage. Ainsi, un personnage qui devrait r\xE9ussir syst\xE9matiquement une action \xE0 toujours 5% de chance de l'\xE9chouer, et un personnage qui devrait \xE9chouer syst\xE9matiquement une action \xE0 toujours 5% de chance de la r\xE9ussir."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28869,14 +28891,14 @@ function RerollRule() {
       lineNumber: 18,
       columnNumber: 7
     }
-  }, "Pousser le test"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+  }, "Pousser un test"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
       columnNumber: 7
     }
-  }, "Pousser le test"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, "Pousser un test"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -28897,7 +28919,7 @@ function RerollRule() {
       lineNumber: 24,
       columnNumber: 9
     }
-  }, "Lors d'un \xE9chec qui n'est pas un \xE9chec critique et moyennant une justification accept\xE9e par le ma\xEEtre du jeu, un personnage peut tenter de repasser un test qu'il vient juste d'\xE9chouer. Si celui-ci r\xE9ussi la seconde tentative alors le test est pass\xE9, s'il \xE9choue une seconde fois alors le joueur est sujet \xE0 un \xE9chec critique.")));
+  }, "Quand un joueur \xE9choue \xE0 passer un test et que son \xE9chec n\u2019est pas un \xE9chec critique il peut alors r\xE9it\xE9rer sa tentative en pr\xE9sentant une justification sc\xE9naristique valid\xE9e par le ma\xEEtre du jeu. Dans cette\xA0 situation, l\u2019on dit alors du joueur qu\u2019il pousse le test, et, si sa\xA0 seconde tentative est une r\xE9ussite, alors le test origine est\xA0 consid\xE9r\xE9 comme pass\xE9. Si, au contraire, le joueur \xE9choue sa seconde\xA0 tentative, alors cet \xE9chec est consid\xE9r\xE9 comme un \xE9chec critique.")));
 }
 
 /***/ }),
@@ -29539,6 +29561,128 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./content/rules/fight/ActionRule.tsx":
+/*!********************************************!*\
+  !*** ./content/rules/fight/ActionRule.tsx ***!
+  \********************************************/
+/*! exports provided: ActionRule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionRule", function() { return ActionRule; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\ActionRule.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function ActionRule() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }
+  }, "rules-fight-action"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "Actions"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Action."), " Quand une entit\xE9e prend l'action lors d'un tour, celle-ci doit alors d\xE9crire les d\xE9cisions qu'elle souhaite prendre. Si le ma\xEEtre du jeu accepte la description propos\xE9e, l'entit\xE9e peut alors r\xE9soudre chaque d\xE9cision en suivant les r\xE8gles qui lui sont li\xE9e. Si la ou les d\xE9cisions d'une entit\xE9e suivent un sch\xE9ma pr\xE9-\xE9tabli, il n'est pas utile de valider la d\xE9cision."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 11
+    }
+  }, "Mouvement."), " Une action dite de mouvement regroupe \xE0 la fois les d\xE9placements plus ou moins complexe d'une entit\xE9e ainsi que les actions diverses consistant \xE0 consommer des potions, lire un parchemin, r\xE9cup\xE9rer un objet ou recharger une arme complexe."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 11
+    }
+  }, "Attaque simple."), " Une action d'attaque simple consiste en un mouvement et une unique tentative d'aggression avec l'arme \xE9quip\xE9e. La r\xE9solution de l'action suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, "Attaque \xE0 outrance."), " Une action d'attaque \xE0 outrance consiste en un mouvement extr\xEAmement r\xE9duit et plusieurs tentatives d'aggression successives avec l'arme \xE9quip\xE9e. Un personnage ne peut frapper par d\xE9faut qu'une seule fois avec chaque arme qu'il \xE9quipe, la r\xE9solution des diff\xE9rentes attaques suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie. Lors d'une attaque \xE0 outrance, une entit\xE9e peut frapper autant d'adversaires qu'elle le souhaite pourvu que ceux-ci soient \xE0 sa port\xE9e et qu'elle ne d\xE9passe pas le nombre de coups auxquels elle \xE0 droit.")));
+}
+
+/***/ }),
+
 /***/ "./content/rules/fight/ArmorRule.tsx":
 /*!*******************************************!*\
   !*** ./content/rules/fight/ArmorRule.tsx ***!
@@ -29630,21 +29774,98 @@ function ArmorRule() {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Toute entit\xE9e poss\xE8de un score d'armure physique et un score d'armure magique. L'armure physique diminue le nombre de d\xE9g\xE2ts physiques re\xE7us mais s'av\xE8re inefficace contre les d\xE9g\xE2ts magiques. L'armure magique diminue le nombre de d\xE9g\xE2ts magiques re\xE7us mais s'av\xE8re inefficace contre les d\xE9g\xE2ts physique. Un score d'armure peut, comme les points de vie d'une entit\xE9e, faire l'objet de d\xE9g\xE2ts. Quand un score d'armure est sup\xE9rieur aux d\xE9g\xE2ts pris, l'entit\xE9 ne prends aucun d\xE9g\xE2ts."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
+      lineNumber: 24,
+      columnNumber: 11
     }
-  }, "Une entit\xE9e peut s'\xE9quiper de trois types d'armure en m\xEAme temps, une armure l\xE9g\xE8re, une armure interm\xE9diaire et une armure lourde. Si elle \xE9quipe plusieurs couche d'armure elle somme alors l'ensemble des effets de celles-ci, y compris les effets n\xE9gatifs. Certaines armures peuvent interdire l'utilisation d'autres pi\xE8ces d'armure, comme l'utilisation d'une plaque seule, interdisant l'armure de plaque compl\xE8te."), __jsx("p", {
+  }, "Armure physique."), " Toute entit\xE9e poss\xE8de un score d'armure physique \xE9quivalent \xE0 la somme des modificateurs d'armure apport\xE9s par son \xE9quipement et les \xE9ventuels effets secondaires dont elle peut faire l'objet. L'armure physique diminue le nombre de d\xE9g\xE2ts physiques re\xE7us mais s'av\xE8re inefficace contre les d\xE9g\xE2ts magiques."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 31,
       columnNumber: 9
     }
-  }, "Si une pi\xE8ce d'armure accumule plus de d\xE9g\xE2ts d'armure qu'elle n'offre de points elle est alors d\xE9truite. C'est toujours la couche d'armure la plus \xE0 l'ext\xE9rieure qui prends les d\xE9g\xE2ts en premier. Pour qu'une pi\xE8ce d'armure r\xE9cup\xE8re les points d'armure perdus en combat elle doit \xEAtre r\xE9par\xE9e.")));
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 11
+    }
+  }, "Armure magique."), " Toute entit\xE9e poss\xE8de un score d'armure magique \xE9quivalent \xE0 la somme des modificateurs d'armure apport\xE9s par son \xE9quipement et les \xE9ventuels effets secondaires dont elle peut faire l'objet. L'armure magique diminue le nombre de d\xE9g\xE2ts magiques re\xE7us mais s'av\xE8re inefficace contre les d\xE9g\xE2ts physique."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, "Couches d'armure."), " Une entit\xE9e peut \xE9quiper plusieurs armures en m\xEAme temps, on dit alors qu'elle utilise des couches d'armures. Dans une telle situation, l'ensemble des effets des armures \xE9quip\xE9es doivent \xEAtre somm\xE9s, y compris les effets n\xE9gatifs. Il n'est pas possible d'\xE9quiper plus d'une armure par couche. Attention aussi, car certaines armures peuvent interdire l'utilisation d'autres pi\xE8ces tierces, comme dans le cas de l'utilisation d'une cuirasse en tant qu'armure interm\xE9diaire interdisant par le fait m\xEAme l'\xE9quipement de toute armure lourde. Les couches standards sont : le corps, la ou les enveloppes, la couche d'armure l\xE9g\xE8re, la couche d'armure interm\xE9diaire, la couche d'armure lourde et les champs."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 11
+    }
+  }, "Couches d'armure physique."), " Les couches d'armure physique sont : la couche d'armure l\xE9g\xE8re, la couche d'armure interm\xE9diaire et la couche d'armure lourde toutes \xE9quip\xE9es dans cet ordre pr\xE9cis."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 11
+    }
+  }, "Couches d'armure magique."), " Les couches d'armure magique sont le corps, sujet aux mutations modifiant la nature m\xEAme de la chair du sujet, la ou les enveloppes, pour les mutations modifiant la nature de la peau du sujet et les champs accueillant tous les effets assimilables \xE0 des champs de force."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 11
+    }
+  }, "D\xE9g\xE2ts d'armures."), " Un score d'armure, qu'il soit magique ou physique, peut, tout comme les points de vie d'une entit\xE9e, faire l'objet de d\xE9g\xE2ts. Dans le cas o\xF9 une entit\xE9e subit des d\xE9g\xE2ts d'armure, c'est la ou les couches les plus p\xE9riph\xE9riques qui encaissent les d\xE9g\xE2ts. Quand un modificateur d'armure tombe \xE0 z\xE9ro l'objet ou l'effet qui en est \xE0 l'origine est endomag\xE9, d\xE9truit ou dissip\xE9."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 11
+    }
+  }, "Protection totale."), " Quand un score d'armure est sup\xE9rieur aux d\xE9g\xE2ts pris, l'entit\xE9 ne prends aucun d\xE9g\xE2ts.")));
 }
 
 /***/ }),
@@ -29664,9 +29885,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
 /* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
 /* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\AttackRule.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -29675,280 +29895,141 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 function AttackRule() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 5
     }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 7
     }
-  }, "rules-fight-attack"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+  }, "rules-fight-attack"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 7
     }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+  }, "Attaque au corps \xE0 corps"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 7
     }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "Attaque"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "Attaque"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
       columnNumber: 7
     }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 20,
       columnNumber: 9
     }
-  }, "Une attaque est une action simple qui n\xE9c\xE9ssite d'\xEAtre \xE0 port\xE9 de sa cible. Les attaques ne peuvent pas faire l'objet d'une quelconque coop\xE9ration mais leur succ\xE8s peuvent \xEAtre influenc\xE9 par l'environnement. Une attaque se d\xE9roule toujours en deux temps : la touche et la r\xE9solution des d\xE9g\xE2ts."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "Attaque au corps \xE0 corps."), " Une attaque au corps \xE0 corps est une action qui n\xE9c\xE9ssite d'\xEAtre \xE0 port\xE9 de sa cible. Les attaques au corps \xE0 corps ne peuvent pas faire l'objet d'une quelconque coop\xE9ration mais leur succ\xE8s peut \xEAtre influenc\xE9 par l'environnement. Une attaque au corps \xE0 corps se d\xE9roule toujours en deux temps : la touche et la r\xE9solution des d\xE9g\xE2ts."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
       columnNumber: 9
     }
-  }, "Lors de la phase de touche, le d\xE9fenseur peut s'il en a la capacit\xE9 choisir d'esquiver, de parer ou de ne rien faire. La touche est un test d'opposition standard entre la ma\xEEtrise de l'arme de l'attaquant et la ma\xEEtrise choisie par le d\xE9fenseur. Si le d\xE9fenseur ne fait rien ou ne peut ni esquiver le coup ni le parer, l'attaquant touche automatiquement."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 9
-    }
-  }, "Une entit\xE9e \xE0 le droit \xE0 une esquive par tour. Lors d'une esquive, le d\xE9fenseur oppose sa ma\xEEtrise de l'esquive \xE0 la ma\xEEtrise de l'arme de l'attaquant et choisi une direction dans laquelle esquiver. Si l'esquive est r\xE9ussie, le d\xE9fenseur peut alors r\xE9aliser un pas de placement dans la direction qu'il a choisie et l'attaquant \xE9choue son action. Le nombre d'esquive par tour peut varier en fonction des atouts et autres effets. Le d\xE9fenseur doit toujours equiver dans une direction qui est libre d'acc\xE8s."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 9
-    }
-  }, "Une entit\xE9e \xE0 le droit \xE0 une parade par tour. Lors d'une parade, le d\xE9fenseur oppose la ma\xEEtrise de sa propre arme, ou de son bouclier \xE0 la ma\xEEtrise de l'attaquant. Si la parade r\xE9ussie, l'attaquant \xE9choue son action. Le nombre de parade par tour peut varier en fonction des atouts et des effets."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 9
-    }
-  }, "Certaines situations sont \xE0 l'avantage de l'attaquant. Si le d\xE9fenseur esquive pour sortir de la zone de contr\xF4le de son adversaire il se voit alors attribuer un malus de 2 points sur sa ma\xEEtrise de l'esquive. Pour chaque entit\xE9e hostile autour de lui dont le d\xE9fenseur est l'objet de l'attention, le d\xE9fenseur se voit en plus attribuer un malus de 2 points suppl\xE9mentaire sur la ma\xEEtrise qu'il utilise pour se d\xE9fendre."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, "Certaines situations sont \xE0 l'avantage du d\xE9fenseur. Pour chaque entit\xE9e hostile autour de lui dont l'attaquant est l'objet de l'attention, le d\xE9fenseur se voit en plus attribuer un bonus de 2 points suppl\xE9mtaire sur la ma\xEEtrise qu'il utilise pour se d\xE9fendre. Si l'attaquant doit r\xE9aliser un pas de placement pour attaquer le d\xE9fenseur, celui-ci gagne 2 points suppl\xE9mentaire sur la ma\xEEtrise qu'il utilise pour se d\xE9fendre."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 9
-    }
-  }, "Certaines r\xE8gles suppl\xE9mentaire peuvent encore modifier le niveau de ma\xEEtrise de l'attaquant ou du d\xE9fenseur en fonction du type d'action entrepris ou des effets actifs."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 9
-    }
-  }, "Si l'attaquant r\xE9ussi sa touche, il peut alors calculer les d\xE9g\xE2ts qu'il va infliger au d\xE9fenseur.")));
-}
-
-/***/ }),
-
-/***/ "./content/rules/fight/ComaRule.tsx":
-/*!******************************************!*\
-  !*** ./content/rules/fight/ComaRule.tsx ***!
-  \******************************************/
-/*! exports provided: ComaRule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComaRule", function() { return ComaRule; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\ComaRule.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-function ComaRule() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
-    }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, "rules-fight-coma"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 7
-    }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "Coma"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "Coma"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }, "Quand un personnage accumule autant de d\xE9g\xE2ts qu'il poss\xE8de de points de vie il tombe alors imm\xE9diatement dans le coma. Un personnage qui tombe dans le coma des suites d'une attaque est automatiquement afflig\xE9 d'une blessure grave li\xE9e \xE0 l'arme responsable du coup final."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
+      columnNumber: 11
+    }
+  }, "Touche."), " Lors de la phase de touche, le d\xE9fenseur peut s'il en a la capacit\xE9 choisir d'esquiver, de parer ou de ne rien faire. La touche est un test d'opposition standard entre la ma\xEEtrise de l'arme de l'attaquant et la ma\xEEtrise choisie par le d\xE9fenseur. Dans le cas o\xF9 le d\xE9fenseur ne fait rien, ne peut pas esquiver ou ne peut pas parer, l'attaquant touche automatiquement."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 9
     }
-  }, "Le coma est un statut interm\xE9diaire entre la vie et la mort qui peut aussi \xEAtre la cons\xE9quence d'un sort ou de certains poisons. Le coma est un \xE9tat critique impliquant une perte de conaissance associ\xE9e \xE0 une aggravation de certains statuts. Un personnage dans le coma tombe \xE0 terre, ne peut plus effectuer d'actions et est consid\xE9r\xE9 sans d\xE9fense et peut donc faire l'objet d'une tentative d'ex\xE9cution."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
-      columnNumber: 9
-    }
-  }, "Tout coma est associ\xE9 \xE0 un degr\xE9 de difficult\xE9 calcul\xE9 en fonction de l'\xE9tat g\xE9n\xE9ral du personnage commateux. Le degr\xE9 de difficult\xE9 d'un coma est calcul\xE9 de la mani\xE8re suivante :"), __jsx("ul", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 9
-    }
-  }, __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
       columnNumber: 11
     }
-  }, "Les paires de points de d\xE9g\xE2t ajoutent chacune 1 point de difficult\xE9."), __jsx("li", {
+  }, "Esquive."), " Une entit\xE9e \xE0 le droit \xE0 une esquive par tour. Lors d'une esquive, le d\xE9fenseur oppose sa ma\xEEtrise de l'esquive \xE0 la ma\xEEtrise de l'arme de l'attaquant et choisi une direction dans laquelle esquiver. Si l'esquive est r\xE9ussie, le d\xE9fenseur peut alors r\xE9aliser un pas de placement dans la direction qu'il a choisie et l'attaquant \xE9choue son action. Le nombre d'esquive par tour peut varier en fonction des atouts et autres effets. Le d\xE9fenseur doit toujours equiver dans une direction qui est libre d'acc\xE8s. Une esquive ne peut pas faire l'objet d'une coop\xE9ration de quelque nature que ce soit."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 11
-    }
-  }, "Les blessures l\xE9g\xE8res ajoutent chacune 2 points de difficult\xE9."), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 11
-    }
-  }, "Les blessures graves ajoutent chacune 5 points de difficult\xE9."), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 11
-    }
-  }, "Certaines causes de coma ainsi que certains status peuvent aussi ajouter des points de difficult\xE9, dans ce cas le nombre de point \xE0 ajouter doit apparaitre dans la description du sort, du poison ou de l'\xE9tat.")), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 51,
       columnNumber: 9
     }
-  }, "Un personnage peut sortir de l'\xE9tat de coma apr\xE8s un certain temps de repos \xE9quivalent au degr\xE9 de difficult\xE9 du coma retranch\xE9 du bonus de constitution du personnage le tout multipli\xE9 par 4. Certains status comme l'empoisonement ou le saignement interdisent \xE0 un personnage commateux de se r\xE9tablir seul et requiert qu'une tierce personne le stabilise au pr\xE9alable."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }, "Parade."), " Une entit\xE9e \xE0 le droit \xE0 une parade par tour. Lors d'une parade, le d\xE9fenseur oppose la ma\xEEtrise de sa propre arme, ou de son bouclier \xE0 la ma\xEEtrise de l'attaquant. Si la parade r\xE9ussie, l'attaquant \xE9choue son action. Le nombre de parade par tour peut varier en fonction des atouts et des effets. Une parade ne peut pas faire l'objet d'une coop\xE9ration de quelque nature que ce soit."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 9
     }
-  }, "Stabiliser un personnage commateux est une action complexe n\xE9c\xE9ssitant un calme relatif, des connaissances pr\xE9cises en premiers soins et un bon quart d'heure de travail. Un personnage effectuant une tentative de stabilisation doit r\xE9ussir un test d'opposition entre ses connaissances en premiers soins et le degr\xE9 de difficult\xE9 du coma. En cas de succ\xE8s le processus naturel de gu\xE9rison du coma reprend et la dur\xE9e n\xE9c\xE9ssaire pour perdre naturellement le status est divis\xE9 par deux.")));
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 11
+    }
+  }, "Surnombre."), " Si le d\xE9fenseur est \xE0 port\xE9e de trois adversaire ou plus, il subit alors un malus de deux points sur ses \xE9ventuels jets d'esquive ou de parrade. Ce nombre est augment\xE9e d'un point pour chaque adversaire suppl\xE9mentaire au del\xE0 de trois."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 11
+    }
+  }, "Tenaille."), " Si le d\xE9fenseur est \xE0 port\xE9e de deux adversaires oppos\xE9s l'un de l'autre il est alors consid\xE9r\xE9 comme pris en tenaille et subit alors un malus de deux points sur ses \xE9ventuels jets d'esquive ou de parrade."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 11
+    }
+  }, "D\xE9g\xE2ts."), " Si l'attaquant r\xE9ussi sa touche, il peut alors calculer les d\xE9g\xE2ts qu'il va infliger au d\xE9fenseur en utilisant les indications de son arme et le nombre de points d'armure poss\xE9d\xE9s par le d\xE9fenseur.")));
 }
 
 /***/ }),
@@ -30121,118 +30202,21 @@ function DamageRule() {
       lineNumber: 57,
       columnNumber: 9
     }
-  }, "Ces grands types de d\xE9g\xE2ts peuvent \xEAtre raffin\xE9s en y ajoutant des trais compl\xE9mentaires comme pour les d\xE9g\xE2ts \xE9l\xE9mentaires de feu, de glace, de terre ou d'\xE9lectricit\xE9. Ces traits sont cependant compl\xE9mentaires, et les d\xE9g\xE2ts se comporteront comme ce comportent tous les d\xE9g\xE2ts de leur cat\xE9gorie."), __jsx("p", {
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 11
+    }
+  }, "Traits."), " Les grands types de d\xE9g\xE2ts peuvent \xEAtre raffin\xE9s en y ajoutant des trais compl\xE9mentaires comme pour les d\xE9g\xE2ts \xE9l\xE9mentaires de feu, de glace, de terre ou d'\xE9lectricit\xE9. Ces traits sont cependant compl\xE9mentaires, et les d\xE9g\xE2ts se comporteront comme ce comportent tous les d\xE9g\xE2ts de leur cat\xE9gorie."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65,
       columnNumber: 9
     }
-  }, "Toute attaque peut porter une certaine quantit\xE9 de d\xE9g\xE2ts exprim\xE9 en d\xE9s. Pour r\xE9soudre le nombre de d\xE9g\xE2ts afflig\xE9s par une attaque il faut alors lancer autant de d\xE9s six que de points de d\xE9g\xE2ts infligeable. Tous les d\xE9s pairs sont alors consid\xE9r\xE9 comme un point de d\xE9g\xE2t inflig\xE9. Le d\xE9fenseur peut alors d\xE9duire ceux-ci de ses points de vie ou de son armure en fonction du type de d\xE9g\xE2t. Les d\xE9g\xE2ts visant l'armure sont toujours appliqu\xE9s apr\xE8s les d\xE9g\xE2ts visant les points de vie.")));
-}
-
-/***/ }),
-
-/***/ "./content/rules/fight/DeathRule.tsx":
-/*!*******************************************!*\
-  !*** ./content/rules/fight/DeathRule.tsx ***!
-  \*******************************************/
-/*! exports provided: DeathRule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DeathRule", function() { return DeathRule; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\DeathRule.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-function DeathRule() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
-    }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, "rules-fight-death"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 7
-    }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "Mort"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "Mort"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }, "Quand un personnage accumule plus de 150% du nombre de ses points de vie en d\xE9g\xE2ts est alors consid\xE9r\xE9 comme mort. Le d\xE9c\xE8s est imm\xE9diat et le personnage n'est alors plus jouable."), __jsx("p", {
-    className: "text-center",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 9
-    }
-  }, "La mort est d\xE9finitive, mais rassurez-vous, le deuil ne l'est pas.")));
+  }, "Toute attaque peut porter une certaine quantit\xE9 de d\xE9g\xE2ts exprim\xE9 en d\xE9s. Pour r\xE9soudre le nombre de d\xE9g\xE2ts afflig\xE9s par une attaque il faut alors lancer autant de d\xE9s que n\xE9c\xE9ssaire et sommer les r\xE9sultats. Les d\xE9g\xE2ts visant l'armure sont toujours appliqu\xE9s apr\xE8s les d\xE9g\xE2ts visant les points de vie.")));
 }
 
 /***/ }),
@@ -30252,21 +30236,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
 /* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
 /* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
-/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
-/* harmony import */ var _ArmorRule__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ArmorRule */ "./content/rules/fight/ArmorRule.tsx");
-/* harmony import */ var _AttackRule__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AttackRule */ "./content/rules/fight/AttackRule.tsx");
-/* harmony import */ var _ComaRule__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ComaRule */ "./content/rules/fight/ComaRule.tsx");
-/* harmony import */ var _DamageRule__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./DamageRule */ "./content/rules/fight/DamageRule.tsx");
-/* harmony import */ var _DeathRule__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./DeathRule */ "./content/rules/fight/DeathRule.tsx");
-/* harmony import */ var _HealthPointRule__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./HealthPointRule */ "./content/rules/fight/HealthPointRule.tsx");
-/* harmony import */ var _InitiativeRule__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./InitiativeRule */ "./content/rules/fight/InitiativeRule.tsx");
-/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Introduction */ "./content/rules/fight/Introduction.tsx");
-/* harmony import */ var _WeigthPointRule__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./WeigthPointRule */ "./content/rules/fight/WeigthPointRule.tsx");
-/* harmony import */ var _WoundsRule__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./WoundsRule */ "./content/rules/fight/WoundsRule.tsx");
-/* harmony import */ var _Regeneration__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Regeneration */ "./content/rules/fight/Regeneration.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _ArmorRule__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ArmorRule */ "./content/rules/fight/ArmorRule.tsx");
+/* harmony import */ var _AttackRule__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./AttackRule */ "./content/rules/fight/AttackRule.tsx");
+/* harmony import */ var _DamageRule__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./DamageRule */ "./content/rules/fight/DamageRule.tsx");
+/* harmony import */ var _HealthPointRule__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./HealthPointRule */ "./content/rules/fight/HealthPointRule.tsx");
+/* harmony import */ var _InitiativeRule__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./InitiativeRule */ "./content/rules/fight/InitiativeRule.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Introduction */ "./content/rules/fight/Introduction.tsx");
+/* harmony import */ var _WeigthPointRule__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./WeigthPointRule */ "./content/rules/fight/WeigthPointRule.tsx");
+/* harmony import */ var _ActionRule__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ActionRule */ "./content/rules/fight/ActionRule.tsx");
+/* harmony import */ var _ProjectileRule__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ProjectileRule */ "./content/rules/fight/ProjectileRule.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\FightRules.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -30285,141 +30266,110 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
 function FightRules() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, "rules-fight"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 5
+      columnNumber: 7
     }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+  }, "Sc\xE8nes d'action"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 7
     }
-  }, "rules-fight"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 7
-    }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 7
-    }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 7
     }
-  }, "R\xE8gles de combat"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
-      columnNumber: 7
+      columnNumber: 9
     }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_12__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx(_InitiativeRule__WEBPACK_IMPORTED_MODULE_11__["InitiativeRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 7
+      columnNumber: 9
     }
-  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+  }), __jsx(_HealthPointRule__WEBPACK_IMPORTED_MODULE_10__["HealthPointRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 9
     }
-  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_15__["Introduction"], {
+  }), __jsx(_ArmorRule__WEBPACK_IMPORTED_MODULE_7__["ArmorRule"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }), __jsx(_WeigthPointRule__WEBPACK_IMPORTED_MODULE_13__["WeigthPointRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 9
     }
-  }), __jsx(_InitiativeRule__WEBPACK_IMPORTED_MODULE_14__["InitiativeRule"], {
+  }), __jsx(_ActionRule__WEBPACK_IMPORTED_MODULE_14__["ActionRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_HealthPointRule__WEBPACK_IMPORTED_MODULE_13__["HealthPointRule"], {
+  }), __jsx(_AttackRule__WEBPACK_IMPORTED_MODULE_8__["AttackRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_ComaRule__WEBPACK_IMPORTED_MODULE_10__["ComaRule"], {
+  }), __jsx(_ProjectileRule__WEBPACK_IMPORTED_MODULE_15__["ProjectileRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }), __jsx(_WoundsRule__WEBPACK_IMPORTED_MODULE_17__["WoundsRule"], {
+  }), __jsx(_DamageRule__WEBPACK_IMPORTED_MODULE_9__["DamageRule"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
-      columnNumber: 9
-    }
-  }), __jsx(_Regeneration__WEBPACK_IMPORTED_MODULE_18__["Regeneration"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 9
-    }
-  }), __jsx(_WeigthPointRule__WEBPACK_IMPORTED_MODULE_16__["WeigthPointRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 9
-    }
-  }), __jsx(_AttackRule__WEBPACK_IMPORTED_MODULE_9__["AttackRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 9
-    }
-  }), __jsx(_DamageRule__WEBPACK_IMPORTED_MODULE_11__["DamageRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 9
-    }
-  }), __jsx(_ArmorRule__WEBPACK_IMPORTED_MODULE_8__["ArmorRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 9
-    }
-  }), __jsx(_DeathRule__WEBPACK_IMPORTED_MODULE_12__["DeathRule"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
       columnNumber: 9
     }
   })));
@@ -30483,42 +30433,106 @@ function HealthPointRule() {
       lineNumber: 16,
       columnNumber: 7
     }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 7
     }
-  }, "Point de vie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+  }, "Vie, coma et mort"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 7
     }
-  }, "Points de vie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 22,
       columnNumber: 9
     }
-  }, "Les points de vie bruts d'une entit\xE9e sont \xE9gaux \xE0 son nombre de points de constitution. Une entit\xE9e tombe dans le coma si elle accumule autant de d\xE9g\xE2t qu'elle a de points de vie. Une entit\xE9e meurt si elle accumule une quantit\xE9e de d\xE9g\xE2ts sup\xE9rieurs ou \xE9gaux \xE0 150% de sa constitution.")));
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, "Points de vie."), " Les points de vie repr\xE9sentent l'\xE9tat de sant\xE9 global d'une entit\xE9e. Le nombre de points de vie d'une entit\xE9e est \xE9quivalent \xE0 son nombre de points de constitution somm\xE9e ou multipli\xE9 par les \xE9ventuels modificateurs dont elle peut faire l'objet."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, "R\xE9g\xE9n\xE9ration naturelle."), " Une entit\xE9e r\xE9cup\xE8re naturellement un nombre fixe de points de vie des suites d'un sommeil r\xE9parateur d'au minimum huit heures. La r\xE9g\xE9n\xE9ration naturelle permet \xE0 toute entit\xE9e de r\xE9cup\xE9rer ainsi un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9e par 5, le tout arrondit \xE0 l'entier inf\xE9rieur, une entit\xE9e r\xE9cup\xE8re toujours au minimum 1 point de vie par jour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, "R\xE9g\xE9n\xE9ration naturelle et fatigue."), " Si une entit\xE9e ne peut pas dormir correctement ou est sujette \xE0 la fatigue \xE0 son r\xE9veil, elle r\xE9cup\xE8re alors un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9e par 10, arrondie \xE0 l'entier inf\xE9rieur. Si une entit\xE9e est \xE9puis\xE9e \xE0 son r\xE9veil, elle ne r\xE9cup\xE8re alors qu'un unique point de vie symbolique. Une entit\xE9e r\xE9cup\xE8re toujours au minimum 1 point de vie par jour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, "Coma."), " Quand une entit\xE9 accumule autant de d\xE9g\xE2ts qu'elle ne poss\xE8de de points de vie, elle tombe alors imm\xE9diatement dans le coma. En plus du statut en tant que tel, celle-ci se voit alors imm\xE9diatement inflig\xE9e d'une blessure grave dont la nature d\xE9pend de la source de d\xE9g\xE2ts ayant initi\xE9 le statut de coma."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 11
+    }
+  }, "Mort."), " Quand un personnage accumule une quantit\xE9e de d\xE9g\xE2ts sup\xE9rieurs ou \xE9gaux \xE0 150% de sa constitution il est alors consid\xE9r\xE9 comme mort. Le d\xE9c\xE8s est imm\xE9diat et le personnage n'est plus jouable."), __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 9
+    }
+  }, "La mort est d\xE9finitive, mais rassurez-vous, le deuil ne l'est pas.")));
 }
 
 /***/ }),
@@ -30621,112 +30635,98 @@ function InitiativeRule() {
       lineNumber: 24,
       columnNumber: 11
     }
-  }, "Score d'initiative."), " Le score d'initiative est une quantit\xE9 relative qui mesure la capacit\xE9 d'action d'une entit\xE9. Ce score repr\xE9sente \xE0 la fois la priorit\xE9 potentielle d'une entit\xE9 sur les autres ainsi que le nombre d'action qu'elle peut possiblement entreprendre lors d'un round. ", __jsx("strong", {
+  }, "Score d'initiative."), " Le score d'initiative est une quantit\xE9 relative qui mesure la capacit\xE9 d'agir d'une entit\xE9e lors d'un tour Ce score est \xE9quivalent \xE0 la ", __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 41
+      lineNumber: 26,
+      columnNumber: 40
     }
-  }, "L'initiative de base d'une entit\xE9 est \xE9gale \xE0 la valeur de la caract\xE9ristique de dext\xE9rit\xE9 de celle-ci"), "."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }, __jsx("em", {
+  }, "valeur de la caract\xE9ristique de dext\xE9rit\xE9 d'une entit\xE9e"), " somm\xE9e de l'ensemble des modificateurs d'initiative dont elle peut faire l'objet. L'initiative repr\xE9sente \xE0 la fois la priorit\xE9 potentielle d'une entit\xE9 sur les autres tout comme le nombre d'action qu'elle peut entreprendre lors d'un tour."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 11
-    }
-  }, "D\xE9claration des actions."), " Au d\xE9but d'un round, une entit\xE9 peut d\xE9clarer une action par tranche de 20 points d'initiative qu'elle poss\xE8de. Une entit\xE9 doit toujours d\xE9clarer au moins une action lors d'un round mais elle peut ne pas d\xE9clarer toutes les actions auxquelles elle a th\xE9oriquement droit. Une entit\xE9 doit r\xE9partir l'enti\xE8ret\xE9 de ses points d'initiative parmi l'ensemble des actions qu'elle a d\xE9clar\xE9 vouloir jouer."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 35,
       columnNumber: 11
     }
-  }, "Prise d'action."), " Une fois d\xE9clar\xE9s, les actions sont jou\xE9s d'un commun accord par les joueurs et le ma\xEEtre du jeu. On dit de l'entit\xE9e ainsi choisie qu'elle prend l'action."), __jsx("p", {
+  }, "D\xE9clarer des actions."), " Au d\xE9but d'un tour, une entit\xE9e peut d\xE9clarer une action par tranche de 20 points d'initiative qu'elle poss\xE8de. Une entit\xE9e doit toujours d\xE9clarer au moins une action lors d'un round mais elle peut ne pas d\xE9clarer toutes les actions auxquelles elle a th\xE9oriquement droit. A la fin de sa d\xE9claration, une entit\xE9e doit alors r\xE9partir l'enti\xE8ret\xE9 des points d'initiative qu'elle poss\xE8de parmi l'ensemble des actions qu'elle a d\xE9clar\xE9e vouloir jouer."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 45,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 46,
       columnNumber: 11
     }
-  }, "Contestation."), " Si l'ordonnancement ne convient pas \xE0 un joueur ou au ma\xEEtre du jeu, il est alors possible de le contester. L'entit\xE9 ayant la plus forte initiative alors dite entit\xE9e actrice et l'entit\xE9e qui aimerait agir \xE0 sa place est alors dite entit\xE9e contestatrice. Pour pouvoir contester l'action d'une entit\xE9e actrice, une entit\xE9e contestatrice doit encore poss\xE9der au moins une action dont la diff\xE9rence d'initiative avec l'action de l'entit\xE9e actrice n'est pas sup\xE9rieure \xE0 5 points. Si toutes les conditions sont remplies, l'entit\xE9 contestatrice doit alors effectuer une r\xE9solution par opposition entre l'initiative de son action et l'initiative de l'action contest\xE9e. Si l'entit\xE9 contestatrice r\xE9ussit son test, elle joue alors en premier, sinon, l'entit\xE9e actrice peut jouer son action."), __jsx("p", {
+  }, "Prise d'action."), " Une fois d\xE9clar\xE9es, les actions d'un tour sont jou\xE9es d'un commun accord entre les joueurs et le ma\xEEtre du jeu. On dit d'une entit\xE9e qui se voit attribuer le droit d'effectuer une action de cette mani\xE8re qu'elle prend l'action."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 52,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 53,
       columnNumber: 11
     }
-  }, "Cha\xEEne de contestation."), " Il est toujours possible d'encha\xEEner les contestations pour prendre la priorit\xE9 durant un round. Un tel encha\xEEnement ne peut pas exc\xE9der trois contestations successives. Dans le cas o\xF9 un encha\xEEnement de contestation \xE0 lieu, une entit\xE9e ne peut pas contester deux fois de suite la priorit\xE9."), __jsx("p", {
+  }, "Contestation."), " Quand il n'est pas possible d'\xE9tablir l'action \xE0 jouer \xE0 l'unanimit\xE9 l'on dit alors qu'il y a contestation de l'ordonnancement. Dans une telle situation, l'on garde alors la paire d'action ayant les plus fortes initiatives parmis les actions candidates. L'action \xE0 r\xE9aliser est alors d\xE9cid\xE9e par un test d'opposition entre l'initiative respective des deux actions ainsi obtenues."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 62,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 63,
       columnNumber: 11
     }
   }, "Initiative n\xE9gative."), " Si une entit\xE9 joue avec une initiative n\xE9gative pour quelque raison que ce soit toutes les entit\xE9s de la partie se voient attribuer 20 points d'initiative suppl\xE9mentaire jusqu'\xE0 ce que l'entit\xE9 en question ait un score positif. La d\xE9claration des actions s'effectue alors normalement."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 70,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 71,
       columnNumber: 11
     }
-  }, "Modification d'initiative."), " Si une entit\xE9 perd des points d'initiative durant un round, son action ayant la moins d'initiative est p\xE9nalis\xE9 en premier du nombre de points perdu. Si l'action la plus faible atteint 0 point d'initiative elle est alors annul\xE9 et le reste des points de p\xE9nalit\xE9 sont report\xE9s sur l'action qui la nouvelle action la plus faible. Si une entit\xE9 gagne des points d'initiative lors d'un round elle peut r\xE9partir ses points bonus \xE0 loisir entre les actions qu'elle \xE0 d\xE9clar\xE9e."), __jsx("p", {
+  }, "Modification d'initiative."), " Quand une action de quelque nature que ce soit am\xE8ne une entit\xE9e \xE0 perdre ou gagner des points d'initiatives, celle-ci doit alors comptabiliser le nombre de poits bonus ou malus ainsi obtenu pour la dur\xE9e restante du tour afin de l'appliquer \xE0 l'\xE9ventuelle prochaine contestation dont elle fera l'objet. Si une entit\xE9e vient de cette mani\xE8re \xE0 engrenger un malus d'initiative \xE9quivalent ou sup\xE9rieur \xE0 l'initiative de son action la plus faible elle doit alors annuler cette action et retrancher son initiative \xE0 son malus actuel."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 82,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 83,
       columnNumber: 11
     }
-  }, "Dext\xE9rit\xE9 nulle."), " Une entit\xE9 avec une dext\xE9rit\xE9 nulle est consid\xE9r\xE9 hors-combat et ne peut plus jouer de tour tant que son score n'est pas remont\xE9 d'au moins un point. M\xEAme avec une initiative positive, une entit\xE9 avec une dext\xE9rit\xE9 nulle ne peut agir. Une initiative n\xE9gative permet de continuer \xE0 jouer tant que la dext\xE9rit\xE9 n'est pas nulle.")));
+  }, "Dext\xE9rit\xE9 nulle."), " Une entit\xE9e avec une dext\xE9rit\xE9 nulle est consid\xE9r\xE9 hors-combat et perd toutes les actions qu'elle a d\xE9clar\xE9e pour le tour en cours et les suivant tant que son score n'est pas remont\xE9 d'au moins un point. M\xEAme avec une initiative positive, une entit\xE9 avec une dext\xE9rit\xE9 nulle ne peut agir. Une initiative n\xE9gative permet de continuer \xE0 jouer tant que la dext\xE9rit\xE9 n'est pas nulle.")));
 }
 
 /***/ }),
@@ -30787,42 +30787,178 @@ function Introduction() {
       lineNumber: 16,
       columnNumber: 7
     }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+  }, "Introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 7
     }
-  }, "Introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 7
     }
-  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 22,
       columnNumber: 9
     }
-  }, "Les sc\xE8nes \xE0 interaction forte n\xE9cessitant des prises de d\xE9cision simultan\xE9es sont r\xE9solues au tour par tour."), __jsx("p", {
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 11
+    }
+  }, "Sc\xE8ne d'action."), " Les sc\xE8nes qui n\xE9cessitent que plusieurs joueurs et \xE9l\xE9ments du r\xE9cit prennent des d\xE9cisions de mani\xE8re simultan\xE9e et potentiellement contradictoire sont appell\xE9es des sc\xE8nes d'actions. Les sc\xE8nes d'action sont r\xE9solues au tour par tour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, "Entit\xE9e."), " Une entit\xE9e est un \xE9l\xE9ment du r\xE9cit pouvant agir de son propre chef lors d'une sc\xE8ne d'action. Une entit\xE9e peut \xEAtre contr\xF4l\xE9e par un joueur, par le ma\xEEtre du jeu ou par un ensemble de r\xE8gles strictes."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }, "Action."), " Une action est une prise de d\xE9cision unilat\xE9rale effectu\xE9e par une entit\xE9e \xE0 un instant donn\xE9 d'une sc\xE8ne d'action. Une fois l'action r\xE9solue, une autre entit\xE9e peut alors \xE0 son tour r\xE9aliser une action et ainsi de suite."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 11
+    }
+  }, "Tour."), " Un tour repr\xE9sente la dur\xE9e n\xE9c\xE9ssaire pour que toutes les entit\xE9es d'une sc\xE8ne d'action puissent r\xE9aliser l'ensemble des actions auxquelles elles ont droit. Il peut arriver qu'une entit\xE9 ait le droit de jouer plusieurs actions lors d'un tour."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 11
+    }
+  }, "Ordonnancement."), " Un ordonnancement est un ensemble de r\xE8gle permettant de d\xE9finir clairement l'ordre des actions durant un tour.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/fight/ProjectileRule.tsx":
+/*!************************************************!*\
+  !*** ./content/rules/fight/ProjectileRule.tsx ***!
+  \************************************************/
+/*! exports provided: ProjectileRule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectileRule", function() { return ProjectileRule; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\ProjectileRule.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function ProjectileRule() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-fight-attack"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Attaque \xE0 distance"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "Attaque \xE0 distance."), " Une attaque \xE0 distance est une action qui n\xE9c\xE9ssite de pouvoir voir sa cible. Les attaques \xE0 distance ne peuvent pas faire l'objet d'une quelconque coop\xE9ration mais leur succ\xE8s peut \xEAtre influenc\xE9 par l'environnement. Une attaque \xE0 distance se d\xE9roule toujours en deux temps : la touche et la r\xE9solution des d\xE9g\xE2ts."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -30836,173 +30972,105 @@ function Introduction() {
       lineNumber: 29,
       columnNumber: 11
     }
-  }, "Entit\xE9e."), " Une entit\xE9e est un \xE9l\xE9ment du r\xE9cit pouvant agir de son propre chef lors d'une sc\xE8ne \xE0 forte interaction."), __jsx("p", {
+  }, "Touche."), " Lors de la phase de touche d'une attaque \xE0 distance seul l'attaquant doit r\xE9aliser un jet pour savoir si le d\xE9fenseur subit ou non des d\xE9g\xE2ts. Le degr\xE9 de difficult\xE9 de la tentative de touche d\xE9pend de plusieurs facteurs."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 11
     }
-  }, "Action."), " Une action est une prise de d\xE9cision unilat\xE9rale d'une entit\xE9e \xE0 un instant donn\xE9 de la sc\xE8ne d'action. Une fois que la ou les d\xE9cisions d'une entit\xE9e sont r\xE9solue, une autre peut alors \xE0 son tour r\xE9aliser une action et ainsi de suite."), __jsx("p", {
+  }, "Tir hors de port\xE9e."), " Il existe plusieurs distances de tir, chaque arme est associ\xE9e \xE0 une ou plusieurs distance de pr\xE9dilection. Quand un attaquant tente de toucher un d\xE9fenseur qui est soit trop pr\xE8s, soit trop \xE9loign\xE9e, il doit alors ajouter 5 points au degr\xE9 de difficult\xE9 du tir."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 43,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 44,
       columnNumber: 11
     }
-  }, "Round."), " Un round est la dur\xE9e n\xE9c\xE9ssaire pour que toutes les entit\xE9es d'une sc\xE8ne puissent r\xE9aliser l'ensemble des actions auxquelles elles ont droit. Il peut arriver qu'une entit\xE9 ait le droit de jouer plusieurs actions lors d'un round."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 9
-    }
-  }, __jsx("em", {
+  }, "Tir en flux tendu."), " La difficult\xE9 du tir augmente de 3 points quand une entit\xE9e recharge et tir lors d'une m\xEAme prise d'action."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48,
-      columnNumber: 11
-    }
-  }, "Ordonnancement."), " Un ordonnancement est un ensemble de r\xE8gle permettant de d\xE9finir clairement l'ordre des actions dans un round.")));
-}
-
-/***/ }),
-
-/***/ "./content/rules/fight/Regeneration.tsx":
-/*!**********************************************!*\
-  !*** ./content/rules/fight/Regeneration.tsx ***!
-  \**********************************************/
-/*! exports provided: Regeneration */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Regeneration", function() { return Regeneration; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\Regeneration.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-function Regeneration() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
-    }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, "rules-fight-regeneration"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 7
-    }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "R\xE9g\xE9n\xE9ration naturelle"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "R\xE9g\xE9n\xE9ration naturelle"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }, "Une entit\xE9e r\xE9cup\xE8re naturellement un nombre fixe de points de vie tous les jours. Des suites d'une bonne nuit de sommeil une entit\xE9e regagne un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9 par 5 arrondie \xE0 l'entier inf\xE9rieur, une entit\xE9e r\xE9cup\xE8re toujours au moins 1 point de vie par jour."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 49,
       columnNumber: 11
     }
-  }, "Fatigue."), " Si une entit\xE9e ne peut pas dormir correctement ou est sujette \xE0 la fatigue \xE0 son r\xE9veille, celle-ci ne r\xE9cup\xE8re alors qu'un nombre de points de vie \xE9quivalent \xE0 sa constitution divis\xE9 par 10 arrondie \xE0 l'entier inf\xE9rieur, une entit\xE9e r\xE9cup\xE8re toujours au moins 1 point de vie par jour."), __jsx("p", {
+  }, "Bouclier."), " La difficult\xE9 du tir augmente de 5 points si la cible de l'attaque poss\xE8de un bouclier ou un effet \xE9quivalent \xE0 celui d'un bouclier."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 55,
       columnNumber: 11
     }
-  }, "\xC9puisement."), " Si une entit\xE9e est \xE9puis\xE9e, elle ne r\xE9cup\xE8re alors qu'un unique point de vie symbolique.")));
+  }, "Mouvement."), " Pour chaque mouvement effectu\xE9 par la cible avant la tentative de tir, la difficult\xE9 de la touche augmente de 3 points."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 11
+    }
+  }, "Chaos."), " Pour chaque personnage adjacent \xE0 la cible du tir, la difficult\xE9 de la touche augmente de 3 points."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 11
+    }
+  }, "Tir en mouvement."), " Si l'attaquant se d\xE9place en tirant il doit augmenter le degr\xE9 de difficult\xE9 de son tir de 5 points suppl\xE9mentaires."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 11
+    }
+  }, "D\xE9g\xE2ts."), " Si l'attaquant r\xE9ussi sa touche, il peut alors calculer les d\xE9g\xE2ts qu'il va infliger au d\xE9fenseur en utilisant les indications de son arme et le nombre de points d'armure poss\xE9d\xE9s par le d\xE9fenseur.")));
 }
 
 /***/ }),
@@ -31098,138 +31166,42 @@ function WeigthPointRule() {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Une entit\xE9e poss\xE8de autant de points de charge qu'elle \xE0 de points de force. Les points de charge repr\xE9sente la quantit\xE9 d'objets que peut \xE9quiper et transporter l'entit\xE9 avant de se voir attribuer des malus."), __jsx("p", {
+  }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 9
+      lineNumber: 24,
+      columnNumber: 11
     }
-  }, __jsx("em", {
+  }, "Points de charge."), " Une entit\xE9e poss\xE8de autant de points de charge qu'elle ne poss\xE8de de points de force. Les points de charge repr\xE9sente la quantit\xE9 d'objets que peut \xE9quiper et transporter l'entit\xE9 avant de se voir attribuer des malus."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
-      columnNumber: 11
-    }
-  }, "Sous-charge."), " Tous les deux points de charge non utilis\xE9, l'entit\xE9 peut rajouter un point de d\xE9g\xE2t suppl\xE9mentaire \xE0 toute ses attaques au corps \xE0 corps \xE0 hauteur de la valeur du modificateur de force dont elle fait l'objet. Pour chaque groupe de deux points de charge non utilis\xE9, une entit\xE9e gagne un point d'initiative suppl\xE9mentaire."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
       columnNumber: 9
     }
   }, __jsx("em", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "Sous-charge."), " Une entit\xE9e est consid\xE9r\xE9 en sous-charge quand elle poss\xE8de plus de points de charge qu'il n'en faut pour supporter l'enti\xE8ret\xE9 de son \xE9quipement. Dans cette situation, tous les deux points de charge non utilis\xE9 sont convertis \xE0 la fois en points d'initiative bonus et en points de d\xE9g\xE2ts suppl\xE9mentaires ajoutable aux attaques au corps \xE0 corps."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 39,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
       columnNumber: 11
     }
   }, "Sur-charge."), " Tous les points de charge au dessus de la limite de l'entit\xE9 implique la perte d'un point de d\xE9g\xE2t \xE0 toutes les attaques au corps \xE0 corps et la perte d'un point \xE0 son initiative.")));
-}
-
-/***/ }),
-
-/***/ "./content/rules/fight/WoundsRule.tsx":
-/*!********************************************!*\
-  !*** ./content/rules/fight/WoundsRule.tsx ***!
-  \********************************************/
-/*! exports provided: WoundsRule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WoundsRule", function() { return WoundsRule; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
-/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
-/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
-/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
-/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
-/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
-var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\fight\\WoundsRule.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-function WoundsRule() {
-  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
-    }
-  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }, "rules-fight-wounds"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 7
-    }
-  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 7
-    }
-  }, "R\xE8gle de combat"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 7
-    }
-  }, "Blessure"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, "Blessures"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 9
-    }
-  }, "Un personnage perdant un important nombre de points de vie d'un coup ou subissant les cons\xE9quences de certaines techniques peut se voir infliger des blessures. Les blessures sont des effets permanents qui ne peuvent \xEAtre soign\xE9s qu'avec le temps et des soins minutieux, elles sont class\xE9s en deux cat\xE9gories : les blessures l\xE9g\xE8res et les blessures graves."), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
-    }
-  }, "Toutes les armes peuvent provoquer des types de blessures l\xE9g\xE8res ou graves diff\xE9rentes. Pour qu'une blessure soit inflig\xE9e il faut que le nombre de d\xE9g\xE2ts effectu\xE9s par l'arme d'une seule traite soit sup\xE9rieur ou \xE9gal \xE0 son seuil de blessure l\xE9g\xE8re ou \xE0 son seuil de blessure grave.")));
 }
 
 /***/ }),
@@ -32860,6 +32832,431 @@ function Test() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Sanity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sanity */ "./content/rules/sanity/Sanity.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sanity", function() { return _Sanity__WEBPACK_IMPORTED_MODULE_0__["Sanity"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/rules/status/Coma.tsx":
+/*!***************************************!*\
+  !*** ./content/rules/status/Coma.tsx ***!
+  \***************************************/
+/*! exports provided: Coma */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Coma", function() { return Coma; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\status\\Coma.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Coma() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-status-coma"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "R\xE8gle"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Coma"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Coma"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, "Quand un personnage accumule autant de d\xE9g\xE2ts qu'il poss\xE8de de points de vie il tombe alors imm\xE9diatement dans le coma. Un personnage qui tombe dans le coma des suites d'une attaque est automatiquement afflig\xE9 d'une blessure grave li\xE9e \xE0 l'arme responsable du coup final."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, "Le coma est un statut interm\xE9diaire entre la vie et la mort qui peut aussi \xEAtre la cons\xE9quence d'un sort ou de certains poisons. Le coma est un \xE9tat critique impliquant une perte de conaissance associ\xE9e \xE0 une aggravation de certains statuts. Un personnage dans le coma tombe \xE0 terre, ne peut plus effectuer d'actions et est consid\xE9r\xE9 sans d\xE9fense et peut donc faire l'objet d'une tentative d'ex\xE9cution."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, "Tout coma est associ\xE9 \xE0 un degr\xE9 de difficult\xE9 calcul\xE9 en fonction de l'\xE9tat g\xE9n\xE9ral du personnage commateux. Le degr\xE9 de difficult\xE9 d'un coma est calcul\xE9 de la mani\xE8re suivante :"), __jsx("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 11
+    }
+  }, "Les paires de points de d\xE9g\xE2t ajoutent chacune 1 point de difficult\xE9."), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, "Les blessures l\xE9g\xE8res ajoutent chacune 2 points de difficult\xE9."), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }, "Les blessures graves ajoutent chacune 5 points de difficult\xE9."), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, "Certaines causes de coma ainsi que certains status peuvent aussi ajouter des points de difficult\xE9, dans ce cas le nombre de point \xE0 ajouter doit apparaitre dans la description du sort, du poison ou de l'\xE9tat.")), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 9
+    }
+  }, "Un personnage peut sortir de l'\xE9tat de coma apr\xE8s un certain temps de repos \xE9quivalent au degr\xE9 de difficult\xE9 du coma retranch\xE9 du bonus de constitution du personnage le tout multipli\xE9 par 4. Certains status comme l'empoisonement ou le saignement interdisent \xE0 un personnage commateux de se r\xE9tablir seul et requiert qu'une tierce personne le stabilise au pr\xE9alable."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 9
+    }
+  }, "Stabiliser un personnage commateux est une action complexe n\xE9c\xE9ssitant un calme relatif, des connaissances pr\xE9cises en premiers soins et un bon quart d'heure de travail. Un personnage effectuant une tentative de stabilisation doit r\xE9ussir un test d'opposition entre ses connaissances en premiers soins et le degr\xE9 de difficult\xE9 du coma. En cas de succ\xE8s le processus naturel de gu\xE9rison du coma reprend et la dur\xE9e n\xE9c\xE9ssaire pour perdre naturellement le status est divis\xE9 par deux.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/status/Introduction.tsx":
+/*!***********************************************!*\
+  !*** ./content/rules/status/Introduction.tsx ***!
+  \***********************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\status\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-status-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/rules/status/Status.tsx":
+/*!*****************************************!*\
+  !*** ./content/rules/status/Status.tsx ***!
+  \*****************************************/
+/*! exports provided: Status */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Status", function() { return Status; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Introduction */ "./content/rules/status/Introduction.tsx");
+/* harmony import */ var _Coma__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Coma */ "./content/rules/status/Coma.tsx");
+/* harmony import */ var _Wounds__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Wounds */ "./content/rules/status/Wounds.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\status\\Status.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+function Status() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "rules-status"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "Status"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_7__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }), __jsx(_Coma__WEBPACK_IMPORTED_MODULE_8__["Coma"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_Wounds__WEBPACK_IMPORTED_MODULE_9__["Wounds"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/rules/status/Wounds.tsx":
+/*!*****************************************!*\
+  !*** ./content/rules/status/Wounds.tsx ***!
+  \*****************************************/
+/*! exports provided: Wounds */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Wounds", function() { return Wounds; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\rules\\status\\Wounds.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Wounds() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "rules-status-wounds"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Blessures"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, "Un personnage perdant un important nombre de points de vie d'un coup ou subissant les cons\xE9quences de certaines techniques peut se voir infliger des blessures. Les blessures sont des effets permanents qui ne peuvent \xEAtre soign\xE9s qu'avec le temps et des soins minutieux, elles sont class\xE9s en deux cat\xE9gories : les blessures l\xE9g\xE8res et les blessures graves."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, "Toutes les armes peuvent provoquer des types de blessures l\xE9g\xE8res ou graves diff\xE9rentes. Pour qu'une blessure soit inflig\xE9e il faut que le nombre de d\xE9g\xE2ts effectu\xE9s par l'arme d'une seule traite soit sup\xE9rieur ou \xE9gal \xE0 son seuil de blessure l\xE9g\xE8re ou \xE0 son seuil de blessure grave.")));
+}
+
+/***/ }),
+
+/***/ "./content/rules/status/index.ts":
+/*!***************************************!*\
+  !*** ./content/rules/status/index.ts ***!
+  \***************************************/
+/*! exports provided: Status */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Status__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Status */ "./content/rules/status/Status.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Status", function() { return _Status__WEBPACK_IMPORTED_MODULE_0__["Status"]; });
 
 
 
