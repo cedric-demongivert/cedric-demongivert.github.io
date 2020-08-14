@@ -29678,7 +29678,21 @@ function ActionRule() {
       lineNumber: 43,
       columnNumber: 11
     }
-  }, "Attaque \xE0 outrance."), " Une action d'attaque \xE0 outrance consiste en un mouvement extr\xEAmement r\xE9duit et plusieurs tentatives d'aggression successives avec l'arme \xE9quip\xE9e. Un personnage ne peut frapper par d\xE9faut qu'une seule fois avec chaque arme qu'il \xE9quipe, la r\xE9solution des diff\xE9rentes attaques suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie. Lors d'une attaque \xE0 outrance, une entit\xE9e peut frapper autant d'adversaires qu'elle le souhaite pourvu que ceux-ci soient \xE0 sa port\xE9e et qu'elle ne d\xE9passe pas le nombre de coups auxquels elle \xE0 droit.")));
+  }, "Attaque \xE0 outrance."), " Une action d'attaque \xE0 outrance consiste en un mouvement extr\xEAmement r\xE9duit et plusieurs tentatives d'aggression successives avec l'arme \xE9quip\xE9e. Un personnage ne peut frapper par d\xE9faut qu'une seule fois avec chaque arme qu'il \xE9quipe, la r\xE9solution des diff\xE9rentes attaques suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie. Lors d'une attaque \xE0 outrance, une entit\xE9e peut frapper autant d'adversaires qu'elle le souhaite pourvu que ceux-ci soient \xE0 sa port\xE9e et qu'elle ne d\xE9passe pas le nombre de coups auxquels elle \xE0 droit."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  }, __jsx("em", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, "Charge."), " La charge est une action sp\xE9ciale consistant en une prise suffisante de vitesse suivit d'un coup au corps \xE0 corps. Lors d'une charge, l'attaquant se voit attribuer un bonus de 2 points sur son jet d'attaque.")));
 }
 
 /***/ }),
@@ -31685,7 +31699,21 @@ function Heroism() {
       lineNumber: 27,
       columnNumber: 11
     }
-  }, "Baroud d'honneur."), " Vous allez mourrir, certes, mais vous partirez en beaut\xE9. Quand un personnage d\xE9cide de r\xE9aliser un baroud d'honneur il devient insensible et ne peut plus fuir le combat. Le personnage gagne 3D6 * 3 points de vie suppl\xE9mentaire pour l'enti\xE8ret\xE9 du combat, la limite de d\xE9g\xE2ts impos\xE9e par la constitution du personnage ne prime plus. Cependant celui-ci ne peut plus conna\xEEtre exactement son nombre de points de vie. Si quand le combat est termin\xE9, le personnage se retrouve avec un nombre de points de vie inf\xE9rieur \xE0 z\xE9ro \xE0 cause de la perte des points de vie bonus, ceux-ci sont ramen\xE9s \xE0 z\xE9ro, le personnage sombre alors dans le coma est est l'objet de 1D4 blessures graves tir\xE9es au hasard. S'il sort indemme du baroud d'honneur, le personnage subit 1D4 blessures l\xE9g\xE8res al\xE9atoires.")));
+  }, "Baroud d'honneur."), " Vous allez mourrir, certes, mais vous partirez en beaut\xE9. Quand un personnage d\xE9cide de r\xE9aliser un baroud d'honneur il devient insensible et ne peut plus fuir le combat. Le personnage gagne 3D6 * 3 points de vie suppl\xE9mentaire pour l'enti\xE8ret\xE9 de la sc\xE8ne d'action, la limite de d\xE9g\xE2ts impos\xE9e par la constitution du personnage ne prime plus. Cependant celui-ci ne peut plus conna\xEEtre exactement son nombre de points de vie. Si quand le combat est termin\xE9, le personnage se retrouve avec un nombre de points de vie inf\xE9rieur \xE0 z\xE9ro \xE0 cause de la perte des points de vie bonus, ceux-ci sont ramen\xE9s \xE0 z\xE9ro, le personnage sombre alors dans le coma est l'objet de 1D4 blessures graves tir\xE9es au hasard. S'il sort indemme du baroud d'honneur, le personnage subit 1D4 blessures l\xE9g\xE8res al\xE9atoires."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, "Pas un de plus."), " Vous le r\xE9alisez, vous avez d\xE9j\xE0 trop perdu jusqu'\xE0 maintenant, et, si cette confrontation doit finir en bain de sang, vous ne laisserez pas un alli\xE9 de plus tomber devant vous, dussiez-vous mourrir en essayant. Quand un personnage d\xE9cide qu'il n'y aura pas une victime de plus, il devient insensible et ne peut plus fuir le combat. Aussi, le personnage est lib\xE9r\xE9 des contraintes d'initiative pour l'enti\xE8ret\xE9 de la bataille et ne peut plus agir librement qu'une unique fois par tour, quand il le d\xE9sire et-ce sans justification. Quand un alli\xE9 accessible subit une aggression le personnage DOIT venir \xE0 son secours en chargeant l'adversaire responsable de l'aggression juste avant que celle-ci n'aie lieu. Si l'aggresseur est hors de sa port\xE9e le joueur DOIT tout de m\xEAme r\xE9aliser une action en chargeant l'ennemi qui lui est le plus proche, m\xEAme s'il est th\xE9oriquement innaccessible. Un personnage subissant ce statut est consid\xE9r\xE9 comme poss\xE8dant toujours au minimum 1 coup par action et toutes ses actions visant \xE0 toucher un adversaire se voient attribuer un bonus de +2. De plus, quand le personnage r\xE9agit \xE0 une aggression, son mouvement est TOUJOURS consid\xE9r\xE9 comme une charge peut importe la distance d'attaque. Cependant, quand un personnage d\xE9cide de d\xE9passer ainsi ses propres limites physiques, il br\xFBle \xE9videmment son propre corps \xE0 chaque nouvelle action prise. A chaque nouvelle action effectu\xE9 lors d'un tour de jeu, le personnage doit r\xE9aliser un test d'opposition entre son score normal d'initiative et un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 5 points plus 5 points par nombre d'action d\xE9j\xE0 jou\xE9es durant le tour en cours. Si le test \xE9choue, le personnade subit 1D4 points de d\xE9g\xE2ts bruts.")));
 }
 
 /***/ }),
