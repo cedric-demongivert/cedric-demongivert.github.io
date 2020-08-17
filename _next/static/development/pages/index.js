@@ -2672,9 +2672,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _alchemy__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./alchemy */ "./content/alchemy/index.tsx");
 /* harmony import */ var _biomancy__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./biomancy */ "./content/biomancy/index.tsx");
 /* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./items */ "./content/items/index.ts");
-/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
+/* harmony import */ var _magic__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./magic */ "./content/magic/index.ts");
+/* harmony import */ var _Feats__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Feats */ "./content/Feats.tsx");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\Content.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -2699,133 +2701,140 @@ function Content() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }
   }, "rules"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, "Table des lois"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 9
     }
   }, " R\xE8gles du jeu corvus ")), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 7
     }
   }, __jsx(_Summary__WEBPACK_IMPORTED_MODULE_9__["Summary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), __jsx(_characteristics__WEBPACK_IMPORTED_MODULE_6__["Characteristics"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 9
     }
   }), __jsx(_masteries__WEBPACK_IMPORTED_MODULE_7__["Masteries"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 9
     }
   }), __jsx(_knowledges__WEBPACK_IMPORTED_MODULE_8__["Knowledges"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 9
-    }
-  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_18__["Feats"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
+  }), __jsx(_Feats__WEBPACK_IMPORTED_MODULE_19__["Feats"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
+  }), __jsx(_rules_core__WEBPACK_IMPORTED_MODULE_10__["CoreRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }), __jsx(_rules_status__WEBPACK_IMPORTED_MODULE_12__["Status"], {
+  }), __jsx(_rules_fight__WEBPACK_IMPORTED_MODULE_11__["FightRules"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 9
     }
-  }), __jsx(_rules_sanity__WEBPACK_IMPORTED_MODULE_13__["Sanity"], {
+  }), __jsx(_rules_status__WEBPACK_IMPORTED_MODULE_12__["Status"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
       columnNumber: 9
     }
-  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_14__["Echoes"], {
+  }), __jsx(_rules_sanity__WEBPACK_IMPORTED_MODULE_13__["Sanity"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 9
     }
-  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_15__["Alchemy"], {
+  }), __jsx(_echoes__WEBPACK_IMPORTED_MODULE_14__["Echoes"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
       columnNumber: 9
     }
-  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_16__["Biomancy"], {
+  }), __jsx(_magic__WEBPACK_IMPORTED_MODULE_18__["Magic"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
       columnNumber: 9
     }
-  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_17__["Items"], {
+  }), __jsx(_alchemy__WEBPACK_IMPORTED_MODULE_15__["Alchemy"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
+      columnNumber: 9
+    }
+  }), __jsx(_biomancy__WEBPACK_IMPORTED_MODULE_16__["Biomancy"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 9
+    }
+  }), __jsx(_items__WEBPACK_IMPORTED_MODULE_17__["Items"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
       columnNumber: 9
     }
   })));
@@ -20846,6 +20855,2885 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./content/magic/Introduction.tsx":
+/*!****************************************!*\
+  !*** ./content/magic/Introduction.tsx ***!
+  \****************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "magic-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "magie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/magic/Magic.tsx":
+/*!*********************************!*\
+  !*** ./content/magic/Magic.tsx ***!
+  \*********************************/
+/*! exports provided: Magic */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Magic", function() { return Magic; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/magic/Introduction.tsx");
+/* harmony import */ var _runes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./runes */ "./content/magic/runes/index.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\Magic.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+function Magic() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }, "magic"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, "magie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 7
+    }
+  }, "Magie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }), __jsx(_runes__WEBPACK_IMPORTED_MODULE_9__["Runes"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/magic/index.ts":
+/*!********************************!*\
+  !*** ./content/magic/index.ts ***!
+  \********************************/
+/*! exports provided: Magic */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Magic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Magic */ "./content/magic/Magic.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Magic", function() { return _Magic__WEBPACK_IMPORTED_MODULE_0__["Magic"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/magic/runes/Canvas.tsx":
+/*!****************************************!*\
+  !*** ./content/magic/runes/Canvas.tsx ***!
+  \****************************************/
+/*! exports provided: Canvas */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Canvas", function() { return Canvas; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\Canvas.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Canvas() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-canvas"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Canevas astral"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-canvas.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, "Pour peindre les runes les scribes utilisent un canevas astral qui est plus simplement un ensemble de lignes primitive servant de guide pour la production des diff\xE9rents symboles. Toute production de parchemin ou de gravures fait forc\xE9ment suite \xE0 la mise en place d'un canvas."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, "Il est possible de dessiner le canvas au crayon ou de le graver tr\xE8s finement en fonction du support cibl\xE9. Les meilleurs scriptoriums utilisent quand \xE0 eux des m\xE9thodes bas\xE9es sur les ombres chinoises consistant \xE0 projeter une ombre cr\xE9\xE9e par une pi\xE8ce de m\xE9tal finement forg\xE9e au travers d'une lentille de verre grossisante. On parle alors d'\xE9criture par projection.")))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/Introduction.tsx":
+/*!**********************************************!*\
+  !*** ./content/magic/runes/Introduction.tsx ***!
+  \**********************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-introduction"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Ma\xEEtrise"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/Runes.tsx":
+/*!***************************************!*\
+  !*** ./content/magic/runes/Runes.tsx ***!
+  \***************************************/
+/*! exports provided: Runes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Runes", function() { return Runes; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/magic/runes/Introduction.tsx");
+/* harmony import */ var _Canvas__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Canvas */ "./content/magic/runes/Canvas.tsx");
+/* harmony import */ var _particles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./particles */ "./content/magic/runes/particles/index.ts");
+/* harmony import */ var _stars__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./stars */ "./content/magic/runes/stars/index.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\Runes.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+function Runes() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "magic-runes"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, "Runes astrales"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }), __jsx(_Canvas__WEBPACK_IMPORTED_MODULE_9__["Canvas"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }), __jsx(_particles__WEBPACK_IMPORTED_MODULE_10__["Particles"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx(_stars__WEBPACK_IMPORTED_MODULE_11__["Stars"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/index.ts":
+/*!**************************************!*\
+  !*** ./content/magic/runes/index.ts ***!
+  \**************************************/
+/*! exports provided: Runes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Runes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Runes */ "./content/magic/runes/Runes.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Runes", function() { return _Runes__WEBPACK_IMPORTED_MODULE_0__["Runes"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Introduction.tsx":
+/*!********************************************************!*\
+  !*** ./content/magic/runes/particles/Introduction.tsx ***!
+  \********************************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Ket.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Ket.tsx ***!
+  \***********************************************/
+/*! exports provided: Ket */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Ket", function() { return Ket; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Ket.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Ket() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-ket"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "K\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-ket.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[k\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Met.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Met.tsx ***!
+  \***********************************************/
+/*! exports provided: Met */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Met", function() { return Met; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Met.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Met() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-met"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "M\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-met.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Particles.tsx":
+/*!*****************************************************!*\
+  !*** ./content/magic/runes/particles/Particles.tsx ***!
+  \*****************************************************/
+/*! exports provided: Particles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Particles", function() { return Particles; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/magic/runes/particles/Introduction.tsx");
+/* harmony import */ var _Ket__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Ket */ "./content/magic/runes/particles/Ket.tsx");
+/* harmony import */ var _Met__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Met */ "./content/magic/runes/particles/Met.tsx");
+/* harmony import */ var _Set__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Set */ "./content/magic/runes/particles/Set.tsx");
+/* harmony import */ var _Tet__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Tet */ "./content/magic/runes/particles/Tet.tsx");
+/* harmony import */ var _Yet__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Yet */ "./content/magic/runes/particles/Yet.tsx");
+/* harmony import */ var _Zet__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Zet */ "./content/magic/runes/particles/Zet.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Particles.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Particles() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, "Particules"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx(_Ket__WEBPACK_IMPORTED_MODULE_9__["Ket"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx(_Met__WEBPACK_IMPORTED_MODULE_10__["Met"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx(_Set__WEBPACK_IMPORTED_MODULE_11__["Set"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }), __jsx(_Tet__WEBPACK_IMPORTED_MODULE_12__["Tet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }), __jsx(_Yet__WEBPACK_IMPORTED_MODULE_13__["Yet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }), __jsx(_Zet__WEBPACK_IMPORTED_MODULE_14__["Zet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Set.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Set.tsx ***!
+  \***********************************************/
+/*! exports provided: Set */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Set", function() { return Set; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Set.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Set() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-set"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "S\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-set.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[s\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Tet.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Tet.tsx ***!
+  \***********************************************/
+/*! exports provided: Tet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tet", function() { return Tet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Tet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Tet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-tet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "T\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-tet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[t\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Yet.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Yet.tsx ***!
+  \***********************************************/
+/*! exports provided: Yet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Yet", function() { return Yet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Yet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Yet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-yet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Y\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-yet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[j\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/Zet.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/particles/Zet.tsx ***!
+  \***********************************************/
+/*! exports provided: Zet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Zet", function() { return Zet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\particles\\Zet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Zet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-particles-zet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Z\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[z\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/particles/index.ts":
+/*!************************************************!*\
+  !*** ./content/magic/runes/particles/index.ts ***!
+  \************************************************/
+/*! exports provided: Particles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Particles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Particles */ "./content/magic/runes/particles/Particles.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Particles", function() { return _Particles__WEBPACK_IMPORTED_MODULE_0__["Particles"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Introduction.tsx":
+/*!****************************************************!*\
+  !*** ./content/magic/runes/stars/Introduction.tsx ***!
+  \****************************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Kemet.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Kemet.tsx ***!
+  \*********************************************/
+/*! exports provided: Kemet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Kemet", function() { return Kemet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Kemet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Kemet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-kemet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "K\xE9m\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-kemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[ke.m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Mege.tsx":
+/*!********************************************!*\
+  !*** ./content/magic/runes/stars/Mege.tsx ***!
+  \********************************************/
+/*! exports provided: Mege */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Mege", function() { return Mege; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Mege.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Mege() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-mege"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "M\xE8g\xE9"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-mege.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[m\u025B.ge]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Memet.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Memet.tsx ***!
+  \*********************************************/
+/*! exports provided: Memet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Memet", function() { return Memet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Memet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Memet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-mege"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "M\xE9m\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-memet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[me.m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Metzeter.tsx":
+/*!************************************************!*\
+  !*** ./content/magic/runes/stars/Metzeter.tsx ***!
+  \************************************************/
+/*! exports provided: Metzeter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Metzeter", function() { return Metzeter; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Metzeter.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Metzeter() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-metzeter"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "M\xE8tz\xE9t\xE8r"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-metzeter.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[m\u025Bt.ze.t\u025B\u0280]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Semet.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Semet.tsx ***!
+  \*********************************************/
+/*! exports provided: Semet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Semet", function() { return Semet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Semet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Semet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-semet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "S\xE9m\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-semet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[se.m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Stars.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Stars.tsx ***!
+  \*********************************************/
+/*! exports provided: Stars */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Stars", function() { return Stars; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/magic/runes/stars/Introduction.tsx");
+/* harmony import */ var _Kemet__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Kemet */ "./content/magic/runes/stars/Kemet.tsx");
+/* harmony import */ var _Mege__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Mege */ "./content/magic/runes/stars/Mege.tsx");
+/* harmony import */ var _Memet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Memet */ "./content/magic/runes/stars/Memet.tsx");
+/* harmony import */ var _Metzeter__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Metzeter */ "./content/magic/runes/stars/Metzeter.tsx");
+/* harmony import */ var _Semet__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Semet */ "./content/magic/runes/stars/Semet.tsx");
+/* harmony import */ var _Temeter__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Temeter */ "./content/magic/runes/stars/Temeter.tsx");
+/* harmony import */ var _Yegeter__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Yegeter */ "./content/magic/runes/stars/Yegeter.tsx");
+/* harmony import */ var _Yemet__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Yemet */ "./content/magic/runes/stars/Yemet.tsx");
+/* harmony import */ var _Zemet__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Zemet */ "./content/magic/runes/stars/Zemet.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Stars.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Stars() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 7
+    }
+  }, "\xC9toiles"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }), __jsx(_Kemet__WEBPACK_IMPORTED_MODULE_9__["Kemet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }), __jsx(_Mege__WEBPACK_IMPORTED_MODULE_10__["Mege"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }), __jsx(_Memet__WEBPACK_IMPORTED_MODULE_11__["Memet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }), __jsx(_Metzeter__WEBPACK_IMPORTED_MODULE_12__["Metzeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }), __jsx(_Semet__WEBPACK_IMPORTED_MODULE_13__["Semet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }), __jsx(_Temeter__WEBPACK_IMPORTED_MODULE_14__["Temeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }), __jsx(_Yegeter__WEBPACK_IMPORTED_MODULE_15__["Yegeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 9
+    }
+  }), __jsx(_Yemet__WEBPACK_IMPORTED_MODULE_16__["Yemet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }), __jsx(_Zemet__WEBPACK_IMPORTED_MODULE_17__["Zemet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Temeter.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/stars/Temeter.tsx ***!
+  \***********************************************/
+/*! exports provided: Temeter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Temeter", function() { return Temeter; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Temeter.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Temeter() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-temeter"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "T\xE8m\xE9t\xE8r"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-temeter.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[t\u025B.me.t\u025B\u0280]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Yegeter.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/runes/stars/Yegeter.tsx ***!
+  \***********************************************/
+/*! exports provided: Yegeter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Yegeter", function() { return Yegeter; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Yegeter.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Yegeter() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-yegeter"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Y\xE9g\xE9t\xE8r"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-yegeter.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[je.ge.t\u025B\u0280]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Yemet.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Yemet.tsx ***!
+  \*********************************************/
+/*! exports provided: Yemet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Yemet", function() { return Yemet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Yemet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Yemet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-yemet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Y\xE9m\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-yemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[je.m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/Zemet.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/runes/stars/Zemet.tsx ***!
+  \*********************************************/
+/*! exports provided: Zemet */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Zemet", function() { return Zemet; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../components/subject/SubjectKeyword */ "./components/subject/SubjectKeyword.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\runes\\stars\\Zemet.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+function Zemet() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_6__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-runes-stars-zemet"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "rune"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Z\xE9m\xE8t"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  })), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, "[ze.m\u025Bt]")), __jsx("div", {
+    className: "col-xs-12 col-md-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }))));
+}
+
+/***/ }),
+
+/***/ "./content/magic/runes/stars/index.ts":
+/*!********************************************!*\
+  !*** ./content/magic/runes/stars/index.ts ***!
+  \********************************************/
+/*! exports provided: Stars */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Stars__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Stars */ "./content/magic/runes/stars/Stars.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Stars", function() { return _Stars__WEBPACK_IMPORTED_MODULE_0__["Stars"]; });
+
+
+
+/***/ }),
+
 /***/ "./content/masteries/Introduction.tsx":
 /*!********************************************!*\
   !*** ./content/masteries/Introduction.tsx ***!
@@ -31713,7 +34601,7 @@ function Heroism() {
       lineNumber: 43,
       columnNumber: 11
     }
-  }, "Pas un de plus."), " Vous le r\xE9alisez, vous avez d\xE9j\xE0 trop perdu jusqu'\xE0 maintenant, et, si cette confrontation doit finir en bain de sang, vous ne laisserez pas un alli\xE9 de plus tomber devant vous, dussiez-vous mourrir en essayant. Quand un personnage d\xE9cide qu'il n'y aura pas une victime de plus, il devient insensible et ne peut plus fuir le combat. Aussi, le personnage est lib\xE9r\xE9 des contraintes d'initiative pour l'enti\xE8ret\xE9 de la bataille et ne peut plus agir librement qu'une unique fois par tour, quand il le d\xE9sire et-ce sans justification. Quand un alli\xE9 accessible subit une aggression le personnage DOIT venir \xE0 son secours en chargeant l'adversaire responsable de l'aggression juste avant que celle-ci n'aie lieu. Si l'aggresseur est hors de sa port\xE9e le joueur DOIT tout de m\xEAme r\xE9aliser une action en chargeant l'ennemi qui lui est le plus proche, m\xEAme s'il est th\xE9oriquement innaccessible. Un personnage subissant ce statut est consid\xE9r\xE9 comme poss\xE8dant toujours au minimum 1 coup par action et toutes ses actions visant \xE0 toucher un adversaire se voient attribuer un bonus de +2. De plus, quand le personnage r\xE9agit \xE0 une aggression, son mouvement est TOUJOURS consid\xE9r\xE9 comme une charge peut importe la distance d'attaque. Cependant, quand un personnage d\xE9cide de d\xE9passer ainsi ses propres limites physiques, il br\xFBle \xE9videmment son propre corps \xE0 chaque nouvelle action prise. A chaque nouvelle action effectu\xE9 lors d'un tour de jeu, le personnage doit r\xE9aliser un test d'opposition entre son score normal d'initiative et un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 5 points plus 5 points par nombre d'action d\xE9j\xE0 jou\xE9es durant le tour en cours. Si le test \xE9choue, le personnade subit 1D4 points de d\xE9g\xE2ts bruts.")));
+  }, "Pas un de plus."), " Vous le r\xE9alisez, vous avez d\xE9j\xE0 trop perdu jusqu'\xE0 maintenant, et, si cette confrontation doit finir en bain de sang, vous ne laisserez pas un alli\xE9 de plus tomber devant vous, dussiez-vous mourrir en essayant. Quand un personnage d\xE9cide qu'il n'y aura pas une victime de plus, il devient insensible et ne peut plus fuir le combat. Aussi, le personnage est lib\xE9r\xE9 des contraintes d'initiative pour l'enti\xE8ret\xE9 de la bataille et ne peut plus agir librement qu'une unique fois par tour, quand il le d\xE9sire et-ce sans justification. Quand un alli\xE9 accessible subit une aggression le personnage DOIT venir \xE0 son secours en chargeant l'adversaire responsable de l'aggression juste avant que celle-ci n'aie lieu. Si l'aggresseur est hors de sa port\xE9e le joueur DOIT tout de m\xEAme r\xE9aliser une action en chargeant l'ennemi qui lui est le plus proche, m\xEAme s'il est th\xE9oriquement innaccessible. Un personnage subissant ce statut est consid\xE9r\xE9 comme poss\xE8dant toujours au minimum 1 coup par action et toutes ses actions visant \xE0 toucher un adversaire se voient attribuer un bonus de +2. De plus, quand le personnage r\xE9agit \xE0 une aggression, son mouvement est TOUJOURS consid\xE9r\xE9 comme une charge peut importe la distance d'attaque. Cependant, quand un personnage d\xE9cide de d\xE9passer ainsi ses propres limites physiques, il br\xFBle \xE9videmment son propre corps \xE0 chaque nouvelle action prise. A chaque nouvelle action effectu\xE9 lors d'un tour de jeu, le personnage doit r\xE9aliser un test d'opposition entre son score normal d'initiative et un degr\xE9 de difficult\xE9 \xE9quivalent \xE0 5 points plus 5 points par nombre d'action d\xE9j\xE0 jou\xE9es durant le tour en cours. Si le test \xE9choue, le personnage subit 1D4 points de d\xE9g\xE2ts bruts.")));
 }
 
 /***/ }),
@@ -80553,7 +83441,7 @@ var Subject = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdevelopment%5Crpg%5Cruleset-next%5Cpages%5Cindex.tsx ***!
   \****************************************************************************************************************************/
@@ -80576,5 +83464,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
