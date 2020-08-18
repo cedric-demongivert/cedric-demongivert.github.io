@@ -80808,6 +80808,62 @@ var AcrobaticParry = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().s
 
 /***/ }),
 
+/***/ "./typescript/data/feat/AgainstDestiny.tsx":
+/*!*************************************************!*\
+  !*** ./typescript/data/feat/AgainstDestiny.tsx ***!
+  \*************************************************/
+/*! exports provided: AgainstDestiny */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AgainstDestiny", function() { return AgainstDestiny; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\AgainstDestiny.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var AgainstDestiny = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('against-destiny').setName('Défier le destin').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Volont\xE9 15+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 21
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 27
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout et devant sombrer dans la folie peut toujours tenter de d\xE9fier le destin afin de passer une derni\xE8re fois un test de d\xE9sespoir dans le but d'agir h\xE9ro\xEFquement. Un personnage faisant usage de cet atout est syst\xE9matiquement afflig\xE9 d'un point de fatalit\xE9."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/AtlasBurden.tsx":
 /*!**********************************************!*\
   !*** ./typescript/data/feat/AtlasBurden.tsx ***!
@@ -81312,6 +81368,69 @@ var ChainDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setId
 
 /***/ }),
 
+/***/ "./typescript/data/feat/Comeback.tsx":
+/*!*******************************************!*\
+  !*** ./typescript/data/feat/Comeback.tsx ***!
+  \*******************************************/
+/*! exports provided: Comeback */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Comeback", function() { return Comeback; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Comeback.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Comeback = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('comeback').setName('Increvable').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Volont\xE9 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 21
+  }
+}), "Constitution ou force 13+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 35
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 41
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Quand un personnage poss\xE9dant cet atout doit tomber dans le coma il peut toujours choisir de sombrer dans la folie et se relever avec le cinqui\xE8me de ses points de vie totaux."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/CounterAttack.tsx":
 /*!************************************************!*\
   !*** ./typescript/data/feat/CounterAttack.tsx ***!
@@ -81561,6 +81680,69 @@ var DefensiveStyleBastard = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].buil
     columnNumber: 9
   }
 }, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
+/***/ "./typescript/data/feat/Deviation.tsx":
+/*!********************************************!*\
+  !*** ./typescript/data/feat/Deviation.tsx ***!
+  \********************************************/
+/*! exports provided: Deviation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Deviation", function() { return Deviation; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Deviation.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Deviation = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('deviation').setName('Déviation').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise du combat \xE0 mains nues 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 45
+  }
+}), "Dext\xE9rit\xE9 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Pour chaque groupe de 10 points de combat \xE0 mains-nue, le personnage peut tenter de parrer en d\xE9viant l'arme de son adversaire. Les armes lourdes sont bien plus difficile \xE0 d\xE9vier et entra\xEEnent un malus de 5 points sur la tentative de parade."))).build();
 
 /***/ }),
 
@@ -81872,6 +82054,83 @@ var FullDodge = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
 
 /***/ }),
 
+/***/ "./typescript/data/feat/GhostStrike.tsx":
+/*!**********************************************!*\
+  !*** ./typescript/data/feat/GhostStrike.tsx ***!
+  \**********************************************/
+/*! exports provided: GhostStrike */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GhostStrike", function() { return GhostStrike; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\GhostStrike.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var GhostStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('ghost-strike').setName('Frappe fantôme [Épée\xa0courte][Épée\xa0bâtarde][Lance]').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 12+", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 39
+  }
+}), "Dext\xE9rit\xE9 12+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout et \xE9quip\xE9 de l'arme choisie peut, avant d'attaquer, d\xE9cider de porter un coup provoquant la moiti\xE9e des d\xE9g\xE2ts usuels mais entra\xEEnant la perde d'une parrade ou d'une esquive."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23,
+    columnNumber: 9
+  }
+}, "En cas de coup critique, les d\xE9g\xE2ts ne sont pas multipli\xE9s mais le nombre de parrade ou d'esquive perdue double."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/Hacker.tsx":
 /*!*****************************************!*\
   !*** ./typescript/data/feat/Hacker.tsx ***!
@@ -81925,6 +82184,202 @@ var Hacker = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdenti
     columnNumber: 9
   }
 }, "Un fois par round, en guise d'attaque \xE0 outrance, un personnage arm\xE9 d'une dague peut toujours choisir d'ignorer tout ou partie de l'armure de son adversaire. A cette fin le personnage doit r\xE9ussir une attaque normale plus un jet d'opposition entre sa ma\xEEtrise de la dague et le nombre de point d'armure \xE0 ignorer multipli\xE9 par deux. Si le second jet r\xE9ussi l'assassin porte alors un coup ignorant tout ou partie de l'armure de son adversaire."))).build();
+
+/***/ }),
+
+/***/ "./typescript/data/feat/Helpless.tsx":
+/*!*******************************************!*\
+  !*** ./typescript/data/feat/Helpless.tsx ***!
+  \*******************************************/
+/*! exports provided: Helpless */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Helpless", function() { return Helpless; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\Helpless.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var Helpless = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('helpless').setName('Sans défence [Arme\xa0à\xa0une\xa0main][Épée\xa0bâtarde]').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 15+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 40
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 46
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE8dant cet atout frappant un adversaire ne tentant ni d'esquiver, ni de parrer peut ignorer totalement l'armure physique de sa cible."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
+/***/ "./typescript/data/feat/MultipleShot.tsx":
+/*!***********************************************!*\
+  !*** ./typescript/data/feat/MultipleShot.tsx ***!
+  \***********************************************/
+/*! exports provided: MultipleShot */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MultipleShot", function() { return MultipleShot; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\MultipleShot.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var MultipleShot = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('multiple-shot').setName('Tir multiple [Arc]').addKeyword('atout').addKeyword('arc court').addKeyword('arc long').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 8+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 39
+  }
+}), "Dext\xE9rit\xE9 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 9
+  }
+}, "Lors d'une attaque \xE0 outrance \xE0 l'arc le personnage peut ajouter une fl\xE8che suppl\xE9mentaire pour chaque groupe de 8 points de ma\xEEtrise qu'il poss\xE8de. Le personnage subit un malus de 2 points \xE0 la touche pour chaque fl\xE8che suppl\xE9mentaire tir\xE9e. La cible d'un tir multiple ayant la capacit\xE9 d'esquiver des fl\xE8ches se voit attribuer un malus de 2 points par fl\xE8che ajout\xE9e."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
+/***/ "./typescript/data/feat/StormStrike.tsx":
+/*!**********************************************!*\
+  !*** ./typescript/data/feat/StormStrike.tsx ***!
+  \**********************************************/
+/*! exports provided: StormStrike */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StormStrike", function() { return StormStrike; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\StormStrike.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var StormStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('storm-strike').setName('Déluge de coup').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise du combat \xE0 mains nues 4+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 44
+  }
+}), "Dext\xE9rit\xE9 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout d\xE9cidant de frapper \xE0 outrance son adversaire \xE0 l'aide de ses poings peut tenter de porter un nombre de coup suppl\xE9mentaire \xE9quivalent \xE0 son nombre de points de ma\xEEtrise du combat \xE0 mains-nues divis\xE9 par 4."))).build();
 
 /***/ }),
 
@@ -81998,6 +82453,76 @@ var Twisted = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdent
 
 /***/ }),
 
+/***/ "./typescript/data/feat/VengefulStrike.tsx":
+/*!*************************************************!*\
+  !*** ./typescript/data/feat/VengefulStrike.tsx ***!
+  \*************************************************/
+/*! exports provided: VengefulStrike */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VengefulStrike", function() { return VengefulStrike; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\VengefulStrike.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var VengefulStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('vengeful-strike').setName('Coup vengeur [Arme\xa0de\xa0corps\xa0à\xa0corps][Mains\xa0nues]').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de l'arme choisie 10+", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 39
+  }
+}), "Dext\xE9rit\xE9 12+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Un personnage poss\xE9dant cet atout esquivant ou parrant un coup dont il est la cible r\xE9duit le seuil de coup critique de sa prochaine attaque d'un point. Ce bonus retombe \xE0 z\xE9ro \xE0 chaque nouveau d\xE9but de tour."), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 9
+  }
+}, "Cet atout peut \xEAtre choisi plusieurs fois pour pouvoir en b\xE9n\xE9ficier avec diff\xE9rentes armes."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/VulcanStrike.tsx":
 /*!***********************************************!*\
   !*** ./typescript/data/feat/VulcanStrike.tsx ***!
@@ -82061,6 +82586,69 @@ var VulcanStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().set
 
 /***/ }),
 
+/***/ "./typescript/data/feat/WeakeningPunch.tsx":
+/*!*************************************************!*\
+  !*** ./typescript/data/feat/WeakeningPunch.tsx ***!
+  \*************************************************/
+/*! exports provided: WeakeningPunch */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WeakeningPunch", function() { return WeakeningPunch; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\WeakeningPunch.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var WeakeningPunch = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('weakening-punch').setName('Frappe rupture').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise du combat \xE0 mains-nue 15+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 44
+  }
+}), "Force 14+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 19
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 25
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "Les coups de poings port\xE9s par le personnage provoquent la perte d'un point d'armure."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/WindDance.tsx":
 /*!********************************************!*\
   !*** ./typescript/data/feat/WindDance.tsx ***!
@@ -82117,11 +82705,74 @@ var WindDance = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIde
 
 /***/ }),
 
+/***/ "./typescript/data/feat/WoundedTiger.tsx":
+/*!***********************************************!*\
+  !*** ./typescript/data/feat/WoundedTiger.tsx ***!
+  \***********************************************/
+/*! exports provided: WoundedTiger */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WoundedTiger", function() { return WoundedTiger; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _feat_Feat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../feat/Feat */ "./typescript/feat/Feat.ts");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\WoundedTiger.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var WoundedTiger = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('wounded-tiger').setName('Posture de l\'échassier').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 9
+  }
+}, "Pr\xE9requis :"), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 38
+  }
+}), "Ma\xEEtrise de la lance 10+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 34
+  }
+}), "Dext\xE9rit\xE9 12+ ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 23
+  }
+}), " ", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 29
+  }
+}), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 9
+  }
+}, "En guise d'action, un personnage \xE9quip\xE9 d'une lance peut adopter la posture de l'\xE9chassier. Cette posture reste active jusqu'\xE0 ce que le personnage d\xE9cide de bouger ou de l'annuler au prix d'une action libre. Quand un lancier adopte la posture de l'\xE9chassier, toute nouvelle intrusion dans sa zone de contr\xF4le provoque automatiquement une attaque d'opportunit\xE9. Les tentatives de touche du lancier se voient affubl\xE9 d'un malus de deux points par attaque d\xE9j\xE0 port\xE9e au cours du tour. En cas de succ\xE8s, une attaque d'opportunit\xE9 en posture de l'\xE9chassier provoque l'interruption de l'action entreprise par la victime de l'attaque."))).build();
+
+/***/ }),
+
 /***/ "./typescript/data/feat/index.ts":
 /*!***************************************!*\
   !*** ./typescript/data/feat/index.ts ***!
   \***************************************/
-/*! exports provided: AcrobaticDodging, AcrobaticParry, AtlasBurden, BloodBath, BloodThirst, BullCharge, CatGrace, ChainAttack, ChainAttackBastard, ChainDodge, CounterAttack, CounterAttackBastard, DefensiveStyle, DefensiveStyleBastard, Diehard, DoubleSkin, EagleCharge, FlashDodge, FullDodge, Hacker, Twisted, VulcanStrike, WindDance, ALL */
+/*! exports provided: AcrobaticDodging, AcrobaticParry, AgainstDestiny, AtlasBurden, BloodBath, BloodThirst, BullCharge, CatGrace, ChainAttack, ChainAttackBastard, ChainDodge, Comeback, CounterAttack, CounterAttackBastard, DefensiveStyle, DefensiveStyleBastard, Deviation, Diehard, DoubleSkin, EagleCharge, FlashDodge, FullDodge, GhostStrike, Hacker, Helpless, MultipleShot, StormStrike, Twisted, VengefulStrike, VulcanStrike, WeakeningPunch, WindDance, WoundedTiger, ALL */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -82133,78 +82784,98 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AcrobaticParry */ "./typescript/data/feat/AcrobaticParry.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AcrobaticParry", function() { return _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__["AcrobaticParry"]; });
 
-/* harmony import */ var _AtlasBurden__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AtlasBurden */ "./typescript/data/feat/AtlasBurden.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AtlasBurden", function() { return _AtlasBurden__WEBPACK_IMPORTED_MODULE_2__["AtlasBurden"]; });
+/* harmony import */ var _AgainstDestiny__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AgainstDestiny */ "./typescript/data/feat/AgainstDestiny.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AgainstDestiny", function() { return _AgainstDestiny__WEBPACK_IMPORTED_MODULE_2__["AgainstDestiny"]; });
 
-/* harmony import */ var _BloodBath__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BloodBath */ "./typescript/data/feat/BloodBath.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodBath", function() { return _BloodBath__WEBPACK_IMPORTED_MODULE_3__["BloodBath"]; });
+/* harmony import */ var _AtlasBurden__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AtlasBurden */ "./typescript/data/feat/AtlasBurden.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AtlasBurden", function() { return _AtlasBurden__WEBPACK_IMPORTED_MODULE_3__["AtlasBurden"]; });
 
-/* harmony import */ var _BloodThirst__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./BloodThirst */ "./typescript/data/feat/BloodThirst.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodThirst", function() { return _BloodThirst__WEBPACK_IMPORTED_MODULE_4__["BloodThirst"]; });
+/* harmony import */ var _BloodBath__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./BloodBath */ "./typescript/data/feat/BloodBath.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodBath", function() { return _BloodBath__WEBPACK_IMPORTED_MODULE_4__["BloodBath"]; });
 
-/* harmony import */ var _BullCharge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./BullCharge */ "./typescript/data/feat/BullCharge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BullCharge", function() { return _BullCharge__WEBPACK_IMPORTED_MODULE_5__["BullCharge"]; });
+/* harmony import */ var _BloodThirst__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./BloodThirst */ "./typescript/data/feat/BloodThirst.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BloodThirst", function() { return _BloodThirst__WEBPACK_IMPORTED_MODULE_5__["BloodThirst"]; });
 
-/* harmony import */ var _CatGrace__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CatGrace */ "./typescript/data/feat/CatGrace.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CatGrace", function() { return _CatGrace__WEBPACK_IMPORTED_MODULE_6__["CatGrace"]; });
+/* harmony import */ var _BullCharge__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./BullCharge */ "./typescript/data/feat/BullCharge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BullCharge", function() { return _BullCharge__WEBPACK_IMPORTED_MODULE_6__["BullCharge"]; });
 
-/* harmony import */ var _ChainAttack__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ChainAttack */ "./typescript/data/feat/ChainAttack.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttack", function() { return _ChainAttack__WEBPACK_IMPORTED_MODULE_7__["ChainAttack"]; });
+/* harmony import */ var _CatGrace__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CatGrace */ "./typescript/data/feat/CatGrace.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CatGrace", function() { return _CatGrace__WEBPACK_IMPORTED_MODULE_7__["CatGrace"]; });
 
-/* harmony import */ var _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ChainAttackBastard */ "./typescript/data/feat/ChainAttackBastard.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttackBastard", function() { return _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__["ChainAttackBastard"]; });
+/* harmony import */ var _ChainAttack__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ChainAttack */ "./typescript/data/feat/ChainAttack.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttack", function() { return _ChainAttack__WEBPACK_IMPORTED_MODULE_8__["ChainAttack"]; });
 
-/* harmony import */ var _ChainDodge__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ChainDodge */ "./typescript/data/feat/ChainDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainDodge", function() { return _ChainDodge__WEBPACK_IMPORTED_MODULE_9__["ChainDodge"]; });
+/* harmony import */ var _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ChainAttackBastard */ "./typescript/data/feat/ChainAttackBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainAttackBastard", function() { return _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_9__["ChainAttackBastard"]; });
 
-/* harmony import */ var _CounterAttack__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./CounterAttack */ "./typescript/data/feat/CounterAttack.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttack", function() { return _CounterAttack__WEBPACK_IMPORTED_MODULE_10__["CounterAttack"]; });
+/* harmony import */ var _ChainDodge__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ChainDodge */ "./typescript/data/feat/ChainDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChainDodge", function() { return _ChainDodge__WEBPACK_IMPORTED_MODULE_10__["ChainDodge"]; });
 
-/* harmony import */ var _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./CounterAttackBastard */ "./typescript/data/feat/CounterAttackBastard.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttackBastard", function() { return _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__["CounterAttackBastard"]; });
+/* harmony import */ var _Comeback__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Comeback */ "./typescript/data/feat/Comeback.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Comeback", function() { return _Comeback__WEBPACK_IMPORTED_MODULE_11__["Comeback"]; });
 
-/* harmony import */ var _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./DefensiveStyle */ "./typescript/data/feat/DefensiveStyle.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyle", function() { return _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__["DefensiveStyle"]; });
+/* harmony import */ var _CounterAttack__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./CounterAttack */ "./typescript/data/feat/CounterAttack.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttack", function() { return _CounterAttack__WEBPACK_IMPORTED_MODULE_12__["CounterAttack"]; });
 
-/* harmony import */ var _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./DefensiveStyleBastard */ "./typescript/data/feat/DefensiveStyleBastard.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyleBastard", function() { return _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__["DefensiveStyleBastard"]; });
+/* harmony import */ var _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./CounterAttackBastard */ "./typescript/data/feat/CounterAttackBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CounterAttackBastard", function() { return _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_13__["CounterAttackBastard"]; });
 
-/* harmony import */ var _Diehard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Diehard */ "./typescript/data/feat/Diehard.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Diehard", function() { return _Diehard__WEBPACK_IMPORTED_MODULE_14__["Diehard"]; });
+/* harmony import */ var _DefensiveStyle__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./DefensiveStyle */ "./typescript/data/feat/DefensiveStyle.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyle", function() { return _DefensiveStyle__WEBPACK_IMPORTED_MODULE_14__["DefensiveStyle"]; });
 
-/* harmony import */ var _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./DoubleSkin */ "./typescript/data/feat/DoubleSkin.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DoubleSkin", function() { return _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__["DoubleSkin"]; });
+/* harmony import */ var _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./DefensiveStyleBastard */ "./typescript/data/feat/DefensiveStyleBastard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DefensiveStyleBastard", function() { return _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_15__["DefensiveStyleBastard"]; });
 
-/* harmony import */ var _EagleCharge__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./EagleCharge */ "./typescript/data/feat/EagleCharge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EagleCharge", function() { return _EagleCharge__WEBPACK_IMPORTED_MODULE_16__["EagleCharge"]; });
+/* harmony import */ var _Deviation__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Deviation */ "./typescript/data/feat/Deviation.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Deviation", function() { return _Deviation__WEBPACK_IMPORTED_MODULE_16__["Deviation"]; });
 
-/* harmony import */ var _FlashDodge__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./FlashDodge */ "./typescript/data/feat/FlashDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlashDodge", function() { return _FlashDodge__WEBPACK_IMPORTED_MODULE_17__["FlashDodge"]; });
+/* harmony import */ var _Diehard__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Diehard */ "./typescript/data/feat/Diehard.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Diehard", function() { return _Diehard__WEBPACK_IMPORTED_MODULE_17__["Diehard"]; });
 
-/* harmony import */ var _FullDodge__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./FullDodge */ "./typescript/data/feat/FullDodge.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FullDodge", function() { return _FullDodge__WEBPACK_IMPORTED_MODULE_18__["FullDodge"]; });
+/* harmony import */ var _DoubleSkin__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./DoubleSkin */ "./typescript/data/feat/DoubleSkin.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DoubleSkin", function() { return _DoubleSkin__WEBPACK_IMPORTED_MODULE_18__["DoubleSkin"]; });
 
-/* harmony import */ var _Hacker__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Hacker */ "./typescript/data/feat/Hacker.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Hacker", function() { return _Hacker__WEBPACK_IMPORTED_MODULE_19__["Hacker"]; });
+/* harmony import */ var _EagleCharge__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./EagleCharge */ "./typescript/data/feat/EagleCharge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EagleCharge", function() { return _EagleCharge__WEBPACK_IMPORTED_MODULE_19__["EagleCharge"]; });
 
-/* harmony import */ var _Twisted__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./Twisted */ "./typescript/data/feat/Twisted.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Twisted", function() { return _Twisted__WEBPACK_IMPORTED_MODULE_20__["Twisted"]; });
+/* harmony import */ var _FlashDodge__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./FlashDodge */ "./typescript/data/feat/FlashDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlashDodge", function() { return _FlashDodge__WEBPACK_IMPORTED_MODULE_20__["FlashDodge"]; });
 
-/* harmony import */ var _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./VulcanStrike */ "./typescript/data/feat/VulcanStrike.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VulcanStrike", function() { return _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__["VulcanStrike"]; });
+/* harmony import */ var _FullDodge__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./FullDodge */ "./typescript/data/feat/FullDodge.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FullDodge", function() { return _FullDodge__WEBPACK_IMPORTED_MODULE_21__["FullDodge"]; });
 
-/* harmony import */ var _WindDance__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./WindDance */ "./typescript/data/feat/WindDance.tsx");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindDance", function() { return _WindDance__WEBPACK_IMPORTED_MODULE_22__["WindDance"]; });
+/* harmony import */ var _GhostStrike__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./GhostStrike */ "./typescript/data/feat/GhostStrike.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GhostStrike", function() { return _GhostStrike__WEBPACK_IMPORTED_MODULE_22__["GhostStrike"]; });
 
+/* harmony import */ var _Hacker__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./Hacker */ "./typescript/data/feat/Hacker.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Hacker", function() { return _Hacker__WEBPACK_IMPORTED_MODULE_23__["Hacker"]; });
 
+/* harmony import */ var _Helpless__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./Helpless */ "./typescript/data/feat/Helpless.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Helpless", function() { return _Helpless__WEBPACK_IMPORTED_MODULE_24__["Helpless"]; });
 
+/* harmony import */ var _MultipleShot__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./MultipleShot */ "./typescript/data/feat/MultipleShot.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MultipleShot", function() { return _MultipleShot__WEBPACK_IMPORTED_MODULE_25__["MultipleShot"]; });
 
+/* harmony import */ var _StormStrike__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./StormStrike */ "./typescript/data/feat/StormStrike.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StormStrike", function() { return _StormStrike__WEBPACK_IMPORTED_MODULE_26__["StormStrike"]; });
 
+/* harmony import */ var _Twisted__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./Twisted */ "./typescript/data/feat/Twisted.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Twisted", function() { return _Twisted__WEBPACK_IMPORTED_MODULE_27__["Twisted"]; });
 
+/* harmony import */ var _VengefulStrike__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./VengefulStrike */ "./typescript/data/feat/VengefulStrike.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VengefulStrike", function() { return _VengefulStrike__WEBPACK_IMPORTED_MODULE_28__["VengefulStrike"]; });
 
+/* harmony import */ var _VulcanStrike__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./VulcanStrike */ "./typescript/data/feat/VulcanStrike.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VulcanStrike", function() { return _VulcanStrike__WEBPACK_IMPORTED_MODULE_29__["VulcanStrike"]; });
 
+/* harmony import */ var _WeakeningPunch__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./WeakeningPunch */ "./typescript/data/feat/WeakeningPunch.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WeakeningPunch", function() { return _WeakeningPunch__WEBPACK_IMPORTED_MODULE_30__["WeakeningPunch"]; });
 
+/* harmony import */ var _WindDance__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./WindDance */ "./typescript/data/feat/WindDance.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WindDance", function() { return _WindDance__WEBPACK_IMPORTED_MODULE_31__["WindDance"]; });
 
+/* harmony import */ var _WoundedTiger__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./WoundedTiger */ "./typescript/data/feat/WoundedTiger.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WoundedTiger", function() { return _WoundedTiger__WEBPACK_IMPORTED_MODULE_32__["WoundedTiger"]; });
 
 
 
@@ -82242,7 +82913,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ALL = [_AcrobaticDodging__WEBPACK_IMPORTED_MODULE_0__["AcrobaticDodging"], _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__["AcrobaticParry"], _AtlasBurden__WEBPACK_IMPORTED_MODULE_2__["AtlasBurden"], _BloodBath__WEBPACK_IMPORTED_MODULE_3__["BloodBath"], _BloodThirst__WEBPACK_IMPORTED_MODULE_4__["BloodThirst"], _BullCharge__WEBPACK_IMPORTED_MODULE_5__["BullCharge"], _CatGrace__WEBPACK_IMPORTED_MODULE_6__["CatGrace"], _ChainAttack__WEBPACK_IMPORTED_MODULE_7__["ChainAttack"], _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_8__["ChainAttackBastard"], _ChainDodge__WEBPACK_IMPORTED_MODULE_9__["ChainDodge"], _CounterAttack__WEBPACK_IMPORTED_MODULE_10__["CounterAttack"], _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_11__["CounterAttackBastard"], _DefensiveStyle__WEBPACK_IMPORTED_MODULE_12__["DefensiveStyle"], _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_13__["DefensiveStyleBastard"], _Diehard__WEBPACK_IMPORTED_MODULE_14__["Diehard"], _DoubleSkin__WEBPACK_IMPORTED_MODULE_15__["DoubleSkin"], _EagleCharge__WEBPACK_IMPORTED_MODULE_16__["EagleCharge"], _FlashDodge__WEBPACK_IMPORTED_MODULE_17__["FlashDodge"], _FullDodge__WEBPACK_IMPORTED_MODULE_18__["FullDodge"], _Hacker__WEBPACK_IMPORTED_MODULE_19__["Hacker"], _Twisted__WEBPACK_IMPORTED_MODULE_20__["Twisted"], _VulcanStrike__WEBPACK_IMPORTED_MODULE_21__["VulcanStrike"], _WindDance__WEBPACK_IMPORTED_MODULE_22__["WindDance"]];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ALL = [_AcrobaticDodging__WEBPACK_IMPORTED_MODULE_0__["AcrobaticDodging"], _AcrobaticParry__WEBPACK_IMPORTED_MODULE_1__["AcrobaticParry"], _AgainstDestiny__WEBPACK_IMPORTED_MODULE_2__["AgainstDestiny"], _AtlasBurden__WEBPACK_IMPORTED_MODULE_3__["AtlasBurden"], _BloodBath__WEBPACK_IMPORTED_MODULE_4__["BloodBath"], _BloodThirst__WEBPACK_IMPORTED_MODULE_5__["BloodThirst"], _BullCharge__WEBPACK_IMPORTED_MODULE_6__["BullCharge"], _CatGrace__WEBPACK_IMPORTED_MODULE_7__["CatGrace"], _ChainAttack__WEBPACK_IMPORTED_MODULE_8__["ChainAttack"], _ChainAttackBastard__WEBPACK_IMPORTED_MODULE_9__["ChainAttackBastard"], _ChainDodge__WEBPACK_IMPORTED_MODULE_10__["ChainDodge"], _Comeback__WEBPACK_IMPORTED_MODULE_11__["Comeback"], _CounterAttack__WEBPACK_IMPORTED_MODULE_12__["CounterAttack"], _CounterAttackBastard__WEBPACK_IMPORTED_MODULE_13__["CounterAttackBastard"], _DefensiveStyle__WEBPACK_IMPORTED_MODULE_14__["DefensiveStyle"], _DefensiveStyleBastard__WEBPACK_IMPORTED_MODULE_15__["DefensiveStyleBastard"], _Deviation__WEBPACK_IMPORTED_MODULE_16__["Deviation"], _Diehard__WEBPACK_IMPORTED_MODULE_17__["Diehard"], _DoubleSkin__WEBPACK_IMPORTED_MODULE_18__["DoubleSkin"], _EagleCharge__WEBPACK_IMPORTED_MODULE_19__["EagleCharge"], _FlashDodge__WEBPACK_IMPORTED_MODULE_20__["FlashDodge"], _FullDodge__WEBPACK_IMPORTED_MODULE_21__["FullDodge"], _GhostStrike__WEBPACK_IMPORTED_MODULE_22__["GhostStrike"], _Hacker__WEBPACK_IMPORTED_MODULE_23__["Hacker"], _Helpless__WEBPACK_IMPORTED_MODULE_24__["Helpless"], _MultipleShot__WEBPACK_IMPORTED_MODULE_25__["MultipleShot"], _StormStrike__WEBPACK_IMPORTED_MODULE_26__["StormStrike"], _Twisted__WEBPACK_IMPORTED_MODULE_27__["Twisted"], _VengefulStrike__WEBPACK_IMPORTED_MODULE_28__["VengefulStrike"], _VulcanStrike__WEBPACK_IMPORTED_MODULE_29__["VulcanStrike"], _WeakeningPunch__WEBPACK_IMPORTED_MODULE_30__["WeakeningPunch"], _WindDance__WEBPACK_IMPORTED_MODULE_31__["WindDance"], _WoundedTiger__WEBPACK_IMPORTED_MODULE_32__["WoundedTiger"]];
 
 /***/ }),
 
@@ -83441,7 +84142,7 @@ var Subject = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdevelopment%5Crpg%5Cruleset-next%5Cpages%5Cindex.tsx ***!
   \****************************************************************************************************************************/
@@ -83464,5 +84165,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
