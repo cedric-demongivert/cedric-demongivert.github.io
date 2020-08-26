@@ -20951,8 +20951,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/LocalSummary */ "./components/LocalSummary.tsx");
 /* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Introduction */ "./content/magic/Introduction.tsx");
 /* harmony import */ var _runes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./runes */ "./content/magic/runes/index.ts");
+/* harmony import */ var _spells__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./spells */ "./content/magic/spells/index.ts");
 var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\Magic.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -20968,63 +20970,70 @@ function Magic() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_5__["SubjectIdentifier"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, "magic"), __jsx(_components_subject_SubjectKeyword__WEBPACK_IMPORTED_MODULE_4__["SubjectKeyword"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, "magie"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, "Magie"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 7
     }
   }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 7
     }
   }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_7__["LocalSummary"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 9
     }
   }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_8__["Introduction"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 9
     }
   }), __jsx(_runes__WEBPACK_IMPORTED_MODULE_9__["Runes"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_spells__WEBPACK_IMPORTED_MODULE_10__["Spells"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
       columnNumber: 9
     }
   })));
@@ -21248,7 +21257,21 @@ function Introduction() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }));
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, "L'astral est une langue parl\xE9e qui peut \xEAtre transcrite par l'usage de symboles peints ou grav\xE9s appel\xE9s runes. C'est une langue qui se lit de haut en bas puis de gauche \xE0 droite. Les runes quand \xE0 elles peuvent \xEAtre r\xE9alis\xE9es sur plusieurs supports que cela soit des pages de papier, de papyrus ou de parchemin, de la soie, de la cire, du bois, du m\xE9tal, de la pierre voir m\xEAme parfois \xE0 m\xEAme le sol dans la terre ou la poussi\xE8re."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, "Pour ce qui est des formats, la plupart des \xE9vocations sont transcites sous formes de pages comprenant une matrice finie de symboles formant un tout coh\xE9rent. A certaines occasions ou \xE9poques il peut \xEAtre plus commun de voir s'\xE9changer des volumens sous forme d'une unique rang\xE9e de symbole ou des rotulus sous forme d'une unique colone de symboles. Le rotulus restera le format privil\xE9gi\xE9 des sceaux astraux.")));
 }
 
 /***/ }),
@@ -21450,7 +21473,44 @@ function Introduction() {
       lineNumber: 18,
       columnNumber: 7
     }
-  }));
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, "Les particules sont aux runes ce que les os sont au corps humain : elles n'ont aucun pouvoir en particulier si ce n'est celui de structurer le sortil\xE8ge final. Pour ce faire, les particules se comportent comme des marqueurs au sein d'une phrase \xE9vocative : elles pr\xE9sentent de mani\xE8re explicite la nature de la rune qui lui succ\xE8de."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }, "Comme dit plus haut, l'astral est une langue agglutinante de type ", __jsx("a", {
+    href: "https://fr.wikipedia.org/wiki/Langue_SOV",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 77
+    }
+  }, "SOV"), " sans genre et sans nombre. L'\xE9vocation astrale minimale peut par ailleurs ne comporter aucune particule, dans un tel cas, la rune dessin\xE9e est consid\xE9r\xE9 comme jouant le r\xF4le d'un verbe et l'on parle alors plus de sygil que d'\xE9vocation. Tout adjectif ou adverbe au sein d'une \xE9vocation doit toujours succ\xE9der au nom ou au verbe auquel il fait r\xE9f\xE9rence."), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }, "Une proposition astrale typique peut prendre la forme d'un sujet \xE9ventuel suivit d'aucun ou plusieurs adjectifs, d'un objet \xE9ventuel suivit d'aucun ou plusieurs adjectifs et d'un verbe suivit d'aucun ou plusieurs adverbes. Formellement, une proposition astrale prend donc la forme suivante :"), __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 9
+    }
+  }, "Proposition = (Sujet Adjectif*)* (Objet Adjectif*)* Verbe (Adverbe)*")));
 }
 
 /***/ }),
@@ -21525,29 +21585,13 @@ function Ket() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-ket.svg",
@@ -21555,26 +21599,32 @@ function Ket() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[k\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[k\u025Bt]"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
+      lineNumber: 28,
+      columnNumber: 9
     }
-  }))));
+  }, "K\xE8t est le symbole qui pr\xE9c\xE8de tout ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 47
+    }
+  }, "adverbe"), ", c'est \xE0 dire toute rune ayant pour nature de d'expliciter un verbe, une action. C'est la particule type pour moduler la vitesse d'un sort, ou compl\xE9ter l'action d\xE9crite d'effets connexes. K\xE8t est donc une particule que l'on retrouve habituellement plut\xF4t en fin de proposition.")));
 }
 
 /***/ }),
@@ -21649,29 +21699,13 @@ function Met() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-met.svg",
@@ -21679,26 +21713,39 @@ function Met() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[m\u025Bt]"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
+      lineNumber: 28,
+      columnNumber: 9
     }
-  }))));
+  }, "M\xE8t est le symbole qui pr\xE9c\xE8de le ou les ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 52
+    }
+  }, "objets"), " d'une phrase, c'est \xE0 dire toute rune ayant pour nature de d\xE9finir les diff\xE9rents arguments d'un verbe, une action. M\xE8t est donc une particule que l'on retrouve en milieu de phrase. (S", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 13
+    }
+  }, "O"), "V)")));
 }
 
 /***/ }),
@@ -21803,49 +21850,121 @@ function Particles() {
       lineNumber: 31,
       columnNumber: 9
     }
-  }), __jsx(_Ket__WEBPACK_IMPORTED_MODULE_9__["Ket"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
-    }
-  }), __jsx(_Met__WEBPACK_IMPORTED_MODULE_10__["Met"], {
+  }), __jsx("div", {
+    className: "row",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
       columnNumber: 9
     }
-  }), __jsx(_Set__WEBPACK_IMPORTED_MODULE_11__["Set"], {
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 9
+      columnNumber: 11
     }
-  }), __jsx(_Tet__WEBPACK_IMPORTED_MODULE_12__["Tet"], {
+  }, __jsx(_Ket__WEBPACK_IMPORTED_MODULE_9__["Ket"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }), __jsx(_Yet__WEBPACK_IMPORTED_MODULE_13__["Yet"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
-    }
-  }), __jsx(_Zet__WEBPACK_IMPORTED_MODULE_14__["Zet"], {
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
+      columnNumber: 11
+    }
+  }, __jsx(_Met__WEBPACK_IMPORTED_MODULE_10__["Met"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 9
     }
-  })));
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, __jsx(_Set__WEBPACK_IMPORTED_MODULE_11__["Set"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, __jsx(_Tet__WEBPACK_IMPORTED_MODULE_12__["Tet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }, __jsx(_Yet__WEBPACK_IMPORTED_MODULE_13__["Yet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, __jsx(_Zet__WEBPACK_IMPORTED_MODULE_14__["Zet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 13
+    }
+  })))));
 }
 
 /***/ }),
@@ -21920,29 +22039,13 @@ function Set() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-set.svg",
@@ -21950,26 +22053,39 @@ function Set() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[s\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[s\u025Bt]"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
+      lineNumber: 28,
+      columnNumber: 9
     }
-  }))));
+  }, "S\xE8t est le symbole qui pr\xE9c\xE8de le ou les ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 52
+    }
+  }, "sujets"), " d'une phrase, c'est \xE0 dire toute rune ayant pour nature de d\xE9finir la personne ou la chose motivant la phrase. S\xE8t est donc une particule que l'on retrouve habituellement en d\xE9but de phrase. (", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 20
+    }
+  }, "S"), "OV)")));
 }
 
 /***/ }),
@@ -22044,29 +22160,13 @@ function Tet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-tet.svg",
@@ -22074,26 +22174,32 @@ function Tet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[t\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[t\u025Bt]"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
+      lineNumber: 28,
+      columnNumber: 9
     }
-  }))));
+  }, "T\xE8t est le symbole qui pr\xE9c\xE8de le ou les ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 52
+    }
+  }, "adjectifs"), " d'un sujet ou d'un objet, c'est \xE0 dire toute rune ayant pour nature de d\xE9tailler un nom. T\xE8t est donc une particule que l'on peut donc retrouver un peut partout dans une \xE9vocation complexe.")));
 }
 
 /***/ }),
@@ -22168,29 +22274,13 @@ function Yet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-yet.svg",
@@ -22198,26 +22288,18 @@ function Yet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[j\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
-    }
-  }))));
+  }, "[j\u025Bt]")));
 }
 
 /***/ }),
@@ -22292,29 +22374,13 @@ function Zet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-zet.svg",
@@ -22322,26 +22388,39 @@ function Zet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[z\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[z\u025Bt]"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 11
+      lineNumber: 28,
+      columnNumber: 9
     }
-  }))));
+  }, "Z\xE8t est le symbole qui pr\xE9c\xE8de le ", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 45
+    }
+  }, "verbe"), " d'une phrase, c'est \xE0 dire toute rune ayant pour nature de d\xE9tailler la nature de l'action d\xE9crite. Z\xE8t est donc une particule que l'on retrouve plut\xF4t en fin de phrase. (SO", __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 48
+    }
+  }, "V"), ")")));
 }
 
 /***/ }),
@@ -22498,29 +22577,13 @@ function Kemet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-kemet.svg",
@@ -22528,26 +22591,180 @@ function Kemet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[ke.m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[ke.m\u025Bt]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "K\xE9m\xE8t la cristaline, princesses des roches et de la terre est la rune permettant de former des \xE9vocations li\xE9es \xE0 la terre, aux rochers et aux m\xE9taux dans une moindre mesure."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }, " La terre, la pierre, ~le m\xE9tal. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 15
+    }
+  }, " La terre, la pierre, ~le m\xE9tal. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 15
+    }
+  }, " Dur, solide. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 15
+    }
+  }, " Durcir, fossiliser. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 15
+    }
+  }, " De pierre, de terre. "))))));
 }
 
 /***/ }),
@@ -22622,29 +22839,13 @@ function Mege() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-mege.svg",
@@ -22652,26 +22853,180 @@ function Mege() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[m\u025B.ge]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[m\u025B.ge]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "M\xE8g\xE9 le noueux ou l'arboricole est la rune permettant de parler du bois et des arbres."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " L'arbre, le bois. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " L'arbre, le bois. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " De bois, d'\xE9corce. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Durer, persister, patienter. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Durant, persistant. "))))));
 }
 
 /***/ }),
@@ -22746,29 +23101,13 @@ function Memet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-memet.svg",
@@ -22776,26 +23115,180 @@ function Memet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[me.m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[me.m\u025Bt]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "M\xE9m\xE8t ou la dame des poisons, est la rune permettant d'\xE9voquer les serpents et le venin."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Le serpent, le venin. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Le serpent, le venin. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " V\xE9nimeux, empoison\xE9. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Empoisoner. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Empoisonant. "))))));
 }
 
 /***/ }),
@@ -22870,29 +23363,13 @@ function Metzeter() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-metzeter.svg",
@@ -22900,26 +23377,180 @@ function Metzeter() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[m\u025Bt.ze.t\u025B\u0280]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[m\u025Bt.ze.t\u025B\u0280]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "M\xE8tz\xE9t\xE8r, le prince des marchands, est une rune incontournable quand il s'agit de d\xE9crire des \xE9changes."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Le marchand, l'\xE9change. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Le marchand, l'\xE9change. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " \xC9chang\xE9. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " \xC9changer. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " ~\xC9changeant. "))))));
 }
 
 /***/ }),
@@ -22994,29 +23625,13 @@ function Semet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-semet.svg",
@@ -23024,26 +23639,180 @@ function Semet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[se.m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[se.m\u025Bt]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "S\xE9m\xE8t, le ma\xEEtre des vents, est une rune permettant de former des \xE9vocations li\xE9es au vent."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Le vent, le souffle. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Le vent, le souffle. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Venteux, ~sec. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Souffler. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Soufflant. "))))));
 }
 
 /***/ }),
@@ -23154,70 +23923,182 @@ function Stars() {
       lineNumber: 34,
       columnNumber: 9
     }
-  }), __jsx(_Kemet__WEBPACK_IMPORTED_MODULE_9__["Kemet"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 9
-    }
-  }), __jsx(_Mege__WEBPACK_IMPORTED_MODULE_10__["Mege"], {
+  }), __jsx("div", {
+    className: "row",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 9
     }
-  }), __jsx(_Memet__WEBPACK_IMPORTED_MODULE_11__["Memet"], {
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
-      columnNumber: 9
+      columnNumber: 11
     }
-  }), __jsx(_Metzeter__WEBPACK_IMPORTED_MODULE_12__["Metzeter"], {
+  }, __jsx(_Kemet__WEBPACK_IMPORTED_MODULE_9__["Kemet"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }), __jsx(_Semet__WEBPACK_IMPORTED_MODULE_13__["Semet"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 9
-    }
-  }), __jsx(_Temeter__WEBPACK_IMPORTED_MODULE_14__["Temeter"], {
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
-      columnNumber: 9
+      columnNumber: 11
     }
-  }), __jsx(_Yegeter__WEBPACK_IMPORTED_MODULE_15__["Yegeter"], {
+  }, __jsx(_Mege__WEBPACK_IMPORTED_MODULE_10__["Mege"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }), __jsx(_Yemet__WEBPACK_IMPORTED_MODULE_16__["Yemet"], {
+  }))), __jsx("div", {
+    className: "row",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 45,
       columnNumber: 9
     }
-  }), __jsx(_Zemet__WEBPACK_IMPORTED_MODULE_17__["Zemet"], {
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 46,
+      columnNumber: 11
+    }
+  }, __jsx(_Memet__WEBPACK_IMPORTED_MODULE_11__["Memet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, __jsx(_Metzeter__WEBPACK_IMPORTED_MODULE_12__["Metzeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
       columnNumber: 9
     }
-  })));
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, __jsx(_Semet__WEBPACK_IMPORTED_MODULE_13__["Semet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 11
+    }
+  }, __jsx(_Temeter__WEBPACK_IMPORTED_MODULE_14__["Temeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 11
+    }
+  }, __jsx(_Yegeter__WEBPACK_IMPORTED_MODULE_15__["Yegeter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "col-xs-12 col-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 11
+    }
+  }, __jsx(_Yemet__WEBPACK_IMPORTED_MODULE_16__["Yemet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 13
+    }
+  }))), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 col-md-6 offset-md-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 11
+    }
+  }, __jsx(_Zemet__WEBPACK_IMPORTED_MODULE_17__["Zemet"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 13
+    }
+  })))));
 }
 
 /***/ }),
@@ -23292,29 +24173,13 @@ function Temeter() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-temeter.svg",
@@ -23322,26 +24187,180 @@ function Temeter() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[t\u025B.me.t\u025B\u0280]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[t\u025B.me.t\u025B\u0280]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "T\xE8m\xE9t\xE8r, le h\xE9ros ou encore le glorifi\xE9, est une rune permettant de parler d'h\xE9ro\xEFsme et de courage."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Le h\xE9ros, le courageux. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Le h\xE9ros, le courageux. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Courageux, h\xE9ro\xEFque. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Inspirer, encourager. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " De mani\xE8re h\xE9ro\xEFque, de mani\xE8re courageuse. "))))));
 }
 
 /***/ }),
@@ -23416,29 +24435,13 @@ function Yegeter() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-yegeter.svg",
@@ -23446,26 +24449,180 @@ function Yegeter() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[je.ge.t\u025B\u0280]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[je.ge.t\u025B\u0280]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "Y\xE9g\xE9t\xE8r le ma\xEEtre de l'\xE9volution et du changement est la rune permettant de parler des mutations."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " L'\xE9volution, le mutant, la mutation. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " L'\xE9volution, le mutant, la mutation. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Mutant, changeant. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Changer, muter. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " En changeant, en mutant. "))))));
 }
 
 /***/ }),
@@ -23540,29 +24697,13 @@ function Yemet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-yemet.svg",
@@ -23570,26 +24711,180 @@ function Yemet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[je.m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[je.m\u025Bt]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "Y\xE9m\xE8t aussi appell\xE9e l'\xE9toile des flammes est la rune permettant de former des \xE9vocations li\xE9es \xE0 l'\xE9l\xE9ment du feu."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " Le feu, la chaleur. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " Le feu, la chaleur. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Chaud, br\xFBlant. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Br\xFBler, chauffer. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Brulant, chauffant. "))))));
 }
 
 /***/ }),
@@ -23664,29 +24959,13 @@ function Zemet() {
       lineNumber: 19,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "col-xs-12 col-md-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 11
-    }
   }, __jsx("p", {
     className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
+      lineNumber: 20,
+      columnNumber: 9
     }
   }, __jsx("img", {
     src: "./images/runic-zemet.svg",
@@ -23694,26 +24973,180 @@ function Zemet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 21,
+      columnNumber: 11
     }
   })), __jsx("p", {
     className: "text-center ipa",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
+      lineNumber: 24,
+      columnNumber: 9
     }
-  }, "[ze.m\u025Bt]")), __jsx("div", {
-    className: "col-xs-12 col-md-8",
+  }, "[ze.m\u025Bt]"), __jsx("p", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }, "Z\xE9m\xE8t le prince des eaux est la rune permettant de former des \xE9vocations li\xE9es \xE0 l'eau et aux liquides."), __jsx("table", {
+    className: "table-1d table-vertical text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx("thead", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
       columnNumber: 11
     }
-  }))));
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("th", {
+    style: {
+      width: '100px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }, " Nature "), __jsx("th", {
+    style: {
+      width: '300px'
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 15
+    }
+  }, " Synonyme(s) "))), __jsx("tbody", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
+  }, __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 15
+    }
+  }, " Sujet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 15
+    }
+  }, " L'eau, le liquide. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, " Objet "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 15
+    }
+  }, " L'eau, le liquide. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 15
+    }
+  }, " Adjectif "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  }, " Liquide, mouill\xE9. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 15
+    }
+  }, " Verbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 15
+    }
+  }, " Mouiller, humidifier, liqu\xE9fier. ")), __jsx("tr", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 15
+    }
+  }, " Adverbe "), __jsx("td", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 15
+    }
+  }, " Humide, liquide. "))))));
 }
 
 /***/ }),
@@ -23729,6 +25162,819 @@ function Zemet() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Stars__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Stars */ "./content/magic/runes/stars/Stars.tsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Stars", function() { return _Stars__WEBPACK_IMPORTED_MODULE_0__["Stars"]; });
+
+
+
+/***/ }),
+
+/***/ "./content/magic/spells/FireBreath.tsx":
+/*!*********************************************!*\
+  !*** ./content/magic/spells/FireBreath.tsx ***!
+  \*********************************************/
+/*! exports provided: FireBreath */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FireBreath", function() { return FireBreath; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\spells\\FireBreath.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function FireBreath() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "magic-spells-fire-breath"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Vent de flamme"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 order-1 col-sm-6 order-sm-1 col-md-4 offset-md-2 col-lg-3 offset-lg-3 col-xl-3 order-xl-1 offset-xl-0",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-3 col-sm-6 order-sm-2 col-md-4 col-lg-3 col-xl-3 order-xl-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-ket.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "w-100 d-none d-sm-block d-xl-none",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    className: "col-xs-12 order-2 col-sm-6 order-sm-3 col-md-4 offset-md-2 col-lg-3 offset-lg-3 col-xl-3 order-xl-2 offset-xl-0",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-semet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-4 col-sm-6 order-sm-3 col-md-4 col-lg-3 col-xl-3 order-xl-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-yemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  })))), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }, "[z\u025Bt se.m\u025Bt k\u025Bt je.m\u025Bt]")));
+}
+
+/***/ }),
+
+/***/ "./content/magic/spells/Introduction.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/spells/Introduction.tsx ***!
+  \***********************************************/
+/*! exports provided: Introduction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Introduction", function() { return Introduction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\spells\\Introduction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Introduction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, "magic-spells-introduction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "Introduction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 7
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./content/magic/spells/Liquefaction.tsx":
+/*!***********************************************!*\
+  !*** ./content/magic/spells/Liquefaction.tsx ***!
+  \***********************************************/
+/*! exports provided: Liquefaction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Liquefaction", function() { return Liquefaction; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\spells\\Liquefaction.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Liquefaction() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "magic-spells-liquefaction"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Liqu\xE9faction"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 order-1 col-md-4 order-md-1",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-set.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-3 col-md-4 order-md-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-met.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-4 col-md-4 order-md-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "w-100 d-none d-sm-block d-xl-none",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    className: "col-xs-12 order-2 col-md-4 order-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-kemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-3 col-md-4 order-md-5",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-4 col-md-4 order-md-6",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-metzeter.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 15
+    }
+  })))), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 9
+    }
+  }, "[s\u025Bt ke.m\u025Bt m\u025Bt ze.m\u025Bt z\u025Bt m\u025Bt.ze.t\u025B\u0280]")));
+}
+
+/***/ }),
+
+/***/ "./content/magic/spells/Sandblast.tsx":
+/*!********************************************!*\
+  !*** ./content/magic/spells/Sandblast.tsx ***!
+  \********************************************/
+/*! exports provided: Sandblast */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Sandblast", function() { return Sandblast; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\spells\\Sandblast.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+function Sandblast() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, "magic-spells-sand-blast"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Jet de sable"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-xs-12 order-1 col-sm-6 order-sm-1 col-md-4 offset-md-2 col-lg-3 offset-lg-3 col-xl-3 order-xl-1 offset-xl-0",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-zet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-3 col-sm-6 order-sm-2 col-md-4 col-lg-3 col-xl-3 order-xl-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-ket.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "w-100 d-none d-sm-block d-xl-none",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    className: "col-xs-12 order-2 col-sm-6 order-sm-3 col-md-4 offset-md-2 col-lg-3 offset-lg-3 col-xl-3 order-xl-2 offset-xl-0",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-semet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 15
+    }
+  }))), __jsx("div", {
+    className: "col-xs-12 order-4 col-sm-6 order-sm-3 col-md-4 col-lg-3 col-xl-3 order-xl-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 11
+    }
+  }, __jsx("p", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    src: "./images/runic-kemet.svg",
+    width: "200",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 15
+    }
+  })))), __jsx("p", {
+    className: "text-center ipa",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 9
+    }
+  }, "[z\u025Bt se.m\u025Bt k\u025Bt ke.m\u025Bt]")));
+}
+
+/***/ }),
+
+/***/ "./content/magic/spells/Spells.tsx":
+/*!*****************************************!*\
+  !*** ./content/magic/spells/Spells.tsx ***!
+  \*****************************************/
+/*! exports provided: Spells */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Spells", function() { return Spells; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/subject/SubjectSummary */ "./components/subject/SubjectSummary.tsx");
+/* harmony import */ var _components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/subject/SubjectContent */ "./components/subject/SubjectContent.tsx");
+/* harmony import */ var _components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/subject/SubjectTitle */ "./components/subject/SubjectTitle.tsx");
+/* harmony import */ var _components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/subject/SubjectIdentifier */ "./components/subject/SubjectIdentifier.tsx");
+/* harmony import */ var _components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/subject/Subject */ "./components/subject/Subject.tsx");
+/* harmony import */ var _components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/LocalSummary */ "./components/LocalSummary.tsx");
+/* harmony import */ var _Introduction__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Introduction */ "./content/magic/spells/Introduction.tsx");
+/* harmony import */ var _FireBreath__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FireBreath */ "./content/magic/spells/FireBreath.tsx");
+/* harmony import */ var _Sandblast__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Sandblast */ "./content/magic/spells/Sandblast.tsx");
+/* harmony import */ var _Liquefaction__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Liquefaction */ "./content/magic/spells/Liquefaction.tsx");
+var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\content\\magic\\spells\\Spells.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+function Spells() {
+  return __jsx(_components_subject_Subject__WEBPACK_IMPORTED_MODULE_5__["Subject"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }, __jsx(_components_subject_SubjectIdentifier__WEBPACK_IMPORTED_MODULE_4__["SubjectIdentifier"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 7
+    }
+  }, "magic-spells"), __jsx(_components_subject_SubjectTitle__WEBPACK_IMPORTED_MODULE_3__["SubjectTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, "Sorts"), __jsx(_components_subject_SubjectSummary__WEBPACK_IMPORTED_MODULE_1__["SubjectSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }
+  }), __jsx(_components_subject_SubjectContent__WEBPACK_IMPORTED_MODULE_2__["SubjectContent"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, __jsx(_components_LocalSummary__WEBPACK_IMPORTED_MODULE_6__["LocalSummary"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }), __jsx(_Introduction__WEBPACK_IMPORTED_MODULE_7__["Introduction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_Liquefaction__WEBPACK_IMPORTED_MODULE_10__["Liquefaction"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }), __jsx(_Sandblast__WEBPACK_IMPORTED_MODULE_9__["Sandblast"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx(_FireBreath__WEBPACK_IMPORTED_MODULE_8__["FireBreath"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  })));
+}
+
+/***/ }),
+
+/***/ "./content/magic/spells/index.ts":
+/*!***************************************!*\
+  !*** ./content/magic/spells/index.ts ***!
+  \***************************************/
+/*! exports provided: Spells */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Spells__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Spells */ "./content/magic/spells/Spells.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Spells", function() { return _Spells__WEBPACK_IMPORTED_MODULE_0__["Spells"]; });
 
 
 
@@ -32552,7 +34798,7 @@ function ActionRule() {
       lineNumber: 36,
       columnNumber: 11
     }
-  }, "Attaque simple."), " Une action d'attaque simple consiste en un mouvement et une unique tentative d'aggression avec l'arme \xE9quip\xE9e. La r\xE9solution de l'action suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie."), __jsx("p", {
+  }, "Attaque simple."), " Une action d'attaque simple consiste en un d\xE9placement et une unique tentative d'aggression avec l'arme \xE9quip\xE9e. La r\xE9solution de l'action suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -32566,7 +34812,7 @@ function ActionRule() {
       lineNumber: 43,
       columnNumber: 11
     }
-  }, "Attaque \xE0 outrance."), " Une action d'attaque \xE0 outrance consiste en un mouvement extr\xEAmement r\xE9duit et plusieurs tentatives d'aggression successives avec l'arme \xE9quip\xE9e. Un personnage ne peut frapper par d\xE9faut qu'une seule fois avec chaque arme qu'il \xE9quipe, la r\xE9solution des diff\xE9rentes attaques suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie. Lors d'une attaque \xE0 outrance, une entit\xE9e peut frapper autant d'adversaires qu'elle le souhaite pourvu que ceux-ci soient \xE0 sa port\xE9e et qu'elle ne d\xE9passe pas le nombre de coups auxquels elle \xE0 droit."), __jsx("p", {
+  }, "Attaque \xE0 outrance."), " Une action d'attaque \xE0 outrance consiste en un d\xE9placement extr\xEAmement r\xE9duit et plusieurs tentatives d'aggression successives avec l'arme \xE9quip\xE9e. Un personnage ne peut frapper par d\xE9faut qu'une seule fois avec chaque arme qu'il \xE9quipe, la r\xE9solution des diff\xE9rentes attaques suit alors les proc\xE9d\xE9s usuels d'attaque avec l'arme choisie. Lors d'une attaque \xE0 outrance, une entit\xE9e peut frapper autant d'adversaires qu'elle le souhaite pourvu que ceux-ci soient \xE0 sa port\xE9e et qu'elle ne d\xE9passe pas le nombre de coups auxquels elle \xE0 droit."), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -82113,7 +84359,7 @@ var GhostStrike = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setI
     lineNumber: 17,
     columnNumber: 9
   }
-}, "Un personnage poss\xE9dant cet atout et \xE9quip\xE9 de l'arme choisie peut, avant d'attaquer, d\xE9cider de porter un coup provoquant la moiti\xE9e des d\xE9g\xE2ts usuels mais entra\xEEnant la perde d'une parrade ou d'une esquive."), __jsx("p", {
+}, "Un personnage poss\xE9dant cet atout et \xE9quip\xE9 de l'arme choisie peut, avant d'attaquer, d\xE9cider de porter un coup provoquant la moiti\xE9e des d\xE9g\xE2ts usuels mais entra\xEEnant la perte d'une parrade ou d'une esquive."), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -82204,7 +84450,7 @@ var _jsxFileName = "D:\\development\\rpg\\ruleset-next\\typescript\\data\\feat\\
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var Helpless = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('helpless').setName('Sans défence [Arme\xa0à\xa0une\xa0main][Épée\xa0bâtarde]').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
+var Helpless = _feat_Feat__WEBPACK_IMPORTED_MODULE_1__["Feat"].builder().setIdentifier('helpless').setName('Sans défense [Arme\xa0à\xa0une\xa0main][Épée\xa0bâtarde]').addKeyword('atout').setDescription(__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("strong", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
