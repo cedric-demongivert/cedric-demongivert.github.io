@@ -22750,26 +22750,26 @@ function Kemet() {
       lineNumber: 28,
       columnNumber: 9
     }
-  }, "K\xE9m\xE8t la cristaline, princesses des roches et de la terre est la rune permettant de former des \xE9vocations li\xE9es \xE0 la terre, aux rochers et aux m\xE9taux dans une moindre mesure."), __jsx("table", {
+  }, "K\xE9m\xE8t la cristaline, princesses des roches et de la terre est la rune permettant de former des \xE9vocations li\xE9es \xE0 la terre."), __jsx("table", {
     className: "table-1d table-vertical text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, __jsx("thead", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 35,
       columnNumber: 13
     }
   }, __jsx("th", {
@@ -22779,7 +22779,7 @@ function Kemet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 15
     }
   }, " Nature "), __jsx("th", {
@@ -22789,119 +22789,119 @@ function Kemet() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 37,
       columnNumber: 15
     }
   }, " Synonyme(s) "))), __jsx("tbody", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 40,
       columnNumber: 11
     }
   }, __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 41,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 42,
       columnNumber: 15
     }
   }, " Sujet "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 43,
       columnNumber: 15
     }
   }, " La terre, la pierre, ~le m\xE9tal. ")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 45,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 15
     }
   }, " Objet "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 47,
       columnNumber: 15
     }
   }, " La terre, la pierre, ~le m\xE9tal. ")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 49,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 15
     }
   }, " Adjectif "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 51,
       columnNumber: 15
     }
   }, " Dur, solide. ")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 15
     }
   }, " Verbe "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 15
     }
   }, " Durcir, fossiliser. ")), __jsx("tr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 57,
       columnNumber: 13
     }
   }, __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 15
     }
   }, " Adverbe "), __jsx("td", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 15
     }
   }, " De pierre, de terre. "))))));
